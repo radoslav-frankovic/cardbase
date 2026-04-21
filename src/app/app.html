@@ -1,0 +1,207 @@
+<main class="shell">
+  <header class="topbar">
+    <div>
+      <p class="eyebrow">SportZoo evidencia</p>
+      <h1>{{ selectedSeries().title }}</h1>
+    </div>
+    <div class="source-links">
+      <a [href]="selectedSeries().sourceProductUrl" target="_blank" rel="noopener">SportZoo zdroj</a>
+      @if (hasChecklistPdf()) {
+        <a [href]="selectedSeries().checklistPdfUrl" target="_blank" rel="noopener">Checklist PDF</a>
+      }
+      @if (hasPuzzlePdf()) {
+        <a [href]="selectedSeries().puzzlePdfUrl" target="_blank" rel="noopener">Puzzle PDF</a>
+      }
+    </div>
+  </header>
+
+  <section class="series-strip" aria-label="Serie">
+    @for (item of series; track item.id) {
+      <button
+        type="button"
+        class="series-button"
+        [class.active]="selectedSeriesId() === item.id"
+        (click)="selectSeries(item.id)"
+      >
+        <span>{{ item.title }}</span>
+        <small>{{ item.release }}</small>
+      </button>
+    }
+  </section>
+
+  <section class="stats-grid" aria-label="Prehlad">
+    <article>
+      <span>Vlastnim</span>
+      <strong>{{ stats().owned }}</strong>
+    </article>
+    <article>
+      <span>Chyba</span>
+      <strong>{{ stats().missing }}</strong>
+    </article>
+    <article>
+      <span>Fotky</span>
+      <strong>{{ stats().withPhoto }}</strong>
+    </article>
+    <article>
+      <span>Dokoncene</span>
+      <strong>{{ stats().completion }}%</strong>
+    </article>
+  </section>
+
+  <section class="set-tabs" aria-label="Sety">
+    @for (subset of activeSubsets(); track subset) {
+      <button
+        type="button"
+        class="set-tab"
+        [class.active]="selectedSubset() === subset"
+        (click)="selectSubset(subset)"
+      >
+        <span>{{ subset }}</span>
+      </button>
+    }
+  </section>
+
+  <section class="workspace">
+    <aside class="panel filters">
+      <h2>Filtre</h2>
+      <label>
+        Hladat
+        <input
+          type="search"
+          [ngModel]="search()"
+          (ngModelChange)="search.set($event)"
+          placeholder="cislo, hrac, klub, set"
+        />
+      </label>
+
+      <label>
+        Stav
+        <select [ngModel]="ownershipFilter()" (ngModelChange)="ownershipFilter.set($event)">
+          <option value="all">Vsetky karty</option>
+          <option value="owned">Vlastnim</option>
+          <option value="missing">Chybaju</option>
+          <option value="withPhoto">S fotkou</option>
+        </select>
+      </label>
+
+      <div class="import-box">
+        <h3>Import checklistu</h3>
+        <p>
+          Vloz riadky vo formate
+          <code>001; Meno hraca; Klub; Set</code>
+          alebo text skopirovany z PDF.
+        </p>
+        <textarea
+          [ngModel]="importText()"
+          (ngModelChange)="importText.set($event)"
+          placeholder="001; Patrik Jurcak; HC Kosice; Zakladny set"
+        ></textarea>
+        <button type="button" class="primary" (click)="importChecklist()">Importovat</button>
+      </div>
+
+      <button type="button" class="secondary" (click)="resetDemoData()">Obnovit zaklad</button>
+      <p class="note">{{ selectedSeries().description }}</p>
+    </aside>
+
+    <section class="panel card-list" aria-label="Zoznam kariet">
+      <div class="list-header">
+        <h2>{{ selectedSubset() }}</h2>
+        <span>{{ visibleCards().length }} z {{ stats().total }}</span>
+      </div>
+
+      <div class="rows">
+        @for (card of visibleCards(); track card.id) {
+          <button
+            type="button"
+            class="card-row"
+            [class.active]="selectedCardId() === card.id"
+            (click)="selectCard(card)"
+          >
+            <span class="number">{{ card.number }}</span>
+            <span class="name">{{ card.player }}</span>
+            <span class="team">{{ card.team || 'bez klubu' }}</span>
+            <span class="state" [class.owned]="card.owned">
+              {{ card.owned ? 'mam' : 'chyba' }}
+            </span>
+          </button>
+        } @empty {
+          <div class="empty">Ziadne karty nezodpovedaju filtrom.</div>
+        }
+      </div>
+    </section>
+
+    @if (selectedCard(); as card) {
+      <aside class="panel detail">
+        <div class="detail-heading">
+          <span class="number large">{{ card.number }}</span>
+          <div>
+            <h2>{{ card.player }}</h2>
+            <p>{{ card.subset }}</p>
+          </div>
+        </div>
+
+        <label class="checkline">
+          <input
+            type="checkbox"
+            [ngModel]="card.owned"
+            (ngModelChange)="updateCard(card.id, { owned: $event, quantity: $event ? (card.quantity || 1) : 0 })"
+          />
+          Vlastnim kartu
+        </label>
+
+        <label>
+          Pocet kusov
+          <input
+            type="number"
+            min="0"
+            [ngModel]="card.quantity"
+            (ngModelChange)="updateCard(card.id, { quantity: $event })"
+          />
+        </label>
+
+        <label>
+          Meno / nazov
+          <input [ngModel]="card.player" (ngModelChange)="updateCard(card.id, { player: $event })" />
+        </label>
+
+        @if (card.signatureCode) {
+          <label>
+            Podpisovy kod
+            <input
+              [ngModel]="card.signatureCode"
+              (ngModelChange)="updateCard(card.id, { signatureCode: $event })"
+            />
+          </label>
+        }
+
+        <label>
+          Klub
+          <input [ngModel]="card.team" (ngModelChange)="updateCard(card.id, { team: $event })" />
+        </label>
+
+        <label>
+          Set
+          <input [ngModel]="card.subset" (ngModelChange)="updateCard(card.id, { subset: $event })" />
+        </label>
+
+        <label>
+          Poznamky
+          <textarea [ngModel]="card.notes" (ngModelChange)="updateCard(card.id, { notes: $event })"></textarea>
+        </label>
+
+        <div class="photo-block">
+          @if (card.photo) {
+            <img [src]="card.photo" [alt]="'Fotka karty ' + card.number" />
+            <button type="button" class="secondary" (click)="removePhoto(card.id)">Odstranit fotku</button>
+          } @else {
+            <div class="photo-placeholder">Bez fotky</div>
+          }
+          <label class="file-button">
+            Pridat fotku
+            <input type="file" accept="image/*" (change)="attachPhoto(card.id, $event)" />
+          </label>
+        </div>
+      </aside>
+    }
+  </section>
+</main>
