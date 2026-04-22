@@ -1,10 +1,12 @@
 import { CommonModule } from '@angular/common';
-import { Component, computed, signal } from '@angular/core';
+import { Component, computed, effect, inject, signal } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { SPORTZOO_CHECKLIST_CARDS } from './checklists';
+import { SupabaseService } from './supabase.service';
 
 export type SeriesId = 'tipsport-s1' | 'tipsport-s2' | 'hokejove-slovensko-2026';
 type OwnershipFilter = 'all' | 'owned' | 'missing' | 'withPhoto';
+type AuthMode = 'login' | 'register' | 'reset';
 
 interface CollectionSeries {
   id: SeriesId;
@@ -46,8 +48,6 @@ interface CopyGroup {
   count: number;
   serials: string[];
 }
-
-const STORAGE_KEY = 'cardbase:sportzoo-tipsport-2025-26';
 
 const SERIES: CollectionSeries[] = [
   {
@@ -121,17 +121,42 @@ const PARALLELS_BY_SUBSET: Record<string, string[]> = {
   styleUrl: './app.scss',
 })
 export class App {
+  readonly supabase = inject(SupabaseService);
   readonly series = SERIES;
   readonly selectedSeriesId = signal<SeriesId>('tipsport-s1');
   readonly search = signal('');
   readonly ownershipFilter = signal<OwnershipFilter>('all');
   readonly selectedCardId = signal<string | null>(null);
-  readonly cards = signal<CardRecord[]>(this.loadCards());
+  readonly cards = signal<CardRecord[]>(createSeedCards());
   readonly selectedSubset = signal(this.firstSubsetForSeries('tipsport-s1'));
+  readonly authMode = signal<AuthMode>('login');
+  readonly authEmail = signal('');
+  readonly authPassword = signal('');
+  readonly authBusy = signal(false);
+  readonly authMessage = signal('');
+  readonly dataBusy = signal(false);
+  readonly dataError = signal('');
 
   readonly selectedSeries = computed(
     () => this.series.find((series) => series.id === this.selectedSeriesId()) ?? this.series[0],
   );
+
+  readonly userEmail = computed(() => this.supabase.session()?.user.email ?? '');
+
+  constructor() {
+    effect(() => {
+      const session = this.supabase.session();
+      if (!this.supabase.authReady()) {
+        return;
+      }
+
+      if (session) {
+        void this.loadCloudCards();
+      } else {
+        this.cards.set(createSeedCards());
+      }
+    });
+  }
 
   readonly visibleCards = computed(() => {
     const query = this.normalize(this.search());
@@ -202,6 +227,7 @@ export class App {
   }
 
   updateCard(cardId: string, patch: Partial<CardRecord>): void {
+    let updatedCard: CardRecord | null = null;
     this.cards.update((cards) =>
       cards.map((card) => {
         if (card.id !== cardId) {
@@ -212,17 +238,20 @@ export class App {
         next.copies = patch.copies !== undefined ? normalizeCopyList(next, patch.copies) : normalizeCopies(next);
         next.quantity = next.copies.length;
         next.owned = next.quantity > 0;
+        updatedCard = next;
 
         return next;
       }),
     );
-    this.persist();
+    if (updatedCard) {
+      void this.saveCloudCard(updatedCard);
+    }
   }
 
   resetDemoData(): void {
     this.cards.set(createSeedCards());
     this.selectedCardId.set(null);
-    this.persist();
+    void this.clearCloudCards();
   }
 
   attachPhoto(cardId: string, event: Event): void {
@@ -313,21 +342,80 @@ export class App {
     });
   }
 
-  private loadCards(): CardRecord[] {
-    const stored = localStorage.getItem(STORAGE_KEY);
-    if (!stored) {
-      return createSeedCards();
-    }
-
+  async submitAuth(): Promise<void> {
+    this.authBusy.set(true);
+    this.authMessage.set('');
     try {
-      return mergeWithSeedCards(JSON.parse(stored) as CardRecord[]);
-    } catch {
-      return createSeedCards();
+      const email = this.authEmail().trim();
+      const password = this.authPassword();
+
+      if (this.authMode() === 'login') {
+        await this.supabase.signIn(email, password);
+      } else if (this.authMode() === 'register') {
+        await this.supabase.signUp(email, password);
+        this.authMessage.set('Registracia prebehla. Skontroluj email, ak mas zapnute potvrdenie uctu.');
+      } else {
+        await this.supabase.resetPassword(email);
+        this.authMessage.set('Poslali sme email na obnovu hesla.');
+      }
+    } catch (error) {
+      this.authMessage.set(error instanceof Error ? error.message : 'Akcia zlyhala.');
+    } finally {
+      this.authBusy.set(false);
     }
   }
 
-  private persist(): void {
-    localStorage.setItem(STORAGE_KEY, JSON.stringify(this.cards()));
+  async signOut(): Promise<void> {
+    await this.supabase.signOut();
+  }
+
+  setAuthMode(mode: AuthMode): void {
+    this.authMode.set(mode);
+    this.authMessage.set('');
+  }
+
+  private async loadCloudCards(): Promise<void> {
+    if (!this.supabase.configured()) {
+      this.dataError.set('Dopln Supabase URL a anon key v src/environments/environment.ts.');
+      return;
+    }
+
+    this.dataBusy.set(true);
+    this.dataError.set('');
+    try {
+      const ownedCards = await this.supabase.loadOwnedCards();
+      this.cards.set(mergeWithCloudRows(ownedCards));
+    } catch (error) {
+      this.dataError.set(error instanceof Error ? error.message : 'Nepodarilo sa nacitat data.');
+    } finally {
+      this.dataBusy.set(false);
+    }
+  }
+
+  private async saveCloudCard(card: CardRecord): Promise<void> {
+    if (!this.supabase.session() || !this.supabase.configured()) {
+      return;
+    }
+
+    try {
+      await this.supabase.saveCard(card);
+      this.dataError.set('');
+    } catch (error) {
+      this.dataError.set(error instanceof Error ? error.message : 'Nepodarilo sa ulozit kartu.');
+    }
+  }
+
+  private async clearCloudCards(): Promise<void> {
+    if (!this.supabase.session() || !this.supabase.configured()) {
+      return;
+    }
+
+    try {
+      await this.supabase.clearOwnedCards();
+      this.dataError.set('');
+    } catch (error) {
+      this.dataError.set(error instanceof Error ? error.message : 'Nepodarilo sa vymazat evidenciu.');
+    }
   }
 
   private normalize(value: string): string {
@@ -388,6 +476,37 @@ function mergeWithSeedCards(storedCards: CardRecord[]): CardRecord[] {
 
     return seriesOrder || subsetOrder || cardOrder || compareCardNumbers(left.number, right.number);
   });
+}
+
+function mergeWithCloudRows(
+  rows: Map<string, { copies?: OwnedCopy[]; notes?: string; photo?: string | null }>,
+): CardRecord[] {
+  return createSeedCards()
+    .map((card) => {
+      const row = rows.get(card.id);
+      if (!row) {
+        return card;
+      }
+
+      const copies = normalizeCopyList(card, row.copies ?? []);
+      return {
+        ...card,
+        copies,
+        notes: row.notes ?? '',
+        photo: row.photo ?? undefined,
+        quantity: copies.length,
+        owned: copies.length > 0,
+      };
+    })
+    .sort((left, right) => {
+      const seriesOrder =
+        SERIES.findIndex((series) => series.id === left.seriesId) -
+        SERIES.findIndex((series) => series.id === right.seriesId);
+      const subsetOrder = (left.subsetOrder ?? 999) - (right.subsetOrder ?? 999);
+      const cardOrder = (left.cardOrder ?? 9999) - (right.cardOrder ?? 9999);
+
+      return seriesOrder || subsetOrder || cardOrder || compareCardNumbers(left.number, right.number);
+    });
 }
 
 function normalizeStoredCard(card: CardRecord): CardRecord {

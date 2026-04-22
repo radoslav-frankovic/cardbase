@@ -1,3 +1,89 @@
+@if (!supabase.authReady()) {
+  <main class="auth-page">
+    <section class="auth-card">
+      <p class="eyebrow">Cardbase</p>
+      <h1>Nacitavam...</h1>
+    </section>
+  </main>
+} @else if (!supabase.configured()) {
+  <main class="auth-page">
+    <section class="auth-card">
+      <p class="eyebrow">Supabase</p>
+      <h1>Chyba konfiguracia</h1>
+      <p class="auth-copy">Dopln `supabaseUrl` a `supabaseAnonKey` v `src/environments/environment.ts`.</p>
+    </section>
+  </main>
+} @else if (!supabase.session()) {
+  <main class="auth-page">
+    <section class="auth-card">
+      <p class="eyebrow">SportZoo Cardbase</p>
+      @if (authMode() === 'login') {
+        <h1>Prihlasenie</h1>
+        <p class="auth-copy">Prihlas sa do svojej evidencie kariet.</p>
+      } @else if (authMode() === 'register') {
+        <h1>Registracia</h1>
+        <p class="auth-copy">Vytvor si ucet a ukladaj karty do cloudu.</p>
+      } @else {
+        <h1>Reset hesla</h1>
+        <p class="auth-copy">Posleme ti email s odkazom na obnovu hesla.</p>
+      }
+
+      <form class="auth-form" (ngSubmit)="submitAuth()">
+        <label>
+          Email
+          <input
+            type="email"
+            autocomplete="email"
+            [ngModel]="authEmail()"
+            (ngModelChange)="authEmail.set($event)"
+            name="email"
+            required
+          />
+        </label>
+
+        @if (authMode() !== 'reset') {
+          <label>
+            Heslo
+            <input
+              type="password"
+              autocomplete="current-password"
+              [ngModel]="authPassword()"
+              (ngModelChange)="authPassword.set($event)"
+              name="password"
+              required
+            />
+          </label>
+        }
+
+        @if (authMessage()) {
+          <p class="auth-message">{{ authMessage() }}</p>
+        }
+
+        <button type="submit" class="primary" [disabled]="authBusy()">
+          @if (authMode() === 'login') {
+            Prihlasit
+          } @else if (authMode() === 'register') {
+            Registrovat
+          } @else {
+            Poslat reset
+          }
+        </button>
+      </form>
+
+      <div class="auth-switch">
+        @if (authMode() !== 'login') {
+          <button type="button" class="link-button" (click)="setAuthMode('login')">Mam ucet</button>
+        }
+        @if (authMode() !== 'register') {
+          <button type="button" class="link-button" (click)="setAuthMode('register')">Vytvorit ucet</button>
+        }
+        @if (authMode() !== 'reset') {
+          <button type="button" class="link-button" (click)="setAuthMode('reset')">Zabudnute heslo</button>
+        }
+      </div>
+    </section>
+  </main>
+} @else {
 <main class="shell">
   <header class="topbar">
     <div>
@@ -5,6 +91,7 @@
       <h1>{{ selectedSeries().title }}</h1>
     </div>
     <div class="source-links">
+      <span class="user-pill">{{ userEmail() }}</span>
       <a [href]="selectedSeries().sourceProductUrl" target="_blank" rel="noopener">SportZoo zdroj</a>
       @if (hasChecklistPdf()) {
         <a [href]="selectedSeries().checklistPdfUrl" target="_blank" rel="noopener">Checklist PDF</a>
@@ -12,8 +99,15 @@
       @if (hasPuzzlePdf()) {
         <a [href]="selectedSeries().puzzlePdfUrl" target="_blank" rel="noopener">Puzzle PDF</a>
       }
+      <button type="button" class="secondary" (click)="signOut()">Odhlasit</button>
     </div>
   </header>
+
+  @if (dataBusy() || dataError()) {
+    <section class="sync-status" [class.error]="dataError()">
+      {{ dataError() || 'Synchronizujem data...' }}
+    </section>
+  }
 
   <section class="series-strip" aria-label="Serie">
     @for (item of series; track item.id) {
@@ -211,3 +305,4 @@
     }
   </section>
 </main>
+}

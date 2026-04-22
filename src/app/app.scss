@@ -13,6 +13,78 @@
   padding: 28px 0;
 }
 
+.auth-page {
+  display: grid;
+  min-height: 100vh;
+  place-items: center;
+  padding: 24px;
+}
+
+.auth-card {
+  display: grid;
+  width: min(420px, 100%);
+  gap: 18px;
+  border: 1px solid #d9dee5;
+  border-radius: 8px;
+  background: #ffffff;
+  box-shadow: 0 22px 55px rgba(29, 37, 45, 0.12);
+  padding: 28px;
+}
+
+.auth-copy,
+.auth-message {
+  color: #687482;
+  line-height: 1.45;
+}
+
+.auth-form {
+  display: grid;
+  gap: 14px;
+}
+
+.auth-switch {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  border-top: 1px solid #e4e8ee;
+  padding-top: 14px;
+}
+
+.link-button {
+  border: 0;
+  background: transparent;
+  color: #1f6feb;
+  padding: 0;
+}
+
+.user-pill,
+.sync-status {
+  border: 1px solid #d9dee5;
+  border-radius: 7px;
+  background: #ffffff;
+  color: #46515d;
+}
+
+.user-pill {
+  display: inline-flex;
+  align-items: center;
+  min-height: 38px;
+  padding: 0 10px;
+  font-size: 13px;
+  font-weight: 800;
+}
+
+.sync-status {
+  margin-bottom: 16px;
+  padding: 10px 12px;
+}
+
+.sync-status.error {
+  border-color: #fecaca;
+  background: #fef2f2;
+  color: #991b1b;
+}
+
 .topbar,
 .series-strip,
 .set-tabs,

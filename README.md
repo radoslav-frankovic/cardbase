@@ -13,6 +13,8 @@ Angular aplikacia na evidovanie sportovych zberatelskych kariet SportZoo.
 - Evidencia vlastnenych kusov, paralelnych verzii, serialu/kusu, poznamok a fotiek
 - Filtrovanie podla serie, setu, textu, vlastnictva a fotiek
 - Checklistove udaje su zamknute v aplikacii: cislo/kod, meno/nazov, klub a set sa needituju
+- Registracia, prihlasenie a reset hesla cez Supabase Auth
+- Vlastnene karty sa ukladaju do Supabase tabulky `owned_cards`
 
 ## SportZoo zdroje
 
@@ -36,6 +38,19 @@ Serial / kus: 2/6
 ```
 
 ## Spustenie
+
+Najprv dopln Supabase hodnoty do:
+
+```text
+src/environments/environment.ts
+src/environments/environment.prod.ts
+```
+
+V Supabase SQL editore spusti:
+
+```text
+supabase/schema.sql
+```
 
 ```bash
 npm start
