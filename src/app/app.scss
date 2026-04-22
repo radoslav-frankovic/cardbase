@@ -195,14 +195,6 @@ textarea {
   resize: vertical;
 }
 
-.import-box {
-  display: grid;
-  gap: 10px;
-  border-top: 1px solid #e4e8ee;
-  padding-top: 14px;
-}
-
-.import-box p,
 .note {
   color: #687482;
   font-size: 13px;
@@ -222,8 +214,19 @@ code {
   text-align: center;
 }
 
+.compact {
+  min-height: 32px;
+  padding: 6px 10px;
+  font-size: 13px;
+}
+
 .secondary {
   background: #f7f9fb;
+}
+
+.danger {
+  border-color: #fecaca;
+  color: #991b1b;
 }
 
 .list-header {
@@ -238,22 +241,30 @@ code {
 }
 
 .rows {
-  display: grid;
+  display: flex;
+  flex-direction: column;
   gap: 6px;
   max-height: calc(100vh - 270px);
   min-height: 420px;
-  overflow: auto;
+  overflow: visible;
   padding-right: 4px;
 }
 
 .card-row {
   display: grid;
-  grid-template-columns: 58px minmax(140px, 1fr) minmax(110px, 160px) 64px;
+  grid-template-columns: 84px minmax(130px, 1fr) minmax(72px, 110px) minmax(180px, 1.2fr) 64px;
   align-items: center;
   gap: 10px;
+  flex: 0 0 auto;
   min-height: 48px;
   padding: 8px 10px;
+  position: relative;
   text-align: left;
+}
+
+.card-row:hover,
+.card-row:focus-visible {
+  z-index: 10;
 }
 
 .card-row.active {
@@ -265,18 +276,21 @@ code {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  min-width: 44px;
+  min-width: 72px;
   min-height: 30px;
   border-radius: 6px;
   background: #1d252d;
   color: #ffffff;
   font-weight: 800;
+  font-size: 12px;
+  line-height: 1;
+  white-space: nowrap;
 }
 
 .number.large {
-  min-width: 62px;
+  min-width: 88px;
   min-height: 46px;
-  font-size: 20px;
+  font-size: 18px;
 }
 
 .name {
@@ -288,6 +302,19 @@ code {
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
+}
+
+.copies {
+  color: #344054;
+  font-size: 12px;
+  font-weight: 700;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.empty-copy {
+  color: #98a2b3;
 }
 
 .state {
@@ -303,6 +330,49 @@ code {
 .state.owned {
   background: #dcfce7;
   color: #166534;
+}
+
+.copy-popover {
+  display: none;
+  position: absolute;
+  right: 10px;
+  bottom: calc(100% + 8px);
+  z-index: 30;
+  min-width: 220px;
+  max-width: 340px;
+  border: 1px solid #c8d0da;
+  border-radius: 8px;
+  background: #ffffff;
+  box-shadow: 0 18px 40px rgba(29, 37, 45, 0.18);
+  color: #1d252d;
+  gap: 6px;
+  padding: 10px 12px;
+}
+
+.copy-popover::after {
+  content: "";
+  position: absolute;
+  right: 28px;
+  top: 100%;
+  border: 7px solid transparent;
+  border-top-color: #ffffff;
+}
+
+.copy-popover strong {
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+.copy-popover span {
+  display: block;
+  color: #46515d;
+  font-size: 13px;
+  line-height: 1.35;
+}
+
+.card-row:hover .copy-popover,
+.card-row:focus-visible .copy-popover {
+  display: grid;
 }
 
 .detail-heading {
@@ -329,6 +399,62 @@ code {
 .checkline input {
   width: 18px;
   height: 18px;
+}
+
+.readonly-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 10px;
+}
+
+.readonly-line {
+  display: grid;
+  gap: 4px;
+  border: 1px solid #d9dee5;
+  border-radius: 7px;
+  padding: 10px;
+}
+
+.readonly-line span {
+  color: #687482;
+  font-size: 12px;
+  font-weight: 800;
+}
+
+.readonly-line strong {
+  font-size: 15px;
+}
+
+.owned-copies {
+  display: grid;
+  gap: 10px;
+  border-top: 1px solid #e4e8ee;
+  padding-top: 14px;
+}
+
+.section-heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.copy-row {
+  display: grid;
+  grid-template-columns: 1fr 120px auto;
+  align-items: end;
+  gap: 8px;
+  border: 1px solid #e4e8ee;
+  border-radius: 7px;
+  padding: 10px;
+}
+
+.empty-inline {
+  border: 1px dashed #c8d0da;
+  border-radius: 7px;
+  color: #687482;
+  padding: 12px;
+  text-align: center;
 }
 
 .photo-block {
@@ -395,11 +521,20 @@ code {
   }
 
   .card-row {
-    grid-template-columns: 50px 1fr 58px;
+    grid-template-columns: 84px 1fr 58px;
+  }
+
+  .copy-row,
+  .readonly-grid {
+    grid-template-columns: 1fr;
   }
 
   .team {
     display: none;
+  }
+
+  .copies {
+    grid-column: 2 / -1;
   }
 
   .rows {

@@ -84,21 +84,6 @@
         </select>
       </label>
 
-      <div class="import-box">
-        <h3>Import checklistu</h3>
-        <p>
-          Vloz riadky vo formate
-          <code>001; Meno hraca; Klub; Set</code>
-          alebo text skopirovany z PDF.
-        </p>
-        <textarea
-          [ngModel]="importText()"
-          (ngModelChange)="importText.set($event)"
-          placeholder="001; Patrik Jurcak; HC Kosice; Zakladny set"
-        ></textarea>
-        <button type="button" class="primary" (click)="importChecklist()">Importovat</button>
-      </div>
-
       <button type="button" class="secondary" (click)="resetDemoData()">Obnovit zaklad</button>
       <p class="note">{{ selectedSeries().description }}</p>
     </aside>
@@ -120,9 +105,20 @@
             <span class="number">{{ card.number }}</span>
             <span class="name">{{ card.player }}</span>
             <span class="team">{{ card.team || 'bez klubu' }}</span>
+            <span class="copies" [class.empty-copy]="cardCopies(card).length === 0">
+              {{ compactCopySummary(card) }}
+            </span>
             <span class="state" [class.owned]="card.owned">
               {{ card.owned ? 'mam' : 'chyba' }}
             </span>
+            @if (cardCopies(card).length) {
+              <span class="copy-popover" role="tooltip">
+                <strong>Vlastnene kusy</strong>
+                @for (group of copyGroups(card); track group.key) {
+                  <span>{{ group.count > 1 ? group.count + 'x ' : '' }}{{ group.label }}{{ group.serials.length ? ' ' + group.serials.join(', ') : '' }}</span>
+                }
+              </span>
+            }
           </button>
         } @empty {
           <div class="empty">Ziadne karty nezodpovedaju filtrom.</div>
@@ -140,49 +136,59 @@
           </div>
         </div>
 
-        <label class="checkline">
-          <input
-            type="checkbox"
-            [ngModel]="card.owned"
-            (ngModelChange)="updateCard(card.id, { owned: $event, quantity: $event ? (card.quantity || 1) : 0 })"
-          />
-          Vlastnim kartu
-        </label>
-
-        <label>
-          Pocet kusov
-          <input
-            type="number"
-            min="0"
-            [ngModel]="card.quantity"
-            (ngModelChange)="updateCard(card.id, { quantity: $event })"
-          />
-        </label>
-
-        <label>
-          Meno / nazov
-          <input [ngModel]="card.player" (ngModelChange)="updateCard(card.id, { player: $event })" />
-        </label>
-
         @if (card.signatureCode) {
-          <label>
-            Podpisovy kod
-            <input
-              [ngModel]="card.signatureCode"
-              (ngModelChange)="updateCard(card.id, { signatureCode: $event })"
-            />
-          </label>
+          <div class="readonly-line">
+            <span>Podpisovy kod</span>
+            <strong>{{ card.signatureCode }}</strong>
+          </div>
         }
 
-        <label>
-          Klub
-          <input [ngModel]="card.team" (ngModelChange)="updateCard(card.id, { team: $event })" />
-        </label>
+        <div class="readonly-grid">
+          <div class="readonly-line">
+            <span>Klub</span>
+            <strong>{{ card.team || '-' }}</strong>
+          </div>
+          <div class="readonly-line">
+            <span>Kusy</span>
+            <strong>{{ cardCopies(card).length }}</strong>
+          </div>
+        </div>
 
-        <label>
-          Set
-          <input [ngModel]="card.subset" (ngModelChange)="updateCard(card.id, { subset: $event })" />
-        </label>
+        <section class="owned-copies">
+          <div class="section-heading">
+            <h3>Vlastnene kusy</h3>
+            <button type="button" class="primary compact" (click)="addCopy(card)">Pridat kus</button>
+          </div>
+
+          @for (copy of cardCopies(card); track copy.id) {
+            <div class="copy-row">
+              <label>
+                Paralelna verzia
+                <select
+                  [ngModel]="copy.parallel"
+                  (ngModelChange)="updateCopy(card, copy.id, { parallel: $event })"
+                >
+                  @for (parallel of parallelOptions(card); track parallel) {
+                    <option [value]="parallel">{{ parallel }}</option>
+                  }
+                </select>
+              </label>
+              <label>
+                Serial / kus
+                <input
+                  [ngModel]="copy.serial"
+                  (ngModelChange)="updateCopy(card, copy.id, { serial: $event })"
+                  placeholder="napr. 2/6"
+                />
+              </label>
+              <button type="button" class="secondary compact danger" (click)="removeCopy(card, copy.id)">
+                Odstranit
+              </button>
+            </div>
+          } @empty {
+            <div class="empty-inline">Zatial neevidujes ziadny kus tejto karty.</div>
+          }
+        </section>
 
         <label>
           Poznamky

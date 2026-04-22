@@ -10,9 +10,9 @@ Angular aplikacia na evidovanie sportovych zberatelskych kariet SportZoo.
 - Tipsport liga 2025/26: 1. seria ma 435 kariet napriec setmi, 2. seria ma 387 kariet napriec setmi
 - Hokejove Slovensko 2026: pripraveny placeholder checklist `001-180`
 - Ukladanie evidencie do `localStorage`
-- Evidencia vlastnictva, poctu kusov, poznamok a fotiek
+- Evidencia vlastnenych kusov, paralelnych verzii, serialu/kusu, poznamok a fotiek
 - Filtrovanie podla serie, setu, textu, vlastnictva a fotiek
-- Import checklistu zo skopirovaneho textu alebo CSV riadkov
+- Checklistove udaje su zamknute v aplikacii: cislo/kod, meno/nazov, klub a set sa needituju
 
 ## SportZoo zdroje
 
@@ -27,11 +27,12 @@ Prehliadac moze blokovat automaticke citanie suborov z cudzej domeny cez CORS. P
 
 Hokejove Slovensko 2026 je na SportZoo zatial uvedene ako planovana kolekcia bez verejneho checklist PDF. Aplikacia preto obsahuje pripraveny ciselny checklist, ktory sa da neskor prepisat importom, ked SportZoo zverejni mena a sety.
 
-Podporovany import:
+Priklad evidencie konkretneho kusu:
 
 ```text
-001; Patrik Jurcak; HC Kosice; Zakladny set
-002; Meno Hraca; Klub; Zakladny set
+Karta GJ-MR
+Paralelna verzia: Auto /25
+Serial / kus: 2/6
 ```
 
 ## Spustenie

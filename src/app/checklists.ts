@@ -11,7 +11,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 0
+    "subsetOrder": 0,
+    "cardOrder": 0,
+    "parallels": [
+      "Zakladna karta",
+      "Base Blue",
+      "Red Light /30",
+      "Golden Glow /15",
+      "Night Fireworks 1of1"
+    ]
   },
   {
     "id": "tipsport-s1-002",
@@ -23,7 +31,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 0
+    "subsetOrder": 0,
+    "cardOrder": 1,
+    "parallels": [
+      "Zakladna karta",
+      "Base Blue",
+      "Red Light /30",
+      "Golden Glow /15",
+      "Night Fireworks 1of1"
+    ]
   },
   {
     "id": "tipsport-s1-003",
@@ -35,7 +51,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 0
+    "subsetOrder": 0,
+    "cardOrder": 2,
+    "parallels": [
+      "Zakladna karta",
+      "Base Blue",
+      "Red Light /30",
+      "Golden Glow /15",
+      "Night Fireworks 1of1"
+    ]
   },
   {
     "id": "tipsport-s1-004",
@@ -47,7 +71,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 0
+    "subsetOrder": 0,
+    "cardOrder": 3,
+    "parallels": [
+      "Zakladna karta",
+      "Base Blue",
+      "Red Light /30",
+      "Golden Glow /15",
+      "Night Fireworks 1of1"
+    ]
   },
   {
     "id": "tipsport-s1-005",
@@ -59,7 +91,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 0
+    "subsetOrder": 0,
+    "cardOrder": 4,
+    "parallels": [
+      "Zakladna karta",
+      "Base Blue",
+      "Red Light /30",
+      "Golden Glow /15",
+      "Night Fireworks 1of1"
+    ]
   },
   {
     "id": "tipsport-s1-006",
@@ -71,7 +111,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 0
+    "subsetOrder": 0,
+    "cardOrder": 5,
+    "parallels": [
+      "Zakladna karta",
+      "Base Blue",
+      "Red Light /30",
+      "Golden Glow /15",
+      "Night Fireworks 1of1"
+    ]
   },
   {
     "id": "tipsport-s1-007",
@@ -83,7 +131,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 0
+    "subsetOrder": 0,
+    "cardOrder": 6,
+    "parallels": [
+      "Zakladna karta",
+      "Base Blue",
+      "Red Light /30",
+      "Golden Glow /15",
+      "Night Fireworks 1of1"
+    ]
   },
   {
     "id": "tipsport-s1-008",
@@ -95,7 +151,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 0
+    "subsetOrder": 0,
+    "cardOrder": 7,
+    "parallels": [
+      "Zakladna karta",
+      "Base Blue",
+      "Red Light /30",
+      "Golden Glow /15",
+      "Night Fireworks 1of1"
+    ]
   },
   {
     "id": "tipsport-s1-009",
@@ -107,7 +171,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 0
+    "subsetOrder": 0,
+    "cardOrder": 8,
+    "parallels": [
+      "Zakladna karta",
+      "Base Blue",
+      "Red Light /30",
+      "Golden Glow /15",
+      "Night Fireworks 1of1"
+    ]
   },
   {
     "id": "tipsport-s1-010",
@@ -119,7 +191,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 0
+    "subsetOrder": 0,
+    "cardOrder": 9,
+    "parallels": [
+      "Zakladna karta",
+      "Base Blue",
+      "Red Light /30",
+      "Golden Glow /15",
+      "Night Fireworks 1of1"
+    ]
   },
   {
     "id": "tipsport-s1-011",
@@ -131,7 +211,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 0
+    "subsetOrder": 0,
+    "cardOrder": 10,
+    "parallels": [
+      "Zakladna karta",
+      "Base Blue",
+      "Red Light /30",
+      "Golden Glow /15",
+      "Night Fireworks 1of1"
+    ]
   },
   {
     "id": "tipsport-s1-012",
@@ -143,7 +231,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 0
+    "subsetOrder": 0,
+    "cardOrder": 11,
+    "parallels": [
+      "Zakladna karta",
+      "Base Blue",
+      "Red Light /30",
+      "Golden Glow /15",
+      "Night Fireworks 1of1"
+    ]
   },
   {
     "id": "tipsport-s1-013",
@@ -155,7 +251,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 0
+    "subsetOrder": 0,
+    "cardOrder": 12,
+    "parallels": [
+      "Zakladna karta",
+      "Base Blue",
+      "Red Light /30",
+      "Golden Glow /15",
+      "Night Fireworks 1of1"
+    ]
   },
   {
     "id": "tipsport-s1-014",
@@ -167,7 +271,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 0
+    "subsetOrder": 0,
+    "cardOrder": 13,
+    "parallels": [
+      "Zakladna karta",
+      "Base Blue",
+      "Red Light /30",
+      "Golden Glow /15",
+      "Night Fireworks 1of1"
+    ]
   },
   {
     "id": "tipsport-s1-015",
@@ -179,7 +291,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 0
+    "subsetOrder": 0,
+    "cardOrder": 14,
+    "parallels": [
+      "Zakladna karta",
+      "Base Blue",
+      "Red Light /30",
+      "Golden Glow /15",
+      "Night Fireworks 1of1"
+    ]
   },
   {
     "id": "tipsport-s1-016",
@@ -191,7 +311,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 0
+    "subsetOrder": 0,
+    "cardOrder": 15,
+    "parallels": [
+      "Zakladna karta",
+      "Base Blue",
+      "Red Light /30",
+      "Golden Glow /15",
+      "Night Fireworks 1of1"
+    ]
   },
   {
     "id": "tipsport-s1-017",
@@ -203,7 +331,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 0
+    "subsetOrder": 0,
+    "cardOrder": 16,
+    "parallels": [
+      "Zakladna karta",
+      "Base Blue",
+      "Red Light /30",
+      "Golden Glow /15",
+      "Night Fireworks 1of1"
+    ]
   },
   {
     "id": "tipsport-s1-018",
@@ -215,7 +351,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 0
+    "subsetOrder": 0,
+    "cardOrder": 17,
+    "parallels": [
+      "Zakladna karta",
+      "Base Blue",
+      "Red Light /30",
+      "Golden Glow /15",
+      "Night Fireworks 1of1"
+    ]
   },
   {
     "id": "tipsport-s1-019",
@@ -227,7 +371,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 0
+    "subsetOrder": 0,
+    "cardOrder": 18,
+    "parallels": [
+      "Zakladna karta",
+      "Base Blue",
+      "Red Light /30",
+      "Golden Glow /15",
+      "Night Fireworks 1of1"
+    ]
   },
   {
     "id": "tipsport-s1-020",
@@ -239,7 +391,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 0
+    "subsetOrder": 0,
+    "cardOrder": 19,
+    "parallels": [
+      "Zakladna karta",
+      "Base Blue",
+      "Red Light /30",
+      "Golden Glow /15",
+      "Night Fireworks 1of1"
+    ]
   },
   {
     "id": "tipsport-s1-021",
@@ -251,7 +411,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 0
+    "subsetOrder": 0,
+    "cardOrder": 20,
+    "parallels": [
+      "Zakladna karta",
+      "Base Blue",
+      "Red Light /30",
+      "Golden Glow /15",
+      "Night Fireworks 1of1"
+    ]
   },
   {
     "id": "tipsport-s1-022",
@@ -263,7 +431,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 0
+    "subsetOrder": 0,
+    "cardOrder": 21,
+    "parallels": [
+      "Zakladna karta",
+      "Base Blue",
+      "Red Light /30",
+      "Golden Glow /15",
+      "Night Fireworks 1of1"
+    ]
   },
   {
     "id": "tipsport-s1-023",
@@ -275,7 +451,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 0
+    "subsetOrder": 0,
+    "cardOrder": 22,
+    "parallels": [
+      "Zakladna karta",
+      "Base Blue",
+      "Red Light /30",
+      "Golden Glow /15",
+      "Night Fireworks 1of1"
+    ]
   },
   {
     "id": "tipsport-s1-024",
@@ -287,7 +471,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 0
+    "subsetOrder": 0,
+    "cardOrder": 23,
+    "parallels": [
+      "Zakladna karta",
+      "Base Blue",
+      "Red Light /30",
+      "Golden Glow /15",
+      "Night Fireworks 1of1"
+    ]
   },
   {
     "id": "tipsport-s1-025",
@@ -299,7 +491,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 0
+    "subsetOrder": 0,
+    "cardOrder": 24,
+    "parallels": [
+      "Zakladna karta",
+      "Base Blue",
+      "Red Light /30",
+      "Golden Glow /15",
+      "Night Fireworks 1of1"
+    ]
   },
   {
     "id": "tipsport-s1-026",
@@ -311,7 +511,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 0
+    "subsetOrder": 0,
+    "cardOrder": 25,
+    "parallels": [
+      "Zakladna karta",
+      "Base Blue",
+      "Red Light /30",
+      "Golden Glow /15",
+      "Night Fireworks 1of1"
+    ]
   },
   {
     "id": "tipsport-s1-027",
@@ -323,7 +531,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 0
+    "subsetOrder": 0,
+    "cardOrder": 26,
+    "parallels": [
+      "Zakladna karta",
+      "Base Blue",
+      "Red Light /30",
+      "Golden Glow /15",
+      "Night Fireworks 1of1"
+    ]
   },
   {
     "id": "tipsport-s1-028",
@@ -335,7 +551,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 0
+    "subsetOrder": 0,
+    "cardOrder": 27,
+    "parallels": [
+      "Zakladna karta",
+      "Base Blue",
+      "Red Light /30",
+      "Golden Glow /15",
+      "Night Fireworks 1of1"
+    ]
   },
   {
     "id": "tipsport-s1-029",
@@ -347,7 +571,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 0
+    "subsetOrder": 0,
+    "cardOrder": 28,
+    "parallels": [
+      "Zakladna karta",
+      "Base Blue",
+      "Red Light /30",
+      "Golden Glow /15",
+      "Night Fireworks 1of1"
+    ]
   },
   {
     "id": "tipsport-s1-030",
@@ -359,7 +591,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 0
+    "subsetOrder": 0,
+    "cardOrder": 29,
+    "parallels": [
+      "Zakladna karta",
+      "Base Blue",
+      "Red Light /30",
+      "Golden Glow /15",
+      "Night Fireworks 1of1"
+    ]
   },
   {
     "id": "tipsport-s1-031",
@@ -371,7 +611,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 0
+    "subsetOrder": 0,
+    "cardOrder": 30,
+    "parallels": [
+      "Zakladna karta",
+      "Base Blue",
+      "Red Light /30",
+      "Golden Glow /15",
+      "Night Fireworks 1of1"
+    ]
   },
   {
     "id": "tipsport-s1-032",
@@ -383,7 +631,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 0
+    "subsetOrder": 0,
+    "cardOrder": 31,
+    "parallels": [
+      "Zakladna karta",
+      "Base Blue",
+      "Red Light /30",
+      "Golden Glow /15",
+      "Night Fireworks 1of1"
+    ]
   },
   {
     "id": "tipsport-s1-033",
@@ -395,7 +651,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 0
+    "subsetOrder": 0,
+    "cardOrder": 32,
+    "parallels": [
+      "Zakladna karta",
+      "Base Blue",
+      "Red Light /30",
+      "Golden Glow /15",
+      "Night Fireworks 1of1"
+    ]
   },
   {
     "id": "tipsport-s1-034",
@@ -407,7 +671,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 0
+    "subsetOrder": 0,
+    "cardOrder": 33,
+    "parallels": [
+      "Zakladna karta",
+      "Base Blue",
+      "Red Light /30",
+      "Golden Glow /15",
+      "Night Fireworks 1of1"
+    ]
   },
   {
     "id": "tipsport-s1-035",
@@ -419,7 +691,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 0
+    "subsetOrder": 0,
+    "cardOrder": 34,
+    "parallels": [
+      "Zakladna karta",
+      "Base Blue",
+      "Red Light /30",
+      "Golden Glow /15",
+      "Night Fireworks 1of1"
+    ]
   },
   {
     "id": "tipsport-s1-036",
@@ -431,7 +711,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 0
+    "subsetOrder": 0,
+    "cardOrder": 35,
+    "parallels": [
+      "Zakladna karta",
+      "Base Blue",
+      "Red Light /30",
+      "Golden Glow /15",
+      "Night Fireworks 1of1"
+    ]
   },
   {
     "id": "tipsport-s1-037",
@@ -443,7 +731,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 0
+    "subsetOrder": 0,
+    "cardOrder": 36,
+    "parallels": [
+      "Zakladna karta",
+      "Base Blue",
+      "Red Light /30",
+      "Golden Glow /15",
+      "Night Fireworks 1of1"
+    ]
   },
   {
     "id": "tipsport-s1-038",
@@ -455,7 +751,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 0
+    "subsetOrder": 0,
+    "cardOrder": 37,
+    "parallels": [
+      "Zakladna karta",
+      "Base Blue",
+      "Red Light /30",
+      "Golden Glow /15",
+      "Night Fireworks 1of1"
+    ]
   },
   {
     "id": "tipsport-s1-039",
@@ -467,7 +771,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 0
+    "subsetOrder": 0,
+    "cardOrder": 38,
+    "parallels": [
+      "Zakladna karta",
+      "Base Blue",
+      "Red Light /30",
+      "Golden Glow /15",
+      "Night Fireworks 1of1"
+    ]
   },
   {
     "id": "tipsport-s1-040",
@@ -479,7 +791,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 0
+    "subsetOrder": 0,
+    "cardOrder": 39,
+    "parallels": [
+      "Zakladna karta",
+      "Base Blue",
+      "Red Light /30",
+      "Golden Glow /15",
+      "Night Fireworks 1of1"
+    ]
   },
   {
     "id": "tipsport-s1-041",
@@ -491,7 +811,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 0
+    "subsetOrder": 0,
+    "cardOrder": 40,
+    "parallels": [
+      "Zakladna karta",
+      "Base Blue",
+      "Red Light /30",
+      "Golden Glow /15",
+      "Night Fireworks 1of1"
+    ]
   },
   {
     "id": "tipsport-s1-042",
@@ -503,7 +831,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 0
+    "subsetOrder": 0,
+    "cardOrder": 41,
+    "parallels": [
+      "Zakladna karta",
+      "Base Blue",
+      "Red Light /30",
+      "Golden Glow /15",
+      "Night Fireworks 1of1"
+    ]
   },
   {
     "id": "tipsport-s1-043",
@@ -515,7 +851,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 0
+    "subsetOrder": 0,
+    "cardOrder": 42,
+    "parallels": [
+      "Zakladna karta",
+      "Base Blue",
+      "Red Light /30",
+      "Golden Glow /15",
+      "Night Fireworks 1of1"
+    ]
   },
   {
     "id": "tipsport-s1-044",
@@ -527,7 +871,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 0
+    "subsetOrder": 0,
+    "cardOrder": 43,
+    "parallels": [
+      "Zakladna karta",
+      "Base Blue",
+      "Red Light /30",
+      "Golden Glow /15",
+      "Night Fireworks 1of1"
+    ]
   },
   {
     "id": "tipsport-s1-045",
@@ -539,7 +891,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 0
+    "subsetOrder": 0,
+    "cardOrder": 44,
+    "parallels": [
+      "Zakladna karta",
+      "Base Blue",
+      "Red Light /30",
+      "Golden Glow /15",
+      "Night Fireworks 1of1"
+    ]
   },
   {
     "id": "tipsport-s1-046",
@@ -551,7 +911,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 0
+    "subsetOrder": 0,
+    "cardOrder": 45,
+    "parallels": [
+      "Zakladna karta",
+      "Base Blue",
+      "Red Light /30",
+      "Golden Glow /15",
+      "Night Fireworks 1of1"
+    ]
   },
   {
     "id": "tipsport-s1-047",
@@ -563,7 +931,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 0
+    "subsetOrder": 0,
+    "cardOrder": 46,
+    "parallels": [
+      "Zakladna karta",
+      "Base Blue",
+      "Red Light /30",
+      "Golden Glow /15",
+      "Night Fireworks 1of1"
+    ]
   },
   {
     "id": "tipsport-s1-048",
@@ -575,7 +951,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 0
+    "subsetOrder": 0,
+    "cardOrder": 47,
+    "parallels": [
+      "Zakladna karta",
+      "Base Blue",
+      "Red Light /30",
+      "Golden Glow /15",
+      "Night Fireworks 1of1"
+    ]
   },
   {
     "id": "tipsport-s1-049",
@@ -587,7 +971,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 0
+    "subsetOrder": 0,
+    "cardOrder": 48,
+    "parallels": [
+      "Zakladna karta",
+      "Base Blue",
+      "Red Light /30",
+      "Golden Glow /15",
+      "Night Fireworks 1of1"
+    ]
   },
   {
     "id": "tipsport-s1-050",
@@ -599,7 +991,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 0
+    "subsetOrder": 0,
+    "cardOrder": 49,
+    "parallels": [
+      "Zakladna karta",
+      "Base Blue",
+      "Red Light /30",
+      "Golden Glow /15",
+      "Night Fireworks 1of1"
+    ]
   },
   {
     "id": "tipsport-s1-051",
@@ -611,7 +1011,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 0
+    "subsetOrder": 0,
+    "cardOrder": 50,
+    "parallels": [
+      "Zakladna karta",
+      "Base Blue",
+      "Red Light /30",
+      "Golden Glow /15",
+      "Night Fireworks 1of1"
+    ]
   },
   {
     "id": "tipsport-s1-052",
@@ -623,7 +1031,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 0
+    "subsetOrder": 0,
+    "cardOrder": 51,
+    "parallels": [
+      "Zakladna karta",
+      "Base Blue",
+      "Red Light /30",
+      "Golden Glow /15",
+      "Night Fireworks 1of1"
+    ]
   },
   {
     "id": "tipsport-s1-053",
@@ -635,7 +1051,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 0
+    "subsetOrder": 0,
+    "cardOrder": 52,
+    "parallels": [
+      "Zakladna karta",
+      "Base Blue",
+      "Red Light /30",
+      "Golden Glow /15",
+      "Night Fireworks 1of1"
+    ]
   },
   {
     "id": "tipsport-s1-054",
@@ -647,7 +1071,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 0
+    "subsetOrder": 0,
+    "cardOrder": 53,
+    "parallels": [
+      "Zakladna karta",
+      "Base Blue",
+      "Red Light /30",
+      "Golden Glow /15",
+      "Night Fireworks 1of1"
+    ]
   },
   {
     "id": "tipsport-s1-055",
@@ -659,7 +1091,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 0
+    "subsetOrder": 0,
+    "cardOrder": 54,
+    "parallels": [
+      "Zakladna karta",
+      "Base Blue",
+      "Red Light /30",
+      "Golden Glow /15",
+      "Night Fireworks 1of1"
+    ]
   },
   {
     "id": "tipsport-s1-056",
@@ -671,7 +1111,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 0
+    "subsetOrder": 0,
+    "cardOrder": 55,
+    "parallels": [
+      "Zakladna karta",
+      "Base Blue",
+      "Red Light /30",
+      "Golden Glow /15",
+      "Night Fireworks 1of1"
+    ]
   },
   {
     "id": "tipsport-s1-057",
@@ -683,7 +1131,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 0
+    "subsetOrder": 0,
+    "cardOrder": 56,
+    "parallels": [
+      "Zakladna karta",
+      "Base Blue",
+      "Red Light /30",
+      "Golden Glow /15",
+      "Night Fireworks 1of1"
+    ]
   },
   {
     "id": "tipsport-s1-058",
@@ -695,7 +1151,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 0
+    "subsetOrder": 0,
+    "cardOrder": 57,
+    "parallels": [
+      "Zakladna karta",
+      "Base Blue",
+      "Red Light /30",
+      "Golden Glow /15",
+      "Night Fireworks 1of1"
+    ]
   },
   {
     "id": "tipsport-s1-059",
@@ -707,7 +1171,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 0
+    "subsetOrder": 0,
+    "cardOrder": 58,
+    "parallels": [
+      "Zakladna karta",
+      "Base Blue",
+      "Red Light /30",
+      "Golden Glow /15",
+      "Night Fireworks 1of1"
+    ]
   },
   {
     "id": "tipsport-s1-060",
@@ -719,7 +1191,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 0
+    "subsetOrder": 0,
+    "cardOrder": 59,
+    "parallels": [
+      "Zakladna karta",
+      "Base Blue",
+      "Red Light /30",
+      "Golden Glow /15",
+      "Night Fireworks 1of1"
+    ]
   },
   {
     "id": "tipsport-s1-061",
@@ -731,7 +1211,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 0
+    "subsetOrder": 0,
+    "cardOrder": 60,
+    "parallels": [
+      "Zakladna karta",
+      "Base Blue",
+      "Red Light /30",
+      "Golden Glow /15",
+      "Night Fireworks 1of1"
+    ]
   },
   {
     "id": "tipsport-s1-062",
@@ -743,7 +1231,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 0
+    "subsetOrder": 0,
+    "cardOrder": 61,
+    "parallels": [
+      "Zakladna karta",
+      "Base Blue",
+      "Red Light /30",
+      "Golden Glow /15",
+      "Night Fireworks 1of1"
+    ]
   },
   {
     "id": "tipsport-s1-063",
@@ -755,7 +1251,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 0
+    "subsetOrder": 0,
+    "cardOrder": 62,
+    "parallels": [
+      "Zakladna karta",
+      "Base Blue",
+      "Red Light /30",
+      "Golden Glow /15",
+      "Night Fireworks 1of1"
+    ]
   },
   {
     "id": "tipsport-s1-064",
@@ -767,7 +1271,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 0
+    "subsetOrder": 0,
+    "cardOrder": 63,
+    "parallels": [
+      "Zakladna karta",
+      "Base Blue",
+      "Red Light /30",
+      "Golden Glow /15",
+      "Night Fireworks 1of1"
+    ]
   },
   {
     "id": "tipsport-s1-065",
@@ -779,7 +1291,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 0
+    "subsetOrder": 0,
+    "cardOrder": 64,
+    "parallels": [
+      "Zakladna karta",
+      "Base Blue",
+      "Red Light /30",
+      "Golden Glow /15",
+      "Night Fireworks 1of1"
+    ]
   },
   {
     "id": "tipsport-s1-066",
@@ -791,7 +1311,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 0
+    "subsetOrder": 0,
+    "cardOrder": 65,
+    "parallels": [
+      "Zakladna karta",
+      "Base Blue",
+      "Red Light /30",
+      "Golden Glow /15",
+      "Night Fireworks 1of1"
+    ]
   },
   {
     "id": "tipsport-s1-067",
@@ -803,7 +1331,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 0
+    "subsetOrder": 0,
+    "cardOrder": 66,
+    "parallels": [
+      "Zakladna karta",
+      "Base Blue",
+      "Red Light /30",
+      "Golden Glow /15",
+      "Night Fireworks 1of1"
+    ]
   },
   {
     "id": "tipsport-s1-068",
@@ -815,7 +1351,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 0
+    "subsetOrder": 0,
+    "cardOrder": 67,
+    "parallels": [
+      "Zakladna karta",
+      "Base Blue",
+      "Red Light /30",
+      "Golden Glow /15",
+      "Night Fireworks 1of1"
+    ]
   },
   {
     "id": "tipsport-s1-069",
@@ -827,7 +1371,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 0
+    "subsetOrder": 0,
+    "cardOrder": 68,
+    "parallels": [
+      "Zakladna karta",
+      "Base Blue",
+      "Red Light /30",
+      "Golden Glow /15",
+      "Night Fireworks 1of1"
+    ]
   },
   {
     "id": "tipsport-s1-070",
@@ -839,7 +1391,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 0
+    "subsetOrder": 0,
+    "cardOrder": 69,
+    "parallels": [
+      "Zakladna karta",
+      "Base Blue",
+      "Red Light /30",
+      "Golden Glow /15",
+      "Night Fireworks 1of1"
+    ]
   },
   {
     "id": "tipsport-s1-071",
@@ -851,7 +1411,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 0
+    "subsetOrder": 0,
+    "cardOrder": 70,
+    "parallels": [
+      "Zakladna karta",
+      "Base Blue",
+      "Red Light /30",
+      "Golden Glow /15",
+      "Night Fireworks 1of1"
+    ]
   },
   {
     "id": "tipsport-s1-072",
@@ -863,7 +1431,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 0
+    "subsetOrder": 0,
+    "cardOrder": 71,
+    "parallels": [
+      "Zakladna karta",
+      "Base Blue",
+      "Red Light /30",
+      "Golden Glow /15",
+      "Night Fireworks 1of1"
+    ]
   },
   {
     "id": "tipsport-s1-073",
@@ -875,7 +1451,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 0
+    "subsetOrder": 0,
+    "cardOrder": 72,
+    "parallels": [
+      "Zakladna karta",
+      "Base Blue",
+      "Red Light /30",
+      "Golden Glow /15",
+      "Night Fireworks 1of1"
+    ]
   },
   {
     "id": "tipsport-s1-074",
@@ -887,7 +1471,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 0
+    "subsetOrder": 0,
+    "cardOrder": 73,
+    "parallels": [
+      "Zakladna karta",
+      "Base Blue",
+      "Red Light /30",
+      "Golden Glow /15",
+      "Night Fireworks 1of1"
+    ]
   },
   {
     "id": "tipsport-s1-075",
@@ -899,7 +1491,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 0
+    "subsetOrder": 0,
+    "cardOrder": 74,
+    "parallels": [
+      "Zakladna karta",
+      "Base Blue",
+      "Red Light /30",
+      "Golden Glow /15",
+      "Night Fireworks 1of1"
+    ]
   },
   {
     "id": "tipsport-s1-076",
@@ -911,7 +1511,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 0
+    "subsetOrder": 0,
+    "cardOrder": 75,
+    "parallels": [
+      "Zakladna karta",
+      "Base Blue",
+      "Red Light /30",
+      "Golden Glow /15",
+      "Night Fireworks 1of1"
+    ]
   },
   {
     "id": "tipsport-s1-077",
@@ -923,7 +1531,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 0
+    "subsetOrder": 0,
+    "cardOrder": 76,
+    "parallels": [
+      "Zakladna karta",
+      "Base Blue",
+      "Red Light /30",
+      "Golden Glow /15",
+      "Night Fireworks 1of1"
+    ]
   },
   {
     "id": "tipsport-s1-078",
@@ -935,7 +1551,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 0
+    "subsetOrder": 0,
+    "cardOrder": 77,
+    "parallels": [
+      "Zakladna karta",
+      "Base Blue",
+      "Red Light /30",
+      "Golden Glow /15",
+      "Night Fireworks 1of1"
+    ]
   },
   {
     "id": "tipsport-s1-079",
@@ -947,7 +1571,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 0
+    "subsetOrder": 0,
+    "cardOrder": 78,
+    "parallels": [
+      "Zakladna karta",
+      "Base Blue",
+      "Red Light /30",
+      "Golden Glow /15",
+      "Night Fireworks 1of1"
+    ]
   },
   {
     "id": "tipsport-s1-080",
@@ -959,7 +1591,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 0
+    "subsetOrder": 0,
+    "cardOrder": 79,
+    "parallels": [
+      "Zakladna karta",
+      "Base Blue",
+      "Red Light /30",
+      "Golden Glow /15",
+      "Night Fireworks 1of1"
+    ]
   },
   {
     "id": "tipsport-s1-081",
@@ -971,7 +1611,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 0
+    "subsetOrder": 0,
+    "cardOrder": 80,
+    "parallels": [
+      "Zakladna karta",
+      "Base Blue",
+      "Red Light /30",
+      "Golden Glow /15",
+      "Night Fireworks 1of1"
+    ]
   },
   {
     "id": "tipsport-s1-082",
@@ -983,7 +1631,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 0
+    "subsetOrder": 0,
+    "cardOrder": 81,
+    "parallels": [
+      "Zakladna karta",
+      "Base Blue",
+      "Red Light /30",
+      "Golden Glow /15",
+      "Night Fireworks 1of1"
+    ]
   },
   {
     "id": "tipsport-s1-083",
@@ -995,7 +1651,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 0
+    "subsetOrder": 0,
+    "cardOrder": 82,
+    "parallels": [
+      "Zakladna karta",
+      "Base Blue",
+      "Red Light /30",
+      "Golden Glow /15",
+      "Night Fireworks 1of1"
+    ]
   },
   {
     "id": "tipsport-s1-084",
@@ -1007,7 +1671,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 0
+    "subsetOrder": 0,
+    "cardOrder": 83,
+    "parallels": [
+      "Zakladna karta",
+      "Base Blue",
+      "Red Light /30",
+      "Golden Glow /15",
+      "Night Fireworks 1of1"
+    ]
   },
   {
     "id": "tipsport-s1-085",
@@ -1019,7 +1691,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 0
+    "subsetOrder": 0,
+    "cardOrder": 84,
+    "parallels": [
+      "Zakladna karta",
+      "Base Blue",
+      "Red Light /30",
+      "Golden Glow /15",
+      "Night Fireworks 1of1"
+    ]
   },
   {
     "id": "tipsport-s1-086",
@@ -1031,7 +1711,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 0
+    "subsetOrder": 0,
+    "cardOrder": 85,
+    "parallels": [
+      "Zakladna karta",
+      "Base Blue",
+      "Red Light /30",
+      "Golden Glow /15",
+      "Night Fireworks 1of1"
+    ]
   },
   {
     "id": "tipsport-s1-087",
@@ -1043,7 +1731,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 0
+    "subsetOrder": 0,
+    "cardOrder": 86,
+    "parallels": [
+      "Zakladna karta",
+      "Base Blue",
+      "Red Light /30",
+      "Golden Glow /15",
+      "Night Fireworks 1of1"
+    ]
   },
   {
     "id": "tipsport-s1-088",
@@ -1055,7 +1751,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 0
+    "subsetOrder": 0,
+    "cardOrder": 87,
+    "parallels": [
+      "Zakladna karta",
+      "Base Blue",
+      "Red Light /30",
+      "Golden Glow /15",
+      "Night Fireworks 1of1"
+    ]
   },
   {
     "id": "tipsport-s1-089",
@@ -1067,7 +1771,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 0
+    "subsetOrder": 0,
+    "cardOrder": 88,
+    "parallels": [
+      "Zakladna karta",
+      "Base Blue",
+      "Red Light /30",
+      "Golden Glow /15",
+      "Night Fireworks 1of1"
+    ]
   },
   {
     "id": "tipsport-s1-090",
@@ -1079,7 +1791,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 0
+    "subsetOrder": 0,
+    "cardOrder": 89,
+    "parallels": [
+      "Zakladna karta",
+      "Base Blue",
+      "Red Light /30",
+      "Golden Glow /15",
+      "Night Fireworks 1of1"
+    ]
   },
   {
     "id": "tipsport-s1-091",
@@ -1091,7 +1811,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 0
+    "subsetOrder": 0,
+    "cardOrder": 90,
+    "parallels": [
+      "Zakladna karta",
+      "Base Blue",
+      "Red Light /30",
+      "Golden Glow /15",
+      "Night Fireworks 1of1"
+    ]
   },
   {
     "id": "tipsport-s1-092",
@@ -1103,7 +1831,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 0
+    "subsetOrder": 0,
+    "cardOrder": 91,
+    "parallels": [
+      "Zakladna karta",
+      "Base Blue",
+      "Red Light /30",
+      "Golden Glow /15",
+      "Night Fireworks 1of1"
+    ]
   },
   {
     "id": "tipsport-s1-093",
@@ -1115,7 +1851,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 0
+    "subsetOrder": 0,
+    "cardOrder": 92,
+    "parallels": [
+      "Zakladna karta",
+      "Base Blue",
+      "Red Light /30",
+      "Golden Glow /15",
+      "Night Fireworks 1of1"
+    ]
   },
   {
     "id": "tipsport-s1-094",
@@ -1127,7 +1871,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 0
+    "subsetOrder": 0,
+    "cardOrder": 93,
+    "parallels": [
+      "Zakladna karta",
+      "Base Blue",
+      "Red Light /30",
+      "Golden Glow /15",
+      "Night Fireworks 1of1"
+    ]
   },
   {
     "id": "tipsport-s1-095",
@@ -1139,7 +1891,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 0
+    "subsetOrder": 0,
+    "cardOrder": 94,
+    "parallels": [
+      "Zakladna karta",
+      "Base Blue",
+      "Red Light /30",
+      "Golden Glow /15",
+      "Night Fireworks 1of1"
+    ]
   },
   {
     "id": "tipsport-s1-096",
@@ -1151,7 +1911,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 0
+    "subsetOrder": 0,
+    "cardOrder": 95,
+    "parallels": [
+      "Zakladna karta",
+      "Base Blue",
+      "Red Light /30",
+      "Golden Glow /15",
+      "Night Fireworks 1of1"
+    ]
   },
   {
     "id": "tipsport-s1-097",
@@ -1163,7 +1931,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 0
+    "subsetOrder": 0,
+    "cardOrder": 96,
+    "parallels": [
+      "Zakladna karta",
+      "Base Blue",
+      "Red Light /30",
+      "Golden Glow /15",
+      "Night Fireworks 1of1"
+    ]
   },
   {
     "id": "tipsport-s1-098",
@@ -1175,7 +1951,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 0
+    "subsetOrder": 0,
+    "cardOrder": 97,
+    "parallels": [
+      "Zakladna karta",
+      "Base Blue",
+      "Red Light /30",
+      "Golden Glow /15",
+      "Night Fireworks 1of1"
+    ]
   },
   {
     "id": "tipsport-s1-099",
@@ -1187,7 +1971,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 0
+    "subsetOrder": 0,
+    "cardOrder": 98,
+    "parallels": [
+      "Zakladna karta",
+      "Base Blue",
+      "Red Light /30",
+      "Golden Glow /15",
+      "Night Fireworks 1of1"
+    ]
   },
   {
     "id": "tipsport-s1-100",
@@ -1199,7 +1991,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 0
+    "subsetOrder": 0,
+    "cardOrder": 99,
+    "parallels": [
+      "Zakladna karta",
+      "Base Blue",
+      "Red Light /30",
+      "Golden Glow /15",
+      "Night Fireworks 1of1"
+    ]
   },
   {
     "id": "tipsport-s1-101",
@@ -1211,7 +2011,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 0
+    "subsetOrder": 0,
+    "cardOrder": 100,
+    "parallels": [
+      "Zakladna karta",
+      "Base Blue",
+      "Red Light /30",
+      "Golden Glow /15",
+      "Night Fireworks 1of1"
+    ]
   },
   {
     "id": "tipsport-s1-102",
@@ -1223,7 +2031,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 0
+    "subsetOrder": 0,
+    "cardOrder": 101,
+    "parallels": [
+      "Zakladna karta",
+      "Base Blue",
+      "Red Light /30",
+      "Golden Glow /15",
+      "Night Fireworks 1of1"
+    ]
   },
   {
     "id": "tipsport-s1-103",
@@ -1235,7 +2051,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 0
+    "subsetOrder": 0,
+    "cardOrder": 102,
+    "parallels": [
+      "Zakladna karta",
+      "Base Blue",
+      "Red Light /30",
+      "Golden Glow /15",
+      "Night Fireworks 1of1"
+    ]
   },
   {
     "id": "tipsport-s1-104",
@@ -1247,7 +2071,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 0
+    "subsetOrder": 0,
+    "cardOrder": 103,
+    "parallels": [
+      "Zakladna karta",
+      "Base Blue",
+      "Red Light /30",
+      "Golden Glow /15",
+      "Night Fireworks 1of1"
+    ]
   },
   {
     "id": "tipsport-s1-105",
@@ -1259,7 +2091,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 0
+    "subsetOrder": 0,
+    "cardOrder": 104,
+    "parallels": [
+      "Zakladna karta",
+      "Base Blue",
+      "Red Light /30",
+      "Golden Glow /15",
+      "Night Fireworks 1of1"
+    ]
   },
   {
     "id": "tipsport-s1-106",
@@ -1271,7 +2111,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 0
+    "subsetOrder": 0,
+    "cardOrder": 105,
+    "parallels": [
+      "Zakladna karta",
+      "Base Blue",
+      "Red Light /30",
+      "Golden Glow /15",
+      "Night Fireworks 1of1"
+    ]
   },
   {
     "id": "tipsport-s1-107",
@@ -1283,7 +2131,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 0
+    "subsetOrder": 0,
+    "cardOrder": 106,
+    "parallels": [
+      "Zakladna karta",
+      "Base Blue",
+      "Red Light /30",
+      "Golden Glow /15",
+      "Night Fireworks 1of1"
+    ]
   },
   {
     "id": "tipsport-s1-108",
@@ -1295,7 +2151,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 0
+    "subsetOrder": 0,
+    "cardOrder": 107,
+    "parallels": [
+      "Zakladna karta",
+      "Base Blue",
+      "Red Light /30",
+      "Golden Glow /15",
+      "Night Fireworks 1of1"
+    ]
   },
   {
     "id": "tipsport-s1-109",
@@ -1307,7 +2171,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 0
+    "subsetOrder": 0,
+    "cardOrder": 108,
+    "parallels": [
+      "Zakladna karta",
+      "Base Blue",
+      "Red Light /30",
+      "Golden Glow /15",
+      "Night Fireworks 1of1"
+    ]
   },
   {
     "id": "tipsport-s1-110",
@@ -1319,7 +2191,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 0
+    "subsetOrder": 0,
+    "cardOrder": 109,
+    "parallels": [
+      "Zakladna karta",
+      "Base Blue",
+      "Red Light /30",
+      "Golden Glow /15",
+      "Night Fireworks 1of1"
+    ]
   },
   {
     "id": "tipsport-s1-111",
@@ -1331,7 +2211,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 0
+    "subsetOrder": 0,
+    "cardOrder": 110,
+    "parallels": [
+      "Zakladna karta",
+      "Base Blue",
+      "Red Light /30",
+      "Golden Glow /15",
+      "Night Fireworks 1of1"
+    ]
   },
   {
     "id": "tipsport-s1-112",
@@ -1343,7 +2231,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 0
+    "subsetOrder": 0,
+    "cardOrder": 111,
+    "parallels": [
+      "Zakladna karta",
+      "Base Blue",
+      "Red Light /30",
+      "Golden Glow /15",
+      "Night Fireworks 1of1"
+    ]
   },
   {
     "id": "tipsport-s1-113",
@@ -1355,7 +2251,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 0
+    "subsetOrder": 0,
+    "cardOrder": 112,
+    "parallels": [
+      "Zakladna karta",
+      "Base Blue",
+      "Red Light /30",
+      "Golden Glow /15",
+      "Night Fireworks 1of1"
+    ]
   },
   {
     "id": "tipsport-s1-114",
@@ -1367,7 +2271,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 0
+    "subsetOrder": 0,
+    "cardOrder": 113,
+    "parallels": [
+      "Zakladna karta",
+      "Base Blue",
+      "Red Light /30",
+      "Golden Glow /15",
+      "Night Fireworks 1of1"
+    ]
   },
   {
     "id": "tipsport-s1-115",
@@ -1379,7 +2291,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 0
+    "subsetOrder": 0,
+    "cardOrder": 114,
+    "parallels": [
+      "Zakladna karta",
+      "Base Blue",
+      "Red Light /30",
+      "Golden Glow /15",
+      "Night Fireworks 1of1"
+    ]
   },
   {
     "id": "tipsport-s1-116",
@@ -1391,7 +2311,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 0
+    "subsetOrder": 0,
+    "cardOrder": 115,
+    "parallels": [
+      "Zakladna karta",
+      "Base Blue",
+      "Red Light /30",
+      "Golden Glow /15",
+      "Night Fireworks 1of1"
+    ]
   },
   {
     "id": "tipsport-s1-117",
@@ -1403,7 +2331,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 0
+    "subsetOrder": 0,
+    "cardOrder": 116,
+    "parallels": [
+      "Zakladna karta",
+      "Base Blue",
+      "Red Light /30",
+      "Golden Glow /15",
+      "Night Fireworks 1of1"
+    ]
   },
   {
     "id": "tipsport-s1-118",
@@ -1415,7 +2351,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 0
+    "subsetOrder": 0,
+    "cardOrder": 117,
+    "parallels": [
+      "Zakladna karta",
+      "Base Blue",
+      "Red Light /30",
+      "Golden Glow /15",
+      "Night Fireworks 1of1"
+    ]
   },
   {
     "id": "tipsport-s1-119",
@@ -1427,7 +2371,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 0
+    "subsetOrder": 0,
+    "cardOrder": 118,
+    "parallels": [
+      "Zakladna karta",
+      "Base Blue",
+      "Red Light /30",
+      "Golden Glow /15",
+      "Night Fireworks 1of1"
+    ]
   },
   {
     "id": "tipsport-s1-120",
@@ -1439,7 +2391,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 0
+    "subsetOrder": 0,
+    "cardOrder": 119,
+    "parallels": [
+      "Zakladna karta",
+      "Base Blue",
+      "Red Light /30",
+      "Golden Glow /15",
+      "Night Fireworks 1of1"
+    ]
   },
   {
     "id": "tipsport-s1-121",
@@ -1451,7 +2411,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 0
+    "subsetOrder": 0,
+    "cardOrder": 120,
+    "parallels": [
+      "Zakladna karta",
+      "Base Blue",
+      "Red Light /30",
+      "Golden Glow /15",
+      "Night Fireworks 1of1"
+    ]
   },
   {
     "id": "tipsport-s1-122",
@@ -1463,7 +2431,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 0
+    "subsetOrder": 0,
+    "cardOrder": 121,
+    "parallels": [
+      "Zakladna karta",
+      "Base Blue",
+      "Red Light /30",
+      "Golden Glow /15",
+      "Night Fireworks 1of1"
+    ]
   },
   {
     "id": "tipsport-s1-123",
@@ -1475,7 +2451,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 0
+    "subsetOrder": 0,
+    "cardOrder": 122,
+    "parallels": [
+      "Zakladna karta",
+      "Base Blue",
+      "Red Light /30",
+      "Golden Glow /15",
+      "Night Fireworks 1of1"
+    ]
   },
   {
     "id": "tipsport-s1-124",
@@ -1487,7 +2471,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 0
+    "subsetOrder": 0,
+    "cardOrder": 123,
+    "parallels": [
+      "Zakladna karta",
+      "Base Blue",
+      "Red Light /30",
+      "Golden Glow /15",
+      "Night Fireworks 1of1"
+    ]
   },
   {
     "id": "tipsport-s1-125",
@@ -1499,7 +2491,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 0
+    "subsetOrder": 0,
+    "cardOrder": 124,
+    "parallels": [
+      "Zakladna karta",
+      "Base Blue",
+      "Red Light /30",
+      "Golden Glow /15",
+      "Night Fireworks 1of1"
+    ]
   },
   {
     "id": "tipsport-s1-126",
@@ -1511,7 +2511,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 0
+    "subsetOrder": 0,
+    "cardOrder": 125,
+    "parallels": [
+      "Zakladna karta",
+      "Base Blue",
+      "Red Light /30",
+      "Golden Glow /15",
+      "Night Fireworks 1of1"
+    ]
   },
   {
     "id": "tipsport-s1-127",
@@ -1523,7 +2531,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 0
+    "subsetOrder": 0,
+    "cardOrder": 126,
+    "parallels": [
+      "Zakladna karta",
+      "Base Blue",
+      "Red Light /30",
+      "Golden Glow /15",
+      "Night Fireworks 1of1"
+    ]
   },
   {
     "id": "tipsport-s1-128",
@@ -1535,7 +2551,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 0
+    "subsetOrder": 0,
+    "cardOrder": 127,
+    "parallels": [
+      "Zakladna karta",
+      "Base Blue",
+      "Red Light /30",
+      "Golden Glow /15",
+      "Night Fireworks 1of1"
+    ]
   },
   {
     "id": "tipsport-s1-129",
@@ -1547,7 +2571,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 0
+    "subsetOrder": 0,
+    "cardOrder": 128,
+    "parallels": [
+      "Zakladna karta",
+      "Base Blue",
+      "Red Light /30",
+      "Golden Glow /15",
+      "Night Fireworks 1of1"
+    ]
   },
   {
     "id": "tipsport-s1-130",
@@ -1559,7 +2591,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 0
+    "subsetOrder": 0,
+    "cardOrder": 129,
+    "parallels": [
+      "Zakladna karta",
+      "Base Blue",
+      "Red Light /30",
+      "Golden Glow /15",
+      "Night Fireworks 1of1"
+    ]
   },
   {
     "id": "tipsport-s1-131",
@@ -1571,7 +2611,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 0
+    "subsetOrder": 0,
+    "cardOrder": 130,
+    "parallels": [
+      "Zakladna karta",
+      "Base Blue",
+      "Red Light /30",
+      "Golden Glow /15",
+      "Night Fireworks 1of1"
+    ]
   },
   {
     "id": "tipsport-s1-132",
@@ -1583,7 +2631,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 0
+    "subsetOrder": 0,
+    "cardOrder": 131,
+    "parallels": [
+      "Zakladna karta",
+      "Base Blue",
+      "Red Light /30",
+      "Golden Glow /15",
+      "Night Fireworks 1of1"
+    ]
   },
   {
     "id": "tipsport-s1-133",
@@ -1595,7 +2651,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 0
+    "subsetOrder": 0,
+    "cardOrder": 132,
+    "parallels": [
+      "Zakladna karta",
+      "Base Blue",
+      "Red Light /30",
+      "Golden Glow /15",
+      "Night Fireworks 1of1"
+    ]
   },
   {
     "id": "tipsport-s1-134",
@@ -1607,7 +2671,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 0
+    "subsetOrder": 0,
+    "cardOrder": 133,
+    "parallels": [
+      "Zakladna karta",
+      "Base Blue",
+      "Red Light /30",
+      "Golden Glow /15",
+      "Night Fireworks 1of1"
+    ]
   },
   {
     "id": "tipsport-s1-135",
@@ -1619,7 +2691,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 0
+    "subsetOrder": 0,
+    "cardOrder": 134,
+    "parallels": [
+      "Zakladna karta",
+      "Base Blue",
+      "Red Light /30",
+      "Golden Glow /15",
+      "Night Fireworks 1of1"
+    ]
   },
   {
     "id": "tipsport-s1-136",
@@ -1631,7 +2711,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 0
+    "subsetOrder": 0,
+    "cardOrder": 135,
+    "parallels": [
+      "Zakladna karta",
+      "Base Blue",
+      "Red Light /30",
+      "Golden Glow /15",
+      "Night Fireworks 1of1"
+    ]
   },
   {
     "id": "tipsport-s1-137",
@@ -1643,7 +2731,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 0
+    "subsetOrder": 0,
+    "cardOrder": 136,
+    "parallels": [
+      "Zakladna karta",
+      "Base Blue",
+      "Red Light /30",
+      "Golden Glow /15",
+      "Night Fireworks 1of1"
+    ]
   },
   {
     "id": "tipsport-s1-138",
@@ -1655,7 +2751,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 0
+    "subsetOrder": 0,
+    "cardOrder": 137,
+    "parallels": [
+      "Zakladna karta",
+      "Base Blue",
+      "Red Light /30",
+      "Golden Glow /15",
+      "Night Fireworks 1of1"
+    ]
   },
   {
     "id": "tipsport-s1-139",
@@ -1667,7 +2771,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 0
+    "subsetOrder": 0,
+    "cardOrder": 138,
+    "parallels": [
+      "Zakladna karta",
+      "Base Blue",
+      "Red Light /30",
+      "Golden Glow /15",
+      "Night Fireworks 1of1"
+    ]
   },
   {
     "id": "tipsport-s1-140",
@@ -1679,7 +2791,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 0
+    "subsetOrder": 0,
+    "cardOrder": 139,
+    "parallels": [
+      "Zakladna karta",
+      "Base Blue",
+      "Red Light /30",
+      "Golden Glow /15",
+      "Night Fireworks 1of1"
+    ]
   },
   {
     "id": "tipsport-s1-141",
@@ -1691,7 +2811,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 0
+    "subsetOrder": 0,
+    "cardOrder": 140,
+    "parallels": [
+      "Zakladna karta",
+      "Base Blue",
+      "Red Light /30",
+      "Golden Glow /15",
+      "Night Fireworks 1of1"
+    ]
   },
   {
     "id": "tipsport-s1-142",
@@ -1703,7 +2831,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 0
+    "subsetOrder": 0,
+    "cardOrder": 141,
+    "parallels": [
+      "Zakladna karta",
+      "Base Blue",
+      "Red Light /30",
+      "Golden Glow /15",
+      "Night Fireworks 1of1"
+    ]
   },
   {
     "id": "tipsport-s1-143",
@@ -1715,7 +2851,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 0
+    "subsetOrder": 0,
+    "cardOrder": 142,
+    "parallels": [
+      "Zakladna karta",
+      "Base Blue",
+      "Red Light /30",
+      "Golden Glow /15",
+      "Night Fireworks 1of1"
+    ]
   },
   {
     "id": "tipsport-s1-144",
@@ -1727,7 +2871,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 0
+    "subsetOrder": 0,
+    "cardOrder": 143,
+    "parallels": [
+      "Zakladna karta",
+      "Base Blue",
+      "Red Light /30",
+      "Golden Glow /15",
+      "Night Fireworks 1of1"
+    ]
   },
   {
     "id": "tipsport-s1-145",
@@ -1739,7 +2891,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 0
+    "subsetOrder": 0,
+    "cardOrder": 144,
+    "parallels": [
+      "Zakladna karta",
+      "Base Blue",
+      "Red Light /30",
+      "Golden Glow /15",
+      "Night Fireworks 1of1"
+    ]
   },
   {
     "id": "tipsport-s1-146",
@@ -1751,7 +2911,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 0
+    "subsetOrder": 0,
+    "cardOrder": 145,
+    "parallels": [
+      "Zakladna karta",
+      "Base Blue",
+      "Red Light /30",
+      "Golden Glow /15",
+      "Night Fireworks 1of1"
+    ]
   },
   {
     "id": "tipsport-s1-147",
@@ -1763,7 +2931,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 0
+    "subsetOrder": 0,
+    "cardOrder": 146,
+    "parallels": [
+      "Zakladna karta",
+      "Base Blue",
+      "Red Light /30",
+      "Golden Glow /15",
+      "Night Fireworks 1of1"
+    ]
   },
   {
     "id": "tipsport-s1-148",
@@ -1775,7 +2951,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 0
+    "subsetOrder": 0,
+    "cardOrder": 147,
+    "parallels": [
+      "Zakladna karta",
+      "Base Blue",
+      "Red Light /30",
+      "Golden Glow /15",
+      "Night Fireworks 1of1"
+    ]
   },
   {
     "id": "tipsport-s1-149",
@@ -1787,7 +2971,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 0
+    "subsetOrder": 0,
+    "cardOrder": 148,
+    "parallels": [
+      "Zakladna karta",
+      "Base Blue",
+      "Red Light /30",
+      "Golden Glow /15",
+      "Night Fireworks 1of1"
+    ]
   },
   {
     "id": "tipsport-s1-150",
@@ -1799,7 +2991,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 0
+    "subsetOrder": 0,
+    "cardOrder": 149,
+    "parallels": [
+      "Zakladna karta",
+      "Base Blue",
+      "Red Light /30",
+      "Golden Glow /15",
+      "Night Fireworks 1of1"
+    ]
   },
   {
     "id": "tipsport-s1-151",
@@ -1811,7 +3011,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 0
+    "subsetOrder": 0,
+    "cardOrder": 150,
+    "parallels": [
+      "Zakladna karta",
+      "Base Blue",
+      "Red Light /30",
+      "Golden Glow /15",
+      "Night Fireworks 1of1"
+    ]
   },
   {
     "id": "tipsport-s1-152",
@@ -1823,7 +3031,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 0
+    "subsetOrder": 0,
+    "cardOrder": 151,
+    "parallels": [
+      "Zakladna karta",
+      "Base Blue",
+      "Red Light /30",
+      "Golden Glow /15",
+      "Night Fireworks 1of1"
+    ]
   },
   {
     "id": "tipsport-s1-153",
@@ -1835,7 +3051,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 0
+    "subsetOrder": 0,
+    "cardOrder": 152,
+    "parallels": [
+      "Zakladna karta",
+      "Base Blue",
+      "Red Light /30",
+      "Golden Glow /15",
+      "Night Fireworks 1of1"
+    ]
   },
   {
     "id": "tipsport-s1-154",
@@ -1847,7 +3071,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 0
+    "subsetOrder": 0,
+    "cardOrder": 153,
+    "parallels": [
+      "Zakladna karta",
+      "Base Blue",
+      "Red Light /30",
+      "Golden Glow /15",
+      "Night Fireworks 1of1"
+    ]
   },
   {
     "id": "tipsport-s1-155",
@@ -1859,7 +3091,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 0
+    "subsetOrder": 0,
+    "cardOrder": 154,
+    "parallels": [
+      "Zakladna karta",
+      "Base Blue",
+      "Red Light /30",
+      "Golden Glow /15",
+      "Night Fireworks 1of1"
+    ]
   },
   {
     "id": "tipsport-s1-156",
@@ -1871,7 +3111,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 0
+    "subsetOrder": 0,
+    "cardOrder": 155,
+    "parallels": [
+      "Zakladna karta",
+      "Base Blue",
+      "Red Light /30",
+      "Golden Glow /15",
+      "Night Fireworks 1of1"
+    ]
   },
   {
     "id": "tipsport-s1-157",
@@ -1883,7 +3131,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 0
+    "subsetOrder": 0,
+    "cardOrder": 156,
+    "parallels": [
+      "Zakladna karta",
+      "Base Blue",
+      "Red Light /30",
+      "Golden Glow /15",
+      "Night Fireworks 1of1"
+    ]
   },
   {
     "id": "tipsport-s1-158",
@@ -1895,7 +3151,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 0
+    "subsetOrder": 0,
+    "cardOrder": 157,
+    "parallels": [
+      "Zakladna karta",
+      "Base Blue",
+      "Red Light /30",
+      "Golden Glow /15",
+      "Night Fireworks 1of1"
+    ]
   },
   {
     "id": "tipsport-s1-159",
@@ -1907,7 +3171,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 0
+    "subsetOrder": 0,
+    "cardOrder": 158,
+    "parallels": [
+      "Zakladna karta",
+      "Base Blue",
+      "Red Light /30",
+      "Golden Glow /15",
+      "Night Fireworks 1of1"
+    ]
   },
   {
     "id": "tipsport-s1-160",
@@ -1919,7 +3191,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 0
+    "subsetOrder": 0,
+    "cardOrder": 159,
+    "parallels": [
+      "Zakladna karta",
+      "Base Blue",
+      "Red Light /30",
+      "Golden Glow /15",
+      "Night Fireworks 1of1"
+    ]
   },
   {
     "id": "tipsport-s1-161",
@@ -1931,7 +3211,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 0
+    "subsetOrder": 0,
+    "cardOrder": 160,
+    "parallels": [
+      "Zakladna karta",
+      "Base Blue",
+      "Red Light /30",
+      "Golden Glow /15",
+      "Night Fireworks 1of1"
+    ]
   },
   {
     "id": "tipsport-s1-162",
@@ -1943,7 +3231,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 0
+    "subsetOrder": 0,
+    "cardOrder": 161,
+    "parallels": [
+      "Zakladna karta",
+      "Base Blue",
+      "Red Light /30",
+      "Golden Glow /15",
+      "Night Fireworks 1of1"
+    ]
   },
   {
     "id": "tipsport-s1-163",
@@ -1955,7 +3251,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 0
+    "subsetOrder": 0,
+    "cardOrder": 162,
+    "parallels": [
+      "Zakladna karta",
+      "Base Blue",
+      "Red Light /30",
+      "Golden Glow /15",
+      "Night Fireworks 1of1"
+    ]
   },
   {
     "id": "tipsport-s1-164",
@@ -1967,7 +3271,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 0
+    "subsetOrder": 0,
+    "cardOrder": 163,
+    "parallels": [
+      "Zakladna karta",
+      "Base Blue",
+      "Red Light /30",
+      "Golden Glow /15",
+      "Night Fireworks 1of1"
+    ]
   },
   {
     "id": "tipsport-s1-165",
@@ -1979,7 +3291,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 0
+    "subsetOrder": 0,
+    "cardOrder": 164,
+    "parallels": [
+      "Zakladna karta",
+      "Base Blue",
+      "Red Light /30",
+      "Golden Glow /15",
+      "Night Fireworks 1of1"
+    ]
   },
   {
     "id": "tipsport-s1-166",
@@ -1991,7 +3311,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 0
+    "subsetOrder": 0,
+    "cardOrder": 165,
+    "parallels": [
+      "Zakladna karta",
+      "Base Blue",
+      "Red Light /30",
+      "Golden Glow /15",
+      "Night Fireworks 1of1"
+    ]
   },
   {
     "id": "tipsport-s1-167",
@@ -2003,7 +3331,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 0
+    "subsetOrder": 0,
+    "cardOrder": 166,
+    "parallels": [
+      "Zakladna karta",
+      "Base Blue",
+      "Red Light /30",
+      "Golden Glow /15",
+      "Night Fireworks 1of1"
+    ]
   },
   {
     "id": "tipsport-s1-168",
@@ -2015,7 +3351,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 0
+    "subsetOrder": 0,
+    "cardOrder": 167,
+    "parallels": [
+      "Zakladna karta",
+      "Base Blue",
+      "Red Light /30",
+      "Golden Glow /15",
+      "Night Fireworks 1of1"
+    ]
   },
   {
     "id": "tipsport-s1-169",
@@ -2027,7 +3371,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 0
+    "subsetOrder": 0,
+    "cardOrder": 168,
+    "parallels": [
+      "Zakladna karta",
+      "Base Blue",
+      "Red Light /30",
+      "Golden Glow /15",
+      "Night Fireworks 1of1"
+    ]
   },
   {
     "id": "tipsport-s1-170",
@@ -2039,7 +3391,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 0
+    "subsetOrder": 0,
+    "cardOrder": 169,
+    "parallels": [
+      "Zakladna karta",
+      "Base Blue",
+      "Red Light /30",
+      "Golden Glow /15",
+      "Night Fireworks 1of1"
+    ]
   },
   {
     "id": "tipsport-s1-171",
@@ -2051,7 +3411,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 0
+    "subsetOrder": 0,
+    "cardOrder": 170,
+    "parallels": [
+      "Zakladna karta",
+      "Base Blue",
+      "Red Light /30",
+      "Golden Glow /15",
+      "Night Fireworks 1of1"
+    ]
   },
   {
     "id": "tipsport-s1-172",
@@ -2063,7 +3431,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 0
+    "subsetOrder": 0,
+    "cardOrder": 171,
+    "parallels": [
+      "Zakladna karta",
+      "Base Blue",
+      "Red Light /30",
+      "Golden Glow /15",
+      "Night Fireworks 1of1"
+    ]
   },
   {
     "id": "tipsport-s1-173",
@@ -2075,7 +3451,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 0
+    "subsetOrder": 0,
+    "cardOrder": 172,
+    "parallels": [
+      "Zakladna karta",
+      "Base Blue",
+      "Red Light /30",
+      "Golden Glow /15",
+      "Night Fireworks 1of1"
+    ]
   },
   {
     "id": "tipsport-s1-174",
@@ -2087,7 +3471,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 0
+    "subsetOrder": 0,
+    "cardOrder": 173,
+    "parallels": [
+      "Zakladna karta",
+      "Base Blue",
+      "Red Light /30",
+      "Golden Glow /15",
+      "Night Fireworks 1of1"
+    ]
   },
   {
     "id": "tipsport-s1-175",
@@ -2099,7 +3491,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 0
+    "subsetOrder": 0,
+    "cardOrder": 174,
+    "parallels": [
+      "Zakladna karta",
+      "Base Blue",
+      "Red Light /30",
+      "Golden Glow /15",
+      "Night Fireworks 1of1"
+    ]
   },
   {
     "id": "tipsport-s1-176",
@@ -2111,7 +3511,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 0
+    "subsetOrder": 0,
+    "cardOrder": 175,
+    "parallels": [
+      "Zakladna karta",
+      "Base Blue",
+      "Red Light /30",
+      "Golden Glow /15",
+      "Night Fireworks 1of1"
+    ]
   },
   {
     "id": "tipsport-s1-177",
@@ -2123,7 +3531,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 0
+    "subsetOrder": 0,
+    "cardOrder": 176,
+    "parallels": [
+      "Zakladna karta",
+      "Base Blue",
+      "Red Light /30",
+      "Golden Glow /15",
+      "Night Fireworks 1of1"
+    ]
   },
   {
     "id": "tipsport-s1-178",
@@ -2135,7 +3551,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 0
+    "subsetOrder": 0,
+    "cardOrder": 177,
+    "parallels": [
+      "Zakladna karta",
+      "Base Blue",
+      "Red Light /30",
+      "Golden Glow /15",
+      "Night Fireworks 1of1"
+    ]
   },
   {
     "id": "tipsport-s1-179",
@@ -2147,7 +3571,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 0
+    "subsetOrder": 0,
+    "cardOrder": 178,
+    "parallels": [
+      "Zakladna karta",
+      "Base Blue",
+      "Red Light /30",
+      "Golden Glow /15",
+      "Night Fireworks 1of1"
+    ]
   },
   {
     "id": "tipsport-s1-180",
@@ -2159,7 +3591,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 0
+    "subsetOrder": 0,
+    "cardOrder": 179,
+    "parallels": [
+      "Zakladna karta",
+      "Base Blue",
+      "Red Light /30",
+      "Golden Glow /15",
+      "Night Fireworks 1of1"
+    ]
   },
   {
     "id": "tipsport-s1-181",
@@ -2171,7 +3611,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 0
+    "subsetOrder": 0,
+    "cardOrder": 180,
+    "parallels": [
+      "Zakladna karta",
+      "Base Blue",
+      "Red Light /30",
+      "Golden Glow /15",
+      "Night Fireworks 1of1"
+    ]
   },
   {
     "id": "tipsport-s1-182",
@@ -2183,7 +3631,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 0
+    "subsetOrder": 0,
+    "cardOrder": 181,
+    "parallels": [
+      "Zakladna karta",
+      "Base Blue",
+      "Red Light /30",
+      "Golden Glow /15",
+      "Night Fireworks 1of1"
+    ]
   },
   {
     "id": "tipsport-s1-183",
@@ -2195,7 +3651,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 0
+    "subsetOrder": 0,
+    "cardOrder": 182,
+    "parallels": [
+      "Zakladna karta",
+      "Base Blue",
+      "Red Light /30",
+      "Golden Glow /15",
+      "Night Fireworks 1of1"
+    ]
   },
   {
     "id": "tipsport-s1-184",
@@ -2207,7 +3671,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 0
+    "subsetOrder": 0,
+    "cardOrder": 183,
+    "parallels": [
+      "Zakladna karta",
+      "Base Blue",
+      "Red Light /30",
+      "Golden Glow /15",
+      "Night Fireworks 1of1"
+    ]
   },
   {
     "id": "tipsport-s1-185",
@@ -2219,7 +3691,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 0
+    "subsetOrder": 0,
+    "cardOrder": 184,
+    "parallels": [
+      "Zakladna karta",
+      "Base Blue",
+      "Red Light /30",
+      "Golden Glow /15",
+      "Night Fireworks 1of1"
+    ]
   },
   {
     "id": "tipsport-s1-186",
@@ -2231,7 +3711,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 0
+    "subsetOrder": 0,
+    "cardOrder": 185,
+    "parallels": [
+      "Zakladna karta",
+      "Base Blue",
+      "Red Light /30",
+      "Golden Glow /15",
+      "Night Fireworks 1of1"
+    ]
   },
   {
     "id": "tipsport-s1-187",
@@ -2243,7 +3731,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 0
+    "subsetOrder": 0,
+    "cardOrder": 186,
+    "parallels": [
+      "Zakladna karta",
+      "Base Blue",
+      "Red Light /30",
+      "Golden Glow /15",
+      "Night Fireworks 1of1"
+    ]
   },
   {
     "id": "tipsport-s1-188",
@@ -2255,7 +3751,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 0
+    "subsetOrder": 0,
+    "cardOrder": 187,
+    "parallels": [
+      "Zakladna karta",
+      "Base Blue",
+      "Red Light /30",
+      "Golden Glow /15",
+      "Night Fireworks 1of1"
+    ]
   },
   {
     "id": "tipsport-s1-189",
@@ -2267,7 +3771,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 0
+    "subsetOrder": 0,
+    "cardOrder": 188,
+    "parallels": [
+      "Zakladna karta",
+      "Base Blue",
+      "Red Light /30",
+      "Golden Glow /15",
+      "Night Fireworks 1of1"
+    ]
   },
   {
     "id": "tipsport-s1-190",
@@ -2279,7 +3791,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 0
+    "subsetOrder": 0,
+    "cardOrder": 189,
+    "parallels": [
+      "Zakladna karta",
+      "Base Blue",
+      "Red Light /30",
+      "Golden Glow /15",
+      "Night Fireworks 1of1"
+    ]
   },
   {
     "id": "tipsport-s1-191",
@@ -2291,7 +3811,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 0
+    "subsetOrder": 0,
+    "cardOrder": 190,
+    "parallels": [
+      "Zakladna karta",
+      "Base Blue",
+      "Red Light /30",
+      "Golden Glow /15",
+      "Night Fireworks 1of1"
+    ]
   },
   {
     "id": "tipsport-s1-192",
@@ -2303,7 +3831,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 0
+    "subsetOrder": 0,
+    "cardOrder": 191,
+    "parallels": [
+      "Zakladna karta",
+      "Base Blue",
+      "Red Light /30",
+      "Golden Glow /15",
+      "Night Fireworks 1of1"
+    ]
   },
   {
     "id": "tipsport-s1-193",
@@ -2315,7 +3851,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 0
+    "subsetOrder": 0,
+    "cardOrder": 192,
+    "parallels": [
+      "Zakladna karta",
+      "Base Blue",
+      "Red Light /30",
+      "Golden Glow /15",
+      "Night Fireworks 1of1"
+    ]
   },
   {
     "id": "tipsport-s1-194",
@@ -2327,7 +3871,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 0
+    "subsetOrder": 0,
+    "cardOrder": 193,
+    "parallels": [
+      "Zakladna karta",
+      "Base Blue",
+      "Red Light /30",
+      "Golden Glow /15",
+      "Night Fireworks 1of1"
+    ]
   },
   {
     "id": "tipsport-s1-195",
@@ -2339,7 +3891,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 0
+    "subsetOrder": 0,
+    "cardOrder": 194,
+    "parallels": [
+      "Zakladna karta",
+      "Base Blue",
+      "Red Light /30",
+      "Golden Glow /15",
+      "Night Fireworks 1of1"
+    ]
   },
   {
     "id": "tipsport-s1-196",
@@ -2351,7 +3911,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 0
+    "subsetOrder": 0,
+    "cardOrder": 195,
+    "parallels": [
+      "Zakladna karta",
+      "Base Blue",
+      "Red Light /30",
+      "Golden Glow /15",
+      "Night Fireworks 1of1"
+    ]
   },
   {
     "id": "tipsport-s1-197",
@@ -2363,7 +3931,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 0
+    "subsetOrder": 0,
+    "cardOrder": 196,
+    "parallels": [
+      "Zakladna karta",
+      "Base Blue",
+      "Red Light /30",
+      "Golden Glow /15",
+      "Night Fireworks 1of1"
+    ]
   },
   {
     "id": "tipsport-s1-198",
@@ -2375,7 +3951,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 0
+    "subsetOrder": 0,
+    "cardOrder": 197,
+    "parallels": [
+      "Zakladna karta",
+      "Base Blue",
+      "Red Light /30",
+      "Golden Glow /15",
+      "Night Fireworks 1of1"
+    ]
   },
   {
     "id": "tipsport-s1-199",
@@ -2387,7 +3971,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 0
+    "subsetOrder": 0,
+    "cardOrder": 198,
+    "parallels": [
+      "Zakladna karta",
+      "Base Blue",
+      "Red Light /30",
+      "Golden Glow /15",
+      "Night Fireworks 1of1"
+    ]
   },
   {
     "id": "tipsport-s1-200",
@@ -2399,7 +3991,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 0
+    "subsetOrder": 0,
+    "cardOrder": 199,
+    "parallels": [
+      "Zakladna karta",
+      "Base Blue",
+      "Red Light /30",
+      "Golden Glow /15",
+      "Night Fireworks 1of1"
+    ]
   },
   {
     "id": "tipsport-s1-201",
@@ -2411,7 +4011,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 0
+    "subsetOrder": 0,
+    "cardOrder": 200,
+    "parallels": [
+      "Zakladna karta",
+      "Base Blue",
+      "Red Light /30",
+      "Golden Glow /15",
+      "Night Fireworks 1of1"
+    ]
   },
   {
     "id": "tipsport-s1-202",
@@ -2423,7 +4031,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 0
+    "subsetOrder": 0,
+    "cardOrder": 201,
+    "parallels": [
+      "Zakladna karta",
+      "Base Blue",
+      "Red Light /30",
+      "Golden Glow /15",
+      "Night Fireworks 1of1"
+    ]
   },
   {
     "id": "tipsport-s1-203",
@@ -2435,7 +4051,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 0
+    "subsetOrder": 0,
+    "cardOrder": 202,
+    "parallels": [
+      "Zakladna karta",
+      "Base Blue",
+      "Red Light /30",
+      "Golden Glow /15",
+      "Night Fireworks 1of1"
+    ]
   },
   {
     "id": "tipsport-s1-204",
@@ -2447,7 +4071,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 0
+    "subsetOrder": 0,
+    "cardOrder": 203,
+    "parallels": [
+      "Zakladna karta",
+      "Base Blue",
+      "Red Light /30",
+      "Golden Glow /15",
+      "Night Fireworks 1of1"
+    ]
   },
   {
     "id": "tipsport-s1-205",
@@ -2459,7 +4091,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 0
+    "subsetOrder": 0,
+    "cardOrder": 204,
+    "parallels": [
+      "Zakladna karta",
+      "Base Blue",
+      "Red Light /30",
+      "Golden Glow /15",
+      "Night Fireworks 1of1"
+    ]
   },
   {
     "id": "tipsport-s1-206",
@@ -2471,7 +4111,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 0
+    "subsetOrder": 0,
+    "cardOrder": 205,
+    "parallels": [
+      "Zakladna karta",
+      "Base Blue",
+      "Red Light /30",
+      "Golden Glow /15",
+      "Night Fireworks 1of1"
+    ]
   },
   {
     "id": "tipsport-s1-207",
@@ -2483,7 +4131,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 0
+    "subsetOrder": 0,
+    "cardOrder": 206,
+    "parallels": [
+      "Zakladna karta",
+      "Base Blue",
+      "Red Light /30",
+      "Golden Glow /15",
+      "Night Fireworks 1of1"
+    ]
   },
   {
     "id": "tipsport-s1-208",
@@ -2495,7 +4151,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 0
+    "subsetOrder": 0,
+    "cardOrder": 207,
+    "parallels": [
+      "Zakladna karta",
+      "Base Blue",
+      "Red Light /30",
+      "Golden Glow /15",
+      "Night Fireworks 1of1"
+    ]
   },
   {
     "id": "tipsport-s1-209",
@@ -2507,7 +4171,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 0
+    "subsetOrder": 0,
+    "cardOrder": 208,
+    "parallels": [
+      "Zakladna karta",
+      "Base Blue",
+      "Red Light /30",
+      "Golden Glow /15",
+      "Night Fireworks 1of1"
+    ]
   },
   {
     "id": "tipsport-s1-210",
@@ -2519,7 +4191,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 0
+    "subsetOrder": 0,
+    "cardOrder": 209,
+    "parallels": [
+      "Zakladna karta",
+      "Base Blue",
+      "Red Light /30",
+      "Golden Glow /15",
+      "Night Fireworks 1of1"
+    ]
   },
   {
     "id": "tipsport-s1-211",
@@ -2531,7 +4211,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 0
+    "subsetOrder": 0,
+    "cardOrder": 210,
+    "parallels": [
+      "Zakladna karta",
+      "Base Blue",
+      "Red Light /30",
+      "Golden Glow /15",
+      "Night Fireworks 1of1"
+    ]
   },
   {
     "id": "tipsport-s1-212",
@@ -2543,7 +4231,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 0
+    "subsetOrder": 0,
+    "cardOrder": 211,
+    "parallels": [
+      "Zakladna karta",
+      "Base Blue",
+      "Red Light /30",
+      "Golden Glow /15",
+      "Night Fireworks 1of1"
+    ]
   },
   {
     "id": "tipsport-s1-213",
@@ -2555,7 +4251,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 0
+    "subsetOrder": 0,
+    "cardOrder": 212,
+    "parallels": [
+      "Zakladna karta",
+      "Base Blue",
+      "Red Light /30",
+      "Golden Glow /15",
+      "Night Fireworks 1of1"
+    ]
   },
   {
     "id": "tipsport-s1-214",
@@ -2567,7 +4271,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 0
+    "subsetOrder": 0,
+    "cardOrder": 213,
+    "parallels": [
+      "Zakladna karta",
+      "Base Blue",
+      "Red Light /30",
+      "Golden Glow /15",
+      "Night Fireworks 1of1"
+    ]
   },
   {
     "id": "tipsport-s1-215",
@@ -2579,7 +4291,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 0
+    "subsetOrder": 0,
+    "cardOrder": 214,
+    "parallels": [
+      "Zakladna karta",
+      "Base Blue",
+      "Red Light /30",
+      "Golden Glow /15",
+      "Night Fireworks 1of1"
+    ]
   },
   {
     "id": "tipsport-s1-216",
@@ -2591,127 +4311,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 0
-  },
-  {
-    "id": "tipsport-s1-tu-ak",
-    "number": "TU-AK",
-    "seriesId": "tipsport-s1",
-    "subset": "Team Unity",
-    "player": "ANDREJ KRAJČOVIČ",
-    "team": "TRE",
-    "owned": false,
-    "quantity": 0,
-    "notes": "",
-    "subsetOrder": 1
-  },
-  {
-    "id": "tipsport-s1-tu-am",
-    "number": "TU-AM",
-    "seriesId": "tipsport-s1",
-    "subset": "Team Unity",
-    "player": "ALBERT MICHNÁČ",
-    "team": "MII",
-    "owned": false,
-    "quantity": 0,
-    "notes": "",
-    "subsetOrder": 1
-  },
-  {
-    "id": "tipsport-s1-tu-az",
-    "number": "TU-AZ",
-    "seriesId": "tipsport-s1",
-    "subset": "Team Unity",
-    "player": "ADAM ŽIAK",
-    "team": "RYS",
-    "owned": false,
-    "quantity": 0,
-    "notes": "",
-    "subsetOrder": 1
-  },
-  {
-    "id": "tipsport-s1-tu-bm",
-    "number": "TU-BM",
-    "seriesId": "tipsport-s1",
-    "subset": "Team Unity",
-    "player": "BRANISLAV MEZEI",
-    "team": "HKN",
-    "owned": false,
-    "quantity": 0,
-    "notes": "",
-    "subsetOrder": 1
-  },
-  {
-    "id": "tipsport-s1-tu-br",
-    "number": "TU-BR",
-    "seriesId": "tipsport-s1",
-    "subset": "Team Unity",
-    "player": "BRANISLAV RAPÁČ",
-    "team": "RYS",
-    "owned": false,
-    "quantity": 0,
-    "notes": "",
-    "subsetOrder": 1
-  },
-  {
-    "id": "tipsport-s1-tu-ch",
-    "number": "TU-CH",
-    "seriesId": "tipsport-s1",
-    "subset": "Team Unity",
-    "player": "SAMUEL CHALUPA",
-    "team": "PHC",
-    "owned": false,
-    "quantity": 0,
-    "notes": "",
-    "subsetOrder": 1
-  },
-  {
-    "id": "tipsport-s1-tu-cl",
-    "number": "TU-CL",
-    "seriesId": "tipsport-s1",
-    "subset": "Team Unity",
-    "player": "CONNOR LACOUVEÉ",
-    "team": "ZIL",
-    "owned": false,
-    "quantity": 0,
-    "notes": "",
-    "subsetOrder": 1
-  },
-  {
-    "id": "tipsport-s1-tu-cm",
-    "number": "TU-CM",
-    "seriesId": "tipsport-s1",
-    "subset": "Team Unity",
-    "player": "CHRISTIÁN MICHALČIN",
-    "team": "BBS",
-    "owned": false,
-    "quantity": 0,
-    "notes": "",
-    "subsetOrder": 1
-  },
-  {
-    "id": "tipsport-s1-tu-dg",
-    "number": "TU-DG",
-    "seriesId": "tipsport-s1",
-    "subset": "Team Unity",
-    "player": "DANIEL GACHULINEC",
-    "team": "ZIL",
-    "owned": false,
-    "quantity": 0,
-    "notes": "",
-    "subsetOrder": 1
-  },
-  {
-    "id": "tipsport-s1-tu-dh",
-    "number": "TU-DH",
-    "seriesId": "tipsport-s1",
-    "subset": "Team Unity",
-    "player": "DÁVID HRENÁK",
-    "team": "TRE",
-    "owned": false,
-    "quantity": 0,
-    "notes": "",
-    "subsetOrder": 1
+    "subsetOrder": 0,
+    "cardOrder": 215,
+    "parallels": [
+      "Zakladna karta",
+      "Base Blue",
+      "Red Light /30",
+      "Golden Glow /15",
+      "Night Fireworks 1of1"
+    ]
   },
   {
     "id": "tipsport-s1-tu-dr",
@@ -2723,115 +4331,11 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 1
-  },
-  {
-    "id": "tipsport-s1-tu-ds",
-    "number": "TU-DS",
-    "seriesId": "tipsport-s1",
-    "subset": "Team Unity",
-    "player": "DÁVID ŠOLTÉS",
-    "team": "BBS",
-    "owned": false,
-    "quantity": 0,
-    "notes": "",
-    "subsetOrder": 1
-  },
-  {
-    "id": "tipsport-s1-tu-er",
-    "number": "TU-ER",
-    "seriesId": "tipsport-s1",
-    "subset": "Team Unity",
-    "player": "EUGEN RABČAN",
-    "team": "BBS",
-    "owned": false,
-    "quantity": 0,
-    "notes": "",
-    "subsetOrder": 1
-  },
-  {
-    "id": "tipsport-s1-tu-fb",
-    "number": "TU-FB",
-    "seriesId": "tipsport-s1",
-    "subset": "Team Unity",
-    "player": "FILIP BELÁNYI",
-    "team": "POA",
-    "owned": false,
-    "quantity": 0,
-    "notes": "",
-    "subsetOrder": 1
-  },
-  {
-    "id": "tipsport-s1-tu-ff",
-    "number": "TU-FF",
-    "seriesId": "tipsport-s1",
-    "subset": "Team Unity",
-    "player": "FREDERIK FEKIAČ",
-    "team": "LMI",
-    "owned": false,
-    "quantity": 0,
-    "notes": "",
-    "subsetOrder": 1
-  },
-  {
-    "id": "tipsport-s1-tu-fk",
-    "number": "TU-FK",
-    "seriesId": "tipsport-s1",
-    "subset": "Team Unity",
-    "player": "FILIP KRIVOŠÍK",
-    "team": "KOS",
-    "owned": false,
-    "quantity": 0,
-    "notes": "",
-    "subsetOrder": 1
-  },
-  {
-    "id": "tipsport-s1-tu-fs",
-    "number": "TU-FS",
-    "seriesId": "tipsport-s1",
-    "subset": "Team Unity",
-    "player": "FILIP SURÁK",
-    "team": "LMI",
-    "owned": false,
-    "quantity": 0,
-    "notes": "",
-    "subsetOrder": 1
-  },
-  {
-    "id": "tipsport-s1-tu-go",
-    "number": "TU-GO",
-    "seriesId": "tipsport-s1",
-    "subset": "Team Unity",
-    "player": "DENIS GODLA",
-    "team": "RYS",
-    "owned": false,
-    "quantity": 0,
-    "notes": "",
-    "subsetOrder": 1
-  },
-  {
-    "id": "tipsport-s1-tu-hk",
-    "number": "TU-HK",
-    "seriesId": "tipsport-s1",
-    "subset": "Team Unity",
-    "player": "HENRI KIVIAHO",
-    "team": "SBA",
-    "owned": false,
-    "quantity": 0,
-    "notes": "",
-    "subsetOrder": 1
-  },
-  {
-    "id": "tipsport-s1-tu-jb",
-    "number": "TU-JB",
-    "seriesId": "tipsport-s1",
-    "subset": "Team Unity",
-    "player": "JOZEF BALÁŽ",
-    "team": "ZIL",
-    "owned": false,
-    "quantity": 0,
-    "notes": "",
-    "subsetOrder": 1
+    "subsetOrder": 1,
+    "cardOrder": 0,
+    "parallels": [
+      "/7"
+    ]
   },
   {
     "id": "tipsport-s1-tu-jf",
@@ -2843,103 +4347,11 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 1
-  },
-  {
-    "id": "tipsport-s1-tu-jj",
-    "number": "TU-JJ",
-    "seriesId": "tipsport-s1",
-    "subset": "Team Unity",
-    "player": "JAROSLAV JANUS",
-    "team": "PHC",
-    "owned": false,
-    "quantity": 0,
-    "notes": "",
-    "subsetOrder": 1
-  },
-  {
-    "id": "tipsport-s1-tu-jm",
-    "number": "TU-JM",
-    "seriesId": "tipsport-s1",
-    "subset": "Team Unity",
-    "player": "JAKUB MELIŠKO",
-    "team": "MII",
-    "owned": false,
-    "quantity": 0,
-    "notes": "",
-    "subsetOrder": 1
-  },
-  {
-    "id": "tipsport-s1-tu-jp",
-    "number": "TU-JP",
-    "seriesId": "tipsport-s1",
-    "subset": "Team Unity",
-    "player": "JASPER PATRIKAINEN",
-    "team": "HKN",
-    "owned": false,
-    "quantity": 0,
-    "notes": "",
-    "subsetOrder": 1
-  },
-  {
-    "id": "tipsport-s1-tu-js",
-    "number": "TU-JS",
-    "seriesId": "tipsport-s1",
-    "subset": "Team Unity",
-    "player": "JAKUB SUKEĽ",
-    "team": "LMI",
-    "owned": false,
-    "quantity": 0,
-    "notes": "",
-    "subsetOrder": 1
-  },
-  {
-    "id": "tipsport-s1-tu-jv",
-    "number": "TU-JV",
-    "seriesId": "tipsport-s1",
-    "subset": "Team Unity",
-    "player": "JURAJ VALACH",
-    "team": "ZVA",
-    "owned": false,
-    "quantity": 0,
-    "notes": "",
-    "subsetOrder": 1
-  },
-  {
-    "id": "tipsport-s1-tu-lp",
-    "number": "TU-LP",
-    "seriesId": "tipsport-s1",
-    "subset": "Team Unity",
-    "player": "LIAM PECARARO",
-    "team": "SBA",
-    "owned": false,
-    "quantity": 0,
-    "notes": "",
-    "subsetOrder": 1
-  },
-  {
-    "id": "tipsport-s1-tu-lv",
-    "number": "TU-LV",
-    "seriesId": "tipsport-s1",
-    "subset": "Team Unity",
-    "player": "LUKÁŠ VARTOVNÍK",
-    "team": "RYS",
-    "owned": false,
-    "quantity": 0,
-    "notes": "",
-    "subsetOrder": 1
-  },
-  {
-    "id": "tipsport-s1-tu-mb",
-    "number": "TU-MB",
-    "seriesId": "tipsport-s1",
-    "subset": "Team Unity",
-    "player": "MARTIN BAKOŠ",
-    "team": "SBA",
-    "owned": false,
-    "quantity": 0,
-    "notes": "",
-    "subsetOrder": 1
+    "subsetOrder": 1,
+    "cardOrder": 1,
+    "parallels": [
+      "/7"
+    ]
   },
   {
     "id": "tipsport-s1-tu-mc",
@@ -2951,127 +4363,59 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 1
+    "subsetOrder": 1,
+    "cardOrder": 2,
+    "parallels": [
+      "/7"
+    ]
   },
   {
-    "id": "tipsport-s1-tu-mh",
-    "number": "TU-MH",
+    "id": "tipsport-s1-tu-fk",
+    "number": "TU-FK",
     "seriesId": "tipsport-s1",
     "subset": "Team Unity",
-    "player": "MAREK HECL",
-    "team": "ZVA",
+    "player": "FILIP KRIVOŠÍK",
+    "team": "KOS",
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 1
+    "subsetOrder": 1,
+    "cardOrder": 3,
+    "parallels": [
+      "/7"
+    ]
   },
   {
-    "id": "tipsport-s1-tu-mn",
-    "number": "TU-MN",
+    "id": "tipsport-s1-tu-bm",
+    "number": "TU-BM",
     "seriesId": "tipsport-s1",
     "subset": "Team Unity",
-    "player": "MIROSLAV NOVOTA",
-    "team": "PHC",
+    "player": "BRANISLAV MEZEI",
+    "team": "HKN",
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 1
+    "subsetOrder": 1,
+    "cardOrder": 100,
+    "parallels": [
+      "/7"
+    ]
   },
   {
-    "id": "tipsport-s1-tu-mr",
-    "number": "TU-MR",
+    "id": "tipsport-s1-tu-jp",
+    "number": "TU-JP",
     "seriesId": "tipsport-s1",
     "subset": "Team Unity",
-    "player": "MARTIN RÉWAY",
-    "team": "LMI",
+    "player": "JASPER PATRIKAINEN",
+    "team": "HKN",
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 1
-  },
-  {
-    "id": "tipsport-s1-tu-ms",
-    "number": "TU-MS",
-    "seriesId": "tipsport-s1",
-    "subset": "Team Unity",
-    "player": "MARKUS SUCHÝ",
-    "team": "POA",
-    "owned": false,
-    "quantity": 0,
-    "notes": "",
-    "subsetOrder": 1
-  },
-  {
-    "id": "tipsport-s1-tu-oj",
-    "number": "TU-OJ",
-    "seriesId": "tipsport-s1",
-    "subset": "Team Unity",
-    "player": "OLIVER JOKEĽ",
-    "team": "PHC",
-    "owned": false,
-    "quantity": 0,
-    "notes": "",
-    "subsetOrder": 1
-  },
-  {
-    "id": "tipsport-s1-tu-ok",
-    "number": "TU-OK",
-    "seriesId": "tipsport-s1",
-    "subset": "Team Unity",
-    "player": "OLDRICH KOTVAN",
-    "team": "POA",
-    "owned": false,
-    "quantity": 0,
-    "notes": "",
-    "subsetOrder": 1
-  },
-  {
-    "id": "tipsport-s1-tu-pb",
-    "number": "TU-PB",
-    "seriesId": "tipsport-s1",
-    "subset": "Team Unity",
-    "player": "PETER BJALONČÍK",
-    "team": "POA",
-    "owned": false,
-    "quantity": 0,
-    "notes": "",
-    "subsetOrder": 1
-  },
-  {
-    "id": "tipsport-s1-tu-pk",
-    "number": "TU-PK",
-    "seriesId": "tipsport-s1",
-    "subset": "Team Unity",
-    "player": "PATRIK KOYŠ",
-    "team": "ZIL",
-    "owned": false,
-    "quantity": 0,
-    "notes": "",
-    "subsetOrder": 1
-  },
-  {
-    "id": "tipsport-s1-tu-ps",
-    "number": "TU-PS",
-    "seriesId": "tipsport-s1",
-    "subset": "Team Unity",
-    "player": "PATRIK SVITANA",
-    "team": "MII",
-    "owned": false,
-    "quantity": 0,
-    "notes": "",
-    "subsetOrder": 1
-  },
-  {
-    "id": "tipsport-s1-tu-pz",
-    "number": "TU-PZ",
-    "seriesId": "tipsport-s1",
-    "subset": "Team Unity",
-    "player": "PETER ZUZIN",
-    "team": "ZVA",
-    "owned": false,
-    "quantity": 0,
-    "notes": "",
-    "subsetOrder": 1
+    "subsetOrder": 1,
+    "cardOrder": 100,
+    "parallels": [
+      "/7"
+    ]
   },
   {
     "id": "tipsport-s1-tu-rj",
@@ -3083,31 +4427,11 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 1
-  },
-  {
-    "id": "tipsport-s1-tu-rp",
-    "number": "TU-RP",
-    "seriesId": "tipsport-s1",
-    "subset": "Team Unity",
-    "player": "ROMAN PETRÍK",
-    "team": "ZVA",
-    "owned": false,
-    "quantity": 0,
-    "notes": "",
-    "subsetOrder": 1
-  },
-  {
-    "id": "tipsport-s1-tu-sa",
-    "number": "TU-SA",
-    "seriesId": "tipsport-s1",
-    "subset": "Team Unity",
-    "player": "SENA ACOLATSE",
-    "team": "SBA",
-    "owned": false,
-    "quantity": 0,
-    "notes": "",
-    "subsetOrder": 1
+    "subsetOrder": 1,
+    "cardOrder": 100,
+    "parallels": [
+      "/7"
+    ]
   },
   {
     "id": "tipsport-s1-tu-sc",
@@ -3119,7 +4443,251 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 1
+    "subsetOrder": 1,
+    "cardOrder": 100,
+    "parallels": [
+      "/7"
+    ]
+  },
+  {
+    "id": "tipsport-s1-tu-cl",
+    "number": "TU-CL",
+    "seriesId": "tipsport-s1",
+    "subset": "Team Unity",
+    "player": "CONNOR LACOUVEÉ",
+    "team": "ZIL",
+    "owned": false,
+    "quantity": 0,
+    "notes": "",
+    "subsetOrder": 1,
+    "cardOrder": 200,
+    "parallels": [
+      "/7"
+    ]
+  },
+  {
+    "id": "tipsport-s1-tu-dg",
+    "number": "TU-DG",
+    "seriesId": "tipsport-s1",
+    "subset": "Team Unity",
+    "player": "DANIEL GACHULINEC",
+    "team": "ZIL",
+    "owned": false,
+    "quantity": 0,
+    "notes": "",
+    "subsetOrder": 1,
+    "cardOrder": 200,
+    "parallels": [
+      "/7"
+    ]
+  },
+  {
+    "id": "tipsport-s1-tu-jb",
+    "number": "TU-JB",
+    "seriesId": "tipsport-s1",
+    "subset": "Team Unity",
+    "player": "JOZEF BALÁŽ",
+    "team": "ZIL",
+    "owned": false,
+    "quantity": 0,
+    "notes": "",
+    "subsetOrder": 1,
+    "cardOrder": 200,
+    "parallels": [
+      "/7"
+    ]
+  },
+  {
+    "id": "tipsport-s1-tu-pk",
+    "number": "TU-PK",
+    "seriesId": "tipsport-s1",
+    "subset": "Team Unity",
+    "player": "PATRIK KOYŠ",
+    "team": "ZIL",
+    "owned": false,
+    "quantity": 0,
+    "notes": "",
+    "subsetOrder": 1,
+    "cardOrder": 200,
+    "parallels": [
+      "/7"
+    ]
+  },
+  {
+    "id": "tipsport-s1-tu-jv",
+    "number": "TU-JV",
+    "seriesId": "tipsport-s1",
+    "subset": "Team Unity",
+    "player": "JURAJ VALACH",
+    "team": "ZVA",
+    "owned": false,
+    "quantity": 0,
+    "notes": "",
+    "subsetOrder": 1,
+    "cardOrder": 300,
+    "parallels": [
+      "/7"
+    ]
+  },
+  {
+    "id": "tipsport-s1-tu-mh",
+    "number": "TU-MH",
+    "seriesId": "tipsport-s1",
+    "subset": "Team Unity",
+    "player": "MAREK HECL",
+    "team": "ZVA",
+    "owned": false,
+    "quantity": 0,
+    "notes": "",
+    "subsetOrder": 1,
+    "cardOrder": 300,
+    "parallels": [
+      "/7"
+    ]
+  },
+  {
+    "id": "tipsport-s1-tu-pz",
+    "number": "TU-PZ",
+    "seriesId": "tipsport-s1",
+    "subset": "Team Unity",
+    "player": "PETER ZUZIN",
+    "team": "ZVA",
+    "owned": false,
+    "quantity": 0,
+    "notes": "",
+    "subsetOrder": 1,
+    "cardOrder": 300,
+    "parallels": [
+      "/7"
+    ]
+  },
+  {
+    "id": "tipsport-s1-tu-rp",
+    "number": "TU-RP",
+    "seriesId": "tipsport-s1",
+    "subset": "Team Unity",
+    "player": "ROMAN PETRÍK",
+    "team": "ZVA",
+    "owned": false,
+    "quantity": 0,
+    "notes": "",
+    "subsetOrder": 1,
+    "cardOrder": 300,
+    "parallels": [
+      "/7"
+    ]
+  },
+  {
+    "id": "tipsport-s1-tu-az",
+    "number": "TU-AZ",
+    "seriesId": "tipsport-s1",
+    "subset": "Team Unity",
+    "player": "ADAM ŽIAK",
+    "team": "RYS",
+    "owned": false,
+    "quantity": 0,
+    "notes": "",
+    "subsetOrder": 1,
+    "cardOrder": 400,
+    "parallels": [
+      "/7"
+    ]
+  },
+  {
+    "id": "tipsport-s1-tu-br",
+    "number": "TU-BR",
+    "seriesId": "tipsport-s1",
+    "subset": "Team Unity",
+    "player": "BRANISLAV RAPÁČ",
+    "team": "RYS",
+    "owned": false,
+    "quantity": 0,
+    "notes": "",
+    "subsetOrder": 1,
+    "cardOrder": 400,
+    "parallels": [
+      "/7"
+    ]
+  },
+  {
+    "id": "tipsport-s1-tu-go",
+    "number": "TU-GO",
+    "seriesId": "tipsport-s1",
+    "subset": "Team Unity",
+    "player": "DENIS GODLA",
+    "team": "RYS",
+    "owned": false,
+    "quantity": 0,
+    "notes": "",
+    "subsetOrder": 1,
+    "cardOrder": 400,
+    "parallels": [
+      "/7"
+    ]
+  },
+  {
+    "id": "tipsport-s1-tu-lv",
+    "number": "TU-LV",
+    "seriesId": "tipsport-s1",
+    "subset": "Team Unity",
+    "player": "LUKÁŠ VARTOVNÍK",
+    "team": "RYS",
+    "owned": false,
+    "quantity": 0,
+    "notes": "",
+    "subsetOrder": 1,
+    "cardOrder": 400,
+    "parallels": [
+      "/7"
+    ]
+  },
+  {
+    "id": "tipsport-s1-tu-cm",
+    "number": "TU-CM",
+    "seriesId": "tipsport-s1",
+    "subset": "Team Unity",
+    "player": "CHRISTIÁN MICHALČIN",
+    "team": "BBS",
+    "owned": false,
+    "quantity": 0,
+    "notes": "",
+    "subsetOrder": 1,
+    "cardOrder": 500,
+    "parallels": [
+      "/7"
+    ]
+  },
+  {
+    "id": "tipsport-s1-tu-ds",
+    "number": "TU-DS",
+    "seriesId": "tipsport-s1",
+    "subset": "Team Unity",
+    "player": "DÁVID ŠOLTÉS",
+    "team": "BBS",
+    "owned": false,
+    "quantity": 0,
+    "notes": "",
+    "subsetOrder": 1,
+    "cardOrder": 500,
+    "parallels": [
+      "/7"
+    ]
+  },
+  {
+    "id": "tipsport-s1-tu-er",
+    "number": "TU-ER",
+    "seriesId": "tipsport-s1",
+    "subset": "Team Unity",
+    "player": "EUGEN RABČAN",
+    "team": "BBS",
+    "owned": false,
+    "quantity": 0,
+    "notes": "",
+    "subsetOrder": 1,
+    "cardOrder": 500,
+    "parallels": [
+      "/7"
+    ]
   },
   {
     "id": "tipsport-s1-tu-tm",
@@ -3131,7 +4699,107 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 1
+    "subsetOrder": 1,
+    "cardOrder": 500,
+    "parallels": [
+      "/7"
+    ]
+  },
+  {
+    "id": "tipsport-s1-tu-fb",
+    "number": "TU-FB",
+    "seriesId": "tipsport-s1",
+    "subset": "Team Unity",
+    "player": "FILIP BELÁNYI",
+    "team": "POA",
+    "owned": false,
+    "quantity": 0,
+    "notes": "",
+    "subsetOrder": 1,
+    "cardOrder": 600,
+    "parallels": [
+      "/7"
+    ]
+  },
+  {
+    "id": "tipsport-s1-tu-ms",
+    "number": "TU-MS",
+    "seriesId": "tipsport-s1",
+    "subset": "Team Unity",
+    "player": "MARKUS SUCHÝ",
+    "team": "POA",
+    "owned": false,
+    "quantity": 0,
+    "notes": "",
+    "subsetOrder": 1,
+    "cardOrder": 600,
+    "parallels": [
+      "/7"
+    ]
+  },
+  {
+    "id": "tipsport-s1-tu-ok",
+    "number": "TU-OK",
+    "seriesId": "tipsport-s1",
+    "subset": "Team Unity",
+    "player": "OLDRICH KOTVAN",
+    "team": "POA",
+    "owned": false,
+    "quantity": 0,
+    "notes": "",
+    "subsetOrder": 1,
+    "cardOrder": 600,
+    "parallels": [
+      "/7"
+    ]
+  },
+  {
+    "id": "tipsport-s1-tu-pb",
+    "number": "TU-PB",
+    "seriesId": "tipsport-s1",
+    "subset": "Team Unity",
+    "player": "PETER BJALONČÍK",
+    "team": "POA",
+    "owned": false,
+    "quantity": 0,
+    "notes": "",
+    "subsetOrder": 1,
+    "cardOrder": 600,
+    "parallels": [
+      "/7"
+    ]
+  },
+  {
+    "id": "tipsport-s1-tu-ak",
+    "number": "TU-AK",
+    "seriesId": "tipsport-s1",
+    "subset": "Team Unity",
+    "player": "ANDREJ KRAJČOVIČ",
+    "team": "TRE",
+    "owned": false,
+    "quantity": 0,
+    "notes": "",
+    "subsetOrder": 1,
+    "cardOrder": 700,
+    "parallels": [
+      "/7"
+    ]
+  },
+  {
+    "id": "tipsport-s1-tu-dh",
+    "number": "TU-DH",
+    "seriesId": "tipsport-s1",
+    "subset": "Team Unity",
+    "player": "DÁVID HRENÁK",
+    "team": "TRE",
+    "owned": false,
+    "quantity": 0,
+    "notes": "",
+    "subsetOrder": 1,
+    "cardOrder": 700,
+    "parallels": [
+      "/7"
+    ]
   },
   {
     "id": "tipsport-s1-tu-ts",
@@ -3143,7 +4811,11 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 1
+    "subsetOrder": 1,
+    "cardOrder": 700,
+    "parallels": [
+      "/7"
+    ]
   },
   {
     "id": "tipsport-s1-tu-tz",
@@ -3155,7 +4827,123 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 1
+    "subsetOrder": 1,
+    "cardOrder": 700,
+    "parallels": [
+      "/7"
+    ]
+  },
+  {
+    "id": "tipsport-s1-tu-hk",
+    "number": "TU-HK",
+    "seriesId": "tipsport-s1",
+    "subset": "Team Unity",
+    "player": "HENRI KIVIAHO",
+    "team": "SBA",
+    "owned": false,
+    "quantity": 0,
+    "notes": "",
+    "subsetOrder": 1,
+    "cardOrder": 800,
+    "parallels": [
+      "/7"
+    ]
+  },
+  {
+    "id": "tipsport-s1-tu-lp",
+    "number": "TU-LP",
+    "seriesId": "tipsport-s1",
+    "subset": "Team Unity",
+    "player": "LIAM PECARARO",
+    "team": "SBA",
+    "owned": false,
+    "quantity": 0,
+    "notes": "",
+    "subsetOrder": 1,
+    "cardOrder": 800,
+    "parallels": [
+      "/7"
+    ]
+  },
+  {
+    "id": "tipsport-s1-tu-mb",
+    "number": "TU-MB",
+    "seriesId": "tipsport-s1",
+    "subset": "Team Unity",
+    "player": "MARTIN BAKOŠ",
+    "team": "SBA",
+    "owned": false,
+    "quantity": 0,
+    "notes": "",
+    "subsetOrder": 1,
+    "cardOrder": 800,
+    "parallels": [
+      "/7"
+    ]
+  },
+  {
+    "id": "tipsport-s1-tu-sa",
+    "number": "TU-SA",
+    "seriesId": "tipsport-s1",
+    "subset": "Team Unity",
+    "player": "SENA ACOLATSE",
+    "team": "SBA",
+    "owned": false,
+    "quantity": 0,
+    "notes": "",
+    "subsetOrder": 1,
+    "cardOrder": 800,
+    "parallels": [
+      "/7"
+    ]
+  },
+  {
+    "id": "tipsport-s1-tu-am",
+    "number": "TU-AM",
+    "seriesId": "tipsport-s1",
+    "subset": "Team Unity",
+    "player": "ALBERT MICHNÁČ",
+    "team": "MII",
+    "owned": false,
+    "quantity": 0,
+    "notes": "",
+    "subsetOrder": 1,
+    "cardOrder": 900,
+    "parallels": [
+      "/7"
+    ]
+  },
+  {
+    "id": "tipsport-s1-tu-jm",
+    "number": "TU-JM",
+    "seriesId": "tipsport-s1",
+    "subset": "Team Unity",
+    "player": "JAKUB MELIŠKO",
+    "team": "MII",
+    "owned": false,
+    "quantity": 0,
+    "notes": "",
+    "subsetOrder": 1,
+    "cardOrder": 900,
+    "parallels": [
+      "/7"
+    ]
+  },
+  {
+    "id": "tipsport-s1-tu-ps",
+    "number": "TU-PS",
+    "seriesId": "tipsport-s1",
+    "subset": "Team Unity",
+    "player": "PATRIK SVITANA",
+    "team": "MII",
+    "owned": false,
+    "quantity": 0,
+    "notes": "",
+    "subsetOrder": 1,
+    "cardOrder": 900,
+    "parallels": [
+      "/7"
+    ]
   },
   {
     "id": "tipsport-s1-tu-vg",
@@ -3167,7 +4955,139 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 1
+    "subsetOrder": 1,
+    "cardOrder": 900,
+    "parallels": [
+      "/7"
+    ]
+  },
+  {
+    "id": "tipsport-s1-tu-ff",
+    "number": "TU-FF",
+    "seriesId": "tipsport-s1",
+    "subset": "Team Unity",
+    "player": "FREDERIK FEKIAČ",
+    "team": "LMI",
+    "owned": false,
+    "quantity": 0,
+    "notes": "",
+    "subsetOrder": 1,
+    "cardOrder": 1000,
+    "parallels": [
+      "/7"
+    ]
+  },
+  {
+    "id": "tipsport-s1-tu-fs",
+    "number": "TU-FS",
+    "seriesId": "tipsport-s1",
+    "subset": "Team Unity",
+    "player": "FILIP SURÁK",
+    "team": "LMI",
+    "owned": false,
+    "quantity": 0,
+    "notes": "",
+    "subsetOrder": 1,
+    "cardOrder": 1000,
+    "parallels": [
+      "/7"
+    ]
+  },
+  {
+    "id": "tipsport-s1-tu-js",
+    "number": "TU-JS",
+    "seriesId": "tipsport-s1",
+    "subset": "Team Unity",
+    "player": "JAKUB SUKEĽ",
+    "team": "LMI",
+    "owned": false,
+    "quantity": 0,
+    "notes": "",
+    "subsetOrder": 1,
+    "cardOrder": 1000,
+    "parallels": [
+      "/7"
+    ]
+  },
+  {
+    "id": "tipsport-s1-tu-mr",
+    "number": "TU-MR",
+    "seriesId": "tipsport-s1",
+    "subset": "Team Unity",
+    "player": "MARTIN RÉWAY",
+    "team": "LMI",
+    "owned": false,
+    "quantity": 0,
+    "notes": "",
+    "subsetOrder": 1,
+    "cardOrder": 1000,
+    "parallels": [
+      "/7"
+    ]
+  },
+  {
+    "id": "tipsport-s1-tu-ch",
+    "number": "TU-CH",
+    "seriesId": "tipsport-s1",
+    "subset": "Team Unity",
+    "player": "SAMUEL CHALUPA",
+    "team": "PHC",
+    "owned": false,
+    "quantity": 0,
+    "notes": "",
+    "subsetOrder": 1,
+    "cardOrder": 1100,
+    "parallels": [
+      "/7"
+    ]
+  },
+  {
+    "id": "tipsport-s1-tu-jj",
+    "number": "TU-JJ",
+    "seriesId": "tipsport-s1",
+    "subset": "Team Unity",
+    "player": "JAROSLAV JANUS",
+    "team": "PHC",
+    "owned": false,
+    "quantity": 0,
+    "notes": "",
+    "subsetOrder": 1,
+    "cardOrder": 1100,
+    "parallels": [
+      "/7"
+    ]
+  },
+  {
+    "id": "tipsport-s1-tu-mn",
+    "number": "TU-MN",
+    "seriesId": "tipsport-s1",
+    "subset": "Team Unity",
+    "player": "MIROSLAV NOVOTA",
+    "team": "PHC",
+    "owned": false,
+    "quantity": 0,
+    "notes": "",
+    "subsetOrder": 1,
+    "cardOrder": 1100,
+    "parallels": [
+      "/7"
+    ]
+  },
+  {
+    "id": "tipsport-s1-tu-oj",
+    "number": "TU-OJ",
+    "seriesId": "tipsport-s1",
+    "subset": "Team Unity",
+    "player": "OLIVER JOKEĽ",
+    "team": "PHC",
+    "owned": false,
+    "quantity": 0,
+    "notes": "",
+    "subsetOrder": 1,
+    "cardOrder": 1100,
+    "parallels": [
+      "/7"
+    ]
   },
   {
     "id": "tipsport-s1-is-01",
@@ -3179,7 +5099,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 2
+    "subsetOrder": 2,
+    "cardOrder": 0,
+    "parallels": [
+      "Base",
+      "Sapphire Blue /45",
+      "Autumn Copper /10",
+      "Harvest Gold /5",
+      "Onyx Black 1of1"
+    ]
   },
   {
     "id": "tipsport-s1-is-02",
@@ -3191,7 +5119,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 2
+    "subsetOrder": 2,
+    "cardOrder": 1,
+    "parallels": [
+      "Base",
+      "Sapphire Blue /45",
+      "Autumn Copper /10",
+      "Harvest Gold /5",
+      "Onyx Black 1of1"
+    ]
   },
   {
     "id": "tipsport-s1-is-03",
@@ -3203,7 +5139,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 2
+    "subsetOrder": 2,
+    "cardOrder": 2,
+    "parallels": [
+      "Base",
+      "Sapphire Blue /45",
+      "Autumn Copper /10",
+      "Harvest Gold /5",
+      "Onyx Black 1of1"
+    ]
   },
   {
     "id": "tipsport-s1-is-04",
@@ -3215,7 +5159,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 2
+    "subsetOrder": 2,
+    "cardOrder": 3,
+    "parallels": [
+      "Base",
+      "Sapphire Blue /45",
+      "Autumn Copper /10",
+      "Harvest Gold /5",
+      "Onyx Black 1of1"
+    ]
   },
   {
     "id": "tipsport-s1-is-05",
@@ -3227,7 +5179,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 2
+    "subsetOrder": 2,
+    "cardOrder": 4,
+    "parallels": [
+      "Base",
+      "Sapphire Blue /45",
+      "Autumn Copper /10",
+      "Harvest Gold /5",
+      "Onyx Black 1of1"
+    ]
   },
   {
     "id": "tipsport-s1-is-06",
@@ -3239,7 +5199,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 2
+    "subsetOrder": 2,
+    "cardOrder": 5,
+    "parallels": [
+      "Base",
+      "Sapphire Blue /45",
+      "Autumn Copper /10",
+      "Harvest Gold /5",
+      "Onyx Black 1of1"
+    ]
   },
   {
     "id": "tipsport-s1-is-07",
@@ -3251,7 +5219,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 2
+    "subsetOrder": 2,
+    "cardOrder": 6,
+    "parallels": [
+      "Base",
+      "Sapphire Blue /45",
+      "Autumn Copper /10",
+      "Harvest Gold /5",
+      "Onyx Black 1of1"
+    ]
   },
   {
     "id": "tipsport-s1-is-08",
@@ -3263,7 +5239,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 2
+    "subsetOrder": 2,
+    "cardOrder": 7,
+    "parallels": [
+      "Base",
+      "Sapphire Blue /45",
+      "Autumn Copper /10",
+      "Harvest Gold /5",
+      "Onyx Black 1of1"
+    ]
   },
   {
     "id": "tipsport-s1-is-09",
@@ -3275,7 +5259,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 2
+    "subsetOrder": 2,
+    "cardOrder": 8,
+    "parallels": [
+      "Base",
+      "Sapphire Blue /45",
+      "Autumn Copper /10",
+      "Harvest Gold /5",
+      "Onyx Black 1of1"
+    ]
   },
   {
     "id": "tipsport-s1-is-10",
@@ -3287,7 +5279,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 2
+    "subsetOrder": 2,
+    "cardOrder": 9,
+    "parallels": [
+      "Base",
+      "Sapphire Blue /45",
+      "Autumn Copper /10",
+      "Harvest Gold /5",
+      "Onyx Black 1of1"
+    ]
   },
   {
     "id": "tipsport-s1-is-11",
@@ -3299,7 +5299,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 2
+    "subsetOrder": 2,
+    "cardOrder": 10,
+    "parallels": [
+      "Base",
+      "Sapphire Blue /45",
+      "Autumn Copper /10",
+      "Harvest Gold /5",
+      "Onyx Black 1of1"
+    ]
   },
   {
     "id": "tipsport-s1-is-12",
@@ -3311,7 +5319,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 2
+    "subsetOrder": 2,
+    "cardOrder": 11,
+    "parallels": [
+      "Base",
+      "Sapphire Blue /45",
+      "Autumn Copper /10",
+      "Harvest Gold /5",
+      "Onyx Black 1of1"
+    ]
   },
   {
     "id": "tipsport-s1-is-13",
@@ -3323,7 +5339,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 2
+    "subsetOrder": 2,
+    "cardOrder": 12,
+    "parallels": [
+      "Base",
+      "Sapphire Blue /45",
+      "Autumn Copper /10",
+      "Harvest Gold /5",
+      "Onyx Black 1of1"
+    ]
   },
   {
     "id": "tipsport-s1-is-14",
@@ -3335,7 +5359,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 2
+    "subsetOrder": 2,
+    "cardOrder": 13,
+    "parallels": [
+      "Base",
+      "Sapphire Blue /45",
+      "Autumn Copper /10",
+      "Harvest Gold /5",
+      "Onyx Black 1of1"
+    ]
   },
   {
     "id": "tipsport-s1-is-15",
@@ -3347,7 +5379,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 2
+    "subsetOrder": 2,
+    "cardOrder": 14,
+    "parallels": [
+      "Base",
+      "Sapphire Blue /45",
+      "Autumn Copper /10",
+      "Harvest Gold /5",
+      "Onyx Black 1of1"
+    ]
   },
   {
     "id": "tipsport-s1-is-16",
@@ -3359,7 +5399,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 2
+    "subsetOrder": 2,
+    "cardOrder": 15,
+    "parallels": [
+      "Base",
+      "Sapphire Blue /45",
+      "Autumn Copper /10",
+      "Harvest Gold /5",
+      "Onyx Black 1of1"
+    ]
   },
   {
     "id": "tipsport-s1-is-17",
@@ -3371,7 +5419,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 2
+    "subsetOrder": 2,
+    "cardOrder": 16,
+    "parallels": [
+      "Base",
+      "Sapphire Blue /45",
+      "Autumn Copper /10",
+      "Harvest Gold /5",
+      "Onyx Black 1of1"
+    ]
   },
   {
     "id": "tipsport-s1-is-18",
@@ -3383,7 +5439,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 2
+    "subsetOrder": 2,
+    "cardOrder": 17,
+    "parallels": [
+      "Base",
+      "Sapphire Blue /45",
+      "Autumn Copper /10",
+      "Harvest Gold /5",
+      "Onyx Black 1of1"
+    ]
   },
   {
     "id": "tipsport-s1-is-19",
@@ -3395,7 +5459,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 2
+    "subsetOrder": 2,
+    "cardOrder": 18,
+    "parallels": [
+      "Base",
+      "Sapphire Blue /45",
+      "Autumn Copper /10",
+      "Harvest Gold /5",
+      "Onyx Black 1of1"
+    ]
   },
   {
     "id": "tipsport-s1-is-20",
@@ -3407,7 +5479,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 2
+    "subsetOrder": 2,
+    "cardOrder": 19,
+    "parallels": [
+      "Base",
+      "Sapphire Blue /45",
+      "Autumn Copper /10",
+      "Harvest Gold /5",
+      "Onyx Black 1of1"
+    ]
   },
   {
     "id": "tipsport-s1-is-21",
@@ -3419,7 +5499,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 2
+    "subsetOrder": 2,
+    "cardOrder": 20,
+    "parallels": [
+      "Base",
+      "Sapphire Blue /45",
+      "Autumn Copper /10",
+      "Harvest Gold /5",
+      "Onyx Black 1of1"
+    ]
   },
   {
     "id": "tipsport-s1-is-22",
@@ -3431,7 +5519,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 2
+    "subsetOrder": 2,
+    "cardOrder": 21,
+    "parallels": [
+      "Base",
+      "Sapphire Blue /45",
+      "Autumn Copper /10",
+      "Harvest Gold /5",
+      "Onyx Black 1of1"
+    ]
   },
   {
     "id": "tipsport-s1-is-23",
@@ -3443,7 +5539,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 2
+    "subsetOrder": 2,
+    "cardOrder": 22,
+    "parallels": [
+      "Base",
+      "Sapphire Blue /45",
+      "Autumn Copper /10",
+      "Harvest Gold /5",
+      "Onyx Black 1of1"
+    ]
   },
   {
     "id": "tipsport-s1-is-24",
@@ -3455,7 +5559,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 2
+    "subsetOrder": 2,
+    "cardOrder": 23,
+    "parallels": [
+      "Base",
+      "Sapphire Blue /45",
+      "Autumn Copper /10",
+      "Harvest Gold /5",
+      "Onyx Black 1of1"
+    ]
   },
   {
     "id": "tipsport-s1-is-25",
@@ -3467,7 +5579,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 2
+    "subsetOrder": 2,
+    "cardOrder": 24,
+    "parallels": [
+      "Base",
+      "Sapphire Blue /45",
+      "Autumn Copper /10",
+      "Harvest Gold /5",
+      "Onyx Black 1of1"
+    ]
   },
   {
     "id": "tipsport-s1-is-26",
@@ -3479,7 +5599,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 2
+    "subsetOrder": 2,
+    "cardOrder": 25,
+    "parallels": [
+      "Base",
+      "Sapphire Blue /45",
+      "Autumn Copper /10",
+      "Harvest Gold /5",
+      "Onyx Black 1of1"
+    ]
   },
   {
     "id": "tipsport-s1-is-27",
@@ -3491,7 +5619,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 2
+    "subsetOrder": 2,
+    "cardOrder": 26,
+    "parallels": [
+      "Base",
+      "Sapphire Blue /45",
+      "Autumn Copper /10",
+      "Harvest Gold /5",
+      "Onyx Black 1of1"
+    ]
   },
   {
     "id": "tipsport-s1-is-28",
@@ -3503,7 +5639,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 2
+    "subsetOrder": 2,
+    "cardOrder": 27,
+    "parallels": [
+      "Base",
+      "Sapphire Blue /45",
+      "Autumn Copper /10",
+      "Harvest Gold /5",
+      "Onyx Black 1of1"
+    ]
   },
   {
     "id": "tipsport-s1-is-29",
@@ -3515,7 +5659,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 2
+    "subsetOrder": 2,
+    "cardOrder": 28,
+    "parallels": [
+      "Base",
+      "Sapphire Blue /45",
+      "Autumn Copper /10",
+      "Harvest Gold /5",
+      "Onyx Black 1of1"
+    ]
   },
   {
     "id": "tipsport-s1-is-30",
@@ -3527,7 +5679,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 2
+    "subsetOrder": 2,
+    "cardOrder": 29,
+    "parallels": [
+      "Base",
+      "Sapphire Blue /45",
+      "Autumn Copper /10",
+      "Harvest Gold /5",
+      "Onyx Black 1of1"
+    ]
   },
   {
     "id": "tipsport-s1-is-31",
@@ -3539,7 +5699,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 2
+    "subsetOrder": 2,
+    "cardOrder": 30,
+    "parallels": [
+      "Base",
+      "Sapphire Blue /45",
+      "Autumn Copper /10",
+      "Harvest Gold /5",
+      "Onyx Black 1of1"
+    ]
   },
   {
     "id": "tipsport-s1-is-32",
@@ -3551,7 +5719,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 2
+    "subsetOrder": 2,
+    "cardOrder": 31,
+    "parallels": [
+      "Base",
+      "Sapphire Blue /45",
+      "Autumn Copper /10",
+      "Harvest Gold /5",
+      "Onyx Black 1of1"
+    ]
   },
   {
     "id": "tipsport-s1-is-33",
@@ -3563,7 +5739,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 2
+    "subsetOrder": 2,
+    "cardOrder": 32,
+    "parallels": [
+      "Base",
+      "Sapphire Blue /45",
+      "Autumn Copper /10",
+      "Harvest Gold /5",
+      "Onyx Black 1of1"
+    ]
   },
   {
     "id": "tipsport-s1-is-34",
@@ -3575,7 +5759,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 2
+    "subsetOrder": 2,
+    "cardOrder": 33,
+    "parallels": [
+      "Base",
+      "Sapphire Blue /45",
+      "Autumn Copper /10",
+      "Harvest Gold /5",
+      "Onyx Black 1of1"
+    ]
   },
   {
     "id": "tipsport-s1-is-35",
@@ -3587,7 +5779,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 2
+    "subsetOrder": 2,
+    "cardOrder": 34,
+    "parallels": [
+      "Base",
+      "Sapphire Blue /45",
+      "Autumn Copper /10",
+      "Harvest Gold /5",
+      "Onyx Black 1of1"
+    ]
   },
   {
     "id": "tipsport-s1-is-36",
@@ -3599,7 +5799,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 2
+    "subsetOrder": 2,
+    "cardOrder": 35,
+    "parallels": [
+      "Base",
+      "Sapphire Blue /45",
+      "Autumn Copper /10",
+      "Harvest Gold /5",
+      "Onyx Black 1of1"
+    ]
   },
   {
     "id": "tipsport-s1-ws-01",
@@ -3611,8 +5819,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "signatureCode": "WSS-PJ",
-    "subsetOrder": 3
+    "subsetOrder": 3,
+    "cardOrder": 0,
+    "parallels": [
+      "Base",
+      "/80",
+      "Auto /45",
+      "1of1"
+    ],
+    "signatureCode": "WSS-PJ"
   },
   {
     "id": "tipsport-s1-ws-02",
@@ -3624,8 +5839,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "signatureCode": "WSS-DR",
-    "subsetOrder": 3
+    "subsetOrder": 3,
+    "cardOrder": 1,
+    "parallels": [
+      "Base",
+      "/80",
+      "Auto /45",
+      "1of1"
+    ],
+    "signatureCode": "WSS-DR"
   },
   {
     "id": "tipsport-s1-ws-03",
@@ -3637,8 +5859,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "signatureCode": "WSS-DF",
-    "subsetOrder": 3
+    "subsetOrder": 3,
+    "cardOrder": 2,
+    "parallels": [
+      "Base",
+      "/80",
+      "Auto /45",
+      "1of1"
+    ],
+    "signatureCode": "WSS-DF"
   },
   {
     "id": "tipsport-s1-ws-04",
@@ -3650,8 +5879,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "signatureCode": "WSS-JP",
-    "subsetOrder": 3
+    "subsetOrder": 3,
+    "cardOrder": 3,
+    "parallels": [
+      "Base",
+      "/80",
+      "Auto /45",
+      "1of1"
+    ],
+    "signatureCode": "WSS-JP"
   },
   {
     "id": "tipsport-s1-ws-05",
@@ -3663,8 +5899,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "signatureCode": "WSS-CL",
-    "subsetOrder": 3
+    "subsetOrder": 3,
+    "cardOrder": 4,
+    "parallels": [
+      "Base",
+      "/80",
+      "Auto /45",
+      "1of1"
+    ],
+    "signatureCode": "WSS-CL"
   },
   {
     "id": "tipsport-s1-ws-06",
@@ -3676,8 +5919,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "signatureCode": "WSS-PK",
-    "subsetOrder": 3
+    "subsetOrder": 3,
+    "cardOrder": 5,
+    "parallels": [
+      "Base",
+      "/80",
+      "Auto /45",
+      "1of1"
+    ],
+    "signatureCode": "WSS-PK"
   },
   {
     "id": "tipsport-s1-ws-07",
@@ -3689,8 +5939,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "signatureCode": "WSS-DG",
-    "subsetOrder": 3
+    "subsetOrder": 3,
+    "cardOrder": 6,
+    "parallels": [
+      "Base",
+      "/80",
+      "Auto /45",
+      "1of1"
+    ],
+    "signatureCode": "WSS-DG"
   },
   {
     "id": "tipsport-s1-ws-08",
@@ -3702,8 +5959,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "signatureCode": "WSS-ER",
-    "subsetOrder": 3
+    "subsetOrder": 3,
+    "cardOrder": 7,
+    "parallels": [
+      "Base",
+      "/80",
+      "Auto /45",
+      "1of1"
+    ],
+    "signatureCode": "WSS-ER"
   },
   {
     "id": "tipsport-s1-ws-09",
@@ -3715,8 +5979,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "signatureCode": "WSS-EV",
-    "subsetOrder": 3
+    "subsetOrder": 3,
+    "cardOrder": 8,
+    "parallels": [
+      "Base",
+      "/80",
+      "Auto /45",
+      "1of1"
+    ],
+    "signatureCode": "WSS-EV"
   },
   {
     "id": "tipsport-s1-ws-10",
@@ -3728,8 +5999,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "signatureCode": "WSS-FB",
-    "subsetOrder": 3
+    "subsetOrder": 3,
+    "cardOrder": 9,
+    "parallels": [
+      "Base",
+      "/80",
+      "Auto /45",
+      "1of1"
+    ],
+    "signatureCode": "WSS-FB"
   },
   {
     "id": "tipsport-s1-ws-11",
@@ -3741,8 +6019,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "signatureCode": "WSS-AV",
-    "subsetOrder": 3
+    "subsetOrder": 3,
+    "cardOrder": 10,
+    "parallels": [
+      "Base",
+      "/80",
+      "Auto /45",
+      "1of1"
+    ],
+    "signatureCode": "WSS-AV"
   },
   {
     "id": "tipsport-s1-ws-12",
@@ -3754,8 +6039,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "signatureCode": "WSS-DH",
-    "subsetOrder": 3
+    "subsetOrder": 3,
+    "cardOrder": 11,
+    "parallels": [
+      "Base",
+      "/80",
+      "Auto /45",
+      "1of1"
+    ],
+    "signatureCode": "WSS-DH"
   },
   {
     "id": "tipsport-s1-ws-13",
@@ -3767,8 +6059,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "signatureCode": "WSS-JJ",
-    "subsetOrder": 3
+    "subsetOrder": 3,
+    "cardOrder": 12,
+    "parallels": [
+      "Base",
+      "/80",
+      "Auto /45",
+      "1of1"
+    ],
+    "signatureCode": "WSS-JJ"
   },
   {
     "id": "tipsport-s1-ws-14",
@@ -3780,8 +6079,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "signatureCode": "WSS-PA",
-    "subsetOrder": 3
+    "subsetOrder": 3,
+    "cardOrder": 13,
+    "parallels": [
+      "Base",
+      "/80",
+      "Auto /45",
+      "1of1"
+    ],
+    "signatureCode": "WSS-PA"
   },
   {
     "id": "tipsport-s1-ws-15",
@@ -3793,8 +6099,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "signatureCode": "WSS-DB",
-    "subsetOrder": 3
+    "subsetOrder": 3,
+    "cardOrder": 14,
+    "parallels": [
+      "Base",
+      "/80",
+      "Auto /45",
+      "1of1"
+    ],
+    "signatureCode": "WSS-DB"
   },
   {
     "id": "tipsport-s1-ws-16",
@@ -3806,8 +6119,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "signatureCode": "WSS-VG",
-    "subsetOrder": 3
+    "subsetOrder": 3,
+    "cardOrder": 15,
+    "parallels": [
+      "Base",
+      "/80",
+      "Auto /45",
+      "1of1"
+    ],
+    "signatureCode": "WSS-VG"
   },
   {
     "id": "tipsport-s1-ws-17",
@@ -3819,8 +6139,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "signatureCode": "WSS-DL",
-    "subsetOrder": 3
+    "subsetOrder": 3,
+    "cardOrder": 16,
+    "parallels": [
+      "Base",
+      "/80",
+      "Auto /45",
+      "1of1"
+    ],
+    "signatureCode": "WSS-DL"
   },
   {
     "id": "tipsport-s1-ws-18",
@@ -3832,8 +6159,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "signatureCode": "WSS-JA",
-    "subsetOrder": 3
+    "subsetOrder": 3,
+    "cardOrder": 17,
+    "parallels": [
+      "Base",
+      "/80",
+      "Auto /45",
+      "1of1"
+    ],
+    "signatureCode": "WSS-JA"
   },
   {
     "id": "tipsport-s1-lt-cfm",
@@ -3845,55 +6179,11 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 4
-  },
-  {
-    "id": "tipsport-s1-lt-ckn",
-    "number": "LT-CKN",
-    "seriesId": "tipsport-s1",
-    "subset": "Leadership Trio",
-    "player": "CRACKNELL, KOTVAN, NEMČÍK",
-    "team": "POA",
-    "owned": false,
-    "quantity": 0,
-    "notes": "",
-    "subsetOrder": 4
-  },
-  {
-    "id": "tipsport-s1-lt-dmg",
-    "number": "LT-DMG",
-    "seriesId": "tipsport-s1",
-    "subset": "Leadership Trio",
-    "player": "DEJ, MILLER, GALAMBOŠ",
-    "team": "ZIL",
-    "owned": false,
-    "quantity": 0,
-    "notes": "",
-    "subsetOrder": 4
-  },
-  {
-    "id": "tipsport-s1-lt-hfj",
-    "number": "LT-HFJ",
-    "seriesId": "tipsport-s1",
-    "subset": "Leadership Trio",
-    "player": "HAIN, FEJES, JOKEĽ",
-    "team": "PHC",
-    "owned": false,
-    "quantity": 0,
-    "notes": "",
-    "subsetOrder": 4
-  },
-  {
-    "id": "tipsport-s1-lt-mbs",
-    "number": "LT-MBS",
-    "seriesId": "tipsport-s1",
-    "subset": "Leadership Trio",
-    "player": "MELIŠKO, BINDULIS, SVITANA",
-    "team": "MII",
-    "owned": false,
-    "quantity": 0,
-    "notes": "",
-    "subsetOrder": 4
+    "subsetOrder": 4,
+    "cardOrder": 0,
+    "parallels": [
+      "/15"
+    ]
   },
   {
     "id": "tipsport-s1-lt-mhk",
@@ -3905,67 +6195,27 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 4
+    "subsetOrder": 4,
+    "cardOrder": 100,
+    "parallels": [
+      "/15"
+    ]
   },
   {
-    "id": "tipsport-s1-lt-mkt",
-    "number": "LT-MKT",
+    "id": "tipsport-s1-lt-dmg",
+    "number": "LT-DMG",
     "seriesId": "tipsport-s1",
     "subset": "Leadership Trio",
-    "player": "MARCINKO, KUKUMBERG, TAKÁČ",
-    "team": "SBA",
+    "player": "DEJ, MILLER, GALAMBOŠ",
+    "team": "ZIL",
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 4
-  },
-  {
-    "id": "tipsport-s1-lt-mkz",
-    "number": "LT-MKZ",
-    "seriesId": "tipsport-s1",
-    "subset": "Leadership Trio",
-    "player": "MATOUŠEK, KABÁČ, ZIGO",
-    "team": "BBS",
-    "owned": false,
-    "quantity": 0,
-    "notes": "",
-    "subsetOrder": 4
-  },
-  {
-    "id": "tipsport-s1-lt-rar",
-    "number": "LT-RAR",
-    "seriesId": "tipsport-s1",
-    "subset": "Leadership Trio",
-    "player": "RAPÁČ, ALIŠAUSKAS, ROMAŇÁK",
-    "team": "RYS",
-    "owned": false,
-    "quantity": 0,
-    "notes": "",
-    "subsetOrder": 4
-  },
-  {
-    "id": "tipsport-s1-lt-saz",
-    "number": "LT-SAZ",
-    "seriesId": "tipsport-s1",
-    "subset": "Leadership Trio",
-    "player": "STAROSTA, AHL, ZÁBORSKÝ",
-    "team": "TRE",
-    "owned": false,
-    "quantity": 0,
-    "notes": "",
-    "subsetOrder": 4
-  },
-  {
-    "id": "tipsport-s1-lt-sru",
-    "number": "LT-SRU",
-    "seriesId": "tipsport-s1",
-    "subset": "Leadership Trio",
-    "player": "SUKEĽ, RÉWAY, UHRÍK",
-    "team": "LMI",
-    "owned": false,
-    "quantity": 0,
-    "notes": "",
-    "subsetOrder": 4
+    "subsetOrder": 4,
+    "cardOrder": 200,
+    "parallels": [
+      "/15"
+    ]
   },
   {
     "id": "tipsport-s1-lt-zvm",
@@ -3977,115 +6227,139 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 4
+    "subsetOrder": 4,
+    "cardOrder": 300,
+    "parallels": [
+      "/15"
+    ]
   },
   {
-    "id": "tipsport-s1-sl2-ad",
-    "number": "SL2-AD",
+    "id": "tipsport-s1-lt-rar",
+    "number": "LT-RAR",
     "seriesId": "tipsport-s1",
-    "subset": "Authentic Signature Level 2",
-    "player": "ADAM DRGOŇ",
-    "team": "TRE",
+    "subset": "Leadership Trio",
+    "player": "RAPÁČ, ALIŠAUSKAS, ROMAŇÁK",
+    "team": "RYS",
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 5
+    "subsetOrder": 4,
+    "cardOrder": 400,
+    "parallels": [
+      "/15"
+    ]
   },
   {
-    "id": "tipsport-s1-sl2-ak",
-    "number": "SL2-AK",
+    "id": "tipsport-s1-lt-mkz",
+    "number": "LT-MKZ",
     "seriesId": "tipsport-s1",
-    "subset": "Authentic Signature Level 2",
-    "player": "ANDREJ KUDRNA",
-    "team": "ZVA",
-    "owned": false,
-    "quantity": 0,
-    "notes": "",
-    "subsetOrder": 5
-  },
-  {
-    "id": "tipsport-s1-sl2-al",
-    "number": "SL2-AL",
-    "seriesId": "tipsport-s1",
-    "subset": "Authentic Signature Level 2",
-    "player": "ANDREW LUCAS",
+    "subset": "Leadership Trio",
+    "player": "MATOUŠEK, KABÁČ, ZIGO",
     "team": "BBS",
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 5
+    "subsetOrder": 4,
+    "cardOrder": 500,
+    "parallels": [
+      "/15"
+    ]
   },
   {
-    "id": "tipsport-s1-sl2-br",
-    "number": "SL2-BR",
+    "id": "tipsport-s1-lt-ckn",
+    "number": "LT-CKN",
     "seriesId": "tipsport-s1",
-    "subset": "Authentic Signature Level 2",
-    "player": "BRENDAN RANFORD",
-    "team": "ZIL",
+    "subset": "Leadership Trio",
+    "player": "CRACKNELL, KOTVAN, NEMČÍK",
+    "team": "POA",
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 5
+    "subsetOrder": 4,
+    "cardOrder": 600,
+    "parallels": [
+      "/15"
+    ]
   },
   {
-    "id": "tipsport-s1-sl2-cr",
-    "number": "SL2-CR",
+    "id": "tipsport-s1-lt-saz",
+    "number": "LT-SAZ",
     "seriesId": "tipsport-s1",
-    "subset": "Authentic Signature Level 2",
-    "player": "CARTER ROBERTSON",
-    "team": "LMI",
+    "subset": "Leadership Trio",
+    "player": "STAROSTA, AHL, ZÁBORSKÝ",
+    "team": "TRE",
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 5
+    "subsetOrder": 4,
+    "cardOrder": 700,
+    "parallels": [
+      "/15"
+    ]
   },
   {
-    "id": "tipsport-s1-sl2-dm",
-    "number": "SL2-DM",
+    "id": "tipsport-s1-lt-mkt",
+    "number": "LT-MKT",
     "seriesId": "tipsport-s1",
-    "subset": "Authentic Signature Level 2",
-    "player": "RYAN DMOWSKI",
+    "subset": "Leadership Trio",
+    "player": "MARCINKO, KUKUMBERG, TAKÁČ",
     "team": "SBA",
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 5
+    "subsetOrder": 4,
+    "cardOrder": 800,
+    "parallels": [
+      "/15"
+    ]
   },
   {
-    "id": "tipsport-s1-sl2-fb",
-    "number": "SL2-FB",
+    "id": "tipsport-s1-lt-mbs",
+    "number": "LT-MBS",
     "seriesId": "tipsport-s1",
-    "subset": "Authentic Signature Level 2",
-    "player": "FILIPS BUNCIS",
+    "subset": "Leadership Trio",
+    "player": "MELIŠKO, BINDULIS, SVITANA",
+    "team": "MII",
+    "owned": false,
+    "quantity": 0,
+    "notes": "",
+    "subsetOrder": 4,
+    "cardOrder": 900,
+    "parallels": [
+      "/15"
+    ]
+  },
+  {
+    "id": "tipsport-s1-lt-sru",
+    "number": "LT-SRU",
+    "seriesId": "tipsport-s1",
+    "subset": "Leadership Trio",
+    "player": "SUKEĽ, RÉWAY, UHRÍK",
+    "team": "LMI",
+    "owned": false,
+    "quantity": 0,
+    "notes": "",
+    "subsetOrder": 4,
+    "cardOrder": 1000,
+    "parallels": [
+      "/15"
+    ]
+  },
+  {
+    "id": "tipsport-s1-lt-hfj",
+    "number": "LT-HFJ",
+    "seriesId": "tipsport-s1",
+    "subset": "Leadership Trio",
+    "player": "HAIN, FEJES, JOKEĽ",
     "team": "PHC",
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 5
-  },
-  {
-    "id": "tipsport-s1-sl2-fk",
-    "number": "SL2-FK",
-    "seriesId": "tipsport-s1",
-    "subset": "Authentic Signature Level 2",
-    "player": "FILIP KRIVOŠÍK",
-    "team": "KOS",
-    "owned": false,
-    "quantity": 0,
-    "notes": "",
-    "subsetOrder": 5
-  },
-  {
-    "id": "tipsport-s1-sl2-jp",
-    "number": "SL2-JP",
-    "seriesId": "tipsport-s1",
-    "subset": "Authentic Signature Level 2",
-    "player": "JOSH PASSOLT",
-    "team": "HKN",
-    "owned": false,
-    "quantity": 0,
-    "notes": "",
-    "subsetOrder": 5
+    "subsetOrder": 4,
+    "cardOrder": 1100,
+    "parallels": [
+      "/15"
+    ]
   },
   {
     "id": "tipsport-s1-sl2-mb",
@@ -4097,91 +6371,43 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 5
+    "subsetOrder": 5,
+    "cardOrder": 0,
+    "parallels": [
+      "/35"
+    ]
   },
   {
-    "id": "tipsport-s1-sl2-mk",
-    "number": "SL2-MK",
+    "id": "tipsport-s1-sl2-fk",
+    "number": "SL2-FK",
     "seriesId": "tipsport-s1",
     "subset": "Authentic Signature Level 2",
-    "player": "MILAN KYTNÁR",
-    "team": "MII",
+    "player": "FILIP KRIVOŠÍK",
+    "team": "KOS",
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 5
+    "subsetOrder": 5,
+    "cardOrder": 1,
+    "parallels": [
+      "/35"
+    ]
   },
   {
-    "id": "tipsport-s1-sl2-mm",
-    "number": "SL2-MM",
+    "id": "tipsport-s1-sl2-jp",
+    "number": "SL2-JP",
     "seriesId": "tipsport-s1",
     "subset": "Authentic Signature Level 2",
-    "player": "MIROSLAV MUCHA",
-    "team": "ZIL",
+    "player": "JOSH PASSOLT",
+    "team": "HKN",
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 5
-  },
-  {
-    "id": "tipsport-s1-sl2-oa",
-    "number": "SL2-OA",
-    "seriesId": "tipsport-s1",
-    "subset": "Authentic Signature Level 2",
-    "player": "OLIVIER ARCHAMBAULT",
-    "team": "RYS",
-    "owned": false,
-    "quantity": 0,
-    "notes": "",
-    "subsetOrder": 5
-  },
-  {
-    "id": "tipsport-s1-sl2-pb",
-    "number": "SL2-PB",
-    "seriesId": "tipsport-s1",
-    "subset": "Authentic Signature Level 2",
-    "player": "PETER BJALONČÍK",
-    "team": "POA",
-    "owned": false,
-    "quantity": 0,
-    "notes": "",
-    "subsetOrder": 5
-  },
-  {
-    "id": "tipsport-s1-sl2-rd",
-    "number": "SL2-RD",
-    "seriesId": "tipsport-s1",
-    "subset": "Authentic Signature Level 2",
-    "player": "RÓBERT DŽUGAN",
-    "team": "RYS",
-    "owned": false,
-    "quantity": 0,
-    "notes": "",
-    "subsetOrder": 5
-  },
-  {
-    "id": "tipsport-s1-sl2-te",
-    "number": "SL2-TE",
-    "seriesId": "tipsport-s1",
-    "subset": "Authentic Signature Level 2",
-    "player": "TURNER ELSON",
-    "team": "SBA",
-    "owned": false,
-    "quantity": 0,
-    "notes": "",
-    "subsetOrder": 5
-  },
-  {
-    "id": "tipsport-s1-sl2-vl",
-    "number": "SL2-VL",
-    "seriesId": "tipsport-s1",
-    "subset": "Authentic Signature Level 2",
-    "player": "VILLE LESKINEN",
-    "team": "TRE",
-    "owned": false,
-    "quantity": 0,
-    "notes": "",
-    "subsetOrder": 5
+    "subsetOrder": 5,
+    "cardOrder": 100,
+    "parallels": [
+      "/35"
+    ]
   },
   {
     "id": "tipsport-s1-sl2-zo",
@@ -4193,307 +6419,235 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 5
+    "subsetOrder": 5,
+    "cardOrder": 100,
+    "parallels": [
+      "/35"
+    ]
   },
   {
-    "id": "tipsport-s1-sl1-al",
-    "number": "SL1-AL",
+    "id": "tipsport-s1-sl2-br",
+    "number": "SL2-BR",
     "seriesId": "tipsport-s1",
-    "subset": "Authentic Signature Level 1",
-    "player": "ADAM LAPŠANSKÝ",
-    "team": "TRE",
+    "subset": "Authentic Signature Level 2",
+    "player": "BRENDAN RANFORD",
+    "team": "ZIL",
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 6
+    "subsetOrder": 5,
+    "cardOrder": 200,
+    "parallels": [
+      "/35"
+    ]
   },
   {
-    "id": "tipsport-s1-sl1-as",
-    "number": "SL1-AS",
+    "id": "tipsport-s1-sl2-mm",
+    "number": "SL2-MM",
     "seriesId": "tipsport-s1",
-    "subset": "Authentic Signature Level 1",
-    "player": "ALEX ŠOTEK",
+    "subset": "Authentic Signature Level 2",
+    "player": "MIROSLAV MUCHA",
+    "team": "ZIL",
+    "owned": false,
+    "quantity": 0,
+    "notes": "",
+    "subsetOrder": 5,
+    "cardOrder": 200,
+    "parallels": [
+      "/35"
+    ]
+  },
+  {
+    "id": "tipsport-s1-sl2-ak",
+    "number": "SL2-AK",
+    "seriesId": "tipsport-s1",
+    "subset": "Authentic Signature Level 2",
+    "player": "ANDREJ KUDRNA",
+    "team": "ZVA",
+    "owned": false,
+    "quantity": 0,
+    "notes": "",
+    "subsetOrder": 5,
+    "cardOrder": 300,
+    "parallels": [
+      "/35"
+    ]
+  },
+  {
+    "id": "tipsport-s1-sl2-oa",
+    "number": "SL2-OA",
+    "seriesId": "tipsport-s1",
+    "subset": "Authentic Signature Level 2",
+    "player": "OLIVIER ARCHAMBAULT",
+    "team": "RYS",
+    "owned": false,
+    "quantity": 0,
+    "notes": "",
+    "subsetOrder": 5,
+    "cardOrder": 400,
+    "parallels": [
+      "/35"
+    ]
+  },
+  {
+    "id": "tipsport-s1-sl2-rd",
+    "number": "SL2-RD",
+    "seriesId": "tipsport-s1",
+    "subset": "Authentic Signature Level 2",
+    "player": "RÓBERT DŽUGAN",
+    "team": "RYS",
+    "owned": false,
+    "quantity": 0,
+    "notes": "",
+    "subsetOrder": 5,
+    "cardOrder": 400,
+    "parallels": [
+      "/35"
+    ]
+  },
+  {
+    "id": "tipsport-s1-sl2-al",
+    "number": "SL2-AL",
+    "seriesId": "tipsport-s1",
+    "subset": "Authentic Signature Level 2",
+    "player": "ANDREW LUCAS",
+    "team": "BBS",
+    "owned": false,
+    "quantity": 0,
+    "notes": "",
+    "subsetOrder": 5,
+    "cardOrder": 500,
+    "parallels": [
+      "/35"
+    ]
+  },
+  {
+    "id": "tipsport-s1-sl2-pb",
+    "number": "SL2-PB",
+    "seriesId": "tipsport-s1",
+    "subset": "Authentic Signature Level 2",
+    "player": "PETER BJALONČÍK",
     "team": "POA",
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 6
+    "subsetOrder": 5,
+    "cardOrder": 600,
+    "parallels": [
+      "/35"
+    ]
   },
   {
-    "id": "tipsport-s1-sl1-av",
-    "number": "SL1-AV",
+    "id": "tipsport-s1-sl2-ad",
+    "number": "SL2-AD",
     "seriesId": "tipsport-s1",
-    "subset": "Authentic Signature Level 1",
-    "player": "ADAM VARGA",
+    "subset": "Authentic Signature Level 2",
+    "player": "ADAM DRGOŇ",
+    "team": "TRE",
+    "owned": false,
+    "quantity": 0,
+    "notes": "",
+    "subsetOrder": 5,
+    "cardOrder": 700,
+    "parallels": [
+      "/35"
+    ]
+  },
+  {
+    "id": "tipsport-s1-sl2-vl",
+    "number": "SL2-VL",
+    "seriesId": "tipsport-s1",
+    "subset": "Authentic Signature Level 2",
+    "player": "VILLE LESKINEN",
+    "team": "TRE",
+    "owned": false,
+    "quantity": 0,
+    "notes": "",
+    "subsetOrder": 5,
+    "cardOrder": 700,
+    "parallels": [
+      "/35"
+    ]
+  },
+  {
+    "id": "tipsport-s1-sl2-dm",
+    "number": "SL2-DM",
+    "seriesId": "tipsport-s1",
+    "subset": "Authentic Signature Level 2",
+    "player": "RYAN DMOWSKI",
+    "team": "SBA",
+    "owned": false,
+    "quantity": 0,
+    "notes": "",
+    "subsetOrder": 5,
+    "cardOrder": 800,
+    "parallels": [
+      "/35"
+    ]
+  },
+  {
+    "id": "tipsport-s1-sl2-te",
+    "number": "SL2-TE",
+    "seriesId": "tipsport-s1",
+    "subset": "Authentic Signature Level 2",
+    "player": "TURNER ELSON",
+    "team": "SBA",
+    "owned": false,
+    "quantity": 0,
+    "notes": "",
+    "subsetOrder": 5,
+    "cardOrder": 800,
+    "parallels": [
+      "/35"
+    ]
+  },
+  {
+    "id": "tipsport-s1-sl2-mk",
+    "number": "SL2-MK",
+    "seriesId": "tipsport-s1",
+    "subset": "Authentic Signature Level 2",
+    "player": "MILAN KYTNÁR",
     "team": "MII",
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 6
+    "subsetOrder": 5,
+    "cardOrder": 900,
+    "parallels": [
+      "/35"
+    ]
   },
   {
-    "id": "tipsport-s1-sl1-bk",
-    "number": "SL1-BK",
+    "id": "tipsport-s1-sl2-cr",
+    "number": "SL2-CR",
     "seriesId": "tipsport-s1",
-    "subset": "Authentic Signature Level 1",
-    "player": "BRANISLAV KOTVAN",
+    "subset": "Authentic Signature Level 2",
+    "player": "CARTER ROBERTSON",
     "team": "LMI",
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 6
+    "subsetOrder": 5,
+    "cardOrder": 1000,
+    "parallels": [
+      "/35"
+    ]
   },
   {
-    "id": "tipsport-s1-sl1-cc",
-    "number": "SL1-CC",
+    "id": "tipsport-s1-sl2-fb",
+    "number": "SL2-FB",
     "seriesId": "tipsport-s1",
-    "subset": "Authentic Signature Level 1",
-    "player": "COLE CASSELS",
-    "team": "ZVA",
-    "owned": false,
-    "quantity": 0,
-    "notes": "",
-    "subsetOrder": 6
-  },
-  {
-    "id": "tipsport-s1-sl1-db",
-    "number": "SL1-DB",
-    "seriesId": "tipsport-s1",
-    "subset": "Authentic Signature Level 1",
-    "player": "DANIEL BREJČÁK",
-    "team": "ZVA",
-    "owned": false,
-    "quantity": 0,
-    "notes": "",
-    "subsetOrder": 6
-  },
-  {
-    "id": "tipsport-s1-sl1-ec",
-    "number": "SL1-EC",
-    "seriesId": "tipsport-s1",
-    "subset": "Authentic Signature Level 1",
-    "player": "ELIAS CARMICHAEL",
-    "team": "HKN",
-    "owned": false,
-    "quantity": 0,
-    "notes": "",
-    "subsetOrder": 6
-  },
-  {
-    "id": "tipsport-s1-sl1-jb",
-    "number": "SL1-JB",
-    "seriesId": "tipsport-s1",
-    "subset": "Authentic Signature Level 1",
-    "player": "JURAJ BEZÚCH",
-    "team": "TRE",
-    "owned": false,
-    "quantity": 0,
-    "notes": "",
-    "subsetOrder": 6
-  },
-  {
-    "id": "tipsport-s1-sl1-jm",
-    "number": "SL1-JM",
-    "seriesId": "tipsport-s1",
-    "subset": "Authentic Signature Level 1",
-    "player": "JURAJ MAJDAN",
-    "team": "POA",
-    "owned": false,
-    "quantity": 0,
-    "notes": "",
-    "subsetOrder": 6
-  },
-  {
-    "id": "tipsport-s1-sl1-jn",
-    "number": "SL1-JN",
-    "seriesId": "tipsport-s1",
-    "subset": "Authentic Signature Level 1",
-    "player": "JAKUB NESPALA",
-    "team": "LMI",
-    "owned": false,
-    "quantity": 0,
-    "notes": "",
-    "subsetOrder": 6
-  },
-  {
-    "id": "tipsport-s1-sl1-jp",
-    "number": "SL1-JP",
-    "seriesId": "tipsport-s1",
-    "subset": "Authentic Signature Level 1",
-    "player": "JÁN PETRISKA",
-    "team": "SBA",
-    "owned": false,
-    "quantity": 0,
-    "notes": "",
-    "subsetOrder": 6
-  },
-  {
-    "id": "tipsport-s1-sl1-jt",
-    "number": "SL1-JT",
-    "seriesId": "tipsport-s1",
-    "subset": "Authentic Signature Level 1",
-    "player": "JONNY TYCHONICK",
-    "team": "RYS",
-    "owned": false,
-    "quantity": 0,
-    "notes": "",
-    "subsetOrder": 6
-  },
-  {
-    "id": "tipsport-s1-sl1-ku",
-    "number": "SL1-KU",
-    "seriesId": "tipsport-s1",
-    "subset": "Authentic Signature Level 1",
-    "player": "ANDREJ KUKUČA",
-    "team": "BBS",
-    "owned": false,
-    "quantity": 0,
-    "notes": "",
-    "subsetOrder": 6
-  },
-  {
-    "id": "tipsport-s1-sl1-lk",
-    "number": "SL1-LK",
-    "seriesId": "tipsport-s1",
-    "subset": "Authentic Signature Level 1",
-    "player": "LUKÁŠ KOZÁK",
+    "subset": "Authentic Signature Level 2",
+    "player": "FILIPS BUNCIS",
     "team": "PHC",
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 6
-  },
-  {
-    "id": "tipsport-s1-sl1-lm",
-    "number": "SL1-LM",
-    "seriesId": "tipsport-s1",
-    "subset": "Authentic Signature Level 1",
-    "player": "ĽUBOMÍR MALINA",
-    "team": "POA",
-    "owned": false,
-    "quantity": 0,
-    "notes": "",
-    "subsetOrder": 6
-  },
-  {
-    "id": "tipsport-s1-sl1-mh",
-    "number": "SL1-MH",
-    "seriesId": "tipsport-s1",
-    "subset": "Authentic Signature Level 1",
-    "player": "MATÚŠ HOLENDA",
-    "team": "ZIL",
-    "owned": false,
-    "quantity": 0,
-    "notes": "",
-    "subsetOrder": 6
-  },
-  {
-    "id": "tipsport-s1-sl1-mk",
-    "number": "SL1-MK",
-    "seriesId": "tipsport-s1",
-    "subset": "Authentic Signature Level 1",
-    "player": "MAREK KORENČÍK",
-    "team": "ZIL",
-    "owned": false,
-    "quantity": 0,
-    "notes": "",
-    "subsetOrder": 6
-  },
-  {
-    "id": "tipsport-s1-sl1-mm",
-    "number": "SL1-MM",
-    "seriesId": "tipsport-s1",
-    "subset": "Authentic Signature Level 1",
-    "player": "MATEJ MACEK",
-    "team": "ZVA",
-    "owned": false,
-    "quantity": 0,
-    "notes": "",
-    "subsetOrder": 6
-  },
-  {
-    "id": "tipsport-s1-sl1-mn",
-    "number": "SL1-MN",
-    "seriesId": "tipsport-s1",
-    "subset": "Authentic Signature Level 1",
-    "player": "MIROSLAV NOVOTA",
-    "team": "PHC",
-    "owned": false,
-    "quantity": 0,
-    "notes": "",
-    "subsetOrder": 6
-  },
-  {
-    "id": "tipsport-s1-sl1-my",
-    "number": "SL1-MY",
-    "seriesId": "tipsport-s1",
-    "subset": "Authentic Signature Level 1",
-    "player": "OLEKSIJ MYKLUCHA",
-    "team": "BBS",
-    "owned": false,
-    "quantity": 0,
-    "notes": "",
-    "subsetOrder": 6
-  },
-  {
-    "id": "tipsport-s1-sl1-om",
-    "number": "SL1-OM",
-    "seriesId": "tipsport-s1",
-    "subset": "Authentic Signature Level 1",
-    "player": "ONDREJ MOLNÁR",
-    "team": "HKN",
-    "owned": false,
-    "quantity": 0,
-    "notes": "",
-    "subsetOrder": 6
-  },
-  {
-    "id": "tipsport-s1-sl1-ps",
-    "number": "SL1-PS",
-    "seriesId": "tipsport-s1",
-    "subset": "Authentic Signature Level 1",
-    "player": "PATRIK ŠTEVULIAK",
-    "team": "RYS",
-    "owned": false,
-    "quantity": 0,
-    "notes": "",
-    "subsetOrder": 6
-  },
-  {
-    "id": "tipsport-s1-sl1-rb",
-    "number": "SL1-RB",
-    "seriesId": "tipsport-s1",
-    "subset": "Authentic Signature Level 1",
-    "player": "RADOVAN BONDRA",
-    "team": "SBA",
-    "owned": false,
-    "quantity": 0,
-    "notes": "",
-    "subsetOrder": 6
-  },
-  {
-    "id": "tipsport-s1-sl1-ro",
-    "number": "SL1-RO",
-    "seriesId": "tipsport-s1",
-    "subset": "Authentic Signature Level 1",
-    "player": "RICHARD ONDRUŠEK",
-    "team": "BBS",
-    "owned": false,
-    "quantity": 0,
-    "notes": "",
-    "subsetOrder": 6
-  },
-  {
-    "id": "tipsport-s1-sl1-sj",
-    "number": "SL1-SJ",
-    "seriesId": "tipsport-s1",
-    "subset": "Authentic Signature Level 1",
-    "player": "SIMON JELLÚŠ",
-    "team": "KOS",
-    "owned": false,
-    "quantity": 0,
-    "notes": "",
-    "subsetOrder": 6
+    "subsetOrder": 5,
+    "cardOrder": 1100,
+    "parallels": [
+      "/35"
+    ]
   },
   {
     "id": "tipsport-s1-sl1-sm",
@@ -4505,7 +6659,347 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 6
+    "subsetOrder": 6,
+    "cardOrder": 0,
+    "parallels": [
+      "/75"
+    ]
+  },
+  {
+    "id": "tipsport-s1-sl1-sj",
+    "number": "SL1-SJ",
+    "seriesId": "tipsport-s1",
+    "subset": "Authentic Signature Level 1",
+    "player": "SIMON JELLÚŠ",
+    "team": "KOS",
+    "owned": false,
+    "quantity": 0,
+    "notes": "",
+    "subsetOrder": 6,
+    "cardOrder": 1,
+    "parallels": [
+      "/75"
+    ]
+  },
+  {
+    "id": "tipsport-s1-sl1-ec",
+    "number": "SL1-EC",
+    "seriesId": "tipsport-s1",
+    "subset": "Authentic Signature Level 1",
+    "player": "ELIAS CARMICHAEL",
+    "team": "HKN",
+    "owned": false,
+    "quantity": 0,
+    "notes": "",
+    "subsetOrder": 6,
+    "cardOrder": 100,
+    "parallels": [
+      "/75"
+    ]
+  },
+  {
+    "id": "tipsport-s1-sl1-om",
+    "number": "SL1-OM",
+    "seriesId": "tipsport-s1",
+    "subset": "Authentic Signature Level 1",
+    "player": "ONDREJ MOLNÁR",
+    "team": "HKN",
+    "owned": false,
+    "quantity": 0,
+    "notes": "",
+    "subsetOrder": 6,
+    "cardOrder": 100,
+    "parallels": [
+      "/75"
+    ]
+  },
+  {
+    "id": "tipsport-s1-sl1-mh",
+    "number": "SL1-MH",
+    "seriesId": "tipsport-s1",
+    "subset": "Authentic Signature Level 1",
+    "player": "MATÚŠ HOLENDA",
+    "team": "ZIL",
+    "owned": false,
+    "quantity": 0,
+    "notes": "",
+    "subsetOrder": 6,
+    "cardOrder": 200,
+    "parallels": [
+      "/75"
+    ]
+  },
+  {
+    "id": "tipsport-s1-sl1-mk",
+    "number": "SL1-MK",
+    "seriesId": "tipsport-s1",
+    "subset": "Authentic Signature Level 1",
+    "player": "MAREK KORENČÍK",
+    "team": "ZIL",
+    "owned": false,
+    "quantity": 0,
+    "notes": "",
+    "subsetOrder": 6,
+    "cardOrder": 200,
+    "parallels": [
+      "/75"
+    ]
+  },
+  {
+    "id": "tipsport-s1-sl1-cc",
+    "number": "SL1-CC",
+    "seriesId": "tipsport-s1",
+    "subset": "Authentic Signature Level 1",
+    "player": "COLE CASSELS",
+    "team": "ZVA",
+    "owned": false,
+    "quantity": 0,
+    "notes": "",
+    "subsetOrder": 6,
+    "cardOrder": 300,
+    "parallels": [
+      "/75"
+    ]
+  },
+  {
+    "id": "tipsport-s1-sl1-db",
+    "number": "SL1-DB",
+    "seriesId": "tipsport-s1",
+    "subset": "Authentic Signature Level 1",
+    "player": "DANIEL BREJČÁK",
+    "team": "ZVA",
+    "owned": false,
+    "quantity": 0,
+    "notes": "",
+    "subsetOrder": 6,
+    "cardOrder": 300,
+    "parallels": [
+      "/75"
+    ]
+  },
+  {
+    "id": "tipsport-s1-sl1-mm",
+    "number": "SL1-MM",
+    "seriesId": "tipsport-s1",
+    "subset": "Authentic Signature Level 1",
+    "player": "MATEJ MACEK",
+    "team": "ZVA",
+    "owned": false,
+    "quantity": 0,
+    "notes": "",
+    "subsetOrder": 6,
+    "cardOrder": 300,
+    "parallels": [
+      "/75"
+    ]
+  },
+  {
+    "id": "tipsport-s1-sl1-jt",
+    "number": "SL1-JT",
+    "seriesId": "tipsport-s1",
+    "subset": "Authentic Signature Level 1",
+    "player": "JONNY TYCHONICK",
+    "team": "RYS",
+    "owned": false,
+    "quantity": 0,
+    "notes": "",
+    "subsetOrder": 6,
+    "cardOrder": 400,
+    "parallels": [
+      "/75"
+    ]
+  },
+  {
+    "id": "tipsport-s1-sl1-ps",
+    "number": "SL1-PS",
+    "seriesId": "tipsport-s1",
+    "subset": "Authentic Signature Level 1",
+    "player": "PATRIK ŠTEVULIAK",
+    "team": "RYS",
+    "owned": false,
+    "quantity": 0,
+    "notes": "",
+    "subsetOrder": 6,
+    "cardOrder": 400,
+    "parallels": [
+      "/75"
+    ]
+  },
+  {
+    "id": "tipsport-s1-sl1-ku",
+    "number": "SL1-KU",
+    "seriesId": "tipsport-s1",
+    "subset": "Authentic Signature Level 1",
+    "player": "ANDREJ KUKUČA",
+    "team": "BBS",
+    "owned": false,
+    "quantity": 0,
+    "notes": "",
+    "subsetOrder": 6,
+    "cardOrder": 500,
+    "parallels": [
+      "/75"
+    ]
+  },
+  {
+    "id": "tipsport-s1-sl1-my",
+    "number": "SL1-MY",
+    "seriesId": "tipsport-s1",
+    "subset": "Authentic Signature Level 1",
+    "player": "OLEKSIJ MYKLUCHA",
+    "team": "BBS",
+    "owned": false,
+    "quantity": 0,
+    "notes": "",
+    "subsetOrder": 6,
+    "cardOrder": 500,
+    "parallels": [
+      "/75"
+    ]
+  },
+  {
+    "id": "tipsport-s1-sl1-ro",
+    "number": "SL1-RO",
+    "seriesId": "tipsport-s1",
+    "subset": "Authentic Signature Level 1",
+    "player": "RICHARD ONDRUŠEK",
+    "team": "BBS",
+    "owned": false,
+    "quantity": 0,
+    "notes": "",
+    "subsetOrder": 6,
+    "cardOrder": 500,
+    "parallels": [
+      "/75"
+    ]
+  },
+  {
+    "id": "tipsport-s1-sl1-as",
+    "number": "SL1-AS",
+    "seriesId": "tipsport-s1",
+    "subset": "Authentic Signature Level 1",
+    "player": "ALEX ŠOTEK",
+    "team": "POA",
+    "owned": false,
+    "quantity": 0,
+    "notes": "",
+    "subsetOrder": 6,
+    "cardOrder": 600,
+    "parallels": [
+      "/75"
+    ]
+  },
+  {
+    "id": "tipsport-s1-sl1-jm",
+    "number": "SL1-JM",
+    "seriesId": "tipsport-s1",
+    "subset": "Authentic Signature Level 1",
+    "player": "JURAJ MAJDAN",
+    "team": "POA",
+    "owned": false,
+    "quantity": 0,
+    "notes": "",
+    "subsetOrder": 6,
+    "cardOrder": 600,
+    "parallels": [
+      "/75"
+    ]
+  },
+  {
+    "id": "tipsport-s1-sl1-lm",
+    "number": "SL1-LM",
+    "seriesId": "tipsport-s1",
+    "subset": "Authentic Signature Level 1",
+    "player": "ĽUBOMÍR MALINA",
+    "team": "POA",
+    "owned": false,
+    "quantity": 0,
+    "notes": "",
+    "subsetOrder": 6,
+    "cardOrder": 600,
+    "parallels": [
+      "/75"
+    ]
+  },
+  {
+    "id": "tipsport-s1-sl1-al",
+    "number": "SL1-AL",
+    "seriesId": "tipsport-s1",
+    "subset": "Authentic Signature Level 1",
+    "player": "ADAM LAPŠANSKÝ",
+    "team": "TRE",
+    "owned": false,
+    "quantity": 0,
+    "notes": "",
+    "subsetOrder": 6,
+    "cardOrder": 700,
+    "parallels": [
+      "/75"
+    ]
+  },
+  {
+    "id": "tipsport-s1-sl1-jb",
+    "number": "SL1-JB",
+    "seriesId": "tipsport-s1",
+    "subset": "Authentic Signature Level 1",
+    "player": "JURAJ BEZÚCH",
+    "team": "TRE",
+    "owned": false,
+    "quantity": 0,
+    "notes": "",
+    "subsetOrder": 6,
+    "cardOrder": 700,
+    "parallels": [
+      "/75"
+    ]
+  },
+  {
+    "id": "tipsport-s1-sl1-jp",
+    "number": "SL1-JP",
+    "seriesId": "tipsport-s1",
+    "subset": "Authentic Signature Level 1",
+    "player": "JÁN PETRISKA",
+    "team": "SBA",
+    "owned": false,
+    "quantity": 0,
+    "notes": "",
+    "subsetOrder": 6,
+    "cardOrder": 800,
+    "parallels": [
+      "/75"
+    ]
+  },
+  {
+    "id": "tipsport-s1-sl1-rb",
+    "number": "SL1-RB",
+    "seriesId": "tipsport-s1",
+    "subset": "Authentic Signature Level 1",
+    "player": "RADOVAN BONDRA",
+    "team": "SBA",
+    "owned": false,
+    "quantity": 0,
+    "notes": "",
+    "subsetOrder": 6,
+    "cardOrder": 800,
+    "parallels": [
+      "/75"
+    ]
+  },
+  {
+    "id": "tipsport-s1-sl1-av",
+    "number": "SL1-AV",
+    "seriesId": "tipsport-s1",
+    "subset": "Authentic Signature Level 1",
+    "player": "ADAM VARGA",
+    "team": "MII",
+    "owned": false,
+    "quantity": 0,
+    "notes": "",
+    "subsetOrder": 6,
+    "cardOrder": 900,
+    "parallels": [
+      "/75"
+    ]
   },
   {
     "id": "tipsport-s1-sl1-sp",
@@ -4517,7 +7011,75 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 6
+    "subsetOrder": 6,
+    "cardOrder": 900,
+    "parallels": [
+      "/75"
+    ]
+  },
+  {
+    "id": "tipsport-s1-sl1-bk",
+    "number": "SL1-BK",
+    "seriesId": "tipsport-s1",
+    "subset": "Authentic Signature Level 1",
+    "player": "BRANISLAV KOTVAN",
+    "team": "LMI",
+    "owned": false,
+    "quantity": 0,
+    "notes": "",
+    "subsetOrder": 6,
+    "cardOrder": 1000,
+    "parallels": [
+      "/75"
+    ]
+  },
+  {
+    "id": "tipsport-s1-sl1-jn",
+    "number": "SL1-JN",
+    "seriesId": "tipsport-s1",
+    "subset": "Authentic Signature Level 1",
+    "player": "JAKUB NESPALA",
+    "team": "LMI",
+    "owned": false,
+    "quantity": 0,
+    "notes": "",
+    "subsetOrder": 6,
+    "cardOrder": 1000,
+    "parallels": [
+      "/75"
+    ]
+  },
+  {
+    "id": "tipsport-s1-sl1-lk",
+    "number": "SL1-LK",
+    "seriesId": "tipsport-s1",
+    "subset": "Authentic Signature Level 1",
+    "player": "LUKÁŠ KOZÁK",
+    "team": "PHC",
+    "owned": false,
+    "quantity": 0,
+    "notes": "",
+    "subsetOrder": 6,
+    "cardOrder": 1100,
+    "parallels": [
+      "/75"
+    ]
+  },
+  {
+    "id": "tipsport-s1-sl1-mn",
+    "number": "SL1-MN",
+    "seriesId": "tipsport-s1",
+    "subset": "Authentic Signature Level 1",
+    "player": "MIROSLAV NOVOTA",
+    "team": "PHC",
+    "owned": false,
+    "quantity": 0,
+    "notes": "",
+    "subsetOrder": 6,
+    "cardOrder": 1100,
+    "parallels": [
+      "/75"
+    ]
   },
   {
     "id": "tipsport-s1-ll-1",
@@ -4529,8 +7091,13 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "signatureCode": "LLS-MC",
-    "subsetOrder": 7
+    "subsetOrder": 7,
+    "cardOrder": 0,
+    "parallels": [
+      "Base",
+      "Auto /35"
+    ],
+    "signatureCode": "LLS-MC"
   },
   {
     "id": "tipsport-s1-ll-2",
@@ -4542,8 +7109,13 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "signatureCode": "LLS-MH",
-    "subsetOrder": 7
+    "subsetOrder": 7,
+    "cardOrder": 1,
+    "parallels": [
+      "Base",
+      "Auto /35"
+    ],
+    "signatureCode": "LLS-MH"
   },
   {
     "id": "tipsport-s1-ll-3",
@@ -4555,8 +7127,13 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "signatureCode": "LLS-RJ",
-    "subsetOrder": 7
+    "subsetOrder": 7,
+    "cardOrder": 2,
+    "parallels": [
+      "Base",
+      "Auto /35"
+    ],
+    "signatureCode": "LLS-RJ"
   },
   {
     "id": "tipsport-s1-ll-4",
@@ -4568,8 +7145,13 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "signatureCode": "LLS-RK",
-    "subsetOrder": 7
+    "subsetOrder": 7,
+    "cardOrder": 3,
+    "parallels": [
+      "Base",
+      "Auto /35"
+    ],
+    "signatureCode": "LLS-RK"
   },
   {
     "id": "tipsport-s1-ll-5",
@@ -4581,8 +7163,13 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "signatureCode": "LLS-MK",
-    "subsetOrder": 7
+    "subsetOrder": 7,
+    "cardOrder": 4,
+    "parallels": [
+      "Base",
+      "Auto /35"
+    ],
+    "signatureCode": "LLS-MK"
   },
   {
     "id": "tipsport-s1-ll-6",
@@ -4594,8 +7181,13 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "signatureCode": "LLS-HR",
-    "subsetOrder": 7
+    "subsetOrder": 7,
+    "cardOrder": 5,
+    "parallels": [
+      "Base",
+      "Auto /35"
+    ],
+    "signatureCode": "LLS-HR"
   },
   {
     "id": "tipsport-s1-ll-7",
@@ -4607,8 +7199,13 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "signatureCode": "LLS-JR",
-    "subsetOrder": 7
+    "subsetOrder": 7,
+    "cardOrder": 6,
+    "parallels": [
+      "Base",
+      "Auto /35"
+    ],
+    "signatureCode": "LLS-JR"
   },
   {
     "id": "tipsport-s1-ll-8",
@@ -4620,8 +7217,13 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "signatureCode": "LLS-TS",
-    "subsetOrder": 7
+    "subsetOrder": 7,
+    "cardOrder": 7,
+    "parallels": [
+      "Base",
+      "Auto /35"
+    ],
+    "signatureCode": "LLS-TS"
   },
   {
     "id": "tipsport-s1-ll-9",
@@ -4633,8 +7235,13 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "signatureCode": "LLS-MZ",
-    "subsetOrder": 7
+    "subsetOrder": 7,
+    "cardOrder": 8,
+    "parallels": [
+      "Base",
+      "Auto /35"
+    ],
+    "signatureCode": "LLS-MZ"
   },
   {
     "id": "tipsport-s1-rr-01",
@@ -4646,8 +7253,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "signatureCode": "RRS-JK",
-    "subsetOrder": 8
+    "subsetOrder": 8,
+    "cardOrder": 0,
+    "parallels": [
+      "Base",
+      "Bright Blue /85",
+      "Gold Auto /55",
+      "1of1"
+    ],
+    "signatureCode": "RRS-JK"
   },
   {
     "id": "tipsport-s1-rr-02",
@@ -4659,8 +7273,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "signatureCode": "RRS-AZ",
-    "subsetOrder": 8
+    "subsetOrder": 8,
+    "cardOrder": 1,
+    "parallels": [
+      "Base",
+      "Bright Blue /85",
+      "Gold Auto /55",
+      "1of1"
+    ],
+    "signatureCode": "RRS-AZ"
   },
   {
     "id": "tipsport-s1-rr-03",
@@ -4672,8 +7293,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "signatureCode": "RRS-SH",
-    "subsetOrder": 8
+    "subsetOrder": 8,
+    "cardOrder": 2,
+    "parallels": [
+      "Base",
+      "Bright Blue /85",
+      "Gold Auto /55",
+      "1of1"
+    ],
+    "signatureCode": "RRS-SH"
   },
   {
     "id": "tipsport-s1-rr-04",
@@ -4685,8 +7313,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "signatureCode": "RRS-VS",
-    "subsetOrder": 8
+    "subsetOrder": 8,
+    "cardOrder": 3,
+    "parallels": [
+      "Base",
+      "Bright Blue /85",
+      "Gold Auto /55",
+      "1of1"
+    ],
+    "signatureCode": "RRS-VS"
   },
   {
     "id": "tipsport-s1-rr-05",
@@ -4698,8 +7333,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "signatureCode": "RRS-AD",
-    "subsetOrder": 8
+    "subsetOrder": 8,
+    "cardOrder": 4,
+    "parallels": [
+      "Base",
+      "Bright Blue /85",
+      "Gold Auto /55",
+      "1of1"
+    ],
+    "signatureCode": "RRS-AD"
   },
   {
     "id": "tipsport-s1-rr-06",
@@ -4711,8 +7353,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "signatureCode": "RRS-MK",
-    "subsetOrder": 8
+    "subsetOrder": 8,
+    "cardOrder": 5,
+    "parallels": [
+      "Base",
+      "Bright Blue /85",
+      "Gold Auto /55",
+      "1of1"
+    ],
+    "signatureCode": "RRS-MK"
   },
   {
     "id": "tipsport-s1-rr-07",
@@ -4724,8 +7373,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "signatureCode": "RRS-FL",
-    "subsetOrder": 8
+    "subsetOrder": 8,
+    "cardOrder": 6,
+    "parallels": [
+      "Base",
+      "Bright Blue /85",
+      "Gold Auto /55",
+      "1of1"
+    ],
+    "signatureCode": "RRS-FL"
   },
   {
     "id": "tipsport-s1-rr-08",
@@ -4737,8 +7393,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "signatureCode": "RRS-IM",
-    "subsetOrder": 8
+    "subsetOrder": 8,
+    "cardOrder": 7,
+    "parallels": [
+      "Base",
+      "Bright Blue /85",
+      "Gold Auto /55",
+      "1of1"
+    ],
+    "signatureCode": "RRS-IM"
   },
   {
     "id": "tipsport-s1-rr-09",
@@ -4750,44 +7413,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "signatureCode": "RRS-KK",
-    "subsetOrder": 8
-  },
-  {
-    "id": "tipsport-s1-uof-kg",
-    "number": "UOF-KG",
-    "seriesId": "tipsport-s1",
-    "subset": "Ultimate Origin Fusion Edition",
-    "player": "KANTOR, GOLIAN",
-    "team": "ZVA",
-    "owned": false,
-    "quantity": 0,
-    "notes": "",
-    "subsetOrder": 9
-  },
-  {
-    "id": "tipsport-s1-uof-km",
-    "number": "UOF-KM",
-    "seriesId": "tipsport-s1",
-    "subset": "Ultimate Origin Fusion Edition",
-    "player": "KIVIAHO, MARCINKO",
-    "team": "SBA",
-    "owned": false,
-    "quantity": 0,
-    "notes": "",
-    "subsetOrder": 9
-  },
-  {
-    "id": "tipsport-s1-uof-kn",
-    "number": "UOF-KN",
-    "seriesId": "tipsport-s1",
-    "subset": "Ultimate Origin Fusion Edition",
-    "player": "KRIŠTOF, NEMEC",
-    "team": "HKN",
-    "owned": false,
-    "quantity": 0,
-    "notes": "",
-    "subsetOrder": 9
+    "subsetOrder": 8,
+    "cardOrder": 8,
+    "parallels": [
+      "Base",
+      "Bright Blue /85",
+      "Gold Auto /55",
+      "1of1"
+    ],
+    "signatureCode": "RRS-KK"
   },
   {
     "id": "tipsport-s1-uof-rr",
@@ -4799,19 +7433,43 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 9
+    "subsetOrder": 9,
+    "cardOrder": 0,
+    "parallels": [
+      "/20"
+    ]
   },
   {
-    "id": "tipsport-s1-uof-sc",
-    "number": "UOF-SC",
+    "id": "tipsport-s1-uof-kn",
+    "number": "UOF-KN",
     "seriesId": "tipsport-s1",
     "subset": "Ultimate Origin Fusion Edition",
-    "player": "SPROUL, CRACKNELL",
-    "team": "POA",
+    "player": "KRIŠTOF, NEMEC",
+    "team": "HKN",
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 9
+    "subsetOrder": 9,
+    "cardOrder": 100,
+    "parallels": [
+      "/20"
+    ]
+  },
+  {
+    "id": "tipsport-s1-uof-kg",
+    "number": "UOF-KG",
+    "seriesId": "tipsport-s1",
+    "subset": "Ultimate Origin Fusion Edition",
+    "player": "KANTOR, GOLIAN",
+    "team": "ZVA",
+    "owned": false,
+    "quantity": 0,
+    "notes": "",
+    "subsetOrder": 9,
+    "cardOrder": 300,
+    "parallels": [
+      "/20"
+    ]
   },
   {
     "id": "tipsport-s1-uof-vt",
@@ -4823,137 +7481,43 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 9
+    "subsetOrder": 9,
+    "cardOrder": 500,
+    "parallels": [
+      "/20"
+    ]
   },
   {
-    "id": "tipsport-s1-gj-ac",
-    "number": "GJ-AC",
+    "id": "tipsport-s1-uof-sc",
+    "number": "UOF-SC",
     "seriesId": "tipsport-s1",
-    "subset": "Game Jersey",
-    "player": "ADAM CRACKNELL",
+    "subset": "Ultimate Origin Fusion Edition",
+    "player": "SPROUL, CRACKNELL",
     "team": "POA",
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "signatureCode": "GJS-AC",
-    "subsetOrder": 10
+    "subsetOrder": 9,
+    "cardOrder": 600,
+    "parallels": [
+      "/20"
+    ]
   },
   {
-    "id": "tipsport-s1-gj-ag",
-    "number": "GJ-AG",
+    "id": "tipsport-s1-uof-km",
+    "number": "UOF-KM",
     "seriesId": "tipsport-s1",
-    "subset": "Game Jersey",
-    "player": "ANDREJ GOLIAN",
-    "team": "ZVA",
-    "owned": false,
-    "quantity": 0,
-    "notes": "",
-    "signatureCode": "GJS-AG",
-    "subsetOrder": 10
-  },
-  {
-    "id": "tipsport-s1-gj-an",
-    "number": "GJ-AN",
-    "seriesId": "tipsport-s1",
-    "subset": "Game Jersey",
-    "player": "ADAM NEMEC",
-    "team": "HKN",
-    "owned": false,
-    "quantity": 0,
-    "notes": "",
-    "signatureCode": "GJS-AN",
-    "subsetOrder": 10
-  },
-  {
-    "id": "tipsport-s1-gj-ct",
-    "number": "GJ-CT",
-    "seriesId": "tipsport-s1",
-    "subset": "Game Jersey",
-    "player": "CARTER TURNBULL",
-    "team": "BBS",
-    "owned": false,
-    "quantity": 0,
-    "notes": "",
-    "signatureCode": "GJS-CT",
-    "subsetOrder": 10
-  },
-  {
-    "id": "tipsport-s1-gj-dr",
-    "number": "GJ-DR",
-    "seriesId": "tipsport-s1",
-    "subset": "Game Jersey",
-    "player": "DÁVID ROMAŇÁK",
-    "team": "RYS",
-    "owned": false,
-    "quantity": 0,
-    "notes": "",
-    "signatureCode": "GJS-DR",
-    "subsetOrder": 10
-  },
-  {
-    "id": "tipsport-s1-gj-ev",
-    "number": "GJ-EV",
-    "seriesId": "tipsport-s1",
-    "subset": "Game Jersey",
-    "player": "ERIKS VITOLS",
-    "team": "BBS",
-    "owned": false,
-    "quantity": 0,
-    "notes": "",
-    "signatureCode": "GJS-EV",
-    "subsetOrder": 10
-  },
-  {
-    "id": "tipsport-s1-gj-fs",
-    "number": "GJ-FS",
-    "seriesId": "tipsport-s1",
-    "subset": "Game Jersey",
-    "player": "FILIP SURÁK",
-    "team": "LMI",
-    "owned": false,
-    "quantity": 0,
-    "notes": "",
-    "signatureCode": "GJS-FS",
-    "subsetOrder": 10
-  },
-  {
-    "id": "tipsport-s1-gj-hk",
-    "number": "GJ-HK",
-    "seriesId": "tipsport-s1",
-    "subset": "Game Jersey",
-    "player": "HENRI KIVIAHO",
+    "subset": "Ultimate Origin Fusion Edition",
+    "player": "KIVIAHO, MARCINKO",
     "team": "SBA",
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "signatureCode": "GJS-HK",
-    "subsetOrder": 10
-  },
-  {
-    "id": "tipsport-s1-gj-jv",
-    "number": "GJ-JV",
-    "seriesId": "tipsport-s1",
-    "subset": "Game Jersey",
-    "player": "JAKE VIRTANEN",
-    "team": "MII",
-    "owned": false,
-    "quantity": 0,
-    "notes": "",
-    "signatureCode": "GJS-JV",
-    "subsetOrder": 10
-  },
-  {
-    "id": "tipsport-s1-gj-mk",
-    "number": "GJ-MK",
-    "seriesId": "tipsport-s1",
-    "subset": "Game Jersey",
-    "player": "MICHAL KRIŠTOF",
-    "team": "HKN",
-    "owned": false,
-    "quantity": 0,
-    "notes": "",
-    "signatureCode": "GJS-MK",
-    "subsetOrder": 10
+    "subsetOrder": 9,
+    "cardOrder": 800,
+    "parallels": [
+      "/20"
+    ]
   },
   {
     "id": "tipsport-s1-gj-mr",
@@ -4965,34 +7529,13 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "signatureCode": "GJS-MR",
-    "subsetOrder": 10
-  },
-  {
-    "id": "tipsport-s1-gj-pg",
-    "number": "GJ-PG",
-    "seriesId": "tipsport-s1",
-    "subset": "Game Jersey",
-    "player": "PETER GALAMBOŠ",
-    "team": "ZIL",
-    "owned": false,
-    "quantity": 0,
-    "notes": "",
-    "signatureCode": "GJS-PG",
-    "subsetOrder": 10
-  },
-  {
-    "id": "tipsport-s1-gj-pk",
-    "number": "GJ-PK",
-    "seriesId": "tipsport-s1",
-    "subset": "Game Jersey",
-    "player": "PAVEL KANTOR",
-    "team": "ZVA",
-    "owned": false,
-    "quantity": 0,
-    "notes": "",
-    "signatureCode": "GJS-PK",
-    "subsetOrder": 10
+    "subsetOrder": 10,
+    "cardOrder": 0,
+    "parallels": [
+      "/75",
+      "Auto /25"
+    ],
+    "signatureCode": "GJS-MR"
   },
   {
     "id": "tipsport-s1-gj-pr",
@@ -5004,8 +7547,175 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "signatureCode": "GJS-PR",
-    "subsetOrder": 10
+    "subsetOrder": 10,
+    "cardOrder": 1,
+    "parallels": [
+      "/75",
+      "Auto /25"
+    ],
+    "signatureCode": "GJS-PR"
+  },
+  {
+    "id": "tipsport-s1-gj-an",
+    "number": "GJ-AN",
+    "seriesId": "tipsport-s1",
+    "subset": "Game Jersey",
+    "player": "ADAM NEMEC",
+    "team": "HKN",
+    "owned": false,
+    "quantity": 0,
+    "notes": "",
+    "subsetOrder": 10,
+    "cardOrder": 100,
+    "parallels": [
+      "/75",
+      "Auto /25"
+    ],
+    "signatureCode": "GJS-AN"
+  },
+  {
+    "id": "tipsport-s1-gj-mk",
+    "number": "GJ-MK",
+    "seriesId": "tipsport-s1",
+    "subset": "Game Jersey",
+    "player": "MICHAL KRIŠTOF",
+    "team": "HKN",
+    "owned": false,
+    "quantity": 0,
+    "notes": "",
+    "subsetOrder": 10,
+    "cardOrder": 100,
+    "parallels": [
+      "/75",
+      "Auto /25"
+    ],
+    "signatureCode": "GJS-MK"
+  },
+  {
+    "id": "tipsport-s1-gj-pg",
+    "number": "GJ-PG",
+    "seriesId": "tipsport-s1",
+    "subset": "Game Jersey",
+    "player": "PETER GALAMBOŠ",
+    "team": "ZIL",
+    "owned": false,
+    "quantity": 0,
+    "notes": "",
+    "subsetOrder": 10,
+    "cardOrder": 200,
+    "parallels": [
+      "/75",
+      "Auto /25"
+    ],
+    "signatureCode": "GJS-PG"
+  },
+  {
+    "id": "tipsport-s1-gj-ag",
+    "number": "GJ-AG",
+    "seriesId": "tipsport-s1",
+    "subset": "Game Jersey",
+    "player": "ANDREJ GOLIAN",
+    "team": "ZVA",
+    "owned": false,
+    "quantity": 0,
+    "notes": "",
+    "subsetOrder": 10,
+    "cardOrder": 300,
+    "parallels": [
+      "/75",
+      "Auto /25"
+    ],
+    "signatureCode": "GJS-AG"
+  },
+  {
+    "id": "tipsport-s1-gj-pk",
+    "number": "GJ-PK",
+    "seriesId": "tipsport-s1",
+    "subset": "Game Jersey",
+    "player": "PAVEL KANTOR",
+    "team": "ZVA",
+    "owned": false,
+    "quantity": 0,
+    "notes": "",
+    "subsetOrder": 10,
+    "cardOrder": 300,
+    "parallels": [
+      "/75",
+      "Auto /25"
+    ],
+    "signatureCode": "GJS-PK"
+  },
+  {
+    "id": "tipsport-s1-gj-dr",
+    "number": "GJ-DR",
+    "seriesId": "tipsport-s1",
+    "subset": "Game Jersey",
+    "player": "DÁVID ROMAŇÁK",
+    "team": "RYS",
+    "owned": false,
+    "quantity": 0,
+    "notes": "",
+    "subsetOrder": 10,
+    "cardOrder": 400,
+    "parallels": [
+      "/75",
+      "Auto /25"
+    ],
+    "signatureCode": "GJS-DR"
+  },
+  {
+    "id": "tipsport-s1-gj-ct",
+    "number": "GJ-CT",
+    "seriesId": "tipsport-s1",
+    "subset": "Game Jersey",
+    "player": "CARTER TURNBULL",
+    "team": "BBS",
+    "owned": false,
+    "quantity": 0,
+    "notes": "",
+    "subsetOrder": 10,
+    "cardOrder": 500,
+    "parallels": [
+      "/75",
+      "Auto /25"
+    ],
+    "signatureCode": "GJS-CT"
+  },
+  {
+    "id": "tipsport-s1-gj-ev",
+    "number": "GJ-EV",
+    "seriesId": "tipsport-s1",
+    "subset": "Game Jersey",
+    "player": "ERIKS VITOLS",
+    "team": "BBS",
+    "owned": false,
+    "quantity": 0,
+    "notes": "",
+    "subsetOrder": 10,
+    "cardOrder": 500,
+    "parallels": [
+      "/75",
+      "Auto /25"
+    ],
+    "signatureCode": "GJS-EV"
+  },
+  {
+    "id": "tipsport-s1-gj-ac",
+    "number": "GJ-AC",
+    "seriesId": "tipsport-s1",
+    "subset": "Game Jersey",
+    "player": "ADAM CRACKNELL",
+    "team": "POA",
+    "owned": false,
+    "quantity": 0,
+    "notes": "",
+    "subsetOrder": 10,
+    "cardOrder": 600,
+    "parallels": [
+      "/75",
+      "Auto /25"
+    ],
+    "signatureCode": "GJS-AC"
   },
   {
     "id": "tipsport-s1-gj-rs",
@@ -5017,21 +7727,13 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "signatureCode": "GJS-RS",
-    "subsetOrder": 10
-  },
-  {
-    "id": "tipsport-s1-gj-sh",
-    "number": "GJ-SH",
-    "seriesId": "tipsport-s1",
-    "subset": "Game Jersey",
-    "player": "SAMUEL HAIN",
-    "team": "PHC",
-    "owned": false,
-    "quantity": 0,
-    "notes": "",
-    "signatureCode": "GJS-SH",
-    "subsetOrder": 10
+    "subsetOrder": 10,
+    "cardOrder": 600,
+    "parallels": [
+      "/75",
+      "Auto /25"
+    ],
+    "signatureCode": "GJS-RS"
   },
   {
     "id": "tipsport-s1-gj-sj",
@@ -5043,8 +7745,31 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "signatureCode": "GJS-SJ",
-    "subsetOrder": 10
+    "subsetOrder": 10,
+    "cardOrder": 700,
+    "parallels": [
+      "/75",
+      "Auto /25"
+    ],
+    "signatureCode": "GJS-SJ"
+  },
+  {
+    "id": "tipsport-s1-gj-hk",
+    "number": "GJ-HK",
+    "seriesId": "tipsport-s1",
+    "subset": "Game Jersey",
+    "player": "HENRI KIVIAHO",
+    "team": "SBA",
+    "owned": false,
+    "quantity": 0,
+    "notes": "",
+    "subsetOrder": 10,
+    "cardOrder": 800,
+    "parallels": [
+      "/75",
+      "Auto /25"
+    ],
+    "signatureCode": "GJS-HK"
   },
   {
     "id": "tipsport-s1-gj-tm",
@@ -5056,116 +7781,67 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "signatureCode": "GJS-TM",
-    "subsetOrder": 10
+    "subsetOrder": 10,
+    "cardOrder": 800,
+    "parallels": [
+      "/75",
+      "Auto /25"
+    ],
+    "signatureCode": "GJS-TM"
   },
   {
-    "id": "tipsport-s1-uo-ac",
-    "number": "UO-AC",
+    "id": "tipsport-s1-gj-jv",
+    "number": "GJ-JV",
     "seriesId": "tipsport-s1",
-    "subset": "Ultimate Origin Scripted Edition",
-    "player": "ADAM CRACKNELL",
-    "team": "POA",
-    "owned": false,
-    "quantity": 0,
-    "notes": "",
-    "subsetOrder": 11
-  },
-  {
-    "id": "tipsport-s1-uo-ag",
-    "number": "UO-AG",
-    "seriesId": "tipsport-s1",
-    "subset": "Ultimate Origin Scripted Edition",
-    "player": "ANDREJ GOLIAN",
-    "team": "ZVA",
-    "owned": false,
-    "quantity": 0,
-    "notes": "",
-    "subsetOrder": 11
-  },
-  {
-    "id": "tipsport-s1-uo-an",
-    "number": "UO-AN",
-    "seriesId": "tipsport-s1",
-    "subset": "Ultimate Origin Scripted Edition",
-    "player": "ADAM NEMEC",
-    "team": "HKN",
-    "owned": false,
-    "quantity": 0,
-    "notes": "",
-    "subsetOrder": 11
-  },
-  {
-    "id": "tipsport-s1-uo-ct",
-    "number": "UO-CT",
-    "seriesId": "tipsport-s1",
-    "subset": "Ultimate Origin Scripted Edition",
-    "player": "CARTER TURNBULL",
-    "team": "BBS",
-    "owned": false,
-    "quantity": 0,
-    "notes": "",
-    "subsetOrder": 11
-  },
-  {
-    "id": "tipsport-s1-uo-dr",
-    "number": "UO-DR",
-    "seriesId": "tipsport-s1",
-    "subset": "Ultimate Origin Scripted Edition",
-    "player": "DÁVID ROMAŇÁK",
-    "team": "RYS",
-    "owned": false,
-    "quantity": 0,
-    "notes": "",
-    "subsetOrder": 11
-  },
-  {
-    "id": "tipsport-s1-uo-ev",
-    "number": "UO-EV",
-    "seriesId": "tipsport-s1",
-    "subset": "Ultimate Origin Scripted Edition",
-    "player": "ERIKS VITOLS",
-    "team": "BBS",
-    "owned": false,
-    "quantity": 0,
-    "notes": "",
-    "subsetOrder": 11
-  },
-  {
-    "id": "tipsport-s1-uo-fs",
-    "number": "UO-FS",
-    "seriesId": "tipsport-s1",
-    "subset": "Ultimate Origin Scripted Edition",
-    "player": "FILIP SURÁK",
-    "team": "LMI",
-    "owned": false,
-    "quantity": 0,
-    "notes": "",
-    "subsetOrder": 11
-  },
-  {
-    "id": "tipsport-s1-uo-jv",
-    "number": "UO-JV",
-    "seriesId": "tipsport-s1",
-    "subset": "Ultimate Origin Scripted Edition",
+    "subset": "Game Jersey",
     "player": "JAKE VIRTANEN",
     "team": "MII",
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 11
+    "subsetOrder": 10,
+    "cardOrder": 900,
+    "parallels": [
+      "/75",
+      "Auto /25"
+    ],
+    "signatureCode": "GJS-JV"
   },
   {
-    "id": "tipsport-s1-uo-mk",
-    "number": "UO-MK",
+    "id": "tipsport-s1-gj-fs",
+    "number": "GJ-FS",
     "seriesId": "tipsport-s1",
-    "subset": "Ultimate Origin Scripted Edition",
-    "player": "MICHAL KRIŠTOF",
-    "team": "HKN",
+    "subset": "Game Jersey",
+    "player": "FILIP SURÁK",
+    "team": "LMI",
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 11
+    "subsetOrder": 10,
+    "cardOrder": 1000,
+    "parallels": [
+      "/75",
+      "Auto /25"
+    ],
+    "signatureCode": "GJS-FS"
+  },
+  {
+    "id": "tipsport-s1-gj-sh",
+    "number": "GJ-SH",
+    "seriesId": "tipsport-s1",
+    "subset": "Game Jersey",
+    "player": "SAMUEL HAIN",
+    "team": "PHC",
+    "owned": false,
+    "quantity": 0,
+    "notes": "",
+    "subsetOrder": 10,
+    "cardOrder": 1100,
+    "parallels": [
+      "/75",
+      "Auto /25"
+    ],
+    "signatureCode": "GJS-SH"
   },
   {
     "id": "tipsport-s1-uo-mr",
@@ -5177,43 +7853,16 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 11
-  },
-  {
-    "id": "tipsport-s1-uo-mr-2",
-    "number": "UO-MR",
-    "seriesId": "tipsport-s1",
-    "subset": "Ultimate Origin Scripted Edition",
-    "player": "HENRI KIVIAHO",
-    "team": "SBA",
-    "owned": false,
-    "quantity": 0,
-    "notes": "",
-    "subsetOrder": 11
-  },
-  {
-    "id": "tipsport-s1-uo-pg",
-    "number": "UO-PG",
-    "seriesId": "tipsport-s1",
-    "subset": "Ultimate Origin Scripted Edition",
-    "player": "PETER GALAMBOŠ",
-    "team": "ZIL",
-    "owned": false,
-    "quantity": 0,
-    "notes": "",
-    "subsetOrder": 11
-  },
-  {
-    "id": "tipsport-s1-uo-pk",
-    "number": "UO-PK",
-    "seriesId": "tipsport-s1",
-    "subset": "Ultimate Origin Scripted Edition",
-    "player": "PAVEL KANTOR",
-    "team": "ZVA",
-    "owned": false,
-    "quantity": 0,
-    "notes": "",
-    "subsetOrder": 11
+    "subsetOrder": 11,
+    "cardOrder": 0,
+    "parallels": [
+      "/9",
+      "/6",
+      "/4",
+      "/3",
+      "/2",
+      "1of1"
+    ]
   },
   {
     "id": "tipsport-s1-uo-pr",
@@ -5225,7 +7874,205 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 11
+    "subsetOrder": 11,
+    "cardOrder": 1,
+    "parallels": [
+      "/9",
+      "/6",
+      "/4",
+      "/3",
+      "/2",
+      "1of1"
+    ]
+  },
+  {
+    "id": "tipsport-s1-uo-an",
+    "number": "UO-AN",
+    "seriesId": "tipsport-s1",
+    "subset": "Ultimate Origin Scripted Edition",
+    "player": "ADAM NEMEC",
+    "team": "HKN",
+    "owned": false,
+    "quantity": 0,
+    "notes": "",
+    "subsetOrder": 11,
+    "cardOrder": 100,
+    "parallels": [
+      "/9",
+      "/6",
+      "/4",
+      "/3",
+      "/2",
+      "1of1"
+    ]
+  },
+  {
+    "id": "tipsport-s1-uo-mk",
+    "number": "UO-MK",
+    "seriesId": "tipsport-s1",
+    "subset": "Ultimate Origin Scripted Edition",
+    "player": "MICHAL KRIŠTOF",
+    "team": "HKN",
+    "owned": false,
+    "quantity": 0,
+    "notes": "",
+    "subsetOrder": 11,
+    "cardOrder": 100,
+    "parallels": [
+      "/9",
+      "/6",
+      "/4",
+      "/3",
+      "/2",
+      "1of1"
+    ]
+  },
+  {
+    "id": "tipsport-s1-uo-pg",
+    "number": "UO-PG",
+    "seriesId": "tipsport-s1",
+    "subset": "Ultimate Origin Scripted Edition",
+    "player": "PETER GALAMBOŠ",
+    "team": "ZIL",
+    "owned": false,
+    "quantity": 0,
+    "notes": "",
+    "subsetOrder": 11,
+    "cardOrder": 200,
+    "parallels": [
+      "/9",
+      "/6",
+      "/4",
+      "/3",
+      "/2",
+      "1of1"
+    ]
+  },
+  {
+    "id": "tipsport-s1-uo-ag",
+    "number": "UO-AG",
+    "seriesId": "tipsport-s1",
+    "subset": "Ultimate Origin Scripted Edition",
+    "player": "ANDREJ GOLIAN",
+    "team": "ZVA",
+    "owned": false,
+    "quantity": 0,
+    "notes": "",
+    "subsetOrder": 11,
+    "cardOrder": 300,
+    "parallels": [
+      "/9",
+      "/6",
+      "/4",
+      "/3",
+      "/2",
+      "1of1"
+    ]
+  },
+  {
+    "id": "tipsport-s1-uo-pk",
+    "number": "UO-PK",
+    "seriesId": "tipsport-s1",
+    "subset": "Ultimate Origin Scripted Edition",
+    "player": "PAVEL KANTOR",
+    "team": "ZVA",
+    "owned": false,
+    "quantity": 0,
+    "notes": "",
+    "subsetOrder": 11,
+    "cardOrder": 300,
+    "parallels": [
+      "/9",
+      "/6",
+      "/4",
+      "/3",
+      "/2",
+      "1of1"
+    ]
+  },
+  {
+    "id": "tipsport-s1-uo-dr",
+    "number": "UO-DR",
+    "seriesId": "tipsport-s1",
+    "subset": "Ultimate Origin Scripted Edition",
+    "player": "DÁVID ROMAŇÁK",
+    "team": "RYS",
+    "owned": false,
+    "quantity": 0,
+    "notes": "",
+    "subsetOrder": 11,
+    "cardOrder": 400,
+    "parallels": [
+      "/9",
+      "/6",
+      "/4",
+      "/3",
+      "/2",
+      "1of1"
+    ]
+  },
+  {
+    "id": "tipsport-s1-uo-ct",
+    "number": "UO-CT",
+    "seriesId": "tipsport-s1",
+    "subset": "Ultimate Origin Scripted Edition",
+    "player": "CARTER TURNBULL",
+    "team": "BBS",
+    "owned": false,
+    "quantity": 0,
+    "notes": "",
+    "subsetOrder": 11,
+    "cardOrder": 500,
+    "parallels": [
+      "/9",
+      "/6",
+      "/4",
+      "/3",
+      "/2",
+      "1of1"
+    ]
+  },
+  {
+    "id": "tipsport-s1-uo-ev",
+    "number": "UO-EV",
+    "seriesId": "tipsport-s1",
+    "subset": "Ultimate Origin Scripted Edition",
+    "player": "ERIKS VITOLS",
+    "team": "BBS",
+    "owned": false,
+    "quantity": 0,
+    "notes": "",
+    "subsetOrder": 11,
+    "cardOrder": 500,
+    "parallels": [
+      "/9",
+      "/6",
+      "/4",
+      "/3",
+      "/2",
+      "1of1"
+    ]
+  },
+  {
+    "id": "tipsport-s1-uo-ac",
+    "number": "UO-AC",
+    "seriesId": "tipsport-s1",
+    "subset": "Ultimate Origin Scripted Edition",
+    "player": "ADAM CRACKNELL",
+    "team": "POA",
+    "owned": false,
+    "quantity": 0,
+    "notes": "",
+    "subsetOrder": 11,
+    "cardOrder": 600,
+    "parallels": [
+      "/9",
+      "/6",
+      "/4",
+      "/3",
+      "/2",
+      "1of1"
+    ]
   },
   {
     "id": "tipsport-s1-uo-rs",
@@ -5237,19 +8084,16 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 11
-  },
-  {
-    "id": "tipsport-s1-uo-sh",
-    "number": "UO-SH",
-    "seriesId": "tipsport-s1",
-    "subset": "Ultimate Origin Scripted Edition",
-    "player": "SAMUEL HAIN",
-    "team": "PHC",
-    "owned": false,
-    "quantity": 0,
-    "notes": "",
-    "subsetOrder": 11
+    "subsetOrder": 11,
+    "cardOrder": 600,
+    "parallels": [
+      "/9",
+      "/6",
+      "/4",
+      "/3",
+      "/2",
+      "1of1"
+    ]
   },
   {
     "id": "tipsport-s1-uo-sj",
@@ -5261,7 +8105,37 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 11
+    "subsetOrder": 11,
+    "cardOrder": 700,
+    "parallels": [
+      "/9",
+      "/6",
+      "/4",
+      "/3",
+      "/2",
+      "1of1"
+    ]
+  },
+  {
+    "id": "tipsport-s1-uo-mr-2",
+    "number": "UO-MR",
+    "seriesId": "tipsport-s1",
+    "subset": "Ultimate Origin Scripted Edition",
+    "player": "HENRI KIVIAHO",
+    "team": "SBA",
+    "owned": false,
+    "quantity": 0,
+    "notes": "",
+    "subsetOrder": 11,
+    "cardOrder": 800,
+    "parallels": [
+      "/9",
+      "/6",
+      "/4",
+      "/3",
+      "/2",
+      "1of1"
+    ]
   },
   {
     "id": "tipsport-s1-uo-tm",
@@ -5273,7 +8147,79 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 11
+    "subsetOrder": 11,
+    "cardOrder": 800,
+    "parallels": [
+      "/9",
+      "/6",
+      "/4",
+      "/3",
+      "/2",
+      "1of1"
+    ]
+  },
+  {
+    "id": "tipsport-s1-uo-jv",
+    "number": "UO-JV",
+    "seriesId": "tipsport-s1",
+    "subset": "Ultimate Origin Scripted Edition",
+    "player": "JAKE VIRTANEN",
+    "team": "MII",
+    "owned": false,
+    "quantity": 0,
+    "notes": "",
+    "subsetOrder": 11,
+    "cardOrder": 900,
+    "parallels": [
+      "/9",
+      "/6",
+      "/4",
+      "/3",
+      "/2",
+      "1of1"
+    ]
+  },
+  {
+    "id": "tipsport-s1-uo-fs",
+    "number": "UO-FS",
+    "seriesId": "tipsport-s1",
+    "subset": "Ultimate Origin Scripted Edition",
+    "player": "FILIP SURÁK",
+    "team": "LMI",
+    "owned": false,
+    "quantity": 0,
+    "notes": "",
+    "subsetOrder": 11,
+    "cardOrder": 1000,
+    "parallels": [
+      "/9",
+      "/6",
+      "/4",
+      "/3",
+      "/2",
+      "1of1"
+    ]
+  },
+  {
+    "id": "tipsport-s1-uo-sh",
+    "number": "UO-SH",
+    "seriesId": "tipsport-s1",
+    "subset": "Ultimate Origin Scripted Edition",
+    "player": "SAMUEL HAIN",
+    "team": "PHC",
+    "owned": false,
+    "quantity": 0,
+    "notes": "",
+    "subsetOrder": 11,
+    "cardOrder": 1100,
+    "parallels": [
+      "/9",
+      "/6",
+      "/4",
+      "/3",
+      "/2",
+      "1of1"
+    ]
   },
   {
     "id": "tipsport-s2-217",
@@ -5285,7 +8231,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 0
+    "subsetOrder": 0,
+    "cardOrder": 0,
+    "parallels": [
+      "Zakladna karta",
+      "Base Blue",
+      "Red Light /30",
+      "Golden Glow /15",
+      "Night Fireworks 1of1"
+    ]
   },
   {
     "id": "tipsport-s2-218",
@@ -5297,7 +8251,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 0
+    "subsetOrder": 0,
+    "cardOrder": 1,
+    "parallels": [
+      "Zakladna karta",
+      "Base Blue",
+      "Red Light /30",
+      "Golden Glow /15",
+      "Night Fireworks 1of1"
+    ]
   },
   {
     "id": "tipsport-s2-219",
@@ -5309,7 +8271,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 0
+    "subsetOrder": 0,
+    "cardOrder": 2,
+    "parallels": [
+      "Zakladna karta",
+      "Base Blue",
+      "Red Light /30",
+      "Golden Glow /15",
+      "Night Fireworks 1of1"
+    ]
   },
   {
     "id": "tipsport-s2-220",
@@ -5321,7 +8291,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 0
+    "subsetOrder": 0,
+    "cardOrder": 3,
+    "parallels": [
+      "Zakladna karta",
+      "Base Blue",
+      "Red Light /30",
+      "Golden Glow /15",
+      "Night Fireworks 1of1"
+    ]
   },
   {
     "id": "tipsport-s2-221",
@@ -5333,7 +8311,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 0
+    "subsetOrder": 0,
+    "cardOrder": 4,
+    "parallels": [
+      "Zakladna karta",
+      "Base Blue",
+      "Red Light /30",
+      "Golden Glow /15",
+      "Night Fireworks 1of1"
+    ]
   },
   {
     "id": "tipsport-s2-222",
@@ -5345,7 +8331,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 0
+    "subsetOrder": 0,
+    "cardOrder": 5,
+    "parallels": [
+      "Zakladna karta",
+      "Base Blue",
+      "Red Light /30",
+      "Golden Glow /15",
+      "Night Fireworks 1of1"
+    ]
   },
   {
     "id": "tipsport-s2-223",
@@ -5357,7 +8351,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 0
+    "subsetOrder": 0,
+    "cardOrder": 6,
+    "parallels": [
+      "Zakladna karta",
+      "Base Blue",
+      "Red Light /30",
+      "Golden Glow /15",
+      "Night Fireworks 1of1"
+    ]
   },
   {
     "id": "tipsport-s2-224",
@@ -5369,7 +8371,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 0
+    "subsetOrder": 0,
+    "cardOrder": 7,
+    "parallels": [
+      "Zakladna karta",
+      "Base Blue",
+      "Red Light /30",
+      "Golden Glow /15",
+      "Night Fireworks 1of1"
+    ]
   },
   {
     "id": "tipsport-s2-225",
@@ -5381,7 +8391,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 0
+    "subsetOrder": 0,
+    "cardOrder": 8,
+    "parallels": [
+      "Zakladna karta",
+      "Base Blue",
+      "Red Light /30",
+      "Golden Glow /15",
+      "Night Fireworks 1of1"
+    ]
   },
   {
     "id": "tipsport-s2-226",
@@ -5393,7 +8411,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 0
+    "subsetOrder": 0,
+    "cardOrder": 9,
+    "parallels": [
+      "Zakladna karta",
+      "Base Blue",
+      "Red Light /30",
+      "Golden Glow /15",
+      "Night Fireworks 1of1"
+    ]
   },
   {
     "id": "tipsport-s2-227",
@@ -5405,7 +8431,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 0
+    "subsetOrder": 0,
+    "cardOrder": 10,
+    "parallels": [
+      "Zakladna karta",
+      "Base Blue",
+      "Red Light /30",
+      "Golden Glow /15",
+      "Night Fireworks 1of1"
+    ]
   },
   {
     "id": "tipsport-s2-228",
@@ -5417,7 +8451,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 0
+    "subsetOrder": 0,
+    "cardOrder": 11,
+    "parallels": [
+      "Zakladna karta",
+      "Base Blue",
+      "Red Light /30",
+      "Golden Glow /15",
+      "Night Fireworks 1of1"
+    ]
   },
   {
     "id": "tipsport-s2-229",
@@ -5429,7 +8471,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 0
+    "subsetOrder": 0,
+    "cardOrder": 12,
+    "parallels": [
+      "Zakladna karta",
+      "Base Blue",
+      "Red Light /30",
+      "Golden Glow /15",
+      "Night Fireworks 1of1"
+    ]
   },
   {
     "id": "tipsport-s2-230",
@@ -5441,7 +8491,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 0
+    "subsetOrder": 0,
+    "cardOrder": 13,
+    "parallels": [
+      "Zakladna karta",
+      "Base Blue",
+      "Red Light /30",
+      "Golden Glow /15",
+      "Night Fireworks 1of1"
+    ]
   },
   {
     "id": "tipsport-s2-231",
@@ -5453,7 +8511,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 0
+    "subsetOrder": 0,
+    "cardOrder": 14,
+    "parallels": [
+      "Zakladna karta",
+      "Base Blue",
+      "Red Light /30",
+      "Golden Glow /15",
+      "Night Fireworks 1of1"
+    ]
   },
   {
     "id": "tipsport-s2-232",
@@ -5465,7 +8531,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 0
+    "subsetOrder": 0,
+    "cardOrder": 15,
+    "parallels": [
+      "Zakladna karta",
+      "Base Blue",
+      "Red Light /30",
+      "Golden Glow /15",
+      "Night Fireworks 1of1"
+    ]
   },
   {
     "id": "tipsport-s2-233",
@@ -5477,7 +8551,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 0
+    "subsetOrder": 0,
+    "cardOrder": 16,
+    "parallels": [
+      "Zakladna karta",
+      "Base Blue",
+      "Red Light /30",
+      "Golden Glow /15",
+      "Night Fireworks 1of1"
+    ]
   },
   {
     "id": "tipsport-s2-234",
@@ -5489,7 +8571,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 0
+    "subsetOrder": 0,
+    "cardOrder": 17,
+    "parallels": [
+      "Zakladna karta",
+      "Base Blue",
+      "Red Light /30",
+      "Golden Glow /15",
+      "Night Fireworks 1of1"
+    ]
   },
   {
     "id": "tipsport-s2-235",
@@ -5501,7 +8591,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 0
+    "subsetOrder": 0,
+    "cardOrder": 18,
+    "parallels": [
+      "Zakladna karta",
+      "Base Blue",
+      "Red Light /30",
+      "Golden Glow /15",
+      "Night Fireworks 1of1"
+    ]
   },
   {
     "id": "tipsport-s2-236",
@@ -5513,7 +8611,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 0
+    "subsetOrder": 0,
+    "cardOrder": 19,
+    "parallels": [
+      "Zakladna karta",
+      "Base Blue",
+      "Red Light /30",
+      "Golden Glow /15",
+      "Night Fireworks 1of1"
+    ]
   },
   {
     "id": "tipsport-s2-237",
@@ -5525,7 +8631,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 0
+    "subsetOrder": 0,
+    "cardOrder": 20,
+    "parallels": [
+      "Zakladna karta",
+      "Base Blue",
+      "Red Light /30",
+      "Golden Glow /15",
+      "Night Fireworks 1of1"
+    ]
   },
   {
     "id": "tipsport-s2-238",
@@ -5537,7 +8651,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 0
+    "subsetOrder": 0,
+    "cardOrder": 21,
+    "parallels": [
+      "Zakladna karta",
+      "Base Blue",
+      "Red Light /30",
+      "Golden Glow /15",
+      "Night Fireworks 1of1"
+    ]
   },
   {
     "id": "tipsport-s2-239",
@@ -5549,7 +8671,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 0
+    "subsetOrder": 0,
+    "cardOrder": 22,
+    "parallels": [
+      "Zakladna karta",
+      "Base Blue",
+      "Red Light /30",
+      "Golden Glow /15",
+      "Night Fireworks 1of1"
+    ]
   },
   {
     "id": "tipsport-s2-240",
@@ -5561,7 +8691,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 0
+    "subsetOrder": 0,
+    "cardOrder": 23,
+    "parallels": [
+      "Zakladna karta",
+      "Base Blue",
+      "Red Light /30",
+      "Golden Glow /15",
+      "Night Fireworks 1of1"
+    ]
   },
   {
     "id": "tipsport-s2-241",
@@ -5573,7 +8711,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 0
+    "subsetOrder": 0,
+    "cardOrder": 24,
+    "parallels": [
+      "Zakladna karta",
+      "Base Blue",
+      "Red Light /30",
+      "Golden Glow /15",
+      "Night Fireworks 1of1"
+    ]
   },
   {
     "id": "tipsport-s2-242",
@@ -5585,7 +8731,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 0
+    "subsetOrder": 0,
+    "cardOrder": 25,
+    "parallels": [
+      "Zakladna karta",
+      "Base Blue",
+      "Red Light /30",
+      "Golden Glow /15",
+      "Night Fireworks 1of1"
+    ]
   },
   {
     "id": "tipsport-s2-243",
@@ -5597,7 +8751,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 0
+    "subsetOrder": 0,
+    "cardOrder": 26,
+    "parallels": [
+      "Zakladna karta",
+      "Base Blue",
+      "Red Light /30",
+      "Golden Glow /15",
+      "Night Fireworks 1of1"
+    ]
   },
   {
     "id": "tipsport-s2-244",
@@ -5609,7 +8771,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 0
+    "subsetOrder": 0,
+    "cardOrder": 27,
+    "parallels": [
+      "Zakladna karta",
+      "Base Blue",
+      "Red Light /30",
+      "Golden Glow /15",
+      "Night Fireworks 1of1"
+    ]
   },
   {
     "id": "tipsport-s2-245",
@@ -5621,7 +8791,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 0
+    "subsetOrder": 0,
+    "cardOrder": 28,
+    "parallels": [
+      "Zakladna karta",
+      "Base Blue",
+      "Red Light /30",
+      "Golden Glow /15",
+      "Night Fireworks 1of1"
+    ]
   },
   {
     "id": "tipsport-s2-246",
@@ -5633,7 +8811,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 0
+    "subsetOrder": 0,
+    "cardOrder": 29,
+    "parallels": [
+      "Zakladna karta",
+      "Base Blue",
+      "Red Light /30",
+      "Golden Glow /15",
+      "Night Fireworks 1of1"
+    ]
   },
   {
     "id": "tipsport-s2-247",
@@ -5645,7 +8831,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 0
+    "subsetOrder": 0,
+    "cardOrder": 30,
+    "parallels": [
+      "Zakladna karta",
+      "Base Blue",
+      "Red Light /30",
+      "Golden Glow /15",
+      "Night Fireworks 1of1"
+    ]
   },
   {
     "id": "tipsport-s2-248",
@@ -5657,7 +8851,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 0
+    "subsetOrder": 0,
+    "cardOrder": 31,
+    "parallels": [
+      "Zakladna karta",
+      "Base Blue",
+      "Red Light /30",
+      "Golden Glow /15",
+      "Night Fireworks 1of1"
+    ]
   },
   {
     "id": "tipsport-s2-249",
@@ -5669,7 +8871,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 0
+    "subsetOrder": 0,
+    "cardOrder": 32,
+    "parallels": [
+      "Zakladna karta",
+      "Base Blue",
+      "Red Light /30",
+      "Golden Glow /15",
+      "Night Fireworks 1of1"
+    ]
   },
   {
     "id": "tipsport-s2-250",
@@ -5681,7 +8891,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 0
+    "subsetOrder": 0,
+    "cardOrder": 33,
+    "parallels": [
+      "Zakladna karta",
+      "Base Blue",
+      "Red Light /30",
+      "Golden Glow /15",
+      "Night Fireworks 1of1"
+    ]
   },
   {
     "id": "tipsport-s2-251",
@@ -5693,7 +8911,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 0
+    "subsetOrder": 0,
+    "cardOrder": 34,
+    "parallels": [
+      "Zakladna karta",
+      "Base Blue",
+      "Red Light /30",
+      "Golden Glow /15",
+      "Night Fireworks 1of1"
+    ]
   },
   {
     "id": "tipsport-s2-252",
@@ -5705,7 +8931,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 0
+    "subsetOrder": 0,
+    "cardOrder": 35,
+    "parallels": [
+      "Zakladna karta",
+      "Base Blue",
+      "Red Light /30",
+      "Golden Glow /15",
+      "Night Fireworks 1of1"
+    ]
   },
   {
     "id": "tipsport-s2-253",
@@ -5717,7 +8951,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 0
+    "subsetOrder": 0,
+    "cardOrder": 36,
+    "parallels": [
+      "Zakladna karta",
+      "Base Blue",
+      "Red Light /30",
+      "Golden Glow /15",
+      "Night Fireworks 1of1"
+    ]
   },
   {
     "id": "tipsport-s2-254",
@@ -5729,7 +8971,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 0
+    "subsetOrder": 0,
+    "cardOrder": 37,
+    "parallels": [
+      "Zakladna karta",
+      "Base Blue",
+      "Red Light /30",
+      "Golden Glow /15",
+      "Night Fireworks 1of1"
+    ]
   },
   {
     "id": "tipsport-s2-255",
@@ -5741,7 +8991,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 0
+    "subsetOrder": 0,
+    "cardOrder": 38,
+    "parallels": [
+      "Zakladna karta",
+      "Base Blue",
+      "Red Light /30",
+      "Golden Glow /15",
+      "Night Fireworks 1of1"
+    ]
   },
   {
     "id": "tipsport-s2-256",
@@ -5753,7 +9011,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 0
+    "subsetOrder": 0,
+    "cardOrder": 39,
+    "parallels": [
+      "Zakladna karta",
+      "Base Blue",
+      "Red Light /30",
+      "Golden Glow /15",
+      "Night Fireworks 1of1"
+    ]
   },
   {
     "id": "tipsport-s2-257",
@@ -5765,7 +9031,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 0
+    "subsetOrder": 0,
+    "cardOrder": 40,
+    "parallels": [
+      "Zakladna karta",
+      "Base Blue",
+      "Red Light /30",
+      "Golden Glow /15",
+      "Night Fireworks 1of1"
+    ]
   },
   {
     "id": "tipsport-s2-258",
@@ -5777,7 +9051,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 0
+    "subsetOrder": 0,
+    "cardOrder": 41,
+    "parallels": [
+      "Zakladna karta",
+      "Base Blue",
+      "Red Light /30",
+      "Golden Glow /15",
+      "Night Fireworks 1of1"
+    ]
   },
   {
     "id": "tipsport-s2-259",
@@ -5789,7 +9071,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 0
+    "subsetOrder": 0,
+    "cardOrder": 42,
+    "parallels": [
+      "Zakladna karta",
+      "Base Blue",
+      "Red Light /30",
+      "Golden Glow /15",
+      "Night Fireworks 1of1"
+    ]
   },
   {
     "id": "tipsport-s2-260",
@@ -5801,7 +9091,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 0
+    "subsetOrder": 0,
+    "cardOrder": 43,
+    "parallels": [
+      "Zakladna karta",
+      "Base Blue",
+      "Red Light /30",
+      "Golden Glow /15",
+      "Night Fireworks 1of1"
+    ]
   },
   {
     "id": "tipsport-s2-261",
@@ -5813,7 +9111,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 0
+    "subsetOrder": 0,
+    "cardOrder": 44,
+    "parallels": [
+      "Zakladna karta",
+      "Base Blue",
+      "Red Light /30",
+      "Golden Glow /15",
+      "Night Fireworks 1of1"
+    ]
   },
   {
     "id": "tipsport-s2-262",
@@ -5825,7 +9131,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 0
+    "subsetOrder": 0,
+    "cardOrder": 45,
+    "parallels": [
+      "Zakladna karta",
+      "Base Blue",
+      "Red Light /30",
+      "Golden Glow /15",
+      "Night Fireworks 1of1"
+    ]
   },
   {
     "id": "tipsport-s2-263",
@@ -5837,7 +9151,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 0
+    "subsetOrder": 0,
+    "cardOrder": 46,
+    "parallels": [
+      "Zakladna karta",
+      "Base Blue",
+      "Red Light /30",
+      "Golden Glow /15",
+      "Night Fireworks 1of1"
+    ]
   },
   {
     "id": "tipsport-s2-264",
@@ -5849,7 +9171,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 0
+    "subsetOrder": 0,
+    "cardOrder": 47,
+    "parallels": [
+      "Zakladna karta",
+      "Base Blue",
+      "Red Light /30",
+      "Golden Glow /15",
+      "Night Fireworks 1of1"
+    ]
   },
   {
     "id": "tipsport-s2-265",
@@ -5861,7 +9191,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 0
+    "subsetOrder": 0,
+    "cardOrder": 48,
+    "parallels": [
+      "Zakladna karta",
+      "Base Blue",
+      "Red Light /30",
+      "Golden Glow /15",
+      "Night Fireworks 1of1"
+    ]
   },
   {
     "id": "tipsport-s2-266",
@@ -5873,7 +9211,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 0
+    "subsetOrder": 0,
+    "cardOrder": 49,
+    "parallels": [
+      "Zakladna karta",
+      "Base Blue",
+      "Red Light /30",
+      "Golden Glow /15",
+      "Night Fireworks 1of1"
+    ]
   },
   {
     "id": "tipsport-s2-267",
@@ -5885,7 +9231,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 0
+    "subsetOrder": 0,
+    "cardOrder": 50,
+    "parallels": [
+      "Zakladna karta",
+      "Base Blue",
+      "Red Light /30",
+      "Golden Glow /15",
+      "Night Fireworks 1of1"
+    ]
   },
   {
     "id": "tipsport-s2-268",
@@ -5897,7 +9251,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 0
+    "subsetOrder": 0,
+    "cardOrder": 51,
+    "parallels": [
+      "Zakladna karta",
+      "Base Blue",
+      "Red Light /30",
+      "Golden Glow /15",
+      "Night Fireworks 1of1"
+    ]
   },
   {
     "id": "tipsport-s2-269",
@@ -5909,7 +9271,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 0
+    "subsetOrder": 0,
+    "cardOrder": 52,
+    "parallels": [
+      "Zakladna karta",
+      "Base Blue",
+      "Red Light /30",
+      "Golden Glow /15",
+      "Night Fireworks 1of1"
+    ]
   },
   {
     "id": "tipsport-s2-270",
@@ -5921,7 +9291,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 0
+    "subsetOrder": 0,
+    "cardOrder": 53,
+    "parallels": [
+      "Zakladna karta",
+      "Base Blue",
+      "Red Light /30",
+      "Golden Glow /15",
+      "Night Fireworks 1of1"
+    ]
   },
   {
     "id": "tipsport-s2-271",
@@ -5933,7 +9311,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 0
+    "subsetOrder": 0,
+    "cardOrder": 54,
+    "parallels": [
+      "Zakladna karta",
+      "Base Blue",
+      "Red Light /30",
+      "Golden Glow /15",
+      "Night Fireworks 1of1"
+    ]
   },
   {
     "id": "tipsport-s2-272",
@@ -5945,7 +9331,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 0
+    "subsetOrder": 0,
+    "cardOrder": 55,
+    "parallels": [
+      "Zakladna karta",
+      "Base Blue",
+      "Red Light /30",
+      "Golden Glow /15",
+      "Night Fireworks 1of1"
+    ]
   },
   {
     "id": "tipsport-s2-273",
@@ -5957,7 +9351,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 0
+    "subsetOrder": 0,
+    "cardOrder": 56,
+    "parallels": [
+      "Zakladna karta",
+      "Base Blue",
+      "Red Light /30",
+      "Golden Glow /15",
+      "Night Fireworks 1of1"
+    ]
   },
   {
     "id": "tipsport-s2-274",
@@ -5969,7 +9371,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 0
+    "subsetOrder": 0,
+    "cardOrder": 57,
+    "parallels": [
+      "Zakladna karta",
+      "Base Blue",
+      "Red Light /30",
+      "Golden Glow /15",
+      "Night Fireworks 1of1"
+    ]
   },
   {
     "id": "tipsport-s2-275",
@@ -5981,7 +9391,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 0
+    "subsetOrder": 0,
+    "cardOrder": 58,
+    "parallels": [
+      "Zakladna karta",
+      "Base Blue",
+      "Red Light /30",
+      "Golden Glow /15",
+      "Night Fireworks 1of1"
+    ]
   },
   {
     "id": "tipsport-s2-276",
@@ -5993,7 +9411,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 0
+    "subsetOrder": 0,
+    "cardOrder": 59,
+    "parallels": [
+      "Zakladna karta",
+      "Base Blue",
+      "Red Light /30",
+      "Golden Glow /15",
+      "Night Fireworks 1of1"
+    ]
   },
   {
     "id": "tipsport-s2-277",
@@ -6005,7 +9431,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 0
+    "subsetOrder": 0,
+    "cardOrder": 60,
+    "parallels": [
+      "Zakladna karta",
+      "Base Blue",
+      "Red Light /30",
+      "Golden Glow /15",
+      "Night Fireworks 1of1"
+    ]
   },
   {
     "id": "tipsport-s2-278",
@@ -6017,7 +9451,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 0
+    "subsetOrder": 0,
+    "cardOrder": 61,
+    "parallels": [
+      "Zakladna karta",
+      "Base Blue",
+      "Red Light /30",
+      "Golden Glow /15",
+      "Night Fireworks 1of1"
+    ]
   },
   {
     "id": "tipsport-s2-279",
@@ -6029,7 +9471,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 0
+    "subsetOrder": 0,
+    "cardOrder": 62,
+    "parallels": [
+      "Zakladna karta",
+      "Base Blue",
+      "Red Light /30",
+      "Golden Glow /15",
+      "Night Fireworks 1of1"
+    ]
   },
   {
     "id": "tipsport-s2-280",
@@ -6041,7 +9491,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 0
+    "subsetOrder": 0,
+    "cardOrder": 63,
+    "parallels": [
+      "Zakladna karta",
+      "Base Blue",
+      "Red Light /30",
+      "Golden Glow /15",
+      "Night Fireworks 1of1"
+    ]
   },
   {
     "id": "tipsport-s2-281",
@@ -6053,7 +9511,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 0
+    "subsetOrder": 0,
+    "cardOrder": 64,
+    "parallels": [
+      "Zakladna karta",
+      "Base Blue",
+      "Red Light /30",
+      "Golden Glow /15",
+      "Night Fireworks 1of1"
+    ]
   },
   {
     "id": "tipsport-s2-282",
@@ -6065,7 +9531,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 0
+    "subsetOrder": 0,
+    "cardOrder": 65,
+    "parallels": [
+      "Zakladna karta",
+      "Base Blue",
+      "Red Light /30",
+      "Golden Glow /15",
+      "Night Fireworks 1of1"
+    ]
   },
   {
     "id": "tipsport-s2-283",
@@ -6077,7 +9551,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 0
+    "subsetOrder": 0,
+    "cardOrder": 66,
+    "parallels": [
+      "Zakladna karta",
+      "Base Blue",
+      "Red Light /30",
+      "Golden Glow /15",
+      "Night Fireworks 1of1"
+    ]
   },
   {
     "id": "tipsport-s2-284",
@@ -6089,7 +9571,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 0
+    "subsetOrder": 0,
+    "cardOrder": 67,
+    "parallels": [
+      "Zakladna karta",
+      "Base Blue",
+      "Red Light /30",
+      "Golden Glow /15",
+      "Night Fireworks 1of1"
+    ]
   },
   {
     "id": "tipsport-s2-285",
@@ -6101,7 +9591,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 0
+    "subsetOrder": 0,
+    "cardOrder": 68,
+    "parallels": [
+      "Zakladna karta",
+      "Base Blue",
+      "Red Light /30",
+      "Golden Glow /15",
+      "Night Fireworks 1of1"
+    ]
   },
   {
     "id": "tipsport-s2-286",
@@ -6113,7 +9611,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 0
+    "subsetOrder": 0,
+    "cardOrder": 69,
+    "parallels": [
+      "Zakladna karta",
+      "Base Blue",
+      "Red Light /30",
+      "Golden Glow /15",
+      "Night Fireworks 1of1"
+    ]
   },
   {
     "id": "tipsport-s2-287",
@@ -6125,7 +9631,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 0
+    "subsetOrder": 0,
+    "cardOrder": 70,
+    "parallels": [
+      "Zakladna karta",
+      "Base Blue",
+      "Red Light /30",
+      "Golden Glow /15",
+      "Night Fireworks 1of1"
+    ]
   },
   {
     "id": "tipsport-s2-288",
@@ -6137,7 +9651,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 0
+    "subsetOrder": 0,
+    "cardOrder": 71,
+    "parallels": [
+      "Zakladna karta",
+      "Base Blue",
+      "Red Light /30",
+      "Golden Glow /15",
+      "Night Fireworks 1of1"
+    ]
   },
   {
     "id": "tipsport-s2-289",
@@ -6149,7 +9671,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 0
+    "subsetOrder": 0,
+    "cardOrder": 72,
+    "parallels": [
+      "Zakladna karta",
+      "Base Blue",
+      "Red Light /30",
+      "Golden Glow /15",
+      "Night Fireworks 1of1"
+    ]
   },
   {
     "id": "tipsport-s2-290",
@@ -6161,7 +9691,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 0
+    "subsetOrder": 0,
+    "cardOrder": 73,
+    "parallels": [
+      "Zakladna karta",
+      "Base Blue",
+      "Red Light /30",
+      "Golden Glow /15",
+      "Night Fireworks 1of1"
+    ]
   },
   {
     "id": "tipsport-s2-291",
@@ -6173,7 +9711,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 0
+    "subsetOrder": 0,
+    "cardOrder": 74,
+    "parallels": [
+      "Zakladna karta",
+      "Base Blue",
+      "Red Light /30",
+      "Golden Glow /15",
+      "Night Fireworks 1of1"
+    ]
   },
   {
     "id": "tipsport-s2-292",
@@ -6185,7 +9731,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 0
+    "subsetOrder": 0,
+    "cardOrder": 75,
+    "parallels": [
+      "Zakladna karta",
+      "Base Blue",
+      "Red Light /30",
+      "Golden Glow /15",
+      "Night Fireworks 1of1"
+    ]
   },
   {
     "id": "tipsport-s2-293",
@@ -6197,7 +9751,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 0
+    "subsetOrder": 0,
+    "cardOrder": 76,
+    "parallels": [
+      "Zakladna karta",
+      "Base Blue",
+      "Red Light /30",
+      "Golden Glow /15",
+      "Night Fireworks 1of1"
+    ]
   },
   {
     "id": "tipsport-s2-294",
@@ -6209,7 +9771,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 0
+    "subsetOrder": 0,
+    "cardOrder": 77,
+    "parallels": [
+      "Zakladna karta",
+      "Base Blue",
+      "Red Light /30",
+      "Golden Glow /15",
+      "Night Fireworks 1of1"
+    ]
   },
   {
     "id": "tipsport-s2-295",
@@ -6221,7 +9791,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 0
+    "subsetOrder": 0,
+    "cardOrder": 78,
+    "parallels": [
+      "Zakladna karta",
+      "Base Blue",
+      "Red Light /30",
+      "Golden Glow /15",
+      "Night Fireworks 1of1"
+    ]
   },
   {
     "id": "tipsport-s2-296",
@@ -6233,7 +9811,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 0
+    "subsetOrder": 0,
+    "cardOrder": 79,
+    "parallels": [
+      "Zakladna karta",
+      "Base Blue",
+      "Red Light /30",
+      "Golden Glow /15",
+      "Night Fireworks 1of1"
+    ]
   },
   {
     "id": "tipsport-s2-297",
@@ -6245,7 +9831,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 0
+    "subsetOrder": 0,
+    "cardOrder": 80,
+    "parallels": [
+      "Zakladna karta",
+      "Base Blue",
+      "Red Light /30",
+      "Golden Glow /15",
+      "Night Fireworks 1of1"
+    ]
   },
   {
     "id": "tipsport-s2-298",
@@ -6257,7 +9851,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 0
+    "subsetOrder": 0,
+    "cardOrder": 81,
+    "parallels": [
+      "Zakladna karta",
+      "Base Blue",
+      "Red Light /30",
+      "Golden Glow /15",
+      "Night Fireworks 1of1"
+    ]
   },
   {
     "id": "tipsport-s2-299",
@@ -6269,7 +9871,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 0
+    "subsetOrder": 0,
+    "cardOrder": 82,
+    "parallels": [
+      "Zakladna karta",
+      "Base Blue",
+      "Red Light /30",
+      "Golden Glow /15",
+      "Night Fireworks 1of1"
+    ]
   },
   {
     "id": "tipsport-s2-300",
@@ -6281,7 +9891,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 0
+    "subsetOrder": 0,
+    "cardOrder": 83,
+    "parallels": [
+      "Zakladna karta",
+      "Base Blue",
+      "Red Light /30",
+      "Golden Glow /15",
+      "Night Fireworks 1of1"
+    ]
   },
   {
     "id": "tipsport-s2-301",
@@ -6293,7 +9911,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 0
+    "subsetOrder": 0,
+    "cardOrder": 84,
+    "parallels": [
+      "Zakladna karta",
+      "Base Blue",
+      "Red Light /30",
+      "Golden Glow /15",
+      "Night Fireworks 1of1"
+    ]
   },
   {
     "id": "tipsport-s2-302",
@@ -6305,7 +9931,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 0
+    "subsetOrder": 0,
+    "cardOrder": 85,
+    "parallels": [
+      "Zakladna karta",
+      "Base Blue",
+      "Red Light /30",
+      "Golden Glow /15",
+      "Night Fireworks 1of1"
+    ]
   },
   {
     "id": "tipsport-s2-303",
@@ -6317,7 +9951,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 0
+    "subsetOrder": 0,
+    "cardOrder": 86,
+    "parallels": [
+      "Zakladna karta",
+      "Base Blue",
+      "Red Light /30",
+      "Golden Glow /15",
+      "Night Fireworks 1of1"
+    ]
   },
   {
     "id": "tipsport-s2-304",
@@ -6329,7 +9971,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 0
+    "subsetOrder": 0,
+    "cardOrder": 87,
+    "parallels": [
+      "Zakladna karta",
+      "Base Blue",
+      "Red Light /30",
+      "Golden Glow /15",
+      "Night Fireworks 1of1"
+    ]
   },
   {
     "id": "tipsport-s2-305",
@@ -6341,7 +9991,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 0
+    "subsetOrder": 0,
+    "cardOrder": 88,
+    "parallels": [
+      "Zakladna karta",
+      "Base Blue",
+      "Red Light /30",
+      "Golden Glow /15",
+      "Night Fireworks 1of1"
+    ]
   },
   {
     "id": "tipsport-s2-306",
@@ -6353,7 +10011,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 0
+    "subsetOrder": 0,
+    "cardOrder": 89,
+    "parallels": [
+      "Zakladna karta",
+      "Base Blue",
+      "Red Light /30",
+      "Golden Glow /15",
+      "Night Fireworks 1of1"
+    ]
   },
   {
     "id": "tipsport-s2-307",
@@ -6365,7 +10031,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 0
+    "subsetOrder": 0,
+    "cardOrder": 90,
+    "parallels": [
+      "Zakladna karta",
+      "Base Blue",
+      "Red Light /30",
+      "Golden Glow /15",
+      "Night Fireworks 1of1"
+    ]
   },
   {
     "id": "tipsport-s2-308",
@@ -6377,7 +10051,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 0
+    "subsetOrder": 0,
+    "cardOrder": 91,
+    "parallels": [
+      "Zakladna karta",
+      "Base Blue",
+      "Red Light /30",
+      "Golden Glow /15",
+      "Night Fireworks 1of1"
+    ]
   },
   {
     "id": "tipsport-s2-309",
@@ -6389,7 +10071,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 0
+    "subsetOrder": 0,
+    "cardOrder": 92,
+    "parallels": [
+      "Zakladna karta",
+      "Base Blue",
+      "Red Light /30",
+      "Golden Glow /15",
+      "Night Fireworks 1of1"
+    ]
   },
   {
     "id": "tipsport-s2-310",
@@ -6401,7 +10091,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 0
+    "subsetOrder": 0,
+    "cardOrder": 93,
+    "parallels": [
+      "Zakladna karta",
+      "Base Blue",
+      "Red Light /30",
+      "Golden Glow /15",
+      "Night Fireworks 1of1"
+    ]
   },
   {
     "id": "tipsport-s2-311",
@@ -6413,7 +10111,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 0
+    "subsetOrder": 0,
+    "cardOrder": 94,
+    "parallels": [
+      "Zakladna karta",
+      "Base Blue",
+      "Red Light /30",
+      "Golden Glow /15",
+      "Night Fireworks 1of1"
+    ]
   },
   {
     "id": "tipsport-s2-312",
@@ -6425,7 +10131,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 0
+    "subsetOrder": 0,
+    "cardOrder": 95,
+    "parallels": [
+      "Zakladna karta",
+      "Base Blue",
+      "Red Light /30",
+      "Golden Glow /15",
+      "Night Fireworks 1of1"
+    ]
   },
   {
     "id": "tipsport-s2-313",
@@ -6437,7 +10151,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 0
+    "subsetOrder": 0,
+    "cardOrder": 96,
+    "parallels": [
+      "Zakladna karta",
+      "Base Blue",
+      "Red Light /30",
+      "Golden Glow /15",
+      "Night Fireworks 1of1"
+    ]
   },
   {
     "id": "tipsport-s2-314",
@@ -6449,7 +10171,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 0
+    "subsetOrder": 0,
+    "cardOrder": 97,
+    "parallels": [
+      "Zakladna karta",
+      "Base Blue",
+      "Red Light /30",
+      "Golden Glow /15",
+      "Night Fireworks 1of1"
+    ]
   },
   {
     "id": "tipsport-s2-315",
@@ -6461,7 +10191,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 0
+    "subsetOrder": 0,
+    "cardOrder": 98,
+    "parallels": [
+      "Zakladna karta",
+      "Base Blue",
+      "Red Light /30",
+      "Golden Glow /15",
+      "Night Fireworks 1of1"
+    ]
   },
   {
     "id": "tipsport-s2-316",
@@ -6473,7 +10211,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 0
+    "subsetOrder": 0,
+    "cardOrder": 99,
+    "parallels": [
+      "Zakladna karta",
+      "Base Blue",
+      "Red Light /30",
+      "Golden Glow /15",
+      "Night Fireworks 1of1"
+    ]
   },
   {
     "id": "tipsport-s2-317",
@@ -6485,7 +10231,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 0
+    "subsetOrder": 0,
+    "cardOrder": 100,
+    "parallels": [
+      "Zakladna karta",
+      "Base Blue",
+      "Red Light /30",
+      "Golden Glow /15",
+      "Night Fireworks 1of1"
+    ]
   },
   {
     "id": "tipsport-s2-318",
@@ -6497,7 +10251,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 0
+    "subsetOrder": 0,
+    "cardOrder": 101,
+    "parallels": [
+      "Zakladna karta",
+      "Base Blue",
+      "Red Light /30",
+      "Golden Glow /15",
+      "Night Fireworks 1of1"
+    ]
   },
   {
     "id": "tipsport-s2-319",
@@ -6509,7 +10271,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 0
+    "subsetOrder": 0,
+    "cardOrder": 102,
+    "parallels": [
+      "Zakladna karta",
+      "Base Blue",
+      "Red Light /30",
+      "Golden Glow /15",
+      "Night Fireworks 1of1"
+    ]
   },
   {
     "id": "tipsport-s2-320",
@@ -6521,7 +10291,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 0
+    "subsetOrder": 0,
+    "cardOrder": 103,
+    "parallels": [
+      "Zakladna karta",
+      "Base Blue",
+      "Red Light /30",
+      "Golden Glow /15",
+      "Night Fireworks 1of1"
+    ]
   },
   {
     "id": "tipsport-s2-321",
@@ -6533,7 +10311,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 0
+    "subsetOrder": 0,
+    "cardOrder": 104,
+    "parallels": [
+      "Zakladna karta",
+      "Base Blue",
+      "Red Light /30",
+      "Golden Glow /15",
+      "Night Fireworks 1of1"
+    ]
   },
   {
     "id": "tipsport-s2-322",
@@ -6545,7 +10331,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 0
+    "subsetOrder": 0,
+    "cardOrder": 105,
+    "parallels": [
+      "Zakladna karta",
+      "Base Blue",
+      "Red Light /30",
+      "Golden Glow /15",
+      "Night Fireworks 1of1"
+    ]
   },
   {
     "id": "tipsport-s2-323",
@@ -6557,7 +10351,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 0
+    "subsetOrder": 0,
+    "cardOrder": 106,
+    "parallels": [
+      "Zakladna karta",
+      "Base Blue",
+      "Red Light /30",
+      "Golden Glow /15",
+      "Night Fireworks 1of1"
+    ]
   },
   {
     "id": "tipsport-s2-324",
@@ -6569,7 +10371,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 0
+    "subsetOrder": 0,
+    "cardOrder": 107,
+    "parallels": [
+      "Zakladna karta",
+      "Base Blue",
+      "Red Light /30",
+      "Golden Glow /15",
+      "Night Fireworks 1of1"
+    ]
   },
   {
     "id": "tipsport-s2-ph-001",
@@ -6581,7 +10391,11 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 1
+    "subsetOrder": 1,
+    "cardOrder": 0,
+    "parallels": [
+      "Base"
+    ]
   },
   {
     "id": "tipsport-s2-ph-002",
@@ -6593,7 +10407,11 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 1
+    "subsetOrder": 1,
+    "cardOrder": 1,
+    "parallels": [
+      "Base"
+    ]
   },
   {
     "id": "tipsport-s2-ph-003",
@@ -6605,7 +10423,11 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 1
+    "subsetOrder": 1,
+    "cardOrder": 2,
+    "parallels": [
+      "Base"
+    ]
   },
   {
     "id": "tipsport-s2-ph-004",
@@ -6617,7 +10439,11 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 1
+    "subsetOrder": 1,
+    "cardOrder": 3,
+    "parallels": [
+      "Base"
+    ]
   },
   {
     "id": "tipsport-s2-ph-005",
@@ -6629,7 +10455,11 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 1
+    "subsetOrder": 1,
+    "cardOrder": 4,
+    "parallels": [
+      "Base"
+    ]
   },
   {
     "id": "tipsport-s2-ph-006",
@@ -6641,7 +10471,11 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 1
+    "subsetOrder": 1,
+    "cardOrder": 5,
+    "parallels": [
+      "Base"
+    ]
   },
   {
     "id": "tipsport-s2-ph-007",
@@ -6653,7 +10487,11 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 1
+    "subsetOrder": 1,
+    "cardOrder": 6,
+    "parallels": [
+      "Base"
+    ]
   },
   {
     "id": "tipsport-s2-ph-008",
@@ -6665,7 +10503,11 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 1
+    "subsetOrder": 1,
+    "cardOrder": 7,
+    "parallels": [
+      "Base"
+    ]
   },
   {
     "id": "tipsport-s2-ph-009",
@@ -6677,7 +10519,11 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 1
+    "subsetOrder": 1,
+    "cardOrder": 8,
+    "parallels": [
+      "Base"
+    ]
   },
   {
     "id": "tipsport-s2-ph-010",
@@ -6689,7 +10535,11 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 1
+    "subsetOrder": 1,
+    "cardOrder": 9,
+    "parallels": [
+      "Base"
+    ]
   },
   {
     "id": "tipsport-s2-ph-011",
@@ -6701,7 +10551,11 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 1
+    "subsetOrder": 1,
+    "cardOrder": 10,
+    "parallels": [
+      "Base"
+    ]
   },
   {
     "id": "tipsport-s2-ph-012",
@@ -6713,7 +10567,11 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 1
+    "subsetOrder": 1,
+    "cardOrder": 11,
+    "parallels": [
+      "Base"
+    ]
   },
   {
     "id": "tipsport-s2-ph-013",
@@ -6725,7 +10583,11 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 1
+    "subsetOrder": 1,
+    "cardOrder": 12,
+    "parallels": [
+      "Base"
+    ]
   },
   {
     "id": "tipsport-s2-ph-014",
@@ -6737,7 +10599,11 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 1
+    "subsetOrder": 1,
+    "cardOrder": 13,
+    "parallels": [
+      "Base"
+    ]
   },
   {
     "id": "tipsport-s2-ph-015",
@@ -6749,7 +10615,11 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 1
+    "subsetOrder": 1,
+    "cardOrder": 14,
+    "parallels": [
+      "Base"
+    ]
   },
   {
     "id": "tipsport-s2-ph-016",
@@ -6761,7 +10631,11 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 1
+    "subsetOrder": 1,
+    "cardOrder": 15,
+    "parallels": [
+      "Base"
+    ]
   },
   {
     "id": "tipsport-s2-ph-017",
@@ -6773,7 +10647,11 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 1
+    "subsetOrder": 1,
+    "cardOrder": 16,
+    "parallels": [
+      "Base"
+    ]
   },
   {
     "id": "tipsport-s2-ph-018",
@@ -6785,7 +10663,11 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 1
+    "subsetOrder": 1,
+    "cardOrder": 17,
+    "parallels": [
+      "Base"
+    ]
   },
   {
     "id": "tipsport-s2-ph-019",
@@ -6797,7 +10679,11 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 1
+    "subsetOrder": 1,
+    "cardOrder": 18,
+    "parallels": [
+      "Base"
+    ]
   },
   {
     "id": "tipsport-s2-ph-020",
@@ -6809,7 +10695,11 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 1
+    "subsetOrder": 1,
+    "cardOrder": 19,
+    "parallels": [
+      "Base"
+    ]
   },
   {
     "id": "tipsport-s2-ph-021",
@@ -6821,7 +10711,11 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 1
+    "subsetOrder": 1,
+    "cardOrder": 20,
+    "parallels": [
+      "Base"
+    ]
   },
   {
     "id": "tipsport-s2-ph-022",
@@ -6833,7 +10727,11 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 1
+    "subsetOrder": 1,
+    "cardOrder": 21,
+    "parallels": [
+      "Base"
+    ]
   },
   {
     "id": "tipsport-s2-ph-023",
@@ -6845,7 +10743,11 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 1
+    "subsetOrder": 1,
+    "cardOrder": 22,
+    "parallels": [
+      "Base"
+    ]
   },
   {
     "id": "tipsport-s2-ph-024",
@@ -6857,7 +10759,11 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 1
+    "subsetOrder": 1,
+    "cardOrder": 23,
+    "parallels": [
+      "Base"
+    ]
   },
   {
     "id": "tipsport-s2-ph-025",
@@ -6869,7 +10775,11 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 1
+    "subsetOrder": 1,
+    "cardOrder": 24,
+    "parallels": [
+      "Base"
+    ]
   },
   {
     "id": "tipsport-s2-ph-026",
@@ -6881,7 +10791,11 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 1
+    "subsetOrder": 1,
+    "cardOrder": 25,
+    "parallels": [
+      "Base"
+    ]
   },
   {
     "id": "tipsport-s2-ph-027",
@@ -6893,7 +10807,11 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 1
+    "subsetOrder": 1,
+    "cardOrder": 26,
+    "parallels": [
+      "Base"
+    ]
   },
   {
     "id": "tipsport-s2-ph-028",
@@ -6905,7 +10823,11 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 1
+    "subsetOrder": 1,
+    "cardOrder": 27,
+    "parallels": [
+      "Base"
+    ]
   },
   {
     "id": "tipsport-s2-ph-029",
@@ -6917,7 +10839,11 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 1
+    "subsetOrder": 1,
+    "cardOrder": 28,
+    "parallels": [
+      "Base"
+    ]
   },
   {
     "id": "tipsport-s2-ph-030",
@@ -6929,7 +10855,11 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 1
+    "subsetOrder": 1,
+    "cardOrder": 29,
+    "parallels": [
+      "Base"
+    ]
   },
   {
     "id": "tipsport-s2-ph-031",
@@ -6941,7 +10871,11 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 1
+    "subsetOrder": 1,
+    "cardOrder": 30,
+    "parallels": [
+      "Base"
+    ]
   },
   {
     "id": "tipsport-s2-ph-032",
@@ -6953,7 +10887,11 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 1
+    "subsetOrder": 1,
+    "cardOrder": 31,
+    "parallels": [
+      "Base"
+    ]
   },
   {
     "id": "tipsport-s2-ph-033",
@@ -6965,7 +10903,11 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 1
+    "subsetOrder": 1,
+    "cardOrder": 32,
+    "parallels": [
+      "Base"
+    ]
   },
   {
     "id": "tipsport-s2-ph-034",
@@ -6977,7 +10919,11 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 1
+    "subsetOrder": 1,
+    "cardOrder": 33,
+    "parallels": [
+      "Base"
+    ]
   },
   {
     "id": "tipsport-s2-ph-035",
@@ -6989,7 +10935,11 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 1
+    "subsetOrder": 1,
+    "cardOrder": 34,
+    "parallels": [
+      "Base"
+    ]
   },
   {
     "id": "tipsport-s2-ph-036",
@@ -7001,7 +10951,11 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 1
+    "subsetOrder": 1,
+    "cardOrder": 35,
+    "parallels": [
+      "Base"
+    ]
   },
   {
     "id": "tipsport-s2-ph-037",
@@ -7013,7 +10967,11 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 1
+    "subsetOrder": 1,
+    "cardOrder": 36,
+    "parallels": [
+      "Base"
+    ]
   },
   {
     "id": "tipsport-s2-ph-038",
@@ -7025,7 +10983,11 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 1
+    "subsetOrder": 1,
+    "cardOrder": 37,
+    "parallels": [
+      "Base"
+    ]
   },
   {
     "id": "tipsport-s2-ph-039",
@@ -7037,7 +10999,11 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 1
+    "subsetOrder": 1,
+    "cardOrder": 38,
+    "parallels": [
+      "Base"
+    ]
   },
   {
     "id": "tipsport-s2-ph-040",
@@ -7049,7 +11015,11 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 1
+    "subsetOrder": 1,
+    "cardOrder": 39,
+    "parallels": [
+      "Base"
+    ]
   },
   {
     "id": "tipsport-s2-ph-041",
@@ -7061,7 +11031,11 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 1
+    "subsetOrder": 1,
+    "cardOrder": 40,
+    "parallels": [
+      "Base"
+    ]
   },
   {
     "id": "tipsport-s2-ph-042",
@@ -7073,7 +11047,11 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 1
+    "subsetOrder": 1,
+    "cardOrder": 41,
+    "parallels": [
+      "Base"
+    ]
   },
   {
     "id": "tipsport-s2-ph-043",
@@ -7085,7 +11063,11 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 1
+    "subsetOrder": 1,
+    "cardOrder": 42,
+    "parallels": [
+      "Base"
+    ]
   },
   {
     "id": "tipsport-s2-ph-044",
@@ -7097,7 +11079,11 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 1
+    "subsetOrder": 1,
+    "cardOrder": 43,
+    "parallels": [
+      "Base"
+    ]
   },
   {
     "id": "tipsport-s2-ph-045",
@@ -7109,7 +11095,11 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 1
+    "subsetOrder": 1,
+    "cardOrder": 44,
+    "parallels": [
+      "Base"
+    ]
   },
   {
     "id": "tipsport-s2-ph-046",
@@ -7121,7 +11111,11 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 1
+    "subsetOrder": 1,
+    "cardOrder": 45,
+    "parallels": [
+      "Base"
+    ]
   },
   {
     "id": "tipsport-s2-ph-047",
@@ -7133,7 +11127,11 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 1
+    "subsetOrder": 1,
+    "cardOrder": 46,
+    "parallels": [
+      "Base"
+    ]
   },
   {
     "id": "tipsport-s2-ph-048",
@@ -7145,7 +11143,11 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 1
+    "subsetOrder": 1,
+    "cardOrder": 47,
+    "parallels": [
+      "Base"
+    ]
   },
   {
     "id": "tipsport-s2-ph-049",
@@ -7157,7 +11159,11 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 1
+    "subsetOrder": 1,
+    "cardOrder": 48,
+    "parallels": [
+      "Base"
+    ]
   },
   {
     "id": "tipsport-s2-ph-050",
@@ -7169,7 +11175,11 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 1
+    "subsetOrder": 1,
+    "cardOrder": 49,
+    "parallels": [
+      "Base"
+    ]
   },
   {
     "id": "tipsport-s2-ph-051",
@@ -7181,7 +11191,11 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 1
+    "subsetOrder": 1,
+    "cardOrder": 50,
+    "parallels": [
+      "Base"
+    ]
   },
   {
     "id": "tipsport-s2-ph-052",
@@ -7193,7 +11207,11 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 1
+    "subsetOrder": 1,
+    "cardOrder": 51,
+    "parallels": [
+      "Base"
+    ]
   },
   {
     "id": "tipsport-s2-ph-053",
@@ -7205,7 +11223,11 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 1
+    "subsetOrder": 1,
+    "cardOrder": 52,
+    "parallels": [
+      "Base"
+    ]
   },
   {
     "id": "tipsport-s2-ph-054",
@@ -7217,7 +11239,11 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 1
+    "subsetOrder": 1,
+    "cardOrder": 53,
+    "parallels": [
+      "Base"
+    ]
   },
   {
     "id": "tipsport-s2-ph-055",
@@ -7229,7 +11255,11 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 1
+    "subsetOrder": 1,
+    "cardOrder": 54,
+    "parallels": [
+      "Base"
+    ]
   },
   {
     "id": "tipsport-s2-ph-056",
@@ -7241,7 +11271,11 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 1
+    "subsetOrder": 1,
+    "cardOrder": 55,
+    "parallels": [
+      "Base"
+    ]
   },
   {
     "id": "tipsport-s2-ph-057",
@@ -7253,7 +11287,11 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 1
+    "subsetOrder": 1,
+    "cardOrder": 56,
+    "parallels": [
+      "Base"
+    ]
   },
   {
     "id": "tipsport-s2-ph-058",
@@ -7265,7 +11303,11 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 1
+    "subsetOrder": 1,
+    "cardOrder": 57,
+    "parallels": [
+      "Base"
+    ]
   },
   {
     "id": "tipsport-s2-ph-059",
@@ -7277,7 +11319,11 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 1
+    "subsetOrder": 1,
+    "cardOrder": 58,
+    "parallels": [
+      "Base"
+    ]
   },
   {
     "id": "tipsport-s2-ph-060",
@@ -7289,7 +11335,11 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 1
+    "subsetOrder": 1,
+    "cardOrder": 59,
+    "parallels": [
+      "Base"
+    ]
   },
   {
     "id": "tipsport-s2-ph-061",
@@ -7301,7 +11351,11 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 1
+    "subsetOrder": 1,
+    "cardOrder": 60,
+    "parallels": [
+      "Base"
+    ]
   },
   {
     "id": "tipsport-s2-ph-062",
@@ -7313,7 +11367,11 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 1
+    "subsetOrder": 1,
+    "cardOrder": 61,
+    "parallels": [
+      "Base"
+    ]
   },
   {
     "id": "tipsport-s2-ph-063",
@@ -7325,7 +11383,11 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 1
+    "subsetOrder": 1,
+    "cardOrder": 62,
+    "parallels": [
+      "Base"
+    ]
   },
   {
     "id": "tipsport-s2-ph-064",
@@ -7337,7 +11399,11 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 1
+    "subsetOrder": 1,
+    "cardOrder": 63,
+    "parallels": [
+      "Base"
+    ]
   },
   {
     "id": "tipsport-s2-ph-065",
@@ -7349,7 +11415,11 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 1
+    "subsetOrder": 1,
+    "cardOrder": 64,
+    "parallels": [
+      "Base"
+    ]
   },
   {
     "id": "tipsport-s2-ph-066",
@@ -7361,7 +11431,11 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 1
+    "subsetOrder": 1,
+    "cardOrder": 65,
+    "parallels": [
+      "Base"
+    ]
   },
   {
     "id": "tipsport-s2-ph-067",
@@ -7373,7 +11447,11 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 1
+    "subsetOrder": 1,
+    "cardOrder": 66,
+    "parallels": [
+      "Base"
+    ]
   },
   {
     "id": "tipsport-s2-ph-068",
@@ -7385,7 +11463,11 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 1
+    "subsetOrder": 1,
+    "cardOrder": 67,
+    "parallels": [
+      "Base"
+    ]
   },
   {
     "id": "tipsport-s2-ph-069",
@@ -7397,7 +11479,11 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 1
+    "subsetOrder": 1,
+    "cardOrder": 68,
+    "parallels": [
+      "Base"
+    ]
   },
   {
     "id": "tipsport-s2-ph-070",
@@ -7409,7 +11495,11 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 1
+    "subsetOrder": 1,
+    "cardOrder": 69,
+    "parallels": [
+      "Base"
+    ]
   },
   {
     "id": "tipsport-s2-ph-071",
@@ -7421,7 +11511,11 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 1
+    "subsetOrder": 1,
+    "cardOrder": 70,
+    "parallels": [
+      "Base"
+    ]
   },
   {
     "id": "tipsport-s2-ph-072",
@@ -7433,7 +11527,11 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 1
+    "subsetOrder": 1,
+    "cardOrder": 71,
+    "parallels": [
+      "Base"
+    ]
   },
   {
     "id": "tipsport-s2-ph-073",
@@ -7445,7 +11543,11 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 1
+    "subsetOrder": 1,
+    "cardOrder": 72,
+    "parallels": [
+      "Base"
+    ]
   },
   {
     "id": "tipsport-s2-ph-074",
@@ -7457,7 +11559,11 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 1
+    "subsetOrder": 1,
+    "cardOrder": 73,
+    "parallels": [
+      "Base"
+    ]
   },
   {
     "id": "tipsport-s2-ph-075",
@@ -7469,7 +11575,11 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 1
+    "subsetOrder": 1,
+    "cardOrder": 74,
+    "parallels": [
+      "Base"
+    ]
   },
   {
     "id": "tipsport-s2-ph-076",
@@ -7481,7 +11591,11 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 1
+    "subsetOrder": 1,
+    "cardOrder": 75,
+    "parallels": [
+      "Base"
+    ]
   },
   {
     "id": "tipsport-s2-ph-077",
@@ -7493,7 +11607,11 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 1
+    "subsetOrder": 1,
+    "cardOrder": 76,
+    "parallels": [
+      "Base"
+    ]
   },
   {
     "id": "tipsport-s2-ph-078",
@@ -7505,7 +11623,11 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 1
+    "subsetOrder": 1,
+    "cardOrder": 77,
+    "parallels": [
+      "Base"
+    ]
   },
   {
     "id": "tipsport-s2-ph-079",
@@ -7517,7 +11639,11 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 1
+    "subsetOrder": 1,
+    "cardOrder": 78,
+    "parallels": [
+      "Base"
+    ]
   },
   {
     "id": "tipsport-s2-ph-080",
@@ -7529,7 +11655,11 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 1
+    "subsetOrder": 1,
+    "cardOrder": 79,
+    "parallels": [
+      "Base"
+    ]
   },
   {
     "id": "tipsport-s2-ph-081",
@@ -7541,7 +11671,11 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 1
+    "subsetOrder": 1,
+    "cardOrder": 80,
+    "parallels": [
+      "Base"
+    ]
   },
   {
     "id": "tipsport-s2-ph-082",
@@ -7553,7 +11687,11 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 1
+    "subsetOrder": 1,
+    "cardOrder": 81,
+    "parallels": [
+      "Base"
+    ]
   },
   {
     "id": "tipsport-s2-ph-083",
@@ -7565,7 +11703,11 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 1
+    "subsetOrder": 1,
+    "cardOrder": 82,
+    "parallels": [
+      "Base"
+    ]
   },
   {
     "id": "tipsport-s2-ph-084",
@@ -7577,7 +11719,11 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 1
+    "subsetOrder": 1,
+    "cardOrder": 83,
+    "parallels": [
+      "Base"
+    ]
   },
   {
     "id": "tipsport-s2-ph-085",
@@ -7589,7 +11735,11 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 1
+    "subsetOrder": 1,
+    "cardOrder": 84,
+    "parallels": [
+      "Base"
+    ]
   },
   {
     "id": "tipsport-s2-ph-086",
@@ -7601,7 +11751,11 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 1
+    "subsetOrder": 1,
+    "cardOrder": 85,
+    "parallels": [
+      "Base"
+    ]
   },
   {
     "id": "tipsport-s2-ph-087",
@@ -7613,7 +11767,11 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 1
+    "subsetOrder": 1,
+    "cardOrder": 86,
+    "parallels": [
+      "Base"
+    ]
   },
   {
     "id": "tipsport-s2-ph-088",
@@ -7625,7 +11783,11 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 1
+    "subsetOrder": 1,
+    "cardOrder": 87,
+    "parallels": [
+      "Base"
+    ]
   },
   {
     "id": "tipsport-s2-ph-089",
@@ -7637,7 +11799,11 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 1
+    "subsetOrder": 1,
+    "cardOrder": 88,
+    "parallels": [
+      "Base"
+    ]
   },
   {
     "id": "tipsport-s2-ph-090",
@@ -7649,7 +11815,11 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 1
+    "subsetOrder": 1,
+    "cardOrder": 89,
+    "parallels": [
+      "Base"
+    ]
   },
   {
     "id": "tipsport-s2-ph-091",
@@ -7661,7 +11831,11 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 1
+    "subsetOrder": 1,
+    "cardOrder": 90,
+    "parallels": [
+      "Base"
+    ]
   },
   {
     "id": "tipsport-s2-ph-092",
@@ -7673,7 +11847,11 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 1
+    "subsetOrder": 1,
+    "cardOrder": 91,
+    "parallels": [
+      "Base"
+    ]
   },
   {
     "id": "tipsport-s2-ph-093",
@@ -7685,7 +11863,11 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 1
+    "subsetOrder": 1,
+    "cardOrder": 92,
+    "parallels": [
+      "Base"
+    ]
   },
   {
     "id": "tipsport-s2-ph-094",
@@ -7697,7 +11879,11 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 1
+    "subsetOrder": 1,
+    "cardOrder": 93,
+    "parallels": [
+      "Base"
+    ]
   },
   {
     "id": "tipsport-s2-ph-095",
@@ -7709,7 +11895,11 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 1
+    "subsetOrder": 1,
+    "cardOrder": 94,
+    "parallels": [
+      "Base"
+    ]
   },
   {
     "id": "tipsport-s2-ph-096",
@@ -7721,7 +11911,11 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 1
+    "subsetOrder": 1,
+    "cardOrder": 95,
+    "parallels": [
+      "Base"
+    ]
   },
   {
     "id": "tipsport-s2-ph-097",
@@ -7733,7 +11927,11 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 1
+    "subsetOrder": 1,
+    "cardOrder": 96,
+    "parallels": [
+      "Base"
+    ]
   },
   {
     "id": "tipsport-s2-ph-098",
@@ -7745,7 +11943,11 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 1
+    "subsetOrder": 1,
+    "cardOrder": 97,
+    "parallels": [
+      "Base"
+    ]
   },
   {
     "id": "tipsport-s2-ph-099",
@@ -7757,7 +11959,11 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 1
+    "subsetOrder": 1,
+    "cardOrder": 98,
+    "parallels": [
+      "Base"
+    ]
   },
   {
     "id": "tipsport-s2-ph-100",
@@ -7769,7 +11975,11 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 1
+    "subsetOrder": 1,
+    "cardOrder": 99,
+    "parallels": [
+      "Base"
+    ]
   },
   {
     "id": "tipsport-s2-ph-101",
@@ -7781,7 +11991,11 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 1
+    "subsetOrder": 1,
+    "cardOrder": 100,
+    "parallels": [
+      "Base"
+    ]
   },
   {
     "id": "tipsport-s2-ph-102",
@@ -7793,7 +12007,11 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 1
+    "subsetOrder": 1,
+    "cardOrder": 101,
+    "parallels": [
+      "Base"
+    ]
   },
   {
     "id": "tipsport-s2-ph-103",
@@ -7805,7 +12023,11 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 1
+    "subsetOrder": 1,
+    "cardOrder": 102,
+    "parallels": [
+      "Base"
+    ]
   },
   {
     "id": "tipsport-s2-ph-104",
@@ -7817,7 +12039,11 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 1
+    "subsetOrder": 1,
+    "cardOrder": 103,
+    "parallels": [
+      "Base"
+    ]
   },
   {
     "id": "tipsport-s2-ph-105",
@@ -7829,7 +12055,11 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 1
+    "subsetOrder": 1,
+    "cardOrder": 104,
+    "parallels": [
+      "Base"
+    ]
   },
   {
     "id": "tipsport-s2-ph-106",
@@ -7841,7 +12071,11 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 1
+    "subsetOrder": 1,
+    "cardOrder": 105,
+    "parallels": [
+      "Base"
+    ]
   },
   {
     "id": "tipsport-s2-ph-107",
@@ -7853,7 +12087,11 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 1
+    "subsetOrder": 1,
+    "cardOrder": 106,
+    "parallels": [
+      "Base"
+    ]
   },
   {
     "id": "tipsport-s2-ph-108",
@@ -7865,7 +12103,11 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 1
+    "subsetOrder": 1,
+    "cardOrder": 107,
+    "parallels": [
+      "Base"
+    ]
   },
   {
     "id": "tipsport-s2-fb-01",
@@ -7877,8 +12119,14 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "signatureCode": "RRS-JH",
-    "subsetOrder": 2
+    "subsetOrder": 2,
+    "cardOrder": 0,
+    "parallels": [
+      "Base",
+      "/60",
+      "Auto /35"
+    ],
+    "signatureCode": "RRS-JH"
   },
   {
     "id": "tipsport-s2-fb-02",
@@ -7890,8 +12138,14 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "signatureCode": "RRS-ML",
-    "subsetOrder": 2
+    "subsetOrder": 2,
+    "cardOrder": 1,
+    "parallels": [
+      "Base",
+      "/60",
+      "Auto /35"
+    ],
+    "signatureCode": "RRS-ML"
   },
   {
     "id": "tipsport-s2-fb-03",
@@ -7903,8 +12157,14 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "signatureCode": "RRS-SK",
-    "subsetOrder": 2
+    "subsetOrder": 2,
+    "cardOrder": 2,
+    "parallels": [
+      "Base",
+      "/60",
+      "Auto /35"
+    ],
+    "signatureCode": "RRS-SK"
   },
   {
     "id": "tipsport-s2-fb-04",
@@ -7916,8 +12176,14 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "signatureCode": "RRS-AK",
-    "subsetOrder": 2
+    "subsetOrder": 2,
+    "cardOrder": 3,
+    "parallels": [
+      "Base",
+      "/60",
+      "Auto /35"
+    ],
+    "signatureCode": "RRS-AK"
   },
   {
     "id": "tipsport-s2-fb-05",
@@ -7929,8 +12195,14 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "signatureCode": "RRS-LU",
-    "subsetOrder": 2
+    "subsetOrder": 2,
+    "cardOrder": 4,
+    "parallels": [
+      "Base",
+      "/60",
+      "Auto /35"
+    ],
+    "signatureCode": "RRS-LU"
   },
   {
     "id": "tipsport-s2-fb-06",
@@ -7942,8 +12214,14 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "signatureCode": "RRS-SS",
-    "subsetOrder": 2
+    "subsetOrder": 2,
+    "cardOrder": 5,
+    "parallels": [
+      "Base",
+      "/60",
+      "Auto /35"
+    ],
+    "signatureCode": "RRS-SS"
   },
   {
     "id": "tipsport-s2-fb-07",
@@ -7955,8 +12233,14 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "signatureCode": "RRS-MZ",
-    "subsetOrder": 2
+    "subsetOrder": 2,
+    "cardOrder": 6,
+    "parallels": [
+      "Base",
+      "/60",
+      "Auto /35"
+    ],
+    "signatureCode": "RRS-MZ"
   },
   {
     "id": "tipsport-s2-fb-08",
@@ -7968,8 +12252,14 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "signatureCode": "RRS-RM",
-    "subsetOrder": 2
+    "subsetOrder": 2,
+    "cardOrder": 7,
+    "parallels": [
+      "Base",
+      "/60",
+      "Auto /35"
+    ],
+    "signatureCode": "RRS-RM"
   },
   {
     "id": "tipsport-s2-fb-09",
@@ -7981,8 +12271,14 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "signatureCode": "RRS-DT",
-    "subsetOrder": 2
+    "subsetOrder": 2,
+    "cardOrder": 8,
+    "parallels": [
+      "Base",
+      "/60",
+      "Auto /35"
+    ],
+    "signatureCode": "RRS-DT"
   },
   {
     "id": "tipsport-s2-dd-01",
@@ -7994,8 +12290,14 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "signatureCode": "DDS-BS",
-    "subsetOrder": 3
+    "subsetOrder": 3,
+    "cardOrder": 0,
+    "parallels": [
+      "Base",
+      "/20",
+      "Auto /10"
+    ],
+    "signatureCode": "DDS-BS"
   },
   {
     "id": "tipsport-s2-dd-02",
@@ -8007,8 +12309,14 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "signatureCode": "DDS-FR",
-    "subsetOrder": 3
+    "subsetOrder": 3,
+    "cardOrder": 1,
+    "parallels": [
+      "Base",
+      "/20",
+      "Auto /10"
+    ],
+    "signatureCode": "DDS-FR"
   },
   {
     "id": "tipsport-s2-dd-03",
@@ -8020,8 +12328,14 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "signatureCode": "DDS-CK",
-    "subsetOrder": 3
+    "subsetOrder": 3,
+    "cardOrder": 2,
+    "parallels": [
+      "Base",
+      "/20",
+      "Auto /10"
+    ],
+    "signatureCode": "DDS-CK"
   },
   {
     "id": "tipsport-s2-dd-04",
@@ -8033,8 +12347,14 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "signatureCode": "DDS-SV",
-    "subsetOrder": 3
+    "subsetOrder": 3,
+    "cardOrder": 3,
+    "parallels": [
+      "Base",
+      "/20",
+      "Auto /10"
+    ],
+    "signatureCode": "DDS-SV"
   },
   {
     "id": "tipsport-s2-dd-05",
@@ -8046,8 +12366,14 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "signatureCode": "DDS-HO",
-    "subsetOrder": 3
+    "subsetOrder": 3,
+    "cardOrder": 4,
+    "parallels": [
+      "Base",
+      "/20",
+      "Auto /10"
+    ],
+    "signatureCode": "DDS-HO"
   },
   {
     "id": "tipsport-s2-dd-06",
@@ -8059,8 +12385,14 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "signatureCode": "DDS-DH",
-    "subsetOrder": 3
+    "subsetOrder": 3,
+    "cardOrder": 5,
+    "parallels": [
+      "Base",
+      "/20",
+      "Auto /10"
+    ],
+    "signatureCode": "DDS-DH"
   },
   {
     "id": "tipsport-s2-dd-07",
@@ -8072,8 +12404,14 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "signatureCode": "DDS-KV",
-    "subsetOrder": 3
+    "subsetOrder": 3,
+    "cardOrder": 6,
+    "parallels": [
+      "Base",
+      "/20",
+      "Auto /10"
+    ],
+    "signatureCode": "DDS-KV"
   },
   {
     "id": "tipsport-s2-dd-08",
@@ -8085,8 +12423,14 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "signatureCode": "DDS-BK",
-    "subsetOrder": 3
+    "subsetOrder": 3,
+    "cardOrder": 7,
+    "parallels": [
+      "Base",
+      "/20",
+      "Auto /10"
+    ],
+    "signatureCode": "DDS-BK"
   },
   {
     "id": "tipsport-s2-dd-09",
@@ -8098,8 +12442,14 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "signatureCode": "DDS-AZ",
-    "subsetOrder": 3
+    "subsetOrder": 3,
+    "cardOrder": 8,
+    "parallels": [
+      "Base",
+      "/20",
+      "Auto /10"
+    ],
+    "signatureCode": "DDS-AZ"
   },
   {
     "id": "tipsport-s2-dd-10",
@@ -8111,8 +12461,14 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "signatureCode": "DDS-LZ",
-    "subsetOrder": 3
+    "subsetOrder": 3,
+    "cardOrder": 9,
+    "parallels": [
+      "Base",
+      "/20",
+      "Auto /10"
+    ],
+    "signatureCode": "DDS-LZ"
   },
   {
     "id": "tipsport-s2-dd-11",
@@ -8124,8 +12480,14 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "signatureCode": "DDS-MZ",
-    "subsetOrder": 3
+    "subsetOrder": 3,
+    "cardOrder": 10,
+    "parallels": [
+      "Base",
+      "/20",
+      "Auto /10"
+    ],
+    "signatureCode": "DDS-MZ"
   },
   {
     "id": "tipsport-s2-dd-12",
@@ -8137,8 +12499,14 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "signatureCode": "DDS-BM",
-    "subsetOrder": 3
+    "subsetOrder": 3,
+    "cardOrder": 11,
+    "parallels": [
+      "Base",
+      "/20",
+      "Auto /10"
+    ],
+    "signatureCode": "DDS-BM"
   },
   {
     "id": "tipsport-s2-dd-13",
@@ -8150,8 +12518,14 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "signatureCode": "DDS-HM",
-    "subsetOrder": 3
+    "subsetOrder": 3,
+    "cardOrder": 12,
+    "parallels": [
+      "Base",
+      "/20",
+      "Auto /10"
+    ],
+    "signatureCode": "DDS-HM"
   },
   {
     "id": "tipsport-s2-dd-14",
@@ -8163,8 +12537,14 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "signatureCode": "DDS-AB",
-    "subsetOrder": 3
+    "subsetOrder": 3,
+    "cardOrder": 13,
+    "parallels": [
+      "Base",
+      "/20",
+      "Auto /10"
+    ],
+    "signatureCode": "DDS-AB"
   },
   {
     "id": "tipsport-s2-dd-15",
@@ -8176,8 +12556,14 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "signatureCode": "DDS-FK",
-    "subsetOrder": 3
+    "subsetOrder": 3,
+    "cardOrder": 14,
+    "parallels": [
+      "Base",
+      "/20",
+      "Auto /10"
+    ],
+    "signatureCode": "DDS-FK"
   },
   {
     "id": "tipsport-s2-dd-16",
@@ -8189,8 +12575,14 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "signatureCode": "DDS-MM",
-    "subsetOrder": 3
+    "subsetOrder": 3,
+    "cardOrder": 15,
+    "parallels": [
+      "Base",
+      "/20",
+      "Auto /10"
+    ],
+    "signatureCode": "DDS-MM"
   },
   {
     "id": "tipsport-s2-dd-17",
@@ -8202,8 +12594,14 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "signatureCode": "DDS-FM",
-    "subsetOrder": 3
+    "subsetOrder": 3,
+    "cardOrder": 16,
+    "parallels": [
+      "Base",
+      "/20",
+      "Auto /10"
+    ],
+    "signatureCode": "DDS-FM"
   },
   {
     "id": "tipsport-s2-dd-18",
@@ -8215,8 +12613,14 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "signatureCode": "DDS-MS",
-    "subsetOrder": 3
+    "subsetOrder": 3,
+    "cardOrder": 17,
+    "parallels": [
+      "Base",
+      "/20",
+      "Auto /10"
+    ],
+    "signatureCode": "DDS-MS"
   },
   {
     "id": "tipsport-s2-rr-10",
@@ -8228,8 +12632,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "signatureCode": "RRS-JH",
-    "subsetOrder": 4
+    "subsetOrder": 4,
+    "cardOrder": 9,
+    "parallels": [
+      "Base",
+      "Bright Blue /85",
+      "Gold Auto /55",
+      "1of1"
+    ],
+    "signatureCode": "RRS-JH"
   },
   {
     "id": "tipsport-s2-rr-11",
@@ -8241,8 +12652,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "signatureCode": "RRS-ML",
-    "subsetOrder": 4
+    "subsetOrder": 4,
+    "cardOrder": 10,
+    "parallels": [
+      "Base",
+      "Bright Blue /85",
+      "Gold Auto /55",
+      "1of1"
+    ],
+    "signatureCode": "RRS-ML"
   },
   {
     "id": "tipsport-s2-rr-12",
@@ -8254,8 +12672,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "signatureCode": "RRS-SK",
-    "subsetOrder": 4
+    "subsetOrder": 4,
+    "cardOrder": 11,
+    "parallels": [
+      "Base",
+      "Bright Blue /85",
+      "Gold Auto /55",
+      "1of1"
+    ],
+    "signatureCode": "RRS-SK"
   },
   {
     "id": "tipsport-s2-rr-13",
@@ -8267,8 +12692,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "signatureCode": "RRS-AK",
-    "subsetOrder": 4
+    "subsetOrder": 4,
+    "cardOrder": 12,
+    "parallels": [
+      "Base",
+      "Bright Blue /85",
+      "Gold Auto /55",
+      "1of1"
+    ],
+    "signatureCode": "RRS-AK"
   },
   {
     "id": "tipsport-s2-rr-14",
@@ -8280,8 +12712,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "signatureCode": "RRS-LU",
-    "subsetOrder": 4
+    "subsetOrder": 4,
+    "cardOrder": 13,
+    "parallels": [
+      "Base",
+      "Bright Blue /85",
+      "Gold Auto /55",
+      "1of1"
+    ],
+    "signatureCode": "RRS-LU"
   },
   {
     "id": "tipsport-s2-rr-15",
@@ -8293,8 +12732,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "signatureCode": "RRS-SS",
-    "subsetOrder": 4
+    "subsetOrder": 4,
+    "cardOrder": 14,
+    "parallels": [
+      "Base",
+      "Bright Blue /85",
+      "Gold Auto /55",
+      "1of1"
+    ],
+    "signatureCode": "RRS-SS"
   },
   {
     "id": "tipsport-s2-rr-16",
@@ -8306,8 +12752,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "signatureCode": "RRS-MZ",
-    "subsetOrder": 4
+    "subsetOrder": 4,
+    "cardOrder": 15,
+    "parallels": [
+      "Base",
+      "Bright Blue /85",
+      "Gold Auto /55",
+      "1of1"
+    ],
+    "signatureCode": "RRS-MZ"
   },
   {
     "id": "tipsport-s2-rr-17",
@@ -8319,8 +12772,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "signatureCode": "RRS-RM",
-    "subsetOrder": 4
+    "subsetOrder": 4,
+    "cardOrder": 16,
+    "parallels": [
+      "Base",
+      "Bright Blue /85",
+      "Gold Auto /55",
+      "1of1"
+    ],
+    "signatureCode": "RRS-RM"
   },
   {
     "id": "tipsport-s2-rr-18",
@@ -8332,8 +12792,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "signatureCode": "RRS-DT",
-    "subsetOrder": 4
+    "subsetOrder": 4,
+    "cardOrder": 17,
+    "parallels": [
+      "Base",
+      "Bright Blue /85",
+      "Gold Auto /55",
+      "1of1"
+    ],
+    "signatureCode": "RRS-DT"
   },
   {
     "id": "tipsport-s2-rr-19",
@@ -8345,8 +12812,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "signatureCode": "RRS-OK",
-    "subsetOrder": 4
+    "subsetOrder": 4,
+    "cardOrder": 18,
+    "parallels": [
+      "Base",
+      "Bright Blue /85",
+      "Gold Auto /55",
+      "1of1"
+    ],
+    "signatureCode": "RRS-OK"
   },
   {
     "id": "tipsport-s2-rr-20",
@@ -8358,8 +12832,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "signatureCode": "RRS-AG",
-    "subsetOrder": 4
+    "subsetOrder": 4,
+    "cardOrder": 19,
+    "parallels": [
+      "Base",
+      "Bright Blue /85",
+      "Gold Auto /55",
+      "1of1"
+    ],
+    "signatureCode": "RRS-AG"
   },
   {
     "id": "tipsport-s2-rr-21",
@@ -8371,8 +12852,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "signatureCode": "RRS-MH",
-    "subsetOrder": 4
+    "subsetOrder": 4,
+    "cardOrder": 20,
+    "parallels": [
+      "Base",
+      "Bright Blue /85",
+      "Gold Auto /55",
+      "1of1"
+    ],
+    "signatureCode": "RRS-MH"
   },
   {
     "id": "tipsport-s2-rr-22",
@@ -8384,8 +12872,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "signatureCode": "RRS-SN",
-    "subsetOrder": 4
+    "subsetOrder": 4,
+    "cardOrder": 21,
+    "parallels": [
+      "Base",
+      "Bright Blue /85",
+      "Gold Auto /55",
+      "1of1"
+    ],
+    "signatureCode": "RRS-SN"
   },
   {
     "id": "tipsport-s2-rr-23",
@@ -8397,8 +12892,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "signatureCode": "RRS-OM",
-    "subsetOrder": 4
+    "subsetOrder": 4,
+    "cardOrder": 22,
+    "parallels": [
+      "Base",
+      "Bright Blue /85",
+      "Gold Auto /55",
+      "1of1"
+    ],
+    "signatureCode": "RRS-OM"
   },
   {
     "id": "tipsport-s2-rr-24",
@@ -8410,8 +12912,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "signatureCode": "RRS-DM",
-    "subsetOrder": 4
+    "subsetOrder": 4,
+    "cardOrder": 23,
+    "parallels": [
+      "Base",
+      "Bright Blue /85",
+      "Gold Auto /55",
+      "1of1"
+    ],
+    "signatureCode": "RRS-DM"
   },
   {
     "id": "tipsport-s2-rr-25",
@@ -8423,8 +12932,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "signatureCode": "RRS-AR",
-    "subsetOrder": 4
+    "subsetOrder": 4,
+    "cardOrder": 24,
+    "parallels": [
+      "Base",
+      "Bright Blue /85",
+      "Gold Auto /55",
+      "1of1"
+    ],
+    "signatureCode": "RRS-AR"
   },
   {
     "id": "tipsport-s2-rr-26",
@@ -8436,8 +12952,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "signatureCode": "RRS-KA",
-    "subsetOrder": 4
+    "subsetOrder": 4,
+    "cardOrder": 25,
+    "parallels": [
+      "Base",
+      "Bright Blue /85",
+      "Gold Auto /55",
+      "1of1"
+    ],
+    "signatureCode": "RRS-KA"
   },
   {
     "id": "tipsport-s2-rr-27",
@@ -8449,8 +12972,15 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "signatureCode": "RRS-AS",
-    "subsetOrder": 4
+    "subsetOrder": 4,
+    "cardOrder": 26,
+    "parallels": [
+      "Base",
+      "Bright Blue /85",
+      "Gold Auto /55",
+      "1of1"
+    ],
+    "signatureCode": "RRS-AS"
   },
   {
     "id": "tipsport-s2-es-01",
@@ -8462,7 +12992,12 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 5
+    "subsetOrder": 5,
+    "cardOrder": 0,
+    "parallels": [
+      "Base",
+      "1of1"
+    ]
   },
   {
     "id": "tipsport-s2-es-02",
@@ -8474,7 +13009,12 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 5
+    "subsetOrder": 5,
+    "cardOrder": 1,
+    "parallels": [
+      "Base",
+      "1of1"
+    ]
   },
   {
     "id": "tipsport-s2-es-03",
@@ -8486,7 +13026,12 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 5
+    "subsetOrder": 5,
+    "cardOrder": 2,
+    "parallels": [
+      "Base",
+      "1of1"
+    ]
   },
   {
     "id": "tipsport-s2-es-04",
@@ -8498,7 +13043,12 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 5
+    "subsetOrder": 5,
+    "cardOrder": 3,
+    "parallels": [
+      "Base",
+      "1of1"
+    ]
   },
   {
     "id": "tipsport-s2-es-05",
@@ -8510,7 +13060,12 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 5
+    "subsetOrder": 5,
+    "cardOrder": 4,
+    "parallels": [
+      "Base",
+      "1of1"
+    ]
   },
   {
     "id": "tipsport-s2-es-06",
@@ -8522,7 +13077,12 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 5
+    "subsetOrder": 5,
+    "cardOrder": 5,
+    "parallels": [
+      "Base",
+      "1of1"
+    ]
   },
   {
     "id": "tipsport-s2-es-07",
@@ -8534,7 +13094,12 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 5
+    "subsetOrder": 5,
+    "cardOrder": 6,
+    "parallels": [
+      "Base",
+      "1of1"
+    ]
   },
   {
     "id": "tipsport-s2-es-08",
@@ -8546,7 +13111,12 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 5
+    "subsetOrder": 5,
+    "cardOrder": 7,
+    "parallels": [
+      "Base",
+      "1of1"
+    ]
   },
   {
     "id": "tipsport-s2-es-09",
@@ -8558,7 +13128,12 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 5
+    "subsetOrder": 5,
+    "cardOrder": 8,
+    "parallels": [
+      "Base",
+      "1of1"
+    ]
   },
   {
     "id": "tipsport-s2-es-10",
@@ -8570,7 +13145,12 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 5
+    "subsetOrder": 5,
+    "cardOrder": 9,
+    "parallels": [
+      "Base",
+      "1of1"
+    ]
   },
   {
     "id": "tipsport-s2-es-11",
@@ -8582,7 +13162,12 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 5
+    "subsetOrder": 5,
+    "cardOrder": 10,
+    "parallels": [
+      "Base",
+      "1of1"
+    ]
   },
   {
     "id": "tipsport-s2-es-12",
@@ -8594,7 +13179,12 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 5
+    "subsetOrder": 5,
+    "cardOrder": 11,
+    "parallels": [
+      "Base",
+      "1of1"
+    ]
   },
   {
     "id": "tipsport-s2-es-13",
@@ -8606,7 +13196,12 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 5
+    "subsetOrder": 5,
+    "cardOrder": 12,
+    "parallels": [
+      "Base",
+      "1of1"
+    ]
   },
   {
     "id": "tipsport-s2-es-14",
@@ -8618,7 +13213,12 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 5
+    "subsetOrder": 5,
+    "cardOrder": 13,
+    "parallels": [
+      "Base",
+      "1of1"
+    ]
   },
   {
     "id": "tipsport-s2-es-15",
@@ -8630,7 +13230,12 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 5
+    "subsetOrder": 5,
+    "cardOrder": 14,
+    "parallels": [
+      "Base",
+      "1of1"
+    ]
   },
   {
     "id": "tipsport-s2-es-16",
@@ -8642,7 +13247,12 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 5
+    "subsetOrder": 5,
+    "cardOrder": 15,
+    "parallels": [
+      "Base",
+      "1of1"
+    ]
   },
   {
     "id": "tipsport-s2-es-17",
@@ -8654,7 +13264,12 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 5
+    "subsetOrder": 5,
+    "cardOrder": 16,
+    "parallels": [
+      "Base",
+      "1of1"
+    ]
   },
   {
     "id": "tipsport-s2-es-18",
@@ -8666,163 +13281,12 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 5
-  },
-  {
-    "id": "tipsport-s2-gj-bu",
-    "number": "GJ-BU",
-    "seriesId": "tipsport-s2",
-    "subset": "Game Jersey",
-    "player": "MILOŠ BUBELA",
-    "team": "HKN",
-    "owned": false,
-    "quantity": 0,
-    "notes": "",
-    "signatureCode": "GJS-BU",
-    "subsetOrder": 6
-  },
-  {
-    "id": "tipsport-s2-gj-dg",
-    "number": "GJ-DG",
-    "seriesId": "tipsport-s2",
-    "subset": "Game Jersey",
-    "player": "DENIS GODLA",
-    "team": "RYS",
-    "owned": false,
-    "quantity": 0,
-    "notes": "",
-    "signatureCode": "GJS-DG",
-    "subsetOrder": 6
-  },
-  {
-    "id": "tipsport-s2-gj-dh",
-    "number": "GJ-DH",
-    "seriesId": "tipsport-s2",
-    "subset": "Game Jersey",
-    "player": "DÁVID HRENÁK",
-    "team": "TRE",
-    "owned": false,
-    "quantity": 0,
-    "notes": "",
-    "signatureCode": "GJS-DH",
-    "subsetOrder": 6
-  },
-  {
-    "id": "tipsport-s2-gj-dt",
-    "number": "GJ-DT",
-    "seriesId": "tipsport-s2",
-    "subset": "Game Jersey",
-    "player": "DANIEL VLADIMÍR TKÁČ",
-    "team": "ZIL",
-    "owned": false,
-    "quantity": 0,
-    "notes": "",
-    "signatureCode": "GJS-DT",
-    "subsetOrder": 6
-  },
-  {
-    "id": "tipsport-s2-gj-jj",
-    "number": "GJ-JJ",
-    "seriesId": "tipsport-s2",
-    "subset": "Game Jersey",
-    "player": "JAROSLAV JANUS",
-    "team": "PHC",
-    "owned": false,
-    "quantity": 0,
-    "notes": "",
-    "signatureCode": "GJS-JJ",
-    "subsetOrder": 6
-  },
-  {
-    "id": "tipsport-s2-gj-jm",
-    "number": "GJ-JM",
-    "seriesId": "tipsport-s2",
-    "subset": "Game Jersey",
-    "player": "JURAJ MIKUŠ",
-    "team": "TRE",
-    "owned": false,
-    "quantity": 0,
-    "notes": "",
-    "signatureCode": "GJS-JM",
-    "subsetOrder": 6
-  },
-  {
-    "id": "tipsport-s2-gj-mb",
-    "number": "GJ-MB",
-    "seriesId": "tipsport-s2",
-    "subset": "Game Jersey",
-    "player": "MARTIN BAKOŠ",
-    "team": "SBA",
-    "owned": false,
-    "quantity": 0,
-    "notes": "",
-    "signatureCode": "GJS-MB",
-    "subsetOrder": 6
-  },
-  {
-    "id": "tipsport-s2-gj-mc",
-    "number": "GJ-MC",
-    "seriesId": "tipsport-s2",
-    "subset": "Game Jersey",
-    "player": "MICHAL CHOVAN",
-    "team": "KOS",
-    "owned": false,
-    "quantity": 0,
-    "notes": "",
-    "signatureCode": "GJS-MC",
-    "subsetOrder": 6
-  },
-  {
-    "id": "tipsport-s2-gj-mf",
-    "number": "GJ-MF",
-    "seriesId": "tipsport-s2",
-    "subset": "Game Jersey",
-    "player": "MAX FERKODIČ",
-    "team": "LMI",
-    "owned": false,
-    "quantity": 0,
-    "notes": "",
-    "signatureCode": "GJS-MF",
-    "subsetOrder": 6
-  },
-  {
-    "id": "tipsport-s2-gj-mh",
-    "number": "GJ-MH",
-    "seriesId": "tipsport-s2",
-    "subset": "Game Jersey",
-    "player": "MATÚŠ HOLENDA",
-    "team": "ZIL",
-    "owned": false,
-    "quantity": 0,
-    "notes": "",
-    "signatureCode": "GJS-MH",
-    "subsetOrder": 6
-  },
-  {
-    "id": "tipsport-s2-gj-mp",
-    "number": "GJ-MP",
-    "seriesId": "tipsport-s2",
-    "subset": "Game Jersey",
-    "player": "MATEJ PAULOVIČ",
-    "team": "HKN",
-    "owned": false,
-    "quantity": 0,
-    "notes": "",
-    "signatureCode": "GJS-MP",
-    "subsetOrder": 6
-  },
-  {
-    "id": "tipsport-s2-gj-rd",
-    "number": "GJ-RD",
-    "seriesId": "tipsport-s2",
-    "subset": "Game Jersey",
-    "player": "RÓBERT DŽUGAN",
-    "team": "RYS",
-    "owned": false,
-    "quantity": 0,
-    "notes": "",
-    "signatureCode": "GJS-RD",
-    "subsetOrder": 6
+    "subsetOrder": 5,
+    "cardOrder": 17,
+    "parallels": [
+      "Base",
+      "1of1"
+    ]
   },
   {
     "id": "tipsport-s2-gj-ri",
@@ -8834,47 +13298,103 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "signatureCode": "GJS-RI",
-    "subsetOrder": 6
+    "subsetOrder": 6,
+    "cardOrder": 0,
+    "parallels": [
+      "/75",
+      "Auto /25"
+    ],
+    "signatureCode": "GJS-RI"
   },
   {
-    "id": "tipsport-s2-gj-st",
-    "number": "GJ-ST",
+    "id": "tipsport-s2-gj-mc",
+    "number": "GJ-MC",
     "seriesId": "tipsport-s2",
     "subset": "Game Jersey",
-    "player": "SAMUEL TAKÁČ",
-    "team": "SBA",
+    "player": "MICHAL CHOVAN",
+    "team": "KOS",
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "signatureCode": "GJS-ST",
-    "subsetOrder": 6
+    "subsetOrder": 6,
+    "cardOrder": 1,
+    "parallels": [
+      "/75",
+      "Auto /25"
+    ],
+    "signatureCode": "GJS-MC"
   },
   {
-    "id": "tipsport-s2-gj-tt",
-    "number": "GJ-TT",
+    "id": "tipsport-s2-gj-bu",
+    "number": "GJ-BU",
     "seriesId": "tipsport-s2",
     "subset": "Game Jersey",
-    "player": "TOMÁŠ TÖRÖK",
-    "team": "POA",
+    "player": "MILOŠ BUBELA",
+    "team": "HKN",
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "signatureCode": "GJS-TT",
-    "subsetOrder": 6
+    "subsetOrder": 6,
+    "cardOrder": 100,
+    "parallels": [
+      "/75",
+      "Auto /25"
+    ],
+    "signatureCode": "GJS-BU"
   },
   {
-    "id": "tipsport-s2-gj-tz",
-    "number": "GJ-TZ",
+    "id": "tipsport-s2-gj-mp",
+    "number": "GJ-MP",
     "seriesId": "tipsport-s2",
     "subset": "Game Jersey",
-    "player": "TOMÁŠ ZIGO",
-    "team": "BBS",
+    "player": "MATEJ PAULOVIČ",
+    "team": "HKN",
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "signatureCode": "GJS-TZ",
-    "subsetOrder": 6
+    "subsetOrder": 6,
+    "cardOrder": 100,
+    "parallels": [
+      "/75",
+      "Auto /25"
+    ],
+    "signatureCode": "GJS-MP"
+  },
+  {
+    "id": "tipsport-s2-gj-dt",
+    "number": "GJ-DT",
+    "seriesId": "tipsport-s2",
+    "subset": "Game Jersey",
+    "player": "DANIEL VLADIMÍR TKÁČ",
+    "team": "ZIL",
+    "owned": false,
+    "quantity": 0,
+    "notes": "",
+    "subsetOrder": 6,
+    "cardOrder": 200,
+    "parallels": [
+      "/75",
+      "Auto /25"
+    ],
+    "signatureCode": "GJS-DT"
+  },
+  {
+    "id": "tipsport-s2-gj-mh",
+    "number": "GJ-MH",
+    "seriesId": "tipsport-s2",
+    "subset": "Game Jersey",
+    "player": "MATÚŠ HOLENDA",
+    "team": "ZIL",
+    "owned": false,
+    "quantity": 0,
+    "notes": "",
+    "subsetOrder": 6,
+    "cardOrder": 200,
+    "parallels": [
+      "/75",
+      "Auto /25"
+    ],
+    "signatureCode": "GJS-MH"
   },
   {
     "id": "tipsport-s2-gj-va",
@@ -8886,8 +13406,157 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "signatureCode": "GJS-VA",
-    "subsetOrder": 6
+    "subsetOrder": 6,
+    "cardOrder": 300,
+    "parallels": [
+      "/75",
+      "Auto /25"
+    ],
+    "signatureCode": "GJS-VA"
+  },
+  {
+    "id": "tipsport-s2-gj-dg",
+    "number": "GJ-DG",
+    "seriesId": "tipsport-s2",
+    "subset": "Game Jersey",
+    "player": "DENIS GODLA",
+    "team": "RYS",
+    "owned": false,
+    "quantity": 0,
+    "notes": "",
+    "subsetOrder": 6,
+    "cardOrder": 400,
+    "parallels": [
+      "/75",
+      "Auto /25"
+    ],
+    "signatureCode": "GJS-DG"
+  },
+  {
+    "id": "tipsport-s2-gj-rd",
+    "number": "GJ-RD",
+    "seriesId": "tipsport-s2",
+    "subset": "Game Jersey",
+    "player": "RÓBERT DŽUGAN",
+    "team": "RYS",
+    "owned": false,
+    "quantity": 0,
+    "notes": "",
+    "subsetOrder": 6,
+    "cardOrder": 400,
+    "parallels": [
+      "/75",
+      "Auto /25"
+    ],
+    "signatureCode": "GJS-RD"
+  },
+  {
+    "id": "tipsport-s2-gj-tz",
+    "number": "GJ-TZ",
+    "seriesId": "tipsport-s2",
+    "subset": "Game Jersey",
+    "player": "TOMÁŠ ZIGO",
+    "team": "BBS",
+    "owned": false,
+    "quantity": 0,
+    "notes": "",
+    "subsetOrder": 6,
+    "cardOrder": 500,
+    "parallels": [
+      "/75",
+      "Auto /25"
+    ],
+    "signatureCode": "GJS-TZ"
+  },
+  {
+    "id": "tipsport-s2-gj-tt",
+    "number": "GJ-TT",
+    "seriesId": "tipsport-s2",
+    "subset": "Game Jersey",
+    "player": "TOMÁŠ TÖRÖK",
+    "team": "POA",
+    "owned": false,
+    "quantity": 0,
+    "notes": "",
+    "subsetOrder": 6,
+    "cardOrder": 600,
+    "parallels": [
+      "/75",
+      "Auto /25"
+    ],
+    "signatureCode": "GJS-TT"
+  },
+  {
+    "id": "tipsport-s2-gj-dh",
+    "number": "GJ-DH",
+    "seriesId": "tipsport-s2",
+    "subset": "Game Jersey",
+    "player": "DÁVID HRENÁK",
+    "team": "TRE",
+    "owned": false,
+    "quantity": 0,
+    "notes": "",
+    "subsetOrder": 6,
+    "cardOrder": 700,
+    "parallels": [
+      "/75",
+      "Auto /25"
+    ],
+    "signatureCode": "GJS-DH"
+  },
+  {
+    "id": "tipsport-s2-gj-jm",
+    "number": "GJ-JM",
+    "seriesId": "tipsport-s2",
+    "subset": "Game Jersey",
+    "player": "JURAJ MIKUŠ",
+    "team": "TRE",
+    "owned": false,
+    "quantity": 0,
+    "notes": "",
+    "subsetOrder": 6,
+    "cardOrder": 700,
+    "parallels": [
+      "/75",
+      "Auto /25"
+    ],
+    "signatureCode": "GJS-JM"
+  },
+  {
+    "id": "tipsport-s2-gj-mb",
+    "number": "GJ-MB",
+    "seriesId": "tipsport-s2",
+    "subset": "Game Jersey",
+    "player": "MARTIN BAKOŠ",
+    "team": "SBA",
+    "owned": false,
+    "quantity": 0,
+    "notes": "",
+    "subsetOrder": 6,
+    "cardOrder": 800,
+    "parallels": [
+      "/75",
+      "Auto /25"
+    ],
+    "signatureCode": "GJS-MB"
+  },
+  {
+    "id": "tipsport-s2-gj-st",
+    "number": "GJ-ST",
+    "seriesId": "tipsport-s2",
+    "subset": "Game Jersey",
+    "player": "SAMUEL TAKÁČ",
+    "team": "SBA",
+    "owned": false,
+    "quantity": 0,
+    "notes": "",
+    "subsetOrder": 6,
+    "cardOrder": 800,
+    "parallels": [
+      "/75",
+      "Auto /25"
+    ],
+    "signatureCode": "GJS-ST"
   },
   {
     "id": "tipsport-s2-gj-vg",
@@ -8899,8 +13568,49 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "signatureCode": "GJS-VG",
-    "subsetOrder": 6
+    "subsetOrder": 6,
+    "cardOrder": 900,
+    "parallels": [
+      "/75",
+      "Auto /25"
+    ],
+    "signatureCode": "GJS-VG"
+  },
+  {
+    "id": "tipsport-s2-gj-mf",
+    "number": "GJ-MF",
+    "seriesId": "tipsport-s2",
+    "subset": "Game Jersey",
+    "player": "MAX FERKODIČ",
+    "team": "LMI",
+    "owned": false,
+    "quantity": 0,
+    "notes": "",
+    "subsetOrder": 6,
+    "cardOrder": 1000,
+    "parallels": [
+      "/75",
+      "Auto /25"
+    ],
+    "signatureCode": "GJS-MF"
+  },
+  {
+    "id": "tipsport-s2-gj-jj",
+    "number": "GJ-JJ",
+    "seriesId": "tipsport-s2",
+    "subset": "Game Jersey",
+    "player": "JAROSLAV JANUS",
+    "team": "PHC",
+    "owned": false,
+    "quantity": 0,
+    "notes": "",
+    "subsetOrder": 6,
+    "cardOrder": 1100,
+    "parallels": [
+      "/75",
+      "Auto /25"
+    ],
+    "signatureCode": "GJS-JJ"
   },
   {
     "id": "tipsport-s2-fs-01",
@@ -8912,8 +13622,14 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "signatureCode": "FSS-AB",
-    "subsetOrder": 7
+    "subsetOrder": 7,
+    "cardOrder": 0,
+    "parallels": [
+      "Base",
+      "/60",
+      "Auto /40"
+    ],
+    "signatureCode": "FSS-AB"
   },
   {
     "id": "tipsport-s2-fs-02",
@@ -8925,8 +13641,14 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "signatureCode": "FSS-DK",
-    "subsetOrder": 7
+    "subsetOrder": 7,
+    "cardOrder": 1,
+    "parallels": [
+      "Base",
+      "/60",
+      "Auto /40"
+    ],
+    "signatureCode": "FSS-DK"
   },
   {
     "id": "tipsport-s2-fs-03",
@@ -8938,8 +13660,14 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "signatureCode": "FSS-JL",
-    "subsetOrder": 7
+    "subsetOrder": 7,
+    "cardOrder": 2,
+    "parallels": [
+      "Base",
+      "/60",
+      "Auto /40"
+    ],
+    "signatureCode": "FSS-JL"
   },
   {
     "id": "tipsport-s2-fs-04",
@@ -8951,8 +13679,14 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "signatureCode": "FSS-OM",
-    "subsetOrder": 7
+    "subsetOrder": 7,
+    "cardOrder": 3,
+    "parallels": [
+      "Base",
+      "/60",
+      "Auto /40"
+    ],
+    "signatureCode": "FSS-OM"
   },
   {
     "id": "tipsport-s2-fs-05",
@@ -8964,8 +13698,14 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "signatureCode": "FSS-BM",
-    "subsetOrder": 7
+    "subsetOrder": 7,
+    "cardOrder": 4,
+    "parallels": [
+      "Base",
+      "/60",
+      "Auto /40"
+    ],
+    "signatureCode": "FSS-BM"
   },
   {
     "id": "tipsport-s2-fs-06",
@@ -8977,8 +13717,14 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "signatureCode": "FSS-RD",
-    "subsetOrder": 7
+    "subsetOrder": 7,
+    "cardOrder": 5,
+    "parallels": [
+      "Base",
+      "/60",
+      "Auto /40"
+    ],
+    "signatureCode": "FSS-RD"
   },
   {
     "id": "tipsport-s2-fs-07",
@@ -8990,8 +13736,14 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "signatureCode": "FSS-JJ",
-    "subsetOrder": 7
+    "subsetOrder": 7,
+    "cardOrder": 6,
+    "parallels": [
+      "Base",
+      "/60",
+      "Auto /40"
+    ],
+    "signatureCode": "FSS-JJ"
   },
   {
     "id": "tipsport-s2-fs-08",
@@ -9003,8 +13755,14 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "signatureCode": "FSS-PZ",
-    "subsetOrder": 7
+    "subsetOrder": 7,
+    "cardOrder": 7,
+    "parallels": [
+      "Base",
+      "/60",
+      "Auto /40"
+    ],
+    "signatureCode": "FSS-PZ"
   },
   {
     "id": "tipsport-s2-fs-09",
@@ -9016,8 +13774,14 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "signatureCode": "FSS-SB",
-    "subsetOrder": 7
+    "subsetOrder": 7,
+    "cardOrder": 8,
+    "parallels": [
+      "Base",
+      "/60",
+      "Auto /40"
+    ],
+    "signatureCode": "FSS-SB"
   },
   {
     "id": "tipsport-s2-fs-10",
@@ -9029,8 +13793,14 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "signatureCode": "FSS-MK",
-    "subsetOrder": 7
+    "subsetOrder": 7,
+    "cardOrder": 9,
+    "parallels": [
+      "Base",
+      "/60",
+      "Auto /40"
+    ],
+    "signatureCode": "FSS-MK"
   },
   {
     "id": "tipsport-s2-fs-11",
@@ -9042,8 +13812,14 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "signatureCode": "FSS-MV",
-    "subsetOrder": 7
+    "subsetOrder": 7,
+    "cardOrder": 10,
+    "parallels": [
+      "Base",
+      "/60",
+      "Auto /40"
+    ],
+    "signatureCode": "FSS-MV"
   },
   {
     "id": "tipsport-s2-fs-12",
@@ -9055,8 +13831,14 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "signatureCode": "FSS-FB",
-    "subsetOrder": 7
+    "subsetOrder": 7,
+    "cardOrder": 11,
+    "parallels": [
+      "Base",
+      "/60",
+      "Auto /40"
+    ],
+    "signatureCode": "FSS-FB"
   },
   {
     "id": "tipsport-s2-fs-13",
@@ -9068,8 +13850,14 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "signatureCode": "FSS-JS",
-    "subsetOrder": 7
+    "subsetOrder": 7,
+    "cardOrder": 12,
+    "parallels": [
+      "Base",
+      "/60",
+      "Auto /40"
+    ],
+    "signatureCode": "FSS-JS"
   },
   {
     "id": "tipsport-s2-fs-14",
@@ -9081,8 +13869,14 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "signatureCode": "FSS-PB",
-    "subsetOrder": 7
+    "subsetOrder": 7,
+    "cardOrder": 13,
+    "parallels": [
+      "Base",
+      "/60",
+      "Auto /40"
+    ],
+    "signatureCode": "FSS-PB"
   },
   {
     "id": "tipsport-s2-fs-15",
@@ -9094,8 +13888,14 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "signatureCode": "FSS-DJ",
-    "subsetOrder": 7
+    "subsetOrder": 7,
+    "cardOrder": 14,
+    "parallels": [
+      "Base",
+      "/60",
+      "Auto /40"
+    ],
+    "signatureCode": "FSS-DJ"
   },
   {
     "id": "tipsport-s2-fs-16",
@@ -9107,8 +13907,14 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "signatureCode": "FSS-JM",
-    "subsetOrder": 7
+    "subsetOrder": 7,
+    "cardOrder": 15,
+    "parallels": [
+      "Base",
+      "/60",
+      "Auto /40"
+    ],
+    "signatureCode": "FSS-JM"
   },
   {
     "id": "tipsport-s2-fs-17",
@@ -9120,8 +13926,14 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "signatureCode": "FSS-VO",
-    "subsetOrder": 7
+    "subsetOrder": 7,
+    "cardOrder": 16,
+    "parallels": [
+      "Base",
+      "/60",
+      "Auto /40"
+    ],
+    "signatureCode": "FSS-VO"
   },
   {
     "id": "tipsport-s2-fs-18",
@@ -9133,140 +13945,14 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "signatureCode": "FSS-HF",
-    "subsetOrder": 7
-  },
-  {
-    "id": "tipsport-s2-sl2-db",
-    "number": "SL2-DB",
-    "seriesId": "tipsport-s2",
-    "subset": "Authentic Signature Level 2",
-    "player": "DALIBOR BORTŇÁK",
-    "team": "RYS",
-    "owned": false,
-    "quantity": 0,
-    "notes": "",
-    "subsetOrder": 8
-  },
-  {
-    "id": "tipsport-s2-sl2-df",
-    "number": "SL2-DF",
-    "seriesId": "tipsport-s2",
-    "subset": "Authentic Signature Level 2",
-    "player": "DANIIL FOMINYCH",
-    "team": "MII",
-    "owned": false,
-    "quantity": 0,
-    "notes": "",
-    "subsetOrder": 8
-  },
-  {
-    "id": "tipsport-s2-sl2-do",
-    "number": "SL2-DO",
-    "seriesId": "tipsport-s2",
-    "subset": "Authentic Signature Level 2",
-    "player": "DÁVID OKOLIČÁNY",
-    "team": "HKN",
-    "owned": false,
-    "quantity": 0,
-    "notes": "",
-    "subsetOrder": 8
-  },
-  {
-    "id": "tipsport-s2-sl2-ds",
-    "number": "SL2-DS",
-    "seriesId": "tipsport-s2",
-    "subset": "Authentic Signature Level 2",
-    "player": "DAVID STRÁNSKÝ",
-    "team": "BBS",
-    "owned": false,
-    "quantity": 0,
-    "notes": "",
-    "subsetOrder": 8
-  },
-  {
-    "id": "tipsport-s2-sl2-dt",
-    "number": "SL2-DT",
-    "seriesId": "tipsport-s2",
-    "subset": "Authentic Signature Level 2",
-    "player": "DAWSON TRITT",
-    "team": "LMI",
-    "owned": false,
-    "quantity": 0,
-    "notes": "",
-    "subsetOrder": 8
-  },
-  {
-    "id": "tipsport-s2-sl2-ku",
-    "number": "SL2-KU",
-    "seriesId": "tipsport-s2",
-    "subset": "Authentic Signature Level 2",
-    "player": "PETER KUNDRIK",
-    "team": "POA",
-    "owned": false,
-    "quantity": 0,
-    "notes": "",
-    "subsetOrder": 8
-  },
-  {
-    "id": "tipsport-s2-sl2-mh",
-    "number": "SL2-MH",
-    "seriesId": "tipsport-s2",
-    "subset": "Authentic Signature Level 2",
-    "player": "MATÚŠ HLAVÁČ",
-    "team": "TRE",
-    "owned": false,
-    "quantity": 0,
-    "notes": "",
-    "subsetOrder": 8
-  },
-  {
-    "id": "tipsport-s2-sl2-mj",
-    "number": "SL2-MJ",
-    "seriesId": "tipsport-s2",
-    "subset": "Authentic Signature Level 2",
-    "player": "MICHAL JUŠČÁK",
-    "team": "ZIL",
-    "owned": false,
-    "quantity": 0,
-    "notes": "",
-    "subsetOrder": 8
-  },
-  {
-    "id": "tipsport-s2-sl2-mv",
-    "number": "SL2-MV",
-    "seriesId": "tipsport-s2",
-    "subset": "Authentic Signature Level 2",
-    "player": "MAREK VIEDENSKÝ",
-    "team": "RYS",
-    "owned": false,
-    "quantity": 0,
-    "notes": "",
-    "subsetOrder": 8
-  },
-  {
-    "id": "tipsport-s2-sl2-pe",
-    "number": "SL2-PE",
-    "seriesId": "tipsport-s2",
-    "subset": "Authentic Signature Level 2",
-    "player": "JONÁŠ PETEREK",
-    "team": "SBA",
-    "owned": false,
-    "quantity": 0,
-    "notes": "",
-    "subsetOrder": 8
-  },
-  {
-    "id": "tipsport-s2-sl2-pk",
-    "number": "SL2-PK",
-    "seriesId": "tipsport-s2",
-    "subset": "Authentic Signature Level 2",
-    "player": "PATRIK KOYŠ",
-    "team": "ZIL",
-    "owned": false,
-    "quantity": 0,
-    "notes": "",
-    "subsetOrder": 8
+    "subsetOrder": 7,
+    "cardOrder": 17,
+    "parallels": [
+      "Base",
+      "/60",
+      "Auto /40"
+    ],
+    "signatureCode": "FSS-HF"
   },
   {
     "id": "tipsport-s2-sl2-pl",
@@ -9278,67 +13964,11 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 8
-  },
-  {
-    "id": "tipsport-s2-sl2-pm",
-    "number": "SL2-PM",
-    "seriesId": "tipsport-s2",
-    "subset": "Authentic Signature Level 2",
-    "player": "PATRIK MARCINEK",
-    "team": "ZVA",
-    "owned": false,
-    "quantity": 0,
-    "notes": "",
-    "subsetOrder": 8
-  },
-  {
-    "id": "tipsport-s2-sl2-rv",
-    "number": "SL2-RV",
-    "seriesId": "tipsport-s2",
-    "subset": "Authentic Signature Level 2",
-    "player": "RÓBERT VARGA",
-    "team": "SBA",
-    "owned": false,
-    "quantity": 0,
-    "notes": "",
-    "subsetOrder": 8
-  },
-  {
-    "id": "tipsport-s2-sl2-sc",
-    "number": "SL2-SC",
-    "seriesId": "tipsport-s2",
-    "subset": "Authentic Signature Level 2",
-    "player": "SAMUEL CHALUPA",
-    "team": "PHC",
-    "owned": false,
-    "quantity": 0,
-    "notes": "",
-    "subsetOrder": 8
-  },
-  {
-    "id": "tipsport-s2-sl2-sk",
-    "number": "SL2-SK",
-    "seriesId": "tipsport-s2",
-    "subset": "Authentic Signature Level 2",
-    "player": "SAMUEL KRAJČ",
-    "team": "TRE",
-    "owned": false,
-    "quantity": 0,
-    "notes": "",
-    "subsetOrder": 8
-  },
-  {
-    "id": "tipsport-s2-sl2-tc",
-    "number": "SL2-TC",
-    "seriesId": "tipsport-s2",
-    "subset": "Authentic Signature Level 2",
-    "player": "TOMÁŠ CHRENKO",
-    "team": "HKN",
-    "owned": false,
-    "quantity": 0,
-    "notes": "",
-    "subsetOrder": 8
+    "subsetOrder": 8,
+    "cardOrder": 0,
+    "parallels": [
+      "/35"
+    ]
   },
   {
     "id": "tipsport-s2-sl2-tm",
@@ -9350,211 +13980,267 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 8
+    "subsetOrder": 8,
+    "cardOrder": 1,
+    "parallels": [
+      "/35"
+    ]
   },
   {
-    "id": "tipsport-s2-sl1-at",
-    "number": "SL1-AT",
+    "id": "tipsport-s2-sl2-do",
+    "number": "SL2-DO",
     "seriesId": "tipsport-s2",
-    "subset": "Authentic Signature Level 1",
-    "player": "ARTUR TURANSKÝ",
-    "team": "RYS",
+    "subset": "Authentic Signature Level 2",
+    "player": "DÁVID OKOLIČÁNY",
+    "team": "HKN",
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 9
+    "subsetOrder": 8,
+    "cardOrder": 100,
+    "parallels": [
+      "/35"
+    ]
   },
   {
-    "id": "tipsport-s2-sl1-bc",
-    "number": "SL1-BC",
+    "id": "tipsport-s2-sl2-tc",
+    "number": "SL2-TC",
     "seriesId": "tipsport-s2",
-    "subset": "Authentic Signature Level 1",
-    "player": "BORIS ČESÁNEK",
-    "team": "BBS",
+    "subset": "Authentic Signature Level 2",
+    "player": "TOMÁŠ CHRENKO",
+    "team": "HKN",
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 9
+    "subsetOrder": 8,
+    "cardOrder": 100,
+    "parallels": [
+      "/35"
+    ]
   },
   {
-    "id": "tipsport-s2-sl1-be",
-    "number": "SL1-BE",
+    "id": "tipsport-s2-sl2-mj",
+    "number": "SL2-MJ",
     "seriesId": "tipsport-s2",
-    "subset": "Authentic Signature Level 1",
-    "player": "MARTIN BELLUŠ",
-    "team": "RYS",
-    "owned": false,
-    "quantity": 0,
-    "notes": "",
-    "subsetOrder": 9
-  },
-  {
-    "id": "tipsport-s2-sl1-dh",
-    "number": "SL1-DH",
-    "seriesId": "tipsport-s2",
-    "subset": "Authentic Signature Level 1",
-    "player": "DENIS HUDEC",
-    "team": "TRE",
-    "owned": false,
-    "quantity": 0,
-    "notes": "",
-    "subsetOrder": 9
-  },
-  {
-    "id": "tipsport-s2-sl1-er",
-    "number": "SL1-ER",
-    "seriesId": "tipsport-s2",
-    "subset": "Authentic Signature Level 1",
-    "player": "ERIK RAJNOHA",
+    "subset": "Authentic Signature Level 2",
+    "player": "MICHAL JUŠČÁK",
     "team": "ZIL",
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 9
+    "subsetOrder": 8,
+    "cardOrder": 200,
+    "parallels": [
+      "/35"
+    ]
   },
   {
-    "id": "tipsport-s2-sl1-fb",
-    "number": "SL1-FB",
+    "id": "tipsport-s2-sl2-pk",
+    "number": "SL2-PK",
     "seriesId": "tipsport-s2",
-    "subset": "Authentic Signature Level 1",
-    "player": "FILIP BAJTEK",
-    "team": "HKN",
+    "subset": "Authentic Signature Level 2",
+    "player": "PATRIK KOYŠ",
+    "team": "ZIL",
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 9
+    "subsetOrder": 8,
+    "cardOrder": 200,
+    "parallels": [
+      "/35"
+    ]
   },
   {
-    "id": "tipsport-s2-sl1-ff",
-    "number": "SL1-FF",
+    "id": "tipsport-s2-sl2-pm",
+    "number": "SL2-PM",
     "seriesId": "tipsport-s2",
-    "subset": "Authentic Signature Level 1",
-    "player": "FREDERIK FEKIAČ",
-    "team": "LMI",
-    "owned": false,
-    "quantity": 0,
-    "notes": "",
-    "subsetOrder": 9
-  },
-  {
-    "id": "tipsport-s2-sl1-ju",
-    "number": "SL1-JU",
-    "seriesId": "tipsport-s2",
-    "subset": "Authentic Signature Level 1",
-    "player": "JAKUB URBÁNEK",
-    "team": "POA",
-    "owned": false,
-    "quantity": 0,
-    "notes": "",
-    "subsetOrder": 9
-  },
-  {
-    "id": "tipsport-s2-sl1-kg",
-    "number": "SL1-KG",
-    "seriesId": "tipsport-s2",
-    "subset": "Authentic Signature Level 1",
-    "player": "KEVIN GABOR",
-    "team": "POA",
-    "owned": false,
-    "quantity": 0,
-    "notes": "",
-    "subsetOrder": 9
-  },
-  {
-    "id": "tipsport-s2-sl1-ll",
-    "number": "SL1-LL",
-    "seriesId": "tipsport-s2",
-    "subset": "Authentic Signature Level 1",
-    "player": "LUKÁŠ LUNTER",
+    "subset": "Authentic Signature Level 2",
+    "player": "PATRIK MARCINEK",
     "team": "ZVA",
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 9
+    "subsetOrder": 8,
+    "cardOrder": 300,
+    "parallels": [
+      "/35"
+    ]
   },
   {
-    "id": "tipsport-s2-sl1-ma",
-    "number": "SL1-MA",
+    "id": "tipsport-s2-sl2-db",
+    "number": "SL2-DB",
     "seriesId": "tipsport-s2",
-    "subset": "Authentic Signature Level 1",
-    "player": "PATRIK MAIER",
-    "team": "SBA",
+    "subset": "Authentic Signature Level 2",
+    "player": "DALIBOR BORTŇÁK",
+    "team": "RYS",
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 9
+    "subsetOrder": 8,
+    "cardOrder": 400,
+    "parallels": [
+      "/35"
+    ]
   },
   {
-    "id": "tipsport-s2-sl1-mb",
-    "number": "SL1-MB",
+    "id": "tipsport-s2-sl2-mv",
+    "number": "SL2-MV",
     "seriesId": "tipsport-s2",
-    "subset": "Authentic Signature Level 1",
-    "player": "MATEJ BAČA",
-    "team": "HKN",
+    "subset": "Authentic Signature Level 2",
+    "player": "MAREK VIEDENSKÝ",
+    "team": "RYS",
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 9
+    "subsetOrder": 8,
+    "cardOrder": 400,
+    "parallels": [
+      "/35"
+    ]
   },
   {
-    "id": "tipsport-s2-sl1-mj",
-    "number": "SL1-MJ",
+    "id": "tipsport-s2-sl2-ds",
+    "number": "SL2-DS",
     "seriesId": "tipsport-s2",
-    "subset": "Authentic Signature Level 1",
-    "player": "MICHAL JASENEC",
+    "subset": "Authentic Signature Level 2",
+    "player": "DAVID STRÁNSKÝ",
     "team": "BBS",
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 9
+    "subsetOrder": 8,
+    "cardOrder": 500,
+    "parallels": [
+      "/35"
+    ]
   },
   {
-    "id": "tipsport-s2-sl1-ml",
-    "number": "SL1-ML",
+    "id": "tipsport-s2-sl2-ku",
+    "number": "SL2-KU",
     "seriesId": "tipsport-s2",
-    "subset": "Authentic Signature Level 1",
-    "player": "MICHAL LAURENČÍK",
+    "subset": "Authentic Signature Level 2",
+    "player": "PETER KUNDRIK",
+    "team": "POA",
+    "owned": false,
+    "quantity": 0,
+    "notes": "",
+    "subsetOrder": 8,
+    "cardOrder": 600,
+    "parallels": [
+      "/35"
+    ]
+  },
+  {
+    "id": "tipsport-s2-sl2-mh",
+    "number": "SL2-MH",
+    "seriesId": "tipsport-s2",
+    "subset": "Authentic Signature Level 2",
+    "player": "MATÚŠ HLAVÁČ",
     "team": "TRE",
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 9
+    "subsetOrder": 8,
+    "cardOrder": 700,
+    "parallels": [
+      "/35"
+    ]
   },
   {
-    "id": "tipsport-s2-sl1-mp",
-    "number": "SL1-MP",
+    "id": "tipsport-s2-sl2-sk",
+    "number": "SL2-SK",
     "seriesId": "tipsport-s2",
-    "subset": "Authentic Signature Level 1",
-    "player": "MIROSLAV PREISINGER",
+    "subset": "Authentic Signature Level 2",
+    "player": "SAMUEL KRAJČ",
+    "team": "TRE",
+    "owned": false,
+    "quantity": 0,
+    "notes": "",
+    "subsetOrder": 8,
+    "cardOrder": 700,
+    "parallels": [
+      "/35"
+    ]
+  },
+  {
+    "id": "tipsport-s2-sl2-pe",
+    "number": "SL2-PE",
+    "seriesId": "tipsport-s2",
+    "subset": "Authentic Signature Level 2",
+    "player": "JONÁŠ PETEREK",
     "team": "SBA",
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 9
+    "subsetOrder": 8,
+    "cardOrder": 800,
+    "parallels": [
+      "/35"
+    ]
   },
   {
-    "id": "tipsport-s2-sl1-mr",
-    "number": "SL1-MR",
+    "id": "tipsport-s2-sl2-rv",
+    "number": "SL2-RV",
     "seriesId": "tipsport-s2",
-    "subset": "Authentic Signature Level 1",
-    "player": "MICHAL ROMAN",
+    "subset": "Authentic Signature Level 2",
+    "player": "RÓBERT VARGA",
+    "team": "SBA",
+    "owned": false,
+    "quantity": 0,
+    "notes": "",
+    "subsetOrder": 8,
+    "cardOrder": 800,
+    "parallels": [
+      "/35"
+    ]
+  },
+  {
+    "id": "tipsport-s2-sl2-df",
+    "number": "SL2-DF",
+    "seriesId": "tipsport-s2",
+    "subset": "Authentic Signature Level 2",
+    "player": "DANIIL FOMINYCH",
     "team": "MII",
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 9
+    "subsetOrder": 8,
+    "cardOrder": 900,
+    "parallels": [
+      "/35"
+    ]
   },
   {
-    "id": "tipsport-s2-sl1-ms",
-    "number": "SL1-MS",
+    "id": "tipsport-s2-sl2-dt",
+    "number": "SL2-DT",
     "seriesId": "tipsport-s2",
-    "subset": "Authentic Signature Level 1",
-    "player": "MAREK ŠRAMATY",
-    "team": "ZVA",
+    "subset": "Authentic Signature Level 2",
+    "player": "DAWSON TRITT",
+    "team": "LMI",
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 9
+    "subsetOrder": 8,
+    "cardOrder": 1000,
+    "parallels": [
+      "/35"
+    ]
+  },
+  {
+    "id": "tipsport-s2-sl2-sc",
+    "number": "SL2-SC",
+    "seriesId": "tipsport-s2",
+    "subset": "Authentic Signature Level 2",
+    "player": "SAMUEL CHALUPA",
+    "team": "PHC",
+    "owned": false,
+    "quantity": 0,
+    "notes": "",
+    "subsetOrder": 8,
+    "cardOrder": 1100,
+    "parallels": [
+      "/35"
+    ]
   },
   {
     "id": "tipsport-s2-sl1-od",
@@ -9566,19 +14252,11 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 9
-  },
-  {
-    "id": "tipsport-s2-sl1-oj",
-    "number": "SL1-OJ",
-    "seriesId": "tipsport-s2",
-    "subset": "Authentic Signature Level 1",
-    "player": "OLIVER JOKEĽ",
-    "team": "PHC",
-    "owned": false,
-    "quantity": 0,
-    "notes": "",
-    "subsetOrder": 9
+    "subsetOrder": 9,
+    "cardOrder": 0,
+    "parallels": [
+      "/75"
+    ]
   },
   {
     "id": "tipsport-s2-sl1-op",
@@ -9590,43 +14268,59 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 9
+    "subsetOrder": 9,
+    "cardOrder": 1,
+    "parallels": [
+      "/75"
+    ]
   },
   {
-    "id": "tipsport-s2-sl1-pa",
-    "number": "SL1-PA",
+    "id": "tipsport-s2-sl1-fb",
+    "number": "SL1-FB",
     "seriesId": "tipsport-s2",
     "subset": "Authentic Signature Level 1",
-    "player": "MATEJ PALOČKO",
-    "team": "PHC",
+    "player": "FILIP BAJTEK",
+    "team": "HKN",
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 9
+    "subsetOrder": 9,
+    "cardOrder": 100,
+    "parallels": [
+      "/75"
+    ]
   },
   {
-    "id": "tipsport-s2-sl1-sg",
-    "number": "SL1-SG",
+    "id": "tipsport-s2-sl1-mb",
+    "number": "SL1-MB",
     "seriesId": "tipsport-s2",
     "subset": "Authentic Signature Level 1",
-    "player": "STANISLAV GRON",
-    "team": "BBS",
+    "player": "MATEJ BAČA",
+    "team": "HKN",
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 9
+    "subsetOrder": 9,
+    "cardOrder": 100,
+    "parallels": [
+      "/75"
+    ]
   },
   {
-    "id": "tipsport-s2-sl1-st",
-    "number": "SL1-ST",
+    "id": "tipsport-s2-sl1-er",
+    "number": "SL1-ER",
     "seriesId": "tipsport-s2",
     "subset": "Authentic Signature Level 1",
-    "player": "ADAM STRIPAI",
-    "team": "MII",
+    "player": "ERIK RAJNOHA",
+    "team": "ZIL",
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 9
+    "subsetOrder": 9,
+    "cardOrder": 200,
+    "parallels": [
+      "/75"
+    ]
   },
   {
     "id": "tipsport-s2-sl1-tv",
@@ -9638,19 +14332,43 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 9
+    "subsetOrder": 9,
+    "cardOrder": 200,
+    "parallels": [
+      "/75"
+    ]
   },
   {
-    "id": "tipsport-s2-sl1-va",
-    "number": "SL1-VA",
+    "id": "tipsport-s2-sl1-ll",
+    "number": "SL1-LL",
     "seriesId": "tipsport-s2",
     "subset": "Authentic Signature Level 1",
-    "player": "MAREK VANKÚŠ",
-    "team": "LMI",
+    "player": "LUKÁŠ LUNTER",
+    "team": "ZVA",
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 9
+    "subsetOrder": 9,
+    "cardOrder": 300,
+    "parallels": [
+      "/75"
+    ]
+  },
+  {
+    "id": "tipsport-s2-sl1-ms",
+    "number": "SL1-MS",
+    "seriesId": "tipsport-s2",
+    "subset": "Authentic Signature Level 1",
+    "player": "MAREK ŠRAMATY",
+    "team": "ZVA",
+    "owned": false,
+    "quantity": 0,
+    "notes": "",
+    "subsetOrder": 9,
+    "cardOrder": 300,
+    "parallels": [
+      "/75"
+    ]
   },
   {
     "id": "tipsport-s2-sl1-vf",
@@ -9662,7 +14380,123 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 9
+    "subsetOrder": 9,
+    "cardOrder": 300,
+    "parallels": [
+      "/75"
+    ]
+  },
+  {
+    "id": "tipsport-s2-sl1-at",
+    "number": "SL1-AT",
+    "seriesId": "tipsport-s2",
+    "subset": "Authentic Signature Level 1",
+    "player": "ARTUR TURANSKÝ",
+    "team": "RYS",
+    "owned": false,
+    "quantity": 0,
+    "notes": "",
+    "subsetOrder": 9,
+    "cardOrder": 400,
+    "parallels": [
+      "/75"
+    ]
+  },
+  {
+    "id": "tipsport-s2-sl1-be",
+    "number": "SL1-BE",
+    "seriesId": "tipsport-s2",
+    "subset": "Authentic Signature Level 1",
+    "player": "MARTIN BELLUŠ",
+    "team": "RYS",
+    "owned": false,
+    "quantity": 0,
+    "notes": "",
+    "subsetOrder": 9,
+    "cardOrder": 400,
+    "parallels": [
+      "/75"
+    ]
+  },
+  {
+    "id": "tipsport-s2-sl1-bc",
+    "number": "SL1-BC",
+    "seriesId": "tipsport-s2",
+    "subset": "Authentic Signature Level 1",
+    "player": "BORIS ČESÁNEK",
+    "team": "BBS",
+    "owned": false,
+    "quantity": 0,
+    "notes": "",
+    "subsetOrder": 9,
+    "cardOrder": 500,
+    "parallels": [
+      "/75"
+    ]
+  },
+  {
+    "id": "tipsport-s2-sl1-mj",
+    "number": "SL1-MJ",
+    "seriesId": "tipsport-s2",
+    "subset": "Authentic Signature Level 1",
+    "player": "MICHAL JASENEC",
+    "team": "BBS",
+    "owned": false,
+    "quantity": 0,
+    "notes": "",
+    "subsetOrder": 9,
+    "cardOrder": 500,
+    "parallels": [
+      "/75"
+    ]
+  },
+  {
+    "id": "tipsport-s2-sl1-sg",
+    "number": "SL1-SG",
+    "seriesId": "tipsport-s2",
+    "subset": "Authentic Signature Level 1",
+    "player": "STANISLAV GRON",
+    "team": "BBS",
+    "owned": false,
+    "quantity": 0,
+    "notes": "",
+    "subsetOrder": 9,
+    "cardOrder": 500,
+    "parallels": [
+      "/75"
+    ]
+  },
+  {
+    "id": "tipsport-s2-sl1-ju",
+    "number": "SL1-JU",
+    "seriesId": "tipsport-s2",
+    "subset": "Authentic Signature Level 1",
+    "player": "JAKUB URBÁNEK",
+    "team": "POA",
+    "owned": false,
+    "quantity": 0,
+    "notes": "",
+    "subsetOrder": 9,
+    "cardOrder": 600,
+    "parallels": [
+      "/75"
+    ]
+  },
+  {
+    "id": "tipsport-s2-sl1-kg",
+    "number": "SL1-KG",
+    "seriesId": "tipsport-s2",
+    "subset": "Authentic Signature Level 1",
+    "player": "KEVIN GABOR",
+    "team": "POA",
+    "owned": false,
+    "quantity": 0,
+    "notes": "",
+    "subsetOrder": 9,
+    "cardOrder": 600,
+    "parallels": [
+      "/75"
+    ]
   },
   {
     "id": "tipsport-s2-sl1-vy",
@@ -9674,91 +14508,171 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 9
+    "subsetOrder": 9,
+    "cardOrder": 600,
+    "parallels": [
+      "/75"
+    ]
   },
   {
-    "id": "tipsport-s2-uo-bu",
-    "number": "UO-BU",
+    "id": "tipsport-s2-sl1-dh",
+    "number": "SL1-DH",
     "seriesId": "tipsport-s2",
-    "subset": "Ultimate Origin Scripted Edition",
-    "player": "MILOŠ BUBELA",
-    "team": "HKN",
-    "owned": false,
-    "quantity": 0,
-    "notes": "",
-    "subsetOrder": 10
-  },
-  {
-    "id": "tipsport-s2-uo-dg",
-    "number": "UO-DG",
-    "seriesId": "tipsport-s2",
-    "subset": "Ultimate Origin Scripted Edition",
-    "player": "DENIS GODLA",
-    "team": "RYS",
-    "owned": false,
-    "quantity": 0,
-    "notes": "",
-    "subsetOrder": 10
-  },
-  {
-    "id": "tipsport-s2-uo-dh",
-    "number": "UO-DH",
-    "seriesId": "tipsport-s2",
-    "subset": "Ultimate Origin Scripted Edition",
-    "player": "DÁVID HRENÁK",
+    "subset": "Authentic Signature Level 1",
+    "player": "DENIS HUDEC",
     "team": "TRE",
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 10
+    "subsetOrder": 9,
+    "cardOrder": 700,
+    "parallels": [
+      "/75"
+    ]
   },
   {
-    "id": "tipsport-s2-uo-dt",
-    "number": "UO-DT",
+    "id": "tipsport-s2-sl1-ml",
+    "number": "SL1-ML",
     "seriesId": "tipsport-s2",
-    "subset": "Ultimate Origin Scripted Edition",
-    "player": "DANIEL VLADIMÍR TKÁČ",
-    "team": "ZIL",
-    "owned": false,
-    "quantity": 0,
-    "notes": "",
-    "subsetOrder": 10
-  },
-  {
-    "id": "tipsport-s2-uo-jj",
-    "number": "UO-JJ",
-    "seriesId": "tipsport-s2",
-    "subset": "Ultimate Origin Scripted Edition",
-    "player": "JAROSLAV JANUS",
-    "team": "PHC",
-    "owned": false,
-    "quantity": 0,
-    "notes": "",
-    "subsetOrder": 10
-  },
-  {
-    "id": "tipsport-s2-uo-jm",
-    "number": "UO-JM",
-    "seriesId": "tipsport-s2",
-    "subset": "Ultimate Origin Scripted Edition",
-    "player": "JURAJ MIKUŠ",
+    "subset": "Authentic Signature Level 1",
+    "player": "MICHAL LAURENČÍK",
     "team": "TRE",
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 10
+    "subsetOrder": 9,
+    "cardOrder": 700,
+    "parallels": [
+      "/75"
+    ]
   },
   {
-    "id": "tipsport-s2-uo-mb",
-    "number": "UO-MB",
+    "id": "tipsport-s2-sl1-ma",
+    "number": "SL1-MA",
     "seriesId": "tipsport-s2",
-    "subset": "Ultimate Origin Scripted Edition",
-    "player": "MARTIN BAKOŠ",
+    "subset": "Authentic Signature Level 1",
+    "player": "PATRIK MAIER",
     "team": "SBA",
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 10
+    "subsetOrder": 9,
+    "cardOrder": 800,
+    "parallels": [
+      "/75"
+    ]
+  },
+  {
+    "id": "tipsport-s2-sl1-mp",
+    "number": "SL1-MP",
+    "seriesId": "tipsport-s2",
+    "subset": "Authentic Signature Level 1",
+    "player": "MIROSLAV PREISINGER",
+    "team": "SBA",
+    "owned": false,
+    "quantity": 0,
+    "notes": "",
+    "subsetOrder": 9,
+    "cardOrder": 800,
+    "parallels": [
+      "/75"
+    ]
+  },
+  {
+    "id": "tipsport-s2-sl1-mr",
+    "number": "SL1-MR",
+    "seriesId": "tipsport-s2",
+    "subset": "Authentic Signature Level 1",
+    "player": "MICHAL ROMAN",
+    "team": "MII",
+    "owned": false,
+    "quantity": 0,
+    "notes": "",
+    "subsetOrder": 9,
+    "cardOrder": 900,
+    "parallels": [
+      "/75"
+    ]
+  },
+  {
+    "id": "tipsport-s2-sl1-st",
+    "number": "SL1-ST",
+    "seriesId": "tipsport-s2",
+    "subset": "Authentic Signature Level 1",
+    "player": "ADAM STRIPAI",
+    "team": "MII",
+    "owned": false,
+    "quantity": 0,
+    "notes": "",
+    "subsetOrder": 9,
+    "cardOrder": 900,
+    "parallels": [
+      "/75"
+    ]
+  },
+  {
+    "id": "tipsport-s2-sl1-ff",
+    "number": "SL1-FF",
+    "seriesId": "tipsport-s2",
+    "subset": "Authentic Signature Level 1",
+    "player": "FREDERIK FEKIAČ",
+    "team": "LMI",
+    "owned": false,
+    "quantity": 0,
+    "notes": "",
+    "subsetOrder": 9,
+    "cardOrder": 1000,
+    "parallels": [
+      "/75"
+    ]
+  },
+  {
+    "id": "tipsport-s2-sl1-va",
+    "number": "SL1-VA",
+    "seriesId": "tipsport-s2",
+    "subset": "Authentic Signature Level 1",
+    "player": "MAREK VANKÚŠ",
+    "team": "LMI",
+    "owned": false,
+    "quantity": 0,
+    "notes": "",
+    "subsetOrder": 9,
+    "cardOrder": 1000,
+    "parallels": [
+      "/75"
+    ]
+  },
+  {
+    "id": "tipsport-s2-sl1-oj",
+    "number": "SL1-OJ",
+    "seriesId": "tipsport-s2",
+    "subset": "Authentic Signature Level 1",
+    "player": "OLIVER JOKEĽ",
+    "team": "PHC",
+    "owned": false,
+    "quantity": 0,
+    "notes": "",
+    "subsetOrder": 9,
+    "cardOrder": 1100,
+    "parallels": [
+      "/75"
+    ]
+  },
+  {
+    "id": "tipsport-s2-sl1-pa",
+    "number": "SL1-PA",
+    "seriesId": "tipsport-s2",
+    "subset": "Authentic Signature Level 1",
+    "player": "MATEJ PALOČKO",
+    "team": "PHC",
+    "owned": false,
+    "quantity": 0,
+    "notes": "",
+    "subsetOrder": 9,
+    "cardOrder": 1100,
+    "parallels": [
+      "/75"
+    ]
   },
   {
     "id": "tipsport-s2-uo-mc",
@@ -9770,55 +14684,16 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 10
-  },
-  {
-    "id": "tipsport-s2-uo-mf",
-    "number": "UO-MF",
-    "seriesId": "tipsport-s2",
-    "subset": "Ultimate Origin Scripted Edition",
-    "player": "MAX FERKODIČ",
-    "team": "LMI",
-    "owned": false,
-    "quantity": 0,
-    "notes": "",
-    "subsetOrder": 10
-  },
-  {
-    "id": "tipsport-s2-uo-mh",
-    "number": "UO-MH",
-    "seriesId": "tipsport-s2",
-    "subset": "Ultimate Origin Scripted Edition",
-    "player": "MATÚŠ HOLENDA",
-    "team": "ZIL",
-    "owned": false,
-    "quantity": 0,
-    "notes": "",
-    "subsetOrder": 10
-  },
-  {
-    "id": "tipsport-s2-uo-mp",
-    "number": "UO-MP",
-    "seriesId": "tipsport-s2",
-    "subset": "Ultimate Origin Scripted Edition",
-    "player": "MATEJ PAULOVIČ",
-    "team": "HKN",
-    "owned": false,
-    "quantity": 0,
-    "notes": "",
-    "subsetOrder": 10
-  },
-  {
-    "id": "tipsport-s2-uo-rd",
-    "number": "UO-RD",
-    "seriesId": "tipsport-s2",
-    "subset": "Ultimate Origin Scripted Edition",
-    "player": "RÓBERT DŽUGAN",
-    "team": "RYS",
-    "owned": false,
-    "quantity": 0,
-    "notes": "",
-    "subsetOrder": 10
+    "subsetOrder": 10,
+    "cardOrder": 0,
+    "parallels": [
+      "/9",
+      "/6",
+      "/4",
+      "/3",
+      "/2",
+      "1of1"
+    ]
   },
   {
     "id": "tipsport-s2-uo-ri",
@@ -9830,43 +14705,100 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 10
+    "subsetOrder": 10,
+    "cardOrder": 1,
+    "parallels": [
+      "/9",
+      "/6",
+      "/4",
+      "/3",
+      "/2",
+      "1of1"
+    ]
   },
   {
-    "id": "tipsport-s2-uo-st",
-    "number": "UO-ST",
+    "id": "tipsport-s2-uo-bu",
+    "number": "UO-BU",
     "seriesId": "tipsport-s2",
     "subset": "Ultimate Origin Scripted Edition",
-    "player": "SAMUEL TAKÁČ",
-    "team": "SBA",
+    "player": "MILOŠ BUBELA",
+    "team": "HKN",
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 10
+    "subsetOrder": 10,
+    "cardOrder": 100,
+    "parallels": [
+      "/9",
+      "/6",
+      "/4",
+      "/3",
+      "/2",
+      "1of1"
+    ]
   },
   {
-    "id": "tipsport-s2-uo-tt",
-    "number": "UO-TT",
+    "id": "tipsport-s2-uo-mp",
+    "number": "UO-MP",
     "seriesId": "tipsport-s2",
     "subset": "Ultimate Origin Scripted Edition",
-    "player": "TOMÁŠ TÖRÖK",
-    "team": "POA",
+    "player": "MATEJ PAULOVIČ",
+    "team": "HKN",
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 10
+    "subsetOrder": 10,
+    "cardOrder": 100,
+    "parallels": [
+      "/9",
+      "/6",
+      "/4",
+      "/3",
+      "/2",
+      "1of1"
+    ]
   },
   {
-    "id": "tipsport-s2-uo-tz",
-    "number": "UO-TZ",
+    "id": "tipsport-s2-uo-dt",
+    "number": "UO-DT",
     "seriesId": "tipsport-s2",
     "subset": "Ultimate Origin Scripted Edition",
-    "player": "TOMÁŠ ZIGO",
-    "team": "BBS",
+    "player": "DANIEL VLADIMÍR TKÁČ",
+    "team": "ZIL",
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 10
+    "subsetOrder": 10,
+    "cardOrder": 200,
+    "parallels": [
+      "/9",
+      "/6",
+      "/4",
+      "/3",
+      "/2",
+      "1of1"
+    ]
+  },
+  {
+    "id": "tipsport-s2-uo-mh",
+    "number": "UO-MH",
+    "seriesId": "tipsport-s2",
+    "subset": "Ultimate Origin Scripted Edition",
+    "player": "MATÚŠ HOLENDA",
+    "team": "ZIL",
+    "owned": false,
+    "quantity": 0,
+    "notes": "",
+    "subsetOrder": 10,
+    "cardOrder": 200,
+    "parallels": [
+      "/9",
+      "/6",
+      "/4",
+      "/3",
+      "/2",
+      "1of1"
+    ]
   },
   {
     "id": "tipsport-s2-uo-va",
@@ -9878,7 +14810,184 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 10
+    "subsetOrder": 10,
+    "cardOrder": 300,
+    "parallels": [
+      "/9",
+      "/6",
+      "/4",
+      "/3",
+      "/2",
+      "1of1"
+    ]
+  },
+  {
+    "id": "tipsport-s2-uo-dg",
+    "number": "UO-DG",
+    "seriesId": "tipsport-s2",
+    "subset": "Ultimate Origin Scripted Edition",
+    "player": "DENIS GODLA",
+    "team": "RYS",
+    "owned": false,
+    "quantity": 0,
+    "notes": "",
+    "subsetOrder": 10,
+    "cardOrder": 400,
+    "parallels": [
+      "/9",
+      "/6",
+      "/4",
+      "/3",
+      "/2",
+      "1of1"
+    ]
+  },
+  {
+    "id": "tipsport-s2-uo-rd",
+    "number": "UO-RD",
+    "seriesId": "tipsport-s2",
+    "subset": "Ultimate Origin Scripted Edition",
+    "player": "RÓBERT DŽUGAN",
+    "team": "RYS",
+    "owned": false,
+    "quantity": 0,
+    "notes": "",
+    "subsetOrder": 10,
+    "cardOrder": 400,
+    "parallels": [
+      "/9",
+      "/6",
+      "/4",
+      "/3",
+      "/2",
+      "1of1"
+    ]
+  },
+  {
+    "id": "tipsport-s2-uo-tz",
+    "number": "UO-TZ",
+    "seriesId": "tipsport-s2",
+    "subset": "Ultimate Origin Scripted Edition",
+    "player": "TOMÁŠ ZIGO",
+    "team": "BBS",
+    "owned": false,
+    "quantity": 0,
+    "notes": "",
+    "subsetOrder": 10,
+    "cardOrder": 500,
+    "parallels": [
+      "/9",
+      "/6",
+      "/4",
+      "/3",
+      "/2",
+      "1of1"
+    ]
+  },
+  {
+    "id": "tipsport-s2-uo-tt",
+    "number": "UO-TT",
+    "seriesId": "tipsport-s2",
+    "subset": "Ultimate Origin Scripted Edition",
+    "player": "TOMÁŠ TÖRÖK",
+    "team": "POA",
+    "owned": false,
+    "quantity": 0,
+    "notes": "",
+    "subsetOrder": 10,
+    "cardOrder": 600,
+    "parallels": [
+      "/9",
+      "/6",
+      "/4",
+      "/3",
+      "/2",
+      "1of1"
+    ]
+  },
+  {
+    "id": "tipsport-s2-uo-dh",
+    "number": "UO-DH",
+    "seriesId": "tipsport-s2",
+    "subset": "Ultimate Origin Scripted Edition",
+    "player": "DÁVID HRENÁK",
+    "team": "TRE",
+    "owned": false,
+    "quantity": 0,
+    "notes": "",
+    "subsetOrder": 10,
+    "cardOrder": 700,
+    "parallels": [
+      "/9",
+      "/6",
+      "/4",
+      "/3",
+      "/2",
+      "1of1"
+    ]
+  },
+  {
+    "id": "tipsport-s2-uo-jm",
+    "number": "UO-JM",
+    "seriesId": "tipsport-s2",
+    "subset": "Ultimate Origin Scripted Edition",
+    "player": "JURAJ MIKUŠ",
+    "team": "TRE",
+    "owned": false,
+    "quantity": 0,
+    "notes": "",
+    "subsetOrder": 10,
+    "cardOrder": 700,
+    "parallels": [
+      "/9",
+      "/6",
+      "/4",
+      "/3",
+      "/2",
+      "1of1"
+    ]
+  },
+  {
+    "id": "tipsport-s2-uo-mb",
+    "number": "UO-MB",
+    "seriesId": "tipsport-s2",
+    "subset": "Ultimate Origin Scripted Edition",
+    "player": "MARTIN BAKOŠ",
+    "team": "SBA",
+    "owned": false,
+    "quantity": 0,
+    "notes": "",
+    "subsetOrder": 10,
+    "cardOrder": 800,
+    "parallels": [
+      "/9",
+      "/6",
+      "/4",
+      "/3",
+      "/2",
+      "1of1"
+    ]
+  },
+  {
+    "id": "tipsport-s2-uo-st",
+    "number": "UO-ST",
+    "seriesId": "tipsport-s2",
+    "subset": "Ultimate Origin Scripted Edition",
+    "player": "SAMUEL TAKÁČ",
+    "team": "SBA",
+    "owned": false,
+    "quantity": 0,
+    "notes": "",
+    "subsetOrder": 10,
+    "cardOrder": 800,
+    "parallels": [
+      "/9",
+      "/6",
+      "/4",
+      "/3",
+      "/2",
+      "1of1"
+    ]
   },
   {
     "id": "tipsport-s2-uo-vg",
@@ -9890,91 +14999,58 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 10
+    "subsetOrder": 10,
+    "cardOrder": 900,
+    "parallels": [
+      "/9",
+      "/6",
+      "/4",
+      "/3",
+      "/2",
+      "1of1"
+    ]
   },
   {
-    "id": "tipsport-s2-uof-bp",
-    "number": "UOF-BP",
+    "id": "tipsport-s2-uo-mf",
+    "number": "UO-MF",
     "seriesId": "tipsport-s2",
-    "subset": "Ultimate Origin Fusion Edition",
-    "player": "MILOŠ BUBELA, MATEJ PAULOVIČ",
-    "team": "HKN",
+    "subset": "Ultimate Origin Scripted Edition",
+    "player": "MAX FERKODIČ",
+    "team": "LMI",
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 11
+    "subsetOrder": 10,
+    "cardOrder": 1000,
+    "parallels": [
+      "/9",
+      "/6",
+      "/4",
+      "/3",
+      "/2",
+      "1of1"
+    ]
   },
   {
-    "id": "tipsport-s2-uof-bt",
-    "number": "UOF-BT",
+    "id": "tipsport-s2-uo-jj",
+    "number": "UO-JJ",
     "seriesId": "tipsport-s2",
-    "subset": "Ultimate Origin Fusion Edition",
-    "player": "MARTIN BAKOŠ, SAMUEL TAKÁČ",
-    "team": "SBA",
-    "owned": false,
-    "quantity": 0,
-    "notes": "",
-    "subsetOrder": 11
-  },
-  {
-    "id": "tipsport-s2-uof-gd",
-    "number": "UOF-GD",
-    "seriesId": "tipsport-s2",
-    "subset": "Ultimate Origin Fusion Edition",
-    "player": "DENIS GODLA, RÓBERT DŽUGAN",
-    "team": "RYS",
-    "owned": false,
-    "quantity": 0,
-    "notes": "",
-    "subsetOrder": 11
-  },
-  {
-    "id": "tipsport-s2-uof-gv",
-    "number": "UOF-GV",
-    "seriesId": "tipsport-s2",
-    "subset": "Ultimate Origin Fusion Edition",
-    "player": "VLADIMÍR GLOSÁR, JAKE VIRTANEN",
-    "team": "MII",
-    "owned": false,
-    "quantity": 0,
-    "notes": "",
-    "subsetOrder": 11
-  },
-  {
-    "id": "tipsport-s2-uof-hm",
-    "number": "UOF-HM",
-    "seriesId": "tipsport-s2",
-    "subset": "Ultimate Origin Fusion Edition",
-    "player": "DÁVID HRENÁK, JURAJ MIKUŠ",
-    "team": "TRE",
-    "owned": false,
-    "quantity": 0,
-    "notes": "",
-    "subsetOrder": 11
-  },
-  {
-    "id": "tipsport-s2-uof-ht",
-    "number": "UOF-HT",
-    "seriesId": "tipsport-s2",
-    "subset": "Ultimate Origin Fusion Edition",
-    "player": "MATÚŠ HOLENDA, DANIEL VLADIMÍR TKÁČ",
-    "team": "ZIL",
-    "owned": false,
-    "quantity": 0,
-    "notes": "",
-    "subsetOrder": 11
-  },
-  {
-    "id": "tipsport-s2-uof-jh",
-    "number": "UOF-JH",
-    "seriesId": "tipsport-s2",
-    "subset": "Ultimate Origin Fusion Edition",
-    "player": "JAROSLAV JANUS, SAMUEL HAIN",
+    "subset": "Ultimate Origin Scripted Edition",
+    "player": "JAROSLAV JANUS",
     "team": "PHC",
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 11
+    "subsetOrder": 10,
+    "cardOrder": 1100,
+    "parallels": [
+      "/9",
+      "/6",
+      "/4",
+      "/3",
+      "/2",
+      "1of1"
+    ]
   },
   {
     "id": "tipsport-s2-uof-rc",
@@ -9986,7 +15062,107 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 11
+    "subsetOrder": 11,
+    "cardOrder": 0,
+    "parallels": [
+      "/20"
+    ]
+  },
+  {
+    "id": "tipsport-s2-uof-bp",
+    "number": "UOF-BP",
+    "seriesId": "tipsport-s2",
+    "subset": "Ultimate Origin Fusion Edition",
+    "player": "MILOŠ BUBELA, MATEJ PAULOVIČ",
+    "team": "HKN",
+    "owned": false,
+    "quantity": 0,
+    "notes": "",
+    "subsetOrder": 11,
+    "cardOrder": 100,
+    "parallels": [
+      "/20"
+    ]
+  },
+  {
+    "id": "tipsport-s2-uof-ht",
+    "number": "UOF-HT",
+    "seriesId": "tipsport-s2",
+    "subset": "Ultimate Origin Fusion Edition",
+    "player": "MATÚŠ HOLENDA, DANIEL VLADIMÍR TKÁČ",
+    "team": "ZIL",
+    "owned": false,
+    "quantity": 0,
+    "notes": "",
+    "subsetOrder": 11,
+    "cardOrder": 200,
+    "parallels": [
+      "/20"
+    ]
+  },
+  {
+    "id": "tipsport-s2-uof-gd",
+    "number": "UOF-GD",
+    "seriesId": "tipsport-s2",
+    "subset": "Ultimate Origin Fusion Edition",
+    "player": "DENIS GODLA, RÓBERT DŽUGAN",
+    "team": "RYS",
+    "owned": false,
+    "quantity": 0,
+    "notes": "",
+    "subsetOrder": 11,
+    "cardOrder": 400,
+    "parallels": [
+      "/20"
+    ]
+  },
+  {
+    "id": "tipsport-s2-uof-hm",
+    "number": "UOF-HM",
+    "seriesId": "tipsport-s2",
+    "subset": "Ultimate Origin Fusion Edition",
+    "player": "DÁVID HRENÁK, JURAJ MIKUŠ",
+    "team": "TRE",
+    "owned": false,
+    "quantity": 0,
+    "notes": "",
+    "subsetOrder": 11,
+    "cardOrder": 700,
+    "parallels": [
+      "/20"
+    ]
+  },
+  {
+    "id": "tipsport-s2-uof-bt",
+    "number": "UOF-BT",
+    "seriesId": "tipsport-s2",
+    "subset": "Ultimate Origin Fusion Edition",
+    "player": "MARTIN BAKOŠ, SAMUEL TAKÁČ",
+    "team": "SBA",
+    "owned": false,
+    "quantity": 0,
+    "notes": "",
+    "subsetOrder": 11,
+    "cardOrder": 800,
+    "parallels": [
+      "/20"
+    ]
+  },
+  {
+    "id": "tipsport-s2-uof-gv",
+    "number": "UOF-GV",
+    "seriesId": "tipsport-s2",
+    "subset": "Ultimate Origin Fusion Edition",
+    "player": "VLADIMÍR GLOSÁR, JAKE VIRTANEN",
+    "team": "MII",
+    "owned": false,
+    "quantity": 0,
+    "notes": "",
+    "subsetOrder": 11,
+    "cardOrder": 900,
+    "parallels": [
+      "/20"
+    ]
   },
   {
     "id": "tipsport-s2-uof-sf",
@@ -9998,6 +15174,26 @@ export const SPORTZOO_CHECKLIST_CARDS: CardRecord[] = [
     "owned": false,
     "quantity": 0,
     "notes": "",
-    "subsetOrder": 11
+    "subsetOrder": 11,
+    "cardOrder": 1000,
+    "parallels": [
+      "/20"
+    ]
+  },
+  {
+    "id": "tipsport-s2-uof-jh",
+    "number": "UOF-JH",
+    "seriesId": "tipsport-s2",
+    "subset": "Ultimate Origin Fusion Edition",
+    "player": "JAROSLAV JANUS, SAMUEL HAIN",
+    "team": "PHC",
+    "owned": false,
+    "quantity": 0,
+    "notes": "",
+    "subsetOrder": 11,
+    "cardOrder": 1100,
+    "parallels": [
+      "/20"
+    ]
   }
 ];

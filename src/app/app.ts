@@ -22,13 +22,29 @@ export interface CardRecord {
   seriesId: SeriesId;
   subset: string;
   subsetOrder?: number;
+  cardOrder?: number;
   player: string;
   team: string;
   owned: boolean;
   quantity: number;
+  copies?: OwnedCopy[];
   notes: string;
   signatureCode?: string;
+  parallels?: string[];
   photo?: string;
+}
+
+interface OwnedCopy {
+  id: string;
+  parallel: string;
+  serial: string;
+}
+
+interface CopyGroup {
+  key: string;
+  label: string;
+  count: number;
+  serials: string[];
 }
 
 const STORAGE_KEY = 'cardbase:sportzoo-tipsport-2025-26';
@@ -78,6 +94,26 @@ const SUBSETS_HOKEJOVE_SLOVENSKO_2026 = [
   'Memorabilia',
 ];
 
+const PARALLELS_BY_SUBSET: Record<string, string[]> = {
+  'Zakladny set': ['Zakladna karta', 'Base Blue', 'Red Light /30', 'Golden Glow /15', 'Night Fireworks 1of1'],
+  'Team Unity': ['/7'],
+  'Ice Stars: New Era': ['Base', 'Sapphire Blue /45', 'Autumn Copper /10', 'Harvest Gold /5', 'Onyx Black 1of1'],
+  'What a Save': ['Base', '/80', 'Auto /45', '1of1'],
+  'Leadership Trio': ['/15'],
+  'Authentic Signature Level 2': ['/35'],
+  'Authentic Signature Level 1': ['/75'],
+  'League Legends': ['Base', 'Auto /35'],
+  'Rookie Rockets': ['Base', 'Bright Blue /85', 'Gold Auto /55', '1of1'],
+  'Ultimate Origin Fusion Edition': ['/20'],
+  'Game Jersey': ['/75', 'Auto /25'],
+  'Ultimate Origin Scripted Edition': ['/9', '/6', '/4', '/3', '/2', '1of1'],
+  Powerhouse: ['Base'],
+  Flashback: ['Base', '/60', 'Auto /35'],
+  'Defensive Duo': ['Base', '/20', 'Auto /10'],
+  Essence: ['Base', '1of1'],
+  '100% Focused': ['Base', '/60', 'Auto /40'],
+};
+
 @Component({
   selector: 'app-root',
   imports: [CommonModule, FormsModule],
@@ -90,7 +126,6 @@ export class App {
   readonly search = signal('');
   readonly ownershipFilter = signal<OwnershipFilter>('all');
   readonly selectedCardId = signal<string | null>(null);
-  readonly importText = signal('');
   readonly cards = signal<CardRecord[]>(this.loadCards());
   readonly selectedSubset = signal(this.firstSubsetForSeries('tipsport-s1'));
 
@@ -104,19 +139,21 @@ export class App {
     const selectedSubset = this.selectedSubset();
     const ownershipFilter = this.ownershipFilter();
 
-    return this.cards().filter((card) => {
-      const matchesSeries = card.seriesId === selectedSeriesId;
-      const matchesSubset = card.subset === selectedSubset;
-      const haystack = this.normalize(`${card.number} ${card.player} ${card.team} ${card.subset}`);
-      const matchesSearch = !query || haystack.includes(query);
-      const matchesOwnership =
-        ownershipFilter === 'all' ||
-        (ownershipFilter === 'owned' && card.owned) ||
-        (ownershipFilter === 'missing' && !card.owned) ||
-        (ownershipFilter === 'withPhoto' && Boolean(card.photo));
+    return this.cards()
+      .filter((card) => {
+        const matchesSeries = card.seriesId === selectedSeriesId;
+        const matchesSubset = card.subset === selectedSubset;
+        const haystack = this.normalize(`${card.number} ${card.player} ${card.team} ${card.subset}`);
+        const matchesSearch = !query || haystack.includes(query);
+        const matchesOwnership =
+          ownershipFilter === 'all' ||
+          (ownershipFilter === 'owned' && this.cardCopies(card).length > 0) ||
+          (ownershipFilter === 'missing' && this.cardCopies(card).length === 0) ||
+          (ownershipFilter === 'withPhoto' && Boolean(card.photo));
 
-      return matchesSeries && matchesSubset && matchesSearch && matchesOwnership;
-    });
+        return matchesSeries && matchesSubset && matchesSearch && matchesOwnership;
+      })
+      .sort(compareCards);
   });
 
   readonly selectedCard = computed(() => {
@@ -142,7 +179,7 @@ export class App {
     const cards = this.cards().filter(
       (card) => card.seriesId === this.selectedSeriesId() && card.subset === this.selectedSubset(),
     );
-    const owned = cards.filter((card) => card.owned).length;
+    const owned = cards.filter((card) => this.cardCopies(card).length > 0).length;
     const withPhoto = cards.filter((card) => card.photo).length;
     const completion = cards.length === 0 ? 0 : Math.round((owned / cards.length) * 100);
 
@@ -172,36 +209,13 @@ export class App {
         }
 
         const next = { ...card, ...patch };
-        if (patch.owned === true && next.quantity < 1) {
-          next.quantity = 1;
-        }
-        if (patch.quantity !== undefined) {
-          next.quantity = Math.max(0, Math.floor(Number(patch.quantity) || 0));
-          next.owned = next.quantity > 0;
-        }
+        next.copies = patch.copies !== undefined ? normalizeCopyList(next, patch.copies) : normalizeCopies(next);
+        next.quantity = next.copies.length;
+        next.owned = next.quantity > 0;
 
         return next;
       }),
     );
-    this.persist();
-  }
-
-  importChecklist(): void {
-    const rows = this.parseChecklist(this.importText(), this.selectedSeriesId());
-    if (rows.length === 0) {
-      return;
-    }
-
-    this.cards.update((cards) => {
-      const byNumber = new Map(cards.map((card) => [`${card.seriesId}:${card.number}`, card]));
-      for (const row of rows) {
-        const key = `${row.seriesId}:${row.number}`;
-        const existing = byNumber.get(key);
-        byNumber.set(key, existing ? { ...existing, ...row } : row);
-      }
-      return Array.from(byNumber.values()).sort((left, right) => Number(left.number) - Number(right.number));
-    });
-    this.importText.set('');
     this.persist();
   }
 
@@ -238,40 +252,65 @@ export class App {
     return Boolean(this.selectedSeries().puzzlePdfUrl);
   }
 
-  private parseChecklist(text: string, seriesId: SeriesId): CardRecord[] {
-    const fallbackSubset = 'Zakladny set';
+  parallelOptions(card: CardRecord): string[] {
+    return card.parallels?.length ? card.parallels : PARALLELS_BY_SUBSET[card.subset] ?? ['Base'];
+  }
 
-    return text
-      .split(/\r?\n/)
-      .map((line) => line.trim())
-      .filter(Boolean)
-      .map((line): CardRecord | null => {
-        const parts = line.split(/[;\t]/).map((part) => part.trim());
-        const csvLike = parts.length >= 2 && isCardCode(parts[0]);
-        const match = line.match(/^#?(\d{1,3}|[A-Z0-9]{2,4}-[A-Z0-9]{1,4})\s+(.+?)(?:\s{2,}|\s+-\s+|\t)(.+)?$/);
-        const number = csvLike ? parts[0] : match?.[1];
-        const player = csvLike ? parts[1] : match?.[2];
-        const team = csvLike ? (parts[2] ?? '') : (match?.[3] ?? '');
-        const subset = csvLike ? (parts[3] ?? fallbackSubset) : fallbackSubset;
+  cardCopies(card: CardRecord): OwnedCopy[] {
+    return normalizeCopies(card);
+  }
 
-        if (!number || !player) {
-          return null;
-        }
+  copySummary(card: CardRecord): string {
+    const groups = this.copyGroups(card);
+    if (groups.length === 0) {
+      return '';
+    }
 
-        return {
-          id: `${seriesId}-${formatCardCode(number).toLowerCase()}`,
-          number: formatCardCode(number),
-          seriesId,
-          subset,
-          subsetOrder: this.activeSubsets().indexOf(subset),
-          player,
-          team,
-          owned: false,
-          quantity: 0,
-          notes: '',
-        };
-      })
-      .filter((card): card is CardRecord => Boolean(card));
+    return groups.map((group) => fullGroupLabel(group)).join(', ');
+  }
+
+  compactCopySummary(card: CardRecord): string {
+    const groups = this.copyGroups(card);
+    if (groups.length === 0) {
+      return '-';
+    }
+
+    return groups.map((group) => compactGroupLabel(group)).join(' | ');
+  }
+
+  copyLabel(copy: OwnedCopy): string {
+    return formatCopySummary(copy);
+  }
+
+  copyGroups(card: CardRecord): CopyGroup[] {
+    return groupCopies(this.cardCopies(card));
+  }
+
+  addCopy(card: CardRecord): void {
+    const options = this.parallelOptions(card);
+    const copies = this.cardCopies(card);
+    this.updateCard(card.id, {
+      copies: [
+        ...copies,
+        {
+          id: crypto.randomUUID(),
+          parallel: options[0] ?? 'Base',
+          serial: '',
+        },
+      ],
+    });
+  }
+
+  updateCopy(card: CardRecord, copyId: string, patch: Partial<OwnedCopy>): void {
+    this.updateCard(card.id, {
+      copies: this.cardCopies(card).map((copy) => (copy.id === copyId ? { ...copy, ...patch } : copy)),
+    });
+  }
+
+  removeCopy(card: CardRecord, copyId: string): void {
+    this.updateCard(card.id, {
+      copies: this.cardCopies(card).filter((copy) => copy.id !== copyId),
+    });
   }
 
   private loadCards(): CardRecord[] {
@@ -330,8 +369,9 @@ function mergeWithSeedCards(storedCards: CardRecord[]): CardRecord[] {
     if (storedCard) {
       storedById.set(seedCard.id, {
         ...seedCard,
-        owned: storedCard.owned,
-        quantity: storedCard.quantity,
+        copies: normalizeCopies(storedCard),
+        owned: normalizeCopies(storedCard).length > 0,
+        quantity: normalizeCopies(storedCard).length,
         notes: storedCard.notes,
         photo: storedCard.photo,
       });
@@ -344,8 +384,9 @@ function mergeWithSeedCards(storedCards: CardRecord[]): CardRecord[] {
     const seriesOrder = SERIES.findIndex((series) => series.id === left.seriesId) -
       SERIES.findIndex((series) => series.id === right.seriesId);
     const subsetOrder = (left.subsetOrder ?? 999) - (right.subsetOrder ?? 999);
+    const cardOrder = (left.cardOrder ?? 9999) - (right.cardOrder ?? 9999);
 
-    return seriesOrder || subsetOrder || left.number.localeCompare(right.number, undefined, { numeric: true });
+    return seriesOrder || subsetOrder || cardOrder || compareCardNumbers(left.number, right.number);
   });
 }
 
@@ -357,11 +398,16 @@ function normalizeStoredCard(card: CardRecord): CardRecord {
   const seriesId = legacySeriesIds[card.seriesId] ?? card.seriesId;
   const number = formatCardCode(card.number);
 
+  const copies = normalizeCopies(card);
+
   return {
     ...card,
     id: `${seriesId}-${number.toLowerCase()}`,
     number,
     seriesId,
+    copies,
+    quantity: copies.length,
+    owned: copies.length > 0,
   };
 }
 
@@ -383,10 +429,12 @@ function createNumberedCards(
       seriesId,
       subset,
       subsetOrder: 0,
+      cardOrder: number - from,
       player: `Karta ${formatted}`,
       team: '',
       owned: false,
       quantity: 0,
+      copies: [],
       notes: '',
     });
   }
@@ -394,10 +442,115 @@ function createNumberedCards(
   return cards;
 }
 
-function formatCardCode(value: string): string {
-  return /^\d{1,3}$/.test(value) ? value.padStart(3, '0') : value.toUpperCase();
+function normalizeCopies(card: CardRecord): OwnedCopy[] {
+  if (card.copies?.length) {
+    return normalizeCopyList(card, card.copies);
+  }
+
+  if (card.quantity > 0 || card.owned) {
+    return Array.from({ length: Math.max(1, card.quantity || 1) }, () => ({
+      id: crypto.randomUUID(),
+      parallel: defaultParallelFor(card),
+      serial: '',
+    }));
+  }
+
+  return [];
 }
 
-function isCardCode(value: string): boolean {
-  return /^(\d{1,3}|[A-Z0-9]{2,4}-[A-Z0-9]{1,4})$/i.test(value);
+function normalizeCopyList(card: CardRecord, copies: OwnedCopy[]): OwnedCopy[] {
+  return copies.map((copy) => ({
+    id: copy.id || crypto.randomUUID(),
+    parallel: copy.parallel || defaultParallelFor(card),
+    serial: copy.serial || '',
+  }));
+}
+
+function groupCopies(copies: OwnedCopy[]): CopyGroup[] {
+  const groups = new Map<string, CopyGroup>();
+
+  for (const copy of copies) {
+    const serial = copy.serial.trim();
+    const key = copy.parallel;
+    const group = groups.get(key) ?? { key, label: copy.parallel, count: 0, serials: [] };
+    group.count += 1;
+    if (serial) {
+      group.serials.push(serial);
+    }
+    groups.set(key, group);
+  }
+
+  return Array.from(groups.values());
+}
+
+function fullGroupLabel(group: CopyGroup): string {
+  const serials = group.serials.length ? ` ${group.serials.join(', ')}` : '';
+  return `${group.count > 1 ? `${group.count}x ` : ''}${group.label}${serials}`;
+}
+
+function compactGroupLabel(group: CopyGroup): string {
+  const label = compactParallelLabel(group.label, group.serials);
+  const serials = group.serials.length ? ` ${group.serials.join(', ')}` : '';
+  return `${group.count > 1 ? `${group.count}x ` : ''}${label}${serials}`.trim();
+}
+
+function formatCopySummary(copy: OwnedCopy): string {
+  const serial = copy.serial.trim();
+  if (!serial) {
+    return copy.parallel;
+  }
+
+  const serialLimit = serial.match(/^\d+\s*\/\s*(\d+)$/)?.[1];
+  const isOneOfOneSerial = /^1\s*\/\s*1$|^1of1$/i.test(serial);
+  const parallel = isOneOfOneSerial && /1of1/i.test(copy.parallel)
+    ? copy.parallel.replace(/1of1/gi, '').trim()
+    : serialLimit
+    ? copy.parallel.replace(new RegExp(`\\s*/\\s*${serialLimit}\\b`), '').trim()
+    : copy.parallel;
+
+  return `${parallel} ${serial}`.trim();
+}
+
+function compactCopyLabel(copy: OwnedCopy): string {
+  const serial = copy.serial.trim();
+  const label = compactParallelLabel(copy.parallel, serial ? [serial] : []);
+  return `${label}${serial ? ` ${serial}` : ''}`.trim();
+}
+
+function compactParallelLabel(parallel: string, serials: string[]): string {
+  if (/1of1/i.test(parallel) || serials.some((serial) => /^1\s*\/\s*1$|^1of1$/i.test(serial))) {
+    return '1of1';
+  }
+
+  return parallel
+    .replace('Zakladna karta', 'Base')
+    .replace('Base Blue', 'Blue')
+    .replace('Red Light', 'Red')
+    .replace('Golden Glow', 'Gold')
+    .replace('Sapphire Blue', 'Sapphire')
+    .replace('Autumn Copper', 'Copper')
+    .replace('Harvest Gold', 'Harvest')
+    .replace('Onyx Black', 'Onyx')
+    .replace('Bright Blue', 'Bright')
+    .replace('Gold Auto', 'Auto');
+}
+
+function defaultParallelFor(card: CardRecord): string {
+  return PARALLELS_BY_SUBSET[card.subset]?.[0] ?? 'Base';
+}
+
+function compareCards(left: CardRecord, right: CardRecord): number {
+  return (
+    (left.subsetOrder ?? 999) - (right.subsetOrder ?? 999) ||
+    (left.cardOrder ?? 9999) - (right.cardOrder ?? 9999) ||
+    compareCardNumbers(left.number, right.number)
+  );
+}
+
+function compareCardNumbers(left: string, right: string): number {
+  return left.localeCompare(right, undefined, { numeric: true });
+}
+
+function formatCardCode(value: string): string {
+  return /^\d{1,3}$/.test(value) ? value.padStart(3, '0') : value.toUpperCase();
 }
