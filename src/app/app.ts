@@ -1,5 +1,5 @@
 import { CommonModule } from '@angular/common';
-import { Component, computed, effect, inject, signal } from '@angular/core';
+import { Component, HostListener, computed, effect, inject, signal } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { SPORTZOO_CHECKLIST_CARDS } from './checklists';
 import { SupabaseService } from './supabase.service';
@@ -7,6 +7,8 @@ import { SupabaseService } from './supabase.service';
 export type SeriesId = 'tipsport-s1' | 'tipsport-s2' | 'hokejove-slovensko-2026';
 type OwnershipFilter = 'all' | 'owned' | 'missing' | 'withPhoto';
 type AuthMode = 'login' | 'register' | 'reset';
+type MainView = 'cards' | 'gallery';
+type PopoverPlacement = 'above' | 'below';
 
 interface CollectionSeries {
   id: SeriesId;
@@ -40,6 +42,8 @@ interface OwnedCopy {
   id: string;
   parallel: string;
   serial: string;
+  photos?: string[];
+  photo?: string;
 }
 
 interface CopyGroup {
@@ -49,53 +53,72 @@ interface CopyGroup {
   serials: string[];
 }
 
+interface PhotoEntry {
+  cardId: string;
+  copyId: string;
+  cardNumber: string;
+  player: string;
+  team: string;
+  subset: string;
+  parallel: string;
+  serial: string;
+  photo: string;
+}
+
+interface HoveredPopover {
+  cardId: string;
+  top: number;
+  left: number;
+  placement: PopoverPlacement;
+}
+
 const SERIES: CollectionSeries[] = [
   {
     id: 'tipsport-s1',
-    title: 'Tipsport liga 2025/26 - 1. seria',
+    title: 'Tipsport liga 2025/26 - 1. séria',
     release: 'November 2025',
     sourceProductUrl:
       'https://www.sportzoo.store/p/hobby-box-hokejove-karticky-sportzoo-tipsport-liga-2025-26-1-seria',
     checklistPdfUrl: 'https://sportzoo.s15.cdn-upgates.com/s/s6931a7d24f1b3-tel1-checklist.pdf',
     puzzlePdfUrl: 'https://sportzoo.s15.cdn-upgates.com/1/16913140683637-tl-25-26-s1-puzzle-quest.pdf',
     description:
-      'Oficialny checklist TEL1 je nacitany vratane zakladneho setu, insertov, podpisoviek a memorabilia.',
+      'Oficiálny checklist TEL1 je načítaný vrátane základného setu, insertov, podpisoviek a memorabilia.',
   },
   {
     id: 'tipsport-s2',
-    title: 'Tipsport liga 2025/26 - 2. seria',
-    release: 'Februar 2026',
+    title: 'Tipsport liga 2025/26 - 2. séria',
+    release: 'Február 2026',
     sourceProductUrl:
       'https://www.sportzoo.store/p/startovaci-balicek-hokejove-karticky-sportzoo-tipsport-liga-2025-26-2-seria',
     checklistPdfUrl: 'https://sportzoo.s15.cdn-upgates.com/z/z699d9399d42d3-tel2-checklist.pdf',
     puzzlePdfUrl: 'https://sportzoo.s15.cdn-upgates.com/0/06989db60dfcec-tl-25-26-s2-puzzle-quest.pdf',
     description:
-      'Oficialny checklist TEL2 je nacitany vratane zakladneho setu, insertov, podpisoviek a memorabilia.',
+      'Oficiálny checklist TEL2 je načítaný vrátane základného setu, insertov, podpisoviek a memorabilia.',
   },
   {
     id: 'hokejove-slovensko-2026',
-    title: 'Hokejove Slovensko 2026',
+    title: 'Hokejové Slovensko 2026',
     release: '2026',
     sourceProductUrl: 'https://sportzoo.sk/kolekcie',
     checklistPdfUrl: '',
     puzzlePdfUrl: '',
     description:
-      'SportZoo aktualne uvadza kolekciu Hokejove Slovensko 2026 ako planovanu. Verejny checklist zatial nie je zverejneny; po vydani ho vloz cez import alebo dopln PDF odkaz.',
+      'SportZoo aktuálne uvádza kolekciu Hokejové Slovensko 2026 ako plánovanú. Verejný checklist zatiaľ nie je zverejnený; po vydaní ho vlož cez import alebo doplň PDF odkaz.',
   },
 ];
 
 const SUBSETS_HOKEJOVE_SLOVENSKO_2026 = [
-  'Zakladny set',
-  'Brankari',
+  'Základný set',
+  'Brankári',
   'Legendy',
   'Talenty',
-  'Reprezentacia',
+  'Reprezentácia',
   'Podpisy',
   'Memorabilia',
 ];
 
 const PARALLELS_BY_SUBSET: Record<string, string[]> = {
-  'Zakladny set': ['Zakladna karta', 'Base Blue', 'Red Light /30', 'Golden Glow /15', 'Night Fireworks 1of1'],
+  'Základný set': ['Základná karta', 'Base Blue', 'Red Light /30', 'Golden Glow /15', 'Night Fireworks 1of1'],
   'Team Unity': ['/7'],
   'Ice Stars: New Era': ['Base', 'Sapphire Blue /45', 'Autumn Copper /10', 'Harvest Gold /5', 'Onyx Black 1of1'],
   'What a Save': ['Base', '/80', 'Auto /45', '1of1'],
@@ -136,6 +159,12 @@ export class App {
   readonly authMessage = signal('');
   readonly dataBusy = signal(false);
   readonly dataError = signal('');
+  readonly lightboxPhoto = signal<string | null>(null);
+  readonly lightboxGalleryIndex = signal<number | null>(null);
+  readonly hoveredPopover = signal<HoveredPopover | null>(null);
+  readonly importOwnedText = signal('');
+  readonly importOwnedMessage = signal('');
+  readonly mainView = signal<MainView>('cards');
 
   readonly selectedSeries = computed(
     () => this.series.find((series) => series.id === this.selectedSeriesId()) ?? this.series[0],
@@ -174,7 +203,7 @@ export class App {
           ownershipFilter === 'all' ||
           (ownershipFilter === 'owned' && this.cardCopies(card).length > 0) ||
           (ownershipFilter === 'missing' && this.cardCopies(card).length === 0) ||
-          (ownershipFilter === 'withPhoto' && Boolean(card.photo));
+          (ownershipFilter === 'withPhoto' && this.cardCopies(card).some((copy) => this.copyPhotos(copy).length > 0));
 
         return matchesSeries && matchesSubset && matchesSearch && matchesOwnership;
       })
@@ -184,6 +213,16 @@ export class App {
   readonly selectedCard = computed(() => {
     const selectedCardId = this.selectedCardId();
     return this.cards().find((card) => card.id === selectedCardId) ?? this.visibleCards()[0] ?? null;
+  });
+
+  readonly hoveredPopoverCard = computed(() => {
+    const hovered = this.hoveredPopover();
+    if (!hovered) {
+      return null;
+    }
+
+    const card = this.cards().find((item) => item.id === hovered.cardId) ?? null;
+    return card && this.cardCopies(card).length ? card : null;
   });
 
   readonly activeSubsets = computed(() => {
@@ -205,10 +244,34 @@ export class App {
       (card) => card.seriesId === this.selectedSeriesId() && card.subset === this.selectedSubset(),
     );
     const owned = cards.filter((card) => this.cardCopies(card).length > 0).length;
-    const withPhoto = cards.filter((card) => card.photo).length;
+    const withPhoto = cards.filter((card) => this.cardCopies(card).some((copy) => this.copyPhotos(copy).length > 0)).length;
     const completion = cards.length === 0 ? 0 : Math.round((owned / cards.length) * 100);
 
     return { total: cards.length, owned, missing: cards.length - owned, withPhoto, completion };
+  });
+
+  readonly galleryPhotos = computed(() => {
+    return this.cards()
+      .filter((card) => card.seriesId === this.selectedSeriesId())
+      .flatMap((card) =>
+        this.cardCopies(card)
+          .flatMap((copy) =>
+            this.copyPhotos(copy).map(
+              (photo): PhotoEntry => ({
+                cardId: card.id,
+                copyId: copy.id,
+                cardNumber: card.number,
+                player: card.player,
+                team: card.team,
+                subset: card.subset,
+                parallel: copy.parallel,
+                serial: copy.serial,
+                photo,
+              }),
+            ),
+          ),
+      )
+      .sort((left, right) => compareCardNumbers(left.cardNumber, right.cardNumber));
   });
 
   selectSeries(seriesId: SeriesId): void {
@@ -222,8 +285,37 @@ export class App {
     this.selectedCardId.set(null);
   }
 
+  setMainView(view: MainView): void {
+    this.mainView.set(view);
+  }
+
   selectCard(card: CardRecord): void {
     this.selectedCardId.set(card.id);
+  }
+
+  showCopyPopover(card: CardRecord, event: Event): void {
+    if (this.cardCopies(card).length === 0) {
+      this.hideCopyPopover();
+      return;
+    }
+
+    const target = event.currentTarget;
+    if (!(target instanceof HTMLElement)) {
+      return;
+    }
+
+    const rect = target.getBoundingClientRect();
+    const placement: PopoverPlacement = rect.top < 220 ? 'below' : 'above';
+    this.hoveredPopover.set({
+      cardId: card.id,
+      left: Math.min(window.innerWidth - 24, rect.right - 10),
+      top: placement === 'above' ? rect.top - 8 : rect.bottom + 8,
+      placement,
+    });
+  }
+
+  hideCopyPopover(): void {
+    this.hoveredPopover.set(null);
   }
 
   updateCard(cardId: string, patch: Partial<CardRecord>): void {
@@ -254,23 +346,182 @@ export class App {
     void this.clearCloudCards();
   }
 
-  attachPhoto(cardId: string, event: Event): void {
+  async attachCopyPhoto(card: CardRecord, copyId: string, event: Event): Promise<void> {
     const input = event.target as HTMLInputElement;
-    const file = input.files?.[0];
-    if (!file) {
+    const files = Array.from(input.files ?? []);
+    if (files.length === 0) {
       return;
     }
 
-    const reader = new FileReader();
-    reader.onload = () => {
-      this.updateCard(cardId, { photo: String(reader.result) });
+    try {
+      this.dataError.set('');
+      const nextPhotos: string[] = [];
+      for (const file of files) {
+        const sourceFile = isHeicFile(file) ? await convertHeicFile(file) : file;
+        nextPhotos.push(await readFileAsDataUrl(sourceFile));
+      }
+
+      const copy = this.cardCopies(card).find((item) => item.id === copyId);
+      const photos = [...(copy ? this.copyPhotos(copy) : []), ...nextPhotos];
+      this.updateCopy(card, copyId, { photos, photo: undefined });
+    } catch (error) {
+      console.error('Photo upload failed', error);
+      this.dataError.set(
+        files.some((file) => isHeicFile(file))
+          ? 'Tento HEIC súbor sa v prehliadači nepodarilo spracovať. Skús ho previesť na JPG alebo PNG a nahraj ho znova.'
+          : 'Nepodarilo sa načítať fotku.',
+      );
+    } finally {
       input.value = '';
-    };
-    reader.readAsDataURL(file);
+    }
   }
 
-  removePhoto(cardId: string): void {
-    this.updateCard(cardId, { photo: undefined });
+  removeCopyPhoto(card: CardRecord, copyId: string): void {
+    this.updateCopy(card, copyId, { photos: [], photo: undefined });
+  }
+
+  removeCopyPhotoAt(card: CardRecord, copyId: string, photoIndex: number): void {
+    const copy = this.cardCopies(card).find((item) => item.id === copyId);
+    if (!copy) {
+      return;
+    }
+
+    const photos = this.copyPhotos(copy).filter((_, index) => index !== photoIndex);
+    this.updateCopy(card, copyId, { photos, photo: undefined });
+  }
+
+  importOwnedCards(): void {
+    const tokens = this.importOwnedText()
+      .split(/[\s,;]+/)
+      .map((value) => formatCardCode(value.trim()))
+      .filter(Boolean);
+
+    if (tokens.length === 0) {
+      this.importOwnedMessage.set('Vlož aspoň jedno číslo alebo kód karty.');
+      return;
+    }
+
+    const counts = new Map<string, number>();
+    for (const token of tokens) {
+      counts.set(token, (counts.get(token) ?? 0) + 1);
+    }
+
+    const selectedSeries = this.selectedSeriesId();
+    const missing: string[] = [];
+
+    this.cards.update((cards) =>
+      cards.map((card) => {
+        if (card.seriesId !== selectedSeries) {
+          return card;
+        }
+
+        const addCount = counts.get(card.number);
+        if (!addCount) {
+          return card;
+        }
+
+        const copies = this.cardCopies(card);
+        const parallel = this.parallelOptions(card)[0] ?? 'Base';
+
+        return {
+          ...card,
+          copies: [
+            ...copies,
+            ...Array.from({ length: addCount }, () => ({
+              id: crypto.randomUUID(),
+              parallel,
+              serial: '',
+            })),
+          ],
+          quantity: copies.length + addCount,
+          owned: true,
+        };
+      }),
+    );
+
+    for (const [token] of counts) {
+      const exists = this.cards().some((card) => card.seriesId === selectedSeries && card.number === token);
+      if (!exists) {
+        missing.push(token);
+      }
+    }
+
+    for (const [token] of counts) {
+      const updated = this.cards().find((card) => card.seriesId === selectedSeries && card.number === token);
+      if (updated) {
+        void this.saveCloudCard(updated);
+      }
+    }
+
+    this.importOwnedText.set('');
+    this.importOwnedMessage.set(
+      missing.length
+        ? `Import hotový. Nenájdené v aktuálnej sérii: ${missing.join(', ')}`
+        : `Import hotový. Pridaných kódov: ${tokens.length}`,
+    );
+  }
+
+  openPhoto(photo: string, galleryIndex: number | null = null): void {
+    this.lightboxPhoto.set(photo);
+    this.lightboxGalleryIndex.set(galleryIndex);
+  }
+
+  closePhoto(): void {
+    this.lightboxPhoto.set(null);
+    this.lightboxGalleryIndex.set(null);
+  }
+
+  showPreviousPhoto(): void {
+    const currentIndex = this.lightboxGalleryIndex();
+    const photos = this.galleryPhotos();
+    if (currentIndex === null || photos.length < 2) {
+      return;
+    }
+
+    const nextIndex = (currentIndex - 1 + photos.length) % photos.length;
+    this.openPhoto(photos[nextIndex].photo, nextIndex);
+  }
+
+  showNextPhoto(): void {
+    const currentIndex = this.lightboxGalleryIndex();
+    const photos = this.galleryPhotos();
+    if (currentIndex === null || photos.length < 2) {
+      return;
+    }
+
+    const nextIndex = (currentIndex + 1) % photos.length;
+    this.openPhoto(photos[nextIndex].photo, nextIndex);
+  }
+
+  @HostListener('window:keydown', ['$event'])
+  handleLightboxKeydown(event: KeyboardEvent): void {
+    if (!this.lightboxPhoto()) {
+      return;
+    }
+
+    if (event.key === 'Escape') {
+      event.preventDefault();
+      this.closePhoto();
+      return;
+    }
+
+    if (this.lightboxGalleryIndex() === null) {
+      return;
+    }
+
+    if (event.key === 'ArrowLeft') {
+      event.preventDefault();
+      this.showPreviousPhoto();
+    } else if (event.key === 'ArrowRight') {
+      event.preventDefault();
+      this.showNextPhoto();
+    }
+  }
+
+  @HostListener('window:scroll')
+  @HostListener('window:resize')
+  handleViewportChange(): void {
+    this.hideCopyPopover();
   }
 
   hasChecklistPdf(): boolean {
@@ -287,6 +538,10 @@ export class App {
 
   cardCopies(card: CardRecord): OwnedCopy[] {
     return normalizeCopies(card);
+  }
+
+  copyPhotos(copy: OwnedCopy): string[] {
+    return normalizeCopyPhotos(copy);
   }
 
   copySummary(card: CardRecord): string {
@@ -353,7 +608,7 @@ export class App {
         await this.supabase.signIn(email, password);
       } else if (this.authMode() === 'register') {
         await this.supabase.signUp(email, password);
-        this.authMessage.set('Registracia prebehla. Skontroluj email, ak mas zapnute potvrdenie uctu.');
+        this.authMessage.set('Registrácia prebehla. Skontroluj email, ak máš zapnuté potvrdenie účtu.');
       } else {
         await this.supabase.resetPassword(email);
         this.authMessage.set('Poslali sme email na obnovu hesla.');
@@ -376,7 +631,7 @@ export class App {
 
   private async loadCloudCards(): Promise<void> {
     if (!this.supabase.configured()) {
-      this.dataError.set('Dopln Supabase URL a anon key v src/environments/environment.ts.');
+      this.dataError.set('Doplň Supabase URL a anon key v src/environments/environment.ts.');
       return;
     }
 
@@ -386,7 +641,7 @@ export class App {
       const ownedCards = await this.supabase.loadOwnedCards();
       this.cards.set(mergeWithCloudRows(ownedCards));
     } catch (error) {
-      this.dataError.set(error instanceof Error ? error.message : 'Nepodarilo sa nacitat data.');
+      this.dataError.set(error instanceof Error ? error.message : 'Nepodarilo sa načítať dáta.');
     } finally {
       this.dataBusy.set(false);
     }
@@ -401,7 +656,7 @@ export class App {
       await this.supabase.saveCard(card);
       this.dataError.set('');
     } catch (error) {
-      this.dataError.set(error instanceof Error ? error.message : 'Nepodarilo sa ulozit kartu.');
+      this.dataError.set(error instanceof Error ? error.message : 'Nepodarilo sa uložiť kartu.');
     }
   }
 
@@ -414,7 +669,7 @@ export class App {
       await this.supabase.clearOwnedCards();
       this.dataError.set('');
     } catch (error) {
-      this.dataError.set(error instanceof Error ? error.message : 'Nepodarilo sa vymazat evidenciu.');
+      this.dataError.set(error instanceof Error ? error.message : 'Nepodarilo sa vymazať evidenciu.');
     }
   }
 
@@ -431,7 +686,7 @@ export class App {
       cards
         .filter((card) => card.seriesId === seriesId)
         .sort((left, right) => (left.subsetOrder ?? 999) - (right.subsetOrder ?? 999))[0]?.subset ??
-      'Zakladny set'
+      'Základný set'
     );
   }
 }
@@ -457,11 +712,10 @@ function mergeWithSeedCards(storedCards: CardRecord[]): CardRecord[] {
     if (storedCard) {
       storedById.set(seedCard.id, {
         ...seedCard,
-        copies: normalizeCopies(storedCard),
+        copies: migrateCardPhotoToCopies(normalizeCopies(storedCard), storedCard.photo),
         owned: normalizeCopies(storedCard).length > 0,
         quantity: normalizeCopies(storedCard).length,
         notes: storedCard.notes,
-        photo: storedCard.photo,
       });
     } else {
       storedById.set(seedCard.id, seedCard);
@@ -488,12 +742,11 @@ function mergeWithCloudRows(
         return card;
       }
 
-      const copies = normalizeCopyList(card, row.copies ?? []);
+      const copies = migrateCardPhotoToCopies(normalizeCopyList(card, row.copies ?? []), row.photo);
       return {
         ...card,
         copies,
         notes: row.notes ?? '',
-        photo: row.photo ?? undefined,
         quantity: copies.length,
         owned: copies.length > 0,
       };
@@ -527,6 +780,7 @@ function normalizeStoredCard(card: CardRecord): CardRecord {
     copies,
     quantity: copies.length,
     owned: copies.length > 0,
+    photo: undefined,
   };
 }
 
@@ -582,7 +836,26 @@ function normalizeCopyList(card: CardRecord, copies: OwnedCopy[]): OwnedCopy[] {
     id: copy.id || crypto.randomUUID(),
     parallel: copy.parallel || defaultParallelFor(card),
     serial: copy.serial || '',
+    photos: normalizeCopyPhotos(copy),
+    photo: undefined,
   }));
+}
+
+function migrateCardPhotoToCopies(copies: OwnedCopy[], photo?: string | null): OwnedCopy[] {
+  if (!photo || copies.some((copy) => normalizeCopyPhotos(copy).length > 0) || copies.length === 0) {
+    return copies;
+  }
+
+  return copies.map((copy, index) => (index === 0 ? { ...copy, photos: [photo], photo: undefined } : copy));
+}
+
+function normalizeCopyPhotos(copy: OwnedCopy): string[] {
+  const photos = copy.photos?.filter(Boolean) ?? [];
+  if (photos.length > 0) {
+    return photos;
+  }
+
+  return copy.photo ? [copy.photo] : [];
 }
 
 function groupCopies(copies: OwnedCopy[]): CopyGroup[] {
@@ -642,7 +915,7 @@ function compactParallelLabel(parallel: string, serials: string[]): string {
   }
 
   return parallel
-    .replace('Zakladna karta', 'Base')
+    .replace('Základná karta', 'Base')
     .replace('Base Blue', 'Blue')
     .replace('Red Light', 'Red')
     .replace('Golden Glow', 'Gold')
@@ -656,6 +929,37 @@ function compactParallelLabel(parallel: string, serials: string[]): string {
 
 function defaultParallelFor(card: CardRecord): string {
   return PARALLELS_BY_SUBSET[card.subset]?.[0] ?? 'Base';
+}
+
+async function convertHeicFile(file: File): Promise<File> {
+  const { heicTo } = await import('heic-to');
+  const blob = await heicTo({
+    blob: file,
+    type: 'image/jpeg',
+    quality: 0.92,
+  });
+  return new File([blob], replaceFileExtension(file.name, 'jpg'), { type: 'image/jpeg' });
+}
+
+function isHeicFile(file: File): boolean {
+  return (
+    file.type === 'image/heic' ||
+    file.type === 'image/heif' ||
+    /\.(heic|heif)$/i.test(file.name)
+  );
+}
+
+function replaceFileExtension(filename: string, extension: string): string {
+  return filename.replace(/\.[^.]+$/, '') + `.${extension}`;
+}
+
+function readFileAsDataUrl(file: Blob): Promise<string> {
+  return new Promise((resolve, reject) => {
+    const reader = new FileReader();
+    reader.onload = () => resolve(String(reader.result));
+    reader.onerror = () => reject(reader.error);
+    reader.readAsDataURL(file);
+  });
 }
 
 function compareCards(left: CardRecord, right: CardRecord): number {

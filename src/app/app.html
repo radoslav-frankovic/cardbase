@@ -2,15 +2,15 @@
   <main class="auth-page">
     <section class="auth-card">
       <p class="eyebrow">Cardbase</p>
-      <h1>Nacitavam...</h1>
+      <h1>Načítavam...</h1>
     </section>
   </main>
 } @else if (!supabase.configured()) {
   <main class="auth-page">
     <section class="auth-card">
       <p class="eyebrow">Supabase</p>
-      <h1>Chyba konfiguracia</h1>
-      <p class="auth-copy">Dopln `supabaseUrl` a `supabaseAnonKey` v `src/environments/environment.ts`.</p>
+      <h1>Chýba konfigurácia</h1>
+      <p class="auth-copy">Doplň `supabaseUrl` a `supabaseAnonKey` v `src/environments/environment.ts`.</p>
     </section>
   </main>
 } @else if (!supabase.session()) {
@@ -18,14 +18,14 @@
     <section class="auth-card">
       <p class="eyebrow">SportZoo Cardbase</p>
       @if (authMode() === 'login') {
-        <h1>Prihlasenie</h1>
-        <p class="auth-copy">Prihlas sa do svojej evidencie kariet.</p>
+        <h1>Prihlásenie</h1>
+        <p class="auth-copy">Prihlás sa do svojej evidencie kariet.</p>
       } @else if (authMode() === 'register') {
-        <h1>Registracia</h1>
-        <p class="auth-copy">Vytvor si ucet a ukladaj karty do cloudu.</p>
+        <h1>Registrácia</h1>
+        <p class="auth-copy">Vytvor si účet a ukladaj karty do cloudu.</p>
       } @else {
         <h1>Reset hesla</h1>
-        <p class="auth-copy">Posleme ti email s odkazom na obnovu hesla.</p>
+        <p class="auth-copy">Pošleme ti email s odkazom na obnovu hesla.</p>
       }
 
       <form class="auth-form" (ngSubmit)="submitAuth()">
@@ -61,24 +61,24 @@
 
         <button type="submit" class="primary" [disabled]="authBusy()">
           @if (authMode() === 'login') {
-            Prihlasit
+            Prihlásiť
           } @else if (authMode() === 'register') {
-            Registrovat
+            Registrovať
           } @else {
-            Poslat reset
+            Poslať reset
           }
         </button>
       </form>
 
       <div class="auth-switch">
         @if (authMode() !== 'login') {
-          <button type="button" class="link-button" (click)="setAuthMode('login')">Mam ucet</button>
+          <button type="button" class="link-button" (click)="setAuthMode('login')">Mám účet</button>
         }
         @if (authMode() !== 'register') {
-          <button type="button" class="link-button" (click)="setAuthMode('register')">Vytvorit ucet</button>
+          <button type="button" class="link-button" (click)="setAuthMode('register')">Vytvoriť účet</button>
         }
         @if (authMode() !== 'reset') {
-          <button type="button" class="link-button" (click)="setAuthMode('reset')">Zabudnute heslo</button>
+          <button type="button" class="link-button" (click)="setAuthMode('reset')">Zabudnuté heslo</button>
         }
       </div>
     </section>
@@ -99,17 +99,17 @@
       @if (hasPuzzlePdf()) {
         <a [href]="selectedSeries().puzzlePdfUrl" target="_blank" rel="noopener">Puzzle PDF</a>
       }
-      <button type="button" class="secondary" (click)="signOut()">Odhlasit</button>
+      <button type="button" class="secondary" (click)="signOut()">Odhlásiť</button>
     </div>
   </header>
 
   @if (dataBusy() || dataError()) {
     <section class="sync-status" [class.error]="dataError()">
-      {{ dataError() || 'Synchronizujem data...' }}
+      {{ dataError() || 'Synchronizujem dáta...' }}
     </section>
   }
 
-  <section class="series-strip" aria-label="Serie">
+  <section class="series-strip" aria-label="Série">
     @for (item of series; track item.id) {
       <button
         type="button"
@@ -123,13 +123,13 @@
     }
   </section>
 
-  <section class="stats-grid" aria-label="Prehlad">
+  <section class="stats-grid" aria-label="Prehľad">
     <article>
-      <span>Vlastnim</span>
+      <span>Vlastním</span>
       <strong>{{ stats().owned }}</strong>
     </article>
     <article>
-      <span>Chyba</span>
+      <span>Chýba</span>
       <strong>{{ stats().missing }}</strong>
     </article>
     <article>
@@ -137,9 +137,28 @@
       <strong>{{ stats().withPhoto }}</strong>
     </article>
     <article>
-      <span>Dokoncene</span>
+      <span>Dokončené</span>
       <strong>{{ stats().completion }}%</strong>
     </article>
+  </section>
+
+  <section class="view-switch" aria-label="Zobrazenie">
+    <button
+      type="button"
+      class="set-tab"
+      [class.active]="mainView() === 'cards'"
+      (click)="setMainView('cards')"
+    >
+      Karty
+    </button>
+    <button
+      type="button"
+      class="set-tab"
+      [class.active]="mainView() === 'gallery'"
+      (click)="setMainView('gallery')"
+    >
+      Fotky
+    </button>
   </section>
 
   <section class="set-tabs" aria-label="Sety">
@@ -149,36 +168,52 @@
         class="set-tab"
         [class.active]="selectedSubset() === subset"
         (click)="selectSubset(subset)"
+        [disabled]="mainView() === 'gallery'"
       >
         <span>{{ subset }}</span>
       </button>
     }
   </section>
 
+  @if (mainView() === 'cards') {
   <section class="workspace">
     <aside class="panel filters">
       <h2>Filtre</h2>
       <label>
-        Hladat
+        Hľadať
         <input
           type="search"
           [ngModel]="search()"
           (ngModelChange)="search.set($event)"
-          placeholder="cislo, hrac, klub, set"
+          placeholder="číslo, hráč, klub, set"
         />
       </label>
 
       <label>
         Stav
         <select [ngModel]="ownershipFilter()" (ngModelChange)="ownershipFilter.set($event)">
-          <option value="all">Vsetky karty</option>
-          <option value="owned">Vlastnim</option>
-          <option value="missing">Chybaju</option>
+          <option value="all">Všetky karty</option>
+          <option value="owned">Vlastním</option>
+          <option value="missing">Chýbajú</option>
           <option value="withPhoto">S fotkou</option>
         </select>
       </label>
 
-      <button type="button" class="secondary" (click)="resetDemoData()">Obnovit zaklad</button>
+      <div class="import-box">
+        <h3>Import vlastnených kariet</h3>
+        <p>Vlož čísla alebo kódy kariet z Excelu, po jednom na riadok alebo oddelene medzerou.</p>
+        <textarea
+          [ngModel]="importOwnedText()"
+          (ngModelChange)="importOwnedText.set($event)"
+          placeholder="001&#10;002&#10;GJ-MR"
+        ></textarea>
+        <button type="button" class="primary" (click)="importOwnedCards()">Importovať ako vlastnené</button>
+        @if (importOwnedMessage()) {
+          <p class="note">{{ importOwnedMessage() }}</p>
+        }
+      </div>
+
+      <button type="button" class="secondary" (click)="resetDemoData()">Obnoviť základ</button>
       <p class="note">{{ selectedSeries().description }}</p>
     </aside>
 
@@ -195,6 +230,10 @@
             class="card-row"
             [class.active]="selectedCardId() === card.id"
             (click)="selectCard(card)"
+            (mouseenter)="showCopyPopover(card, $event)"
+            (mouseleave)="hideCopyPopover()"
+            (focus)="showCopyPopover(card, $event)"
+            (blur)="hideCopyPopover()"
           >
             <span class="number">{{ card.number }}</span>
             <span class="name">{{ card.player }}</span>
@@ -202,20 +241,19 @@
             <span class="copies" [class.empty-copy]="cardCopies(card).length === 0">
               {{ compactCopySummary(card) }}
             </span>
-            <span class="state" [class.owned]="card.owned">
-              {{ card.owned ? 'mam' : 'chyba' }}
+            <span
+              class="state"
+              [class.owned]="cardCopies(card).length"
+              [title]="cardCopies(card).length ? 'Kartu vlastním' : 'Karta chýba'"
+              [attr.aria-label]="cardCopies(card).length ? 'Kartu vlastním' : 'Karta chýba'"
+            >
+              @if (cardCopies(card).length) {
+                <span aria-hidden="true">✓</span>
+              }
             </span>
-            @if (cardCopies(card).length) {
-              <span class="copy-popover" role="tooltip">
-                <strong>Vlastnene kusy</strong>
-                @for (group of copyGroups(card); track group.key) {
-                  <span>{{ group.count > 1 ? group.count + 'x ' : '' }}{{ group.label }}{{ group.serials.length ? ' ' + group.serials.join(', ') : '' }}</span>
-                }
-              </span>
-            }
           </button>
         } @empty {
-          <div class="empty">Ziadne karty nezodpovedaju filtrom.</div>
+          <div class="empty">Žiadne karty nezodpovedajú filtrom.</div>
         }
       </div>
     </section>
@@ -232,7 +270,7 @@
 
         @if (card.signatureCode) {
           <div class="readonly-line">
-            <span>Podpisovy kod</span>
+            <span>Podpisový kód</span>
             <strong>{{ card.signatureCode }}</strong>
           </div>
         }
@@ -250,14 +288,14 @@
 
         <section class="owned-copies">
           <div class="section-heading">
-            <h3>Vlastnene kusy</h3>
-            <button type="button" class="primary compact" (click)="addCopy(card)">Pridat kus</button>
+            <h3>Vlastnené kusy</h3>
+            <button type="button" class="primary compact" (click)="addCopy(card)">Pridať kus</button>
           </div>
 
           @for (copy of cardCopies(card); track copy.id) {
             <div class="copy-row">
               <label>
-                Paralelna verzia
+                Paralelná verzia
                 <select
                   [ngModel]="copy.parallel"
                   (ngModelChange)="updateCopy(card, copy.id, { parallel: $event })"
@@ -276,33 +314,129 @@
                 />
               </label>
               <button type="button" class="secondary compact danger" (click)="removeCopy(card, copy.id)">
-                Odstranit
+                Odstrániť
               </button>
+              <div class="copy-photo">
+                @if (copyPhotos(copy).length) {
+                  <div class="copy-photo-grid">
+                    @for (photo of copyPhotos(copy); track photo; let photoIndex = $index) {
+                      <div class="copy-photo-tile">
+                        <img
+                          [src]="photo"
+                          [alt]="'Fotka kusu ' + card.number"
+                          (click)="openPhoto(photo)"
+                        />
+                        <button
+                          type="button"
+                          class="secondary compact"
+                          (click)="removeCopyPhotoAt(card, copy.id, photoIndex)"
+                        >
+                          Odstrániť
+                        </button>
+                      </div>
+                    }
+                  </div>
+                } @else {
+                  <span>Bez fotky</span>
+                }
+                <label class="file-button compact">
+                  Pridať fotky
+                  <input type="file" accept="image/*" multiple (change)="attachCopyPhoto(card, copy.id, $event)" />
+                </label>
+              </div>
             </div>
           } @empty {
-            <div class="empty-inline">Zatial neevidujes ziadny kus tejto karty.</div>
+            <div class="empty-inline">Zatiaľ neeviduješ žiadny kus tejto karty.</div>
           }
         </section>
 
         <label>
-          Poznamky
+          Poznámky
           <textarea [ngModel]="card.notes" (ngModelChange)="updateCard(card.id, { notes: $event })"></textarea>
         </label>
 
-        <div class="photo-block">
-          @if (card.photo) {
-            <img [src]="card.photo" [alt]="'Fotka karty ' + card.number" />
-            <button type="button" class="secondary" (click)="removePhoto(card.id)">Odstranit fotku</button>
-          } @else {
-            <div class="photo-placeholder">Bez fotky</div>
-          }
-          <label class="file-button">
-            Pridat fotku
-            <input type="file" accept="image/*" (change)="attachPhoto(card.id, $event)" />
-          </label>
-        </div>
       </aside>
     }
   </section>
+  } @else {
+  <section class="panel gallery-panel" aria-label="Prehliadač fotiek">
+    <div class="list-header">
+      <h2>Fotky kariet</h2>
+      <span>{{ galleryPhotos().length }} fotiek</span>
+    </div>
+
+    <div class="gallery-grid">
+      @for (photo of galleryPhotos(); track photo.cardId + photo.photo; let i = $index) {
+        <button type="button" class="gallery-tile" (click)="openPhoto(photo.photo, i)">
+          <img [src]="photo.photo" [alt]="'Fotka karty ' + photo.cardNumber" />
+          <div class="gallery-meta">
+            <strong>{{ photo.cardNumber }} · {{ photo.player }}</strong>
+            <span>{{ photo.parallel }}{{ photo.serial ? ' · ' + photo.serial : '' }}</span>
+            <span>{{ photo.team || '-' }} · {{ photo.subset }}</span>
+          </div>
+        </button>
+      } @empty {
+        <div class="empty">Zatiaľ nemáš nahrané žiadne fotky v aktuálnej sérii.</div>
+      }
+    </div>
+  </section>
+  }
 </main>
+
+@if (hoveredPopover(); as popover) {
+  @if (hoveredPopoverCard(); as card) {
+    <div
+      class="copy-popover-overlay"
+      [class.below]="popover.placement === 'below'"
+      [style.top.px]="popover.top"
+      [style.left.px]="popover.left"
+      role="tooltip"
+    >
+      <strong>Vlastnené kusy</strong>
+      @for (group of copyGroups(card); track group.key) {
+        <span>{{ group.count > 1 ? group.count + 'x ' : '' }}{{ group.label }}{{ group.serials.length ? ' ' + group.serials.join(', ') : '' }}</span>
+      }
+      @for (copy of cardCopies(card); track copy.id) {
+        @for (photo of copyPhotos(copy); track photo) {
+          <img
+            class="copy-popover-photo"
+            [src]="photo"
+            [alt]="'Fotka karty ' + card.number"
+            (click)="openPhoto(photo); $event.stopPropagation()"
+          />
+        }
+      }
+    </div>
+  }
+}
+
+@if (lightboxPhoto(); as photo) {
+  <div class="lightbox" role="dialog" aria-modal="true" (click)="closePhoto()">
+    @if (lightboxGalleryIndex() !== null && galleryPhotos().length > 1) {
+      <button
+        type="button"
+        class="lightbox-nav lightbox-prev"
+        aria-label="Predošlá fotka"
+        (click)="showPreviousPhoto(); $event.stopPropagation()"
+      >
+        ‹
+      </button>
+      <button
+        type="button"
+        class="lightbox-nav lightbox-next"
+        aria-label="Ďalšia fotka"
+        (click)="showNextPhoto(); $event.stopPropagation()"
+      >
+        ›
+      </button>
+      <div class="lightbox-counter" (click)="$event.stopPropagation()">
+        {{ lightboxGalleryIndex()! + 1 }} / {{ galleryPhotos().length }}
+      </div>
+    }
+    <button type="button" class="lightbox-close" aria-label="Zavrieť náhľad" (click)="closePhoto()">
+      Zavrieť
+    </button>
+    <img [src]="photo" alt="Veľký náhľad fotky karty" (click)="$event.stopPropagation()" />
+  </div>
+}
 }

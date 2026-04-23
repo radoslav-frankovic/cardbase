@@ -83,7 +83,7 @@ export class SupabaseService {
   }
 
   async saveCard(card: CardRecord): Promise<void> {
-    const hasData = Boolean(card.copies?.length || card.notes || card.photo);
+    const hasData = Boolean(card.copies?.length || card.notes);
 
     if (!hasData) {
       const { error } = await this.client.from('owned_cards').delete().eq('card_id', card.id);
@@ -98,7 +98,7 @@ export class SupabaseService {
         card_id: card.id,
         copies: card.copies ?? [],
         notes: card.notes,
-        photo: card.photo ?? null,
+        photo: null,
         updated_at: new Date().toISOString(),
       },
       { onConflict: 'user_id,card_id' },
