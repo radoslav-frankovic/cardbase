@@ -2,6 +2,7 @@ import { CommonModule } from '@angular/common';
 import { Component, HostListener, computed, effect, inject, signal } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { SPORTZOO_CHECKLIST_CARDS } from './checklists';
+import { HSR_2026_CHECKLIST_CARDS } from './checklists-hsr-2026';
 import { SupabaseService } from './supabase.service';
 
 export type SeriesId = 'tipsport-s1' | 'tipsport-s2' | 'hokejove-slovensko-2026';
@@ -99,22 +100,12 @@ const SERIES: CollectionSeries[] = [
     id: 'hokejove-slovensko-2026',
     title: 'Hokejové Slovensko 2026',
     release: '2026',
-    sourceProductUrl: 'https://sportzoo.sk/kolekcie',
-    checklistPdfUrl: '',
+    sourceProductUrl: 'https://sportzoo.net/collections',
+    checklistPdfUrl: 'https://download.sportzoo.net/download/HSR_26_Checklist.pdf',
     puzzlePdfUrl: '',
     description:
-      'SportZoo aktuálne uvádza kolekciu Hokejové Slovensko 2026 ako plánovanú. Verejný checklist zatiaľ nie je zverejnený; po vydaní ho vlož cez import alebo doplň PDF odkaz.',
+      'Checklist Hokejové Slovensko 2026 je načítaný z oficiálneho PDF vrátane základného setu, insertov, podpisových kariet a memorabilia subsetov.',
   },
-];
-
-const SUBSETS_HOKEJOVE_SLOVENSKO_2026 = [
-  'Základný set',
-  'Brankári',
-  'Legendy',
-  'Talenty',
-  'Reprezentácia',
-  'Podpisy',
-  'Memorabilia',
 ];
 
 const PARALLELS_BY_SUBSET: Record<string, string[]> = {
@@ -391,9 +382,16 @@ export class App {
   }
 
   importOwnedCards(): void {
+    const selectedSeries = this.selectedSeriesId();
+    const seriesNumbers = new Set(
+      this.cards()
+        .filter((card) => card.seriesId === selectedSeries)
+        .map((card) => card.number),
+    );
+
     const tokens = this.importOwnedText()
       .split(/[\s,;]+/)
-      .map((value) => formatCardCode(value.trim()))
+      .map((value) => resolveSeriesCardCode(value.trim(), seriesNumbers))
       .filter(Boolean);
 
     if (tokens.length === 0) {
@@ -406,7 +404,6 @@ export class App {
       counts.set(token, (counts.get(token) ?? 0) + 1);
     }
 
-    const selectedSeries = this.selectedSeriesId();
     const missing: string[] = [];
 
     this.cards.update((cards) =>
@@ -694,12 +691,7 @@ export class App {
 function createSeedCards(): CardRecord[] {
   return [
     ...SPORTZOO_CHECKLIST_CARDS,
-    ...createNumberedCards(
-      'hokejove-slovensko-2026',
-      1,
-      180,
-      SUBSETS_HOKEJOVE_SLOVENSKO_2026,
-    ),
+    ...HSR_2026_CHECKLIST_CARDS,
   ];
 }
 
@@ -707,8 +699,8 @@ function mergeWithSeedCards(storedCards: CardRecord[]): CardRecord[] {
   const normalizedStoredCards = storedCards.map(normalizeStoredCard);
   const storedById = new Map(normalizedStoredCards.map((card) => [card.id, card]));
 
-  for (const seedCard of createSeedCards()) {
-    const storedCard = storedById.get(seedCard.id);
+    for (const seedCard of createSeedCards()) {
+    const storedCard = storedById.get(seedCard.id) ?? findLegacyStoredCard(storedById, seedCard);
     if (storedCard) {
       storedById.set(seedCard.id, {
         ...seedCard,
@@ -737,7 +729,7 @@ function mergeWithCloudRows(
 ): CardRecord[] {
   return createSeedCards()
     .map((card) => {
-      const row = rows.get(card.id);
+      const row = rows.get(card.id) ?? findLegacyCloudRow(rows, card);
       if (!row) {
         return card;
       }
@@ -784,35 +776,37 @@ function normalizeStoredCard(card: CardRecord): CardRecord {
   };
 }
 
-function createNumberedCards(
-  seriesId: SeriesId,
-  from: number,
-  to: number,
-  subsets: string[],
-): CardRecord[] {
-  const cards: CardRecord[] = [];
-
-  for (let number = from; number <= to; number += 1) {
-    const subset = subsets[0];
-    const formatted = String(number).padStart(3, '0');
-
-    cards.push({
-      id: `${seriesId}-${formatted}`,
-      number: formatted,
-      seriesId,
-      subset,
-      subsetOrder: 0,
-      cardOrder: number - from,
-      player: `Karta ${formatted}`,
-      team: '',
-      owned: false,
-      quantity: 0,
-      copies: [],
-      notes: '',
-    });
+function findLegacyStoredCard(storedById: Map<string, CardRecord>, card: CardRecord): CardRecord | undefined {
+  for (const legacyId of legacyCardIds(card)) {
+    const storedCard = storedById.get(legacyId);
+    if (storedCard) {
+      return storedCard;
+    }
   }
 
-  return cards;
+  return undefined;
+}
+
+function findLegacyCloudRow(
+  rows: Map<string, { copies?: OwnedCopy[]; notes?: string; photo?: string | null }>,
+  card: CardRecord,
+): { copies?: OwnedCopy[]; notes?: string; photo?: string | null } | undefined {
+  for (const legacyId of legacyCardIds(card)) {
+    const row = rows.get(legacyId);
+    if (row) {
+      return row;
+    }
+  }
+
+  return undefined;
+}
+
+function legacyCardIds(card: CardRecord): string[] {
+  if (card.seriesId === 'hokejove-slovensko-2026' && /^\d{2}$/.test(card.number)) {
+    return [`${card.seriesId}-${card.number.padStart(3, '0')}`];
+  }
+
+  return [];
 }
 
 function normalizeCopies(card: CardRecord): OwnedCopy[] {
@@ -975,5 +969,29 @@ function compareCardNumbers(left: string, right: string): number {
 }
 
 function formatCardCode(value: string): string {
-  return /^\d{1,3}$/.test(value) ? value.padStart(3, '0') : value.toUpperCase();
+  const normalized = value.toUpperCase();
+  if (/^\d{1,3}$/.test(normalized)) {
+    return normalized.length === 2 && normalized.startsWith('0') ? normalized : normalized.padStart(3, '0');
+  }
+
+  return normalized;
+}
+
+function resolveSeriesCardCode(value: string, seriesNumbers: Set<string>): string {
+  const normalized = formatCardCode(value);
+  if (seriesNumbers.has(normalized)) {
+    return normalized;
+  }
+
+  if (/^\d+$/.test(value)) {
+    const numericValue = String(Number.parseInt(value, 10));
+    const candidates = [numericValue.padStart(2, '0'), numericValue.padStart(3, '0')];
+    for (const candidate of candidates) {
+      if (seriesNumbers.has(candidate)) {
+        return candidate;
+      }
+    }
+  }
+
+  return normalized;
 }
