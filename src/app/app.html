@@ -294,7 +294,7 @@
 
           @for (copy of cardCopies(card); track copy.id) {
             <div class="copy-row">
-              <label>
+              <label class="copy-parallel">
                 Paralelná verzia
                 <select
                   [ngModel]="copy.parallel"
@@ -305,7 +305,7 @@
                   }
                 </select>
               </label>
-              <label>
+              <label class="copy-serial">
                 Serial / kus
                 <input
                   [ngModel]="copy.serial"
@@ -313,33 +313,35 @@
                   placeholder="napr. 2/6"
                 />
               </label>
-              <button type="button" class="secondary compact danger" (click)="removeCopy(card, copy.id)">
+              <button type="button" class="secondary compact danger copy-remove" (click)="removeCopy(card, copy.id)">
                 Odstrániť
               </button>
               <div class="copy-photo">
-                @if (copyPhotos(copy).length) {
-                  <div class="copy-photo-grid">
-                    @for (photo of copyPhotos(copy); track photo; let photoIndex = $index) {
-                      <div class="copy-photo-tile">
-                        <img
-                          [src]="photo"
-                          [alt]="'Fotka kusu ' + card.number"
-                          (click)="openPhoto(photo)"
-                        />
-                        <button
-                          type="button"
-                          class="secondary compact"
-                          (click)="removeCopyPhotoAt(card, copy.id, photoIndex)"
-                        >
-                          Odstrániť
-                        </button>
-                      </div>
-                    }
-                  </div>
-                } @else {
-                  <span>Bez fotky</span>
-                }
-                <label class="file-button compact">
+                <div class="copy-photo-content">
+                  @if (copyPhotos(copy).length) {
+                    <div class="copy-photo-grid">
+                      @for (photo of copyPhotos(copy); track photo; let photoIndex = $index) {
+                        <div class="copy-photo-tile">
+                          <img
+                            [src]="photo"
+                            [alt]="'Fotka kusu ' + card.number"
+                            (click)="openPhoto(photo)"
+                          />
+                          <button
+                            type="button"
+                            class="secondary compact"
+                            (click)="removeCopyPhotoAt(card, copy.id, photoIndex)"
+                          >
+                            Odstrániť
+                          </button>
+                        </div>
+                      }
+                    </div>
+                  } @else {
+                    <span>Bez fotky</span>
+                  }
+                </div>
+                <label class="file-button compact copy-upload">
                   Pridať fotky
                   <input type="file" accept="image/*" multiple (change)="attachCopyPhoto(card, copy.id, $event)" />
                 </label>
